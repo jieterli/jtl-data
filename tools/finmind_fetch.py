@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """
-FinMind 台股配息抓取腳本
-- 讀 picks.txt(每行一個 stock_id)或 fallback hard-coded list
-- 打 FinMind TaiwanStockDividend
+FinMind 台股配息抓取腳本(v2 — 涵蓋全市場高殖利率股票)
+- 23 檔精選池(固定)
+- + TWSE BWIBBU_d 全市場「殖利率 > 3%」的股票(動態擴充)
+- union → 打 FinMind 拿完整配息明細
 - 輸出 dividends.json 供 GitHub Pages serve
-- token 從 FINMIND_TOKEN env var 讀取(GitHub Actions secret)
+
+quota:約 500-700 query/day,FinMind 免費版 600/hr,單次跑約 1-2 小時內完成
 """
 
 import json
@@ -18,71 +20,92 @@ import urllib.request
 import urllib.parse
 import urllib.error
 
-API_URL = "https://api.finmindtrade.com/api/v4/data"
+FINMIND_URL = "https://api.finmindtrade.com/api/v4/data"
 DATASET = "TaiwanStockDividend"
+TWSE_BWIBBU = "https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_d"
 
-# 預設 picks(對齊 lib/data/private_picks.dart 的 18 檔精選池)
+# 23 檔精選池(對齊 lib/data/private_picks.dart,即使 TWSE 沒列也保證有)
 DEFAULT_PICKS = [
-    ("2884", "玉山金"),
-    ("2885", "元大金"),
-    ("00946", "群益科技高息成長"),
-    ("00939", "統一台灣高息動能"),
-    ("00940", "元大台灣價值高息"),
-    ("5880", "合庫金"),
-    ("2492", "華新科"),
-    ("00918", "大華優利高填息30"),
-    ("00713", "元大台灣高息低波"),
-    ("00900", "富邦特選高股息"),
-    ("00701", "國泰股利精選30"),
-    ("2891", "中信金"),
-    ("2880", "華南金"),
-    ("1102", "亞泥"),
-    ("2912", "統一超"),
-    ("2412", "中華電"),
-    ("2548", "華固"),
-    ("00919", "群益台灣精選高息"),
-    ("00934", "中信成長高股息"),
-    ("00936", "台新永續高息中小"),
-    ("00932", "兆豐永續高息等權"),
-    ("00930", "永豐ESG低碳高息"),
+    ("2884", "玉山金"), ("2885", "元大金"), ("00946", "群益科技高息成長"),
+    ("00939", "統一台灣高息動能"), ("00940", "元大台灣價值高息"),
+    ("5880", "合庫金"), ("2492", "華新科"), ("00918", "大華優利高填息30"),
+    ("00713", "元大台灣高息低波"), ("00900", "富邦特選高股息"),
+    ("00701", "國泰股利精選30"), ("2891", "中信金"), ("2880", "華南金"),
+    ("1102", "亞泥"), ("2912", "統一超"), ("2412", "中華電"),
+    ("2548", "華固"), ("00919", "群益台灣精選高息"),
+    ("00934", "中信成長高股息"), ("00936", "台新永續高息中小"),
+    ("00932", "兆豐永續高息等權"), ("00930", "永豐ESG低碳高息"),
     ("00892", "富邦台灣半導體"),
 ]
 
-START_DATE = "2024-01-01"  # 抓近一年半,夠涵蓋季配/月配 ETF 完整循環
+# 全市場掃股 — 0 = 全部抓(只要 TWSE 有列出),不過濾
+# 想壓低 quota 改成 3.0 / 5.0 等,只抓高殖利率股
+MIN_YIELD_INCLUDE = 0.0
+
+START_DATE = "2024-01-01"
 
 
-def fetch_one(stock_id: str, token: str, retries: int = 3) -> list:
+def fetch_twse_high_yield(min_yield: float) -> list[tuple[str, str]]:
+    """從 TWSE BWIBBU_d 抓全市場股票(min_yield=0 → 全抓)"""
+    req = urllib.request.Request(
+        TWSE_BWIBBU,
+        headers={"User-Agent": "Mozilla/5.0 jtl_dividend_navigator"},
+    )
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        data = json.loads(resp.read().decode("utf-8"))
+    out = []
+    for row in data:
+        code = (row.get("Code") or "").strip()
+        name = (row.get("Name") or "").strip()
+        if not code or not name:
+            continue
+        # min_yield = 0 → 全抓
+        if min_yield <= 0:
+            out.append((code, name))
+            continue
+        try:
+            y = float(row.get("DividendYield") or 0)
+        except ValueError:
+            continue
+        if y >= min_yield:
+            out.append((code, name))
+    return out
+
+
+def fetch_finmind_one(stock_id: str, token: str, retries: int = 3) -> list:
     qs = urllib.parse.urlencode({
         "dataset": DATASET,
         "data_id": stock_id,
         "start_date": START_DATE,
         "token": token,
     })
-    url = f"{API_URL}?{qs}"
+    url = f"{FINMIND_URL}?{qs}"
     for attempt in range(retries):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "jtl-dividend-navigator/1.0"})
+            req = urllib.request.Request(
+                url, headers={"User-Agent": "jtl-dividend-navigator/2.0"})
             with urllib.request.urlopen(req, timeout=30) as resp:
                 payload = json.loads(resp.read().decode("utf-8"))
             if payload.get("status") != 200:
-                print(f"  ⚠️ {stock_id} status={payload.get('status')} msg={payload.get('msg')}", file=sys.stderr)
+                msg = payload.get("msg", "")
+                if "402" in str(msg) or "quota" in str(msg).lower():
+                    print(f"  ⏸ {stock_id} quota 飽和,休息 60 秒", file=sys.stderr)
+                    time.sleep(60)
+                    continue
                 return []
             return payload.get("data", []) or []
         except urllib.error.HTTPError as e:
-            print(f"  ⚠️ {stock_id} HTTPError {e.code} (attempt {attempt+1}/{retries})", file=sys.stderr)
-            if e.code == 402 or e.code == 429:
-                time.sleep(60)  # quota / rate limit → 等久一點
+            if e.code in (402, 429):
+                print(f"  ⏸ {stock_id} HTTP {e.code} 限流,休息 60 秒", file=sys.stderr)
+                time.sleep(60)
             else:
                 time.sleep(5)
-        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
-            print(f"  ⚠️ {stock_id} {type(e).__name__}: {e} (attempt {attempt+1}/{retries})", file=sys.stderr)
+        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError):
             time.sleep(5)
-    print(f"  ❌ {stock_id} 全部 retry 失敗,跳過", file=sys.stderr)
     return []
 
 
 def normalize_event(raw: dict) -> dict | None:
-    """把 FinMind 原始 row 轉成 APP 需要的精簡格式。除息日是 key — 沒除息日的整筆丟掉。"""
     cash_ex = (raw.get("CashExDividendTradingDate") or "").strip()
     stock_ex = (raw.get("StockExDividendTradingDate") or "").strip()
     ex_date = cash_ex or stock_ex
@@ -101,55 +124,56 @@ def normalize_event(raw: dict) -> dict | None:
     }
 
 
-def build_dataset(token: str, picks: list[tuple[str, str]]) -> dict:
-    stocks = {}
-    failed = []
-    for i, (stock_id, name) in enumerate(picks, 1):
-        print(f"[{i}/{len(picks)}] {stock_id} {name}", file=sys.stderr)
-        raw_events = fetch_one(stock_id, token)
-        events = [e for e in (normalize_event(r) for r in raw_events) if e]
-        # 排序 ex_date ASC
-        events.sort(key=lambda e: e["ex_date"])
-        if not events:
-            failed.append(stock_id)
-        stocks[stock_id] = {
-            "name": name,
-            "events": events,
-        }
-        time.sleep(0.5)  # 友善節流,免費版 600/hr 綽綽有餘但禮貌一下
-    return {
-        "updated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "source": "FinMind TaiwanStockDividend",
-        "stock_count": len(stocks),
-        "failed": failed,
-        "stocks": stocks,
-    }
-
-
 def main():
     token = os.environ.get("FINMIND_TOKEN", "").strip()
     if not token:
         print("❌ 環境變數 FINMIND_TOKEN 未設定", file=sys.stderr)
         sys.exit(1)
 
-    # 可選:從 picks.txt 讀(stock_id<TAB>name 一行一筆)
-    picks_file = Path(__file__).with_name("picks.txt")
-    if picks_file.exists():
-        picks = []
-        for line in picks_file.read_text(encoding="utf-8").splitlines():
-            line = line.strip()
-            if not line or line.startswith("#"):
-                continue
-            parts = line.split("\t") if "\t" in line else line.split(",", 1)
-            sid = parts[0].strip()
-            name = parts[1].strip() if len(parts) > 1 else sid
-            picks.append((sid, name))
-        print(f"從 picks.txt 讀到 {len(picks)} 檔", file=sys.stderr)
-    else:
-        picks = DEFAULT_PICKS
-        print(f"使用內建預設 {len(picks)} 檔", file=sys.stderr)
+    # 第一步:TWSE 全市場掃股
+    print(f"🔍 從 TWSE 抓殖利率 > {MIN_YIELD_INCLUDE}% 的股票...", file=sys.stderr)
+    try:
+        twse_picks = fetch_twse_high_yield(MIN_YIELD_INCLUDE)
+        print(f"   TWSE 找到 {len(twse_picks)} 檔", file=sys.stderr)
+    except Exception as e:
+        print(f"   ⚠️ TWSE 失敗 ({e}),只跑精選池", file=sys.stderr)
+        twse_picks = []
 
-    data = build_dataset(token, picks)
+    # 第二步:union 精選池(去重)
+    seen = set()
+    picks: list[tuple[str, str]] = []
+    for s, n in DEFAULT_PICKS:
+        if s not in seen:
+            seen.add(s)
+            picks.append((s, n))
+    for s, n in twse_picks:
+        if s not in seen:
+            seen.add(s)
+            picks.append((s, n))
+    print(f"📋 共 {len(picks)} 檔待抓 FinMind (精選 {len(DEFAULT_PICKS)} + 全市場新增 {len(picks) - len(DEFAULT_PICKS)})", file=sys.stderr)
+
+    # 第三步:打 FinMind
+    stocks = {}
+    failed = []
+    for i, (stock_id, name) in enumerate(picks, 1):
+        if i % 20 == 0:
+            print(f"   [{i}/{len(picks)}] 進度...", file=sys.stderr)
+        raw_events = fetch_finmind_one(stock_id, token)
+        events = [e for e in (normalize_event(r) for r in raw_events) if e]
+        events.sort(key=lambda e: e["ex_date"])
+        if not events:
+            failed.append(stock_id)
+        stocks[stock_id] = {"name": name, "events": events}
+        time.sleep(0.3)  # 禮貌節流,免費版 600/hr → 約 0.17 秒/次,我們 0.3 秒
+
+    data = {
+        "updated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "source": "FinMind TaiwanStockDividend + TWSE BWIBBU_d (覆蓋全市場高殖利率股)",
+        "stock_count": len(stocks),
+        "covered_high_yield_threshold": MIN_YIELD_INCLUDE,
+        "failed": failed,
+        "stocks": stocks,
+    }
 
     out_path = Path(os.environ.get("OUTPUT_PATH", "dividends.json"))
     out_path.parent.mkdir(parents=True, exist_ok=True)

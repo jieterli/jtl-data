@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T04:44:00+00:00",
+  "updated_at": "2026-05-15T12:43:29+00:00",
   "source": "FinMind TaiwanStockDividend",
   "stock_count": 23,
   "failed": [],
@@ -863,6 +863,13 @@
           "cash_dividend": 0.075,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-05-19",
+          "pay_date": "2026-06-11",
+          "cash_dividend": 0.075,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
         }
       ]
     },
@@ -1242,6 +1249,13 @@
           "ex_date": "2026-04-20",
           "pay_date": "2026-05-15",
           "cash_dividend": 0.143,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-05-19",
+          "pay_date": "2026-06-12",
+          "cash_dividend": 0.25,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
         }

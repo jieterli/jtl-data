@@ -1,0 +1,38 @@
+name: Update dividends.json
+
+on:
+  schedule:
+    # 每天台北時間 06:00 = UTC 22:00(前一天)
+    - cron: "0 22 * * *"
+  workflow_dispatch: {}  # 手動觸發按鈕
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run FinMind fetch
+        env:
+          FINMIND_TOKEN: ${{ secrets.FINMIND_TOKEN }}
+          OUTPUT_PATH: dividends.json
+        run: python tools/finmind_fetch.py
+
+      - name: Commit changes (if any)
+        run: |
+          git config user.name  "JTL Bot"
+          git config user.email "bot@jieterlimusic.uk"
+          if [ -n "$(git status --porcelain dividends.json)" ]; then
+            git add dividends.json
+            git commit -m "auto: refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          else
+            echo "No change."
+          fi

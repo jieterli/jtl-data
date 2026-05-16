@@ -46,13 +46,27 @@ START_DATE = "2024-01-01"
 
 
 def fetch_twse_high_yield(min_yield: float) -> list[tuple[str, str]]:
-    """從 TWSE BWIBBU_d 抓全市場股票(min_yield=0 → 全抓)"""
-    req = urllib.request.Request(
-        TWSE_BWIBBU,
-        headers={"User-Agent": "Mozilla/5.0 jtl_dividend_navigator"},
-    )
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
+    """從 TWSE BWIBBU_d 抓全市場股票(min_yield=0 → 全抓)
+    3 次重試,間隔 30 秒。全失敗才 raise(這樣 Actions 會紅燈)
+    """
+    last_err = None
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(
+                TWSE_BWIBBU,
+                headers={"User-Agent": "Mozilla/5.0 jtl_dividend_navigator"},
+            )
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+            break  # 成功就跳出
+        except Exception as e:
+            last_err = e
+            print(f"   TWSE 第 {attempt+1}/3 次失敗 ({e}),等 30 秒...", file=sys.stderr)
+            if attempt < 2:
+                time.sleep(30)
+    else:
+        # 3 次都失敗 → 別 silent fallback,讓 Actions 看到錯誤
+        raise RuntimeError(f"TWSE BWIBBU_d 連 3 次失敗: {last_err}")
     out = []
     for row in data:
         code = (row.get("Code") or "").strip()
@@ -130,14 +144,13 @@ def main():
         print("❌ 環境變數 FINMIND_TOKEN 未設定", file=sys.stderr)
         sys.exit(1)
 
-    # 第一步:TWSE 全市場掃股
+    # 第一步:TWSE 全市場掃股(3 次重試,全失敗就 raise 讓 Actions 紅燈)
     print(f"🔍 從 TWSE 抓殖利率 > {MIN_YIELD_INCLUDE}% 的股票...", file=sys.stderr)
-    try:
-        twse_picks = fetch_twse_high_yield(MIN_YIELD_INCLUDE)
-        print(f"   TWSE 找到 {len(twse_picks)} 檔", file=sys.stderr)
-    except Exception as e:
-        print(f"   ⚠️ TWSE 失敗 ({e}),只跑精選池", file=sys.stderr)
-        twse_picks = []
+    twse_picks = fetch_twse_high_yield(MIN_YIELD_INCLUDE)
+    print(f"   TWSE 找到 {len(twse_picks)} 檔", file=sys.stderr)
+    if len(twse_picks) < 100:
+        # 正常應該有 1000+ 檔,< 100 顯然不對,提前失敗保護現有好資料
+        raise RuntimeError(f"TWSE 只回 {len(twse_picks)} 檔(預期 >1000)— 暫停更新避免覆蓋好資料")
 
     # 第二步:union 精選池(去重)
     seen = set()

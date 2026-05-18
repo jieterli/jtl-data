@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-17T08:50:06+00:00",
+  "updated_at": "2026-05-18T13:07:39+00:00",
   "source": "FinMind TaiwanStockDividend + TWSE BWIBBU_d (覆蓋全市場高殖利率股)",
   "stock_count": 1087,
   "covered_high_yield_threshold": 0.0,
@@ -100,9 +100,6 @@
     "3296",
     "3308",
     "3321",
-    "3380",
-    "3406",
-    "3413",
     "3416",
     "3419",
     "3432",
@@ -1216,6 +1213,13 @@
           "cash_dividend": 5.5,
           "stock_dividend": 0.5,
           "fiscal_year": "113"
+        },
+        {
+          "ex_date": "2026-06-02",
+          "pay_date": "2026-06-25",
+          "cash_dividend": 8.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114"
         }
       ]
     },
@@ -12044,15 +12048,67 @@
     },
     "3380": {
       "name": "明泰",
-      "events": []
+      "events": [
+        {
+          "ex_date": "2024-07-12",
+          "pay_date": "2024-08-09",
+          "cash_dividend": 1.01,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112"
+        },
+        {
+          "ex_date": "2025-07-17",
+          "pay_date": "2025-08-13",
+          "cash_dividend": 1.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113"
+        }
+      ]
     },
     "3406": {
       "name": "玉晶光",
-      "events": []
+      "events": [
+        {
+          "ex_date": "2024-07-18",
+          "pay_date": "2024-08-16",
+          "cash_dividend": 12.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112後半度"
+        },
+        {
+          "ex_date": "2025-07-16",
+          "pay_date": "2025-08-15",
+          "cash_dividend": 18.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113後半度"
+        }
+      ]
     },
     "3413": {
       "name": "京鼎",
-      "events": []
+      "events": [
+        {
+          "ex_date": "2024-06-25",
+          "pay_date": "2024-07-15",
+          "cash_dividend": 11.299915,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112"
+        },
+        {
+          "ex_date": "2025-06-20",
+          "pay_date": "2025-07-18",
+          "cash_dividend": 14.424921,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113"
+        },
+        {
+          "ex_date": "2026-05-27",
+          "pay_date": "2026-06-22",
+          "cash_dividend": 10.983792,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114"
+        }
+      ]
     },
     "3416": {
       "name": "融程電",
@@ -13896,6 +13952,13 @@
           "cash_dividend": 0.303,
           "stock_dividend": 0.0,
           "fiscal_year": "114第3季"
+        },
+        {
+          "ex_date": "2026-06-02",
+          "pay_date": "2026-07-02",
+          "cash_dividend": 1.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115第1季"
         }
       ]
     },

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-18T13:07:39+00:00",
+  "updated_at": "2026-05-19T11:53:42+00:00",
   "source": "FinMind TaiwanStockDividend + TWSE BWIBBU_d (覆蓋全市場高殖利率股)",
-  "stock_count": 1087,
+  "stock_count": 1088,
   "covered_high_yield_threshold": 0.0,
   "failed": [
     "1310",
@@ -115,6 +115,8 @@
     "3518",
     "3528",
     "3530",
+    "3532",
+    "3533",
     "3550",
     "3576",
     "3593",
@@ -12172,41 +12174,11 @@
     },
     "3532": {
       "name": "台勝科",
-      "events": [
-        {
-          "ex_date": "2024-07-24",
-          "pay_date": "2024-08-23",
-          "cash_dividend": 5.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112"
-        },
-        {
-          "ex_date": "2025-07-08",
-          "pay_date": "2025-08-08",
-          "cash_dividend": 1.8,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113"
-        }
-      ]
+      "events": []
     },
     "3533": {
       "name": "嘉澤",
-      "events": [
-        {
-          "ex_date": "2024-08-28",
-          "pay_date": "2024-09-25",
-          "cash_dividend": 25.754503,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112"
-        },
-        {
-          "ex_date": "2025-07-31",
-          "pay_date": "2025-08-29",
-          "cash_dividend": 41.722824,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113"
-        }
-      ]
+      "events": []
     },
     "3535": {
       "name": "晶彩科",
@@ -18612,6 +18584,18 @@
     "7799": {
       "name": "禾榮科",
       "events": []
+    },
+    "7818": {
+      "name": "溢泰實業",
+      "events": [
+        {
+          "ex_date": "2025-07-04",
+          "pay_date": "2025-08-01",
+          "cash_dividend": 1.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113"
+        }
+      ]
     },
     "7821": {
       "name": "神數",

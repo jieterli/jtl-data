@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-22T11:38:43+00:00",
+  "updated_at": "2026-05-24T09:10:31+00:00",
   "source": "FinMind TaiwanStockDividend + TWSE BWIBBU_d (覆蓋全市場高殖利率股)",
-  "stock_count": 1089,
+  "stock_count": 1090,
   "covered_high_yield_threshold": 0.0,
   "failed": [
     "1310",
@@ -100,25 +100,26 @@
     "3296",
     "3308",
     "3321",
-    "3356",
-    "3376",
-    "3380",
-    "3406",
-    "3413",
-    "3416",
     "3419",
     "3432",
     "3437",
-    "3443",
     "3447",
     "3450",
     "3481",
     "3494",
     "3501",
     "3504",
+    "3515",
     "3518",
+    "3528",
     "3530",
+    "3532",
+    "3533",
+    "3535",
+    "3543",
+    "3545",
     "3550",
+    "3557",
     "3576",
     "3593",
     "3686",
@@ -12049,27 +12050,138 @@
     },
     "3356": {
       "name": "奇偶",
-      "events": []
+      "events": [
+        {
+          "ex_date": "2024-10-31",
+          "pay_date": "2024-11-22",
+          "cash_dividend": 2.9,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112"
+        },
+        {
+          "ex_date": "2025-10-03",
+          "pay_date": "2025-10-30",
+          "cash_dividend": 4.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113"
+        },
+        {
+          "ex_date": "2026-06-04",
+          "pay_date": "2026-06-24",
+          "cash_dividend": 3.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114"
+        }
+      ]
     },
     "3376": {
       "name": "新日興",
-      "events": []
+      "events": [
+        {
+          "ex_date": "2024-07-30",
+          "pay_date": "2024-08-28",
+          "cash_dividend": 4.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112"
+        },
+        {
+          "ex_date": "2025-08-06",
+          "pay_date": "2025-09-02",
+          "cash_dividend": 6.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113"
+        }
+      ]
     },
     "3380": {
       "name": "明泰",
-      "events": []
+      "events": [
+        {
+          "ex_date": "2024-07-12",
+          "pay_date": "2024-08-09",
+          "cash_dividend": 1.01,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112"
+        },
+        {
+          "ex_date": "2025-07-17",
+          "pay_date": "2025-08-13",
+          "cash_dividend": 1.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113"
+        }
+      ]
     },
     "3406": {
       "name": "玉晶光",
-      "events": []
+      "events": [
+        {
+          "ex_date": "2024-07-18",
+          "pay_date": "2024-08-16",
+          "cash_dividend": 12.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112後半度"
+        },
+        {
+          "ex_date": "2025-07-16",
+          "pay_date": "2025-08-15",
+          "cash_dividend": 18.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113後半度"
+        },
+        {
+          "ex_date": "2026-06-08",
+          "pay_date": "2026-07-08",
+          "cash_dividend": 17.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114後半度"
+        }
+      ]
     },
     "3413": {
       "name": "京鼎",
-      "events": []
+      "events": [
+        {
+          "ex_date": "2024-06-25",
+          "pay_date": "2024-07-15",
+          "cash_dividend": 11.299915,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112"
+        },
+        {
+          "ex_date": "2025-06-20",
+          "pay_date": "2025-07-18",
+          "cash_dividend": 14.424921,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113"
+        },
+        {
+          "ex_date": "2026-05-27",
+          "pay_date": "2026-06-22",
+          "cash_dividend": 10.983792,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114"
+        }
+      ]
     },
     "3416": {
       "name": "融程電",
-      "events": []
+      "events": [
+        {
+          "ex_date": "2024-06-28",
+          "pay_date": "2024-07-29",
+          "cash_dividend": 5.107109,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112"
+        },
+        {
+          "ex_date": "2025-06-30",
+          "pay_date": "2025-07-25",
+          "cash_dividend": 5.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113"
+        }
+      ]
     },
     "3419": {
       "name": "譁裕",
@@ -12085,7 +12197,22 @@
     },
     "3443": {
       "name": "創意",
-      "events": []
+      "events": [
+        {
+          "ex_date": "2024-06-03",
+          "pay_date": "2024-06-27",
+          "cash_dividend": 14.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112"
+        },
+        {
+          "ex_date": "2025-06-03",
+          "pay_date": "2025-06-26",
+          "cash_dividend": 16.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113"
+        }
+      ]
     },
     "3447": {
       "name": "展達",
@@ -12113,22 +12240,7 @@
     },
     "3515": {
       "name": "華擎",
-      "events": [
-        {
-          "ex_date": "2024-06-19",
-          "pay_date": "2024-07-22",
-          "cash_dividend": 6.900085,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112"
-        },
-        {
-          "ex_date": "2025-06-26",
-          "pay_date": "2025-07-22",
-          "cash_dividend": 5.300764,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113"
-        }
-      ]
+      "events": []
     },
     "3518": {
       "name": "柏騰",
@@ -12136,22 +12248,7 @@
     },
     "3528": {
       "name": "安馳",
-      "events": [
-        {
-          "ex_date": "2024-07-23",
-          "pay_date": "2024-08-12",
-          "cash_dividend": 1.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112"
-        },
-        {
-          "ex_date": "2025-09-01",
-          "pay_date": "2025-09-22",
-          "cash_dividend": 3.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113"
-        }
-      ]
+      "events": []
     },
     "3530": {
       "name": "晶相光",
@@ -12159,91 +12256,23 @@
     },
     "3532": {
       "name": "台勝科",
-      "events": [
-        {
-          "ex_date": "2024-07-24",
-          "pay_date": "2024-08-23",
-          "cash_dividend": 5.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112"
-        },
-        {
-          "ex_date": "2025-07-08",
-          "pay_date": "2025-08-08",
-          "cash_dividend": 1.8,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113"
-        }
-      ]
+      "events": []
     },
     "3533": {
       "name": "嘉澤",
-      "events": [
-        {
-          "ex_date": "2024-08-28",
-          "pay_date": "2024-09-25",
-          "cash_dividend": 25.754503,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112"
-        },
-        {
-          "ex_date": "2025-07-31",
-          "pay_date": "2025-08-29",
-          "cash_dividend": 41.722824,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113"
-        }
-      ]
+      "events": []
     },
     "3535": {
       "name": "晶彩科",
-      "events": [
-        {
-          "ex_date": "2025-08-15",
-          "pay_date": "2025-09-12",
-          "cash_dividend": 0.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113"
-        }
-      ]
+      "events": []
     },
     "3543": {
       "name": "州巧",
-      "events": [
-        {
-          "ex_date": "2024-06-20",
-          "pay_date": "2024-07-16",
-          "cash_dividend": 1.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112"
-        },
-        {
-          "ex_date": "2025-06-02",
-          "pay_date": "2025-06-26",
-          "cash_dividend": 0.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113"
-        }
-      ]
+      "events": []
     },
     "3545": {
       "name": "敦泰",
-      "events": [
-        {
-          "ex_date": "2024-07-11",
-          "pay_date": "2024-08-08",
-          "cash_dividend": 0.995639,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112"
-        },
-        {
-          "ex_date": "2025-09-08",
-          "pay_date": "2025-09-30",
-          "cash_dividend": 1.736056,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113"
-        }
-      ]
+      "events": []
     },
     "3550": {
       "name": "聯穎",
@@ -12251,22 +12280,7 @@
     },
     "3557": {
       "name": "嘉威",
-      "events": [
-        {
-          "ex_date": "2024-06-13",
-          "pay_date": "2024-07-09",
-          "cash_dividend": 3.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112"
-        },
-        {
-          "ex_date": "2025-06-26",
-          "pay_date": "2025-07-31",
-          "cash_dividend": 2.5,
-          "stock_dividend": 0.5,
-          "fiscal_year": "113"
-        }
-      ]
+      "events": []
     },
     "3563": {
       "name": "牧德",
@@ -13523,6 +13537,25 @@
           "ex_date": "2025-07-31",
           "pay_date": "2025-08-27",
           "cash_dividend": 3.2,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113"
+        }
+      ]
+    },
+    "4582": {
+      "name": "聚恆-創",
+      "events": [
+        {
+          "ex_date": "2024-06-18",
+          "pay_date": "2024-07-08",
+          "cash_dividend": 0.2,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112"
+        },
+        {
+          "ex_date": "2025-07-14",
+          "pay_date": "2025-08-04",
+          "cash_dividend": 0.2,
           "stock_dividend": 0.0,
           "fiscal_year": "113"
         }

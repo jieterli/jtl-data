@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-29T12:06:31+00:00",
+  "updated_at": "2026-05-30T09:09:07+00:00",
   "source": "FinMind TaiwanStockDividend + TWSE BWIBBU_d (覆蓋全市場高殖利率股)",
-  "stock_count": 1090,
+  "stock_count": 1091,
   "covered_high_yield_threshold": 0.0,
   "failed": [
     "1310",
@@ -186,6 +186,7 @@
     "7803",
     "7822",
     "7823",
+    "7827",
     "8033",
     "8101",
     "8201",
@@ -19094,6 +19095,10 @@
     },
     "7823": {
       "name": "奧義賽博-KY創",
+      "events": []
+    },
+    "7827": {
+      "name": "漢康-KY創",
       "events": []
     },
     "8011": {

@@ -1,0 +1,38 @@
+name: Update themes.json
+
+on:
+  schedule:
+    # 每週一台北時間 06:30 = UTC 週日 22:30
+    - cron: "30 22 * * 0"
+  workflow_dispatch: {}  # 手動觸發按鈕
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Generate themes via Claude
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OUTPUT_PATH: themes.json
+        run: python tools/themes_generate.py
+
+      - name: Commit changes (if any)
+        run: |
+          git config user.name  "JTL Bot"
+          git config user.email "bot@jieterlimusic.uk"
+          if [ -n "$(git status --porcelain themes.json)" ]; then
+            git add themes.json
+            git commit -m "auto: refresh themes $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          else
+            echo "No change."
+          fi

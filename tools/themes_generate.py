@@ -19,6 +19,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone
@@ -68,11 +69,20 @@ MIN_THEMES = 4
 MIN_STOCKS_PER_THEME = 2
 
 
-def _http_json(url: str, timeout: int = 30):
-    req = urllib.request.Request(
-        url, headers={"User-Agent": "Mozilla/5.0 jtl-data themes_generate"})
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+def _http_json(url: str, timeout: int = 30, retries: int = 3):
+    last_err = None
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(
+                url,
+                headers={"User-Agent": "Mozilla/5.0 jtl-data themes_generate"})
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except Exception as e:
+            last_err = e
+            if attempt < retries - 1:
+                time.sleep(5 * (attempt + 1))
+    raise last_err
 
 
 def _pick(d: dict, *keys):
@@ -188,23 +198,35 @@ def call_claude(api_key: str, model: str) -> str:
         "max_tokens": 4096,
         "messages": [{"role": "user", "content": prompt}],
     }).encode("utf-8")
-    req = urllib.request.Request(
-        ANTHROPIC_URL,
-        data=body,
-        headers={
-            "x-api-key": api_key,
-            "anthropic-version": "2023-06-01",
-            "content-type": "application/json",
-        },
-        method="POST",
-    )
-    with urllib.request.urlopen(req, timeout=120) as resp:
-        payload = json.loads(resp.read().decode("utf-8"))
-    parts = payload.get("content", [])
-    text = "".join(p.get("text", "") for p in parts if p.get("type") == "text")
-    if not text.strip():
-        raise RuntimeError(f"Claude 回傳空內容: {payload}")
-    return text
+    # Opus 產生較久 + runner 網路偶有瞬斷 → 拉長逾時 + 3 次重試(指數退避)
+    last_err = None
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(
+                ANTHROPIC_URL,
+                data=body,
+                headers={
+                    "x-api-key": api_key,
+                    "anthropic-version": "2023-06-01",
+                    "content-type": "application/json",
+                },
+                method="POST",
+            )
+            with urllib.request.urlopen(req, timeout=300) as resp:
+                payload = json.loads(resp.read().decode("utf-8"))
+            parts = payload.get("content", [])
+            text = "".join(
+                p.get("text", "") for p in parts if p.get("type") == "text")
+            if not text.strip():
+                raise RuntimeError(f"Claude 回傳空內容: {payload}")
+            return text
+        except Exception as e:
+            last_err = e
+            print(f"   Claude 第 {attempt+1}/3 次失敗({e}),等 {10*(attempt+1)} 秒重試...",
+                  file=sys.stderr)
+            if attempt < 2:
+                time.sleep(10 * (attempt + 1))
+    raise RuntimeError(f"Claude 連 3 次失敗: {last_err}")
 
 
 def extract_json(text: str) -> dict:

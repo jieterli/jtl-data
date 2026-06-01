@@ -208,17 +208,18 @@ def call_claude(api_key: str, model: str) -> str:
 
 
 def extract_json(text: str) -> dict:
-    """從可能含 ```json 圍欄的文字抽出 JSON。"""
+    """從可能含 ```json 圍欄 / 物件後面還有多餘文字的回應中,穩健抽出第一個 JSON 物件。"""
     t = text.strip()
-    m = re.search(r"```(?:json)?\s*(\{.*\})\s*```", t, re.DOTALL)
-    if m:
-        t = m.group(1)
-    else:
-        # 退而求其次:抓第一個 { 到最後一個 }
-        i, j = t.find("{"), t.rfind("}")
-        if i != -1 and j != -1:
-            t = t[i:j + 1]
-    return json.loads(t)
+    # 去掉 ```json ... ``` 圍欄(若有)
+    fence = re.search(r"```(?:json)?\s*(.*?)```", t, re.DOTALL)
+    if fence:
+        t = fence.group(1).strip()
+    start = t.find("{")
+    if start == -1:
+        raise ValueError("Claude 回應中找不到 JSON 物件")
+    # 只解析「第一個完整物件」,忽略其後任何多餘文字(避免 'Extra data' 炸掉)
+    obj, _ = json.JSONDecoder().raw_decode(t, start)
+    return obj
 
 
 def validate(raw: dict, code_name: dict, tpex_ok: bool,

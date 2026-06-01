@@ -22,6 +22,9 @@ jobs:
       - name: Generate themes via Claude
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # 用最強模型 — Sonnet 對台股 ticker↔產業記憶不夠準,會把電信/紡織股放錯主題;
+          # Opus 明顯乾淨,一週一次成本可忽略。
+          ANTHROPIC_MODEL: claude-opus-4-8
           OUTPUT_PATH: themes.json
         run: python tools/themes_generate.py
 

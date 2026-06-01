@@ -28,6 +28,40 @@ DEFAULT_MODEL = "claude-sonnet-4-6"
 
 TWSE_ALL = "https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"
 TPEX_ALL = "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_daily_close_quotes"
+# 公司基本資料(含「產業別」)— 做主題歸類的硬驗證用
+TWSE_INDUSTRY = "https://openapi.twse.com.tw/v1/opendata/t187ap03_L"
+TPEX_INDUSTRY = "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O"
+
+# 「科技 / 特定產業」主題若出現這些產業別的股 = 八成放錯(航運股跑進連接器之類)→ 剔除。
+# 注意:傳產 / 高股息 / 金融這類非科技主題不套用此黑名單(那裡本來就該有鋼鐵食品)。
+_BASE_NONTECH_BLOCK = {
+    "航運業", "食品工業", "水泥工業", "紡織纖維", "造紙工業", "玻璃陶瓷",
+    "橡膠工業", "觀光餐旅", "觀光事業", "貿易百貨", "鋼鐵工業",
+    "建材營造", "建材營造業", "運動休閒", "居家生活",
+}
+# 判斷主題是不是「科技 / 特定產業」(要套產業別硬驗證)的關鍵字
+_TECH_THEME_KW = [
+    "半導體", "晶圓", "封測", "記憶體", "IC", "ai", "AI", "伺服器", "雲端",
+    "光", "矽", "CPO", "機器人", "自動化", "車用", "電動車", "電子", "網通",
+    "網路", "PCB", "載板", "散熱", "連接器", "面板", "5G", "6G", "衛星",
+    "重電", "綠能", "電力", "軍工", "航太", "無人機",
+]
+
+
+def _is_tech_theme(t: dict) -> bool:
+    text = (str(t.get("title", "")) + str(t.get("subtitle", ""))).lower()
+    return any(kw.lower() in text for kw in _TECH_THEME_KW)
+
+
+def _block_set_for(t: dict) -> set:
+    """依主題語意組黑名單:能源/重電題材放行油電燃氣;石化/生技/材料題材放行化學。"""
+    text = str(t.get("title", "")) + str(t.get("subtitle", ""))
+    block = set(_BASE_NONTECH_BLOCK)
+    if not any(k in text for k in ("重電", "綠能", "電力", "能源", "石化", "油")):
+        block.add("油電燃氣業")
+    if not any(k in text for k in ("石化", "化學", "材料", "生技", "醫療", "能源")):
+        block.update({"化學工業", "化學生技醫療"})
+    return block
 
 # 保護門檻:AI 產出 / 驗證後若主題數 < 此值,視為異常,不覆蓋線上好資料
 MIN_THEMES = 4
@@ -88,19 +122,52 @@ def fetch_official_codes() -> tuple[dict, bool]:
     return code_name, tpex_ok
 
 
+def fetch_industry_map() -> dict:
+    """回傳 code -> 產業別 dict。TWSE 為主,TPEx best effort。失敗回空(= 不套硬驗證,安全降級)。"""
+    ind: dict[str, str] = {}
+    for url, label in ((TWSE_INDUSTRY, "TWSE"), (TPEX_INDUSTRY, "TPEx")):
+        try:
+            data = _http_json(url)
+            for row in data:
+                code = _pick(row, "公司代號", "SecuritiesCompanyCode", "Code", "code")
+                industry = _pick(row, "產業別", "SecuritiesIndustryCode",
+                                 "IndustryCategory", "industry")
+                if code and industry:
+                    ind.setdefault(code, industry)
+            print(f"   產業別 {label}: 累計 {len(ind)} 檔", file=sys.stderr)
+        except Exception as e:
+            print(f"   ⚠️ 產業別 {label} 抓取失敗({e}),該來源略過", file=sys.stderr)
+    return ind
+
+
 def call_claude(api_key: str, model: str) -> str:
     prompt = (
-        "你是台股產業分析助理。請列出當前台灣股市『廣為投資人認知的當紅主題 / 題材族群』,"
+        "你是嚴謹的台股產業分析助理。請列出當前台灣股市『廣為投資人認知的當紅主題 / 題材族群』,"
         "輸出成 JSON 給一個股息規劃 App 用來整理『主題概念股清單圖』。\n\n"
         "要求:\n"
         "1. 產生 6~8 個主題,每個主題底下用『子分類(角色)』分組,每組列 1~6 檔代表性個股。\n"
         "2. 只用『真實、目前在台股掛牌』的上市或上櫃股票,代號為阿拉伯數字(如 2330、6669、00929)。"
-        "不要用已下市、興櫃、或你不確定的代號。寧可少列也不要亂編。\n"
+        "不要用已下市、興櫃、或你不確定的代號。\n"
         "3. 公司名稱用繁體中文(如 台積電、緯穎)。\n"
         "4. subtitle 用中性敘述產業是什麼,『絕對不要』出現看漲/該買/推薦/目標價等字眼"
         "(這是資訊整理,要守台灣投顧法規)。\n"
         "5. 涵蓋面要廣:除了半導體 / AI 伺服器,也可包含高股息 ETF、傳產、金融、生技、軍工、機器人、"
-        "矽光子、CPO、重電、車用等當前熱門題材,挑你最有把握的。\n\n"
+        "矽光子、CPO、重電、車用等當前熱門題材,挑你最有把握的。\n"
+        "6. ★ 輝達(NVIDIA)供應鏈是當前台股最核心題材,請充分涵蓋 ★:"
+        "AI 伺服器 / CPO 等主題裡,要納入輝達 GB200/GB300/Rubin 平台相關的台廠"
+        "(伺服器 ODM、散熱 / 液冷、電源、CCL 載板、PCB、高速連接器 / 銅纜、HBM 相關等),"
+        "用你最有把握的龍頭股。\n\n"
+        "★ 分類準確度(最重要,請嚴格遵守)★\n"
+        "A. 每一檔個股都必須『真的從事該主題、且真的屬於你放的那個子分類(角色)的業務』。"
+        "例:面板廠(如群創、彩晶)不可放進『光纖載板』或『工廠自動化』;"
+        "記憶體/晶圓代工廠(如力積電)不可放進『機器視覺』;"
+        "線性滑軌廠(如上銀)不可放進『電源管理』。\n"
+        "B. 寧缺勿濫:你不確定某檔的主業、或不確定它該歸哪個角色,就『直接不要列它』。"
+        "少列正確的,遠勝多列放錯格子的。每組寧可只有 1~2 檔精準的。\n"
+        "C. 嚴禁為了湊數把沾不上邊的個股硬塞進某個角色。\n"
+        "D. 同一檔不要在『同一個主題內』重複出現;跨不同主題僅在它確實橫跨兩個產業時才可重複"
+        "(如台達電可同時在電源與電動車)。\n"
+        "E. 只列各角色裡你最有把握的龍頭 / 代表股,冷門股寧可略過。\n\n"
         "只輸出 JSON,不要任何說明文字,格式:\n"
         "{\n"
         '  "themes": [\n'
@@ -154,13 +221,20 @@ def extract_json(text: str) -> dict:
     return json.loads(t)
 
 
-def validate(raw: dict, code_name: dict, tpex_ok: bool) -> list[dict]:
-    """驗證 AI 產出:剔除官方清單查無的代號,用官方名稱回填。"""
+def validate(raw: dict, code_name: dict, tpex_ok: bool,
+             industry_map: dict | None = None) -> list[dict]:
+    """驗證 AI 產出:
+    1. 剔除官方清單查無 / 格式錯的代號,用官方名稱回填。
+    2. 產業別硬驗證:科技 / 特定產業主題裡,產業明顯不搭的股(航運/石化…)剔除。
+    """
+    industry_map = industry_map or {}
     out = []
-    dropped = 0
+    dropped_code = 0   # 代號不存在 / 格式錯
+    dropped_ind = 0    # 產業別不搭主題
     for t in raw.get("themes", []):
         if not isinstance(t, dict):
             continue
+        block = _block_set_for(t) if _is_tech_theme(t) else set()
         groups = []
         for g in t.get("groups", []):
             if not isinstance(g, dict):
@@ -172,17 +246,21 @@ def validate(raw: dict, code_name: dict, tpex_ok: bool) -> list[dict]:
                 code = str(s.get("symbol", "")).strip()
                 name = str(s.get("name", "")).strip()
                 if not re.fullmatch(r"\d{4,6}", code):
-                    dropped += 1
+                    dropped_code += 1
                     continue
                 if code in code_name:
                     name = code_name[code]  # 用官方名稱(更準)
                 elif tpex_ok:
                     # 官方清單完整卻查無 → AI 八成編錯,剔除
-                    dropped += 1
+                    dropped_code += 1
                     continue
-                # tpex 不可靠時:查不到也保留(避免誤殺上櫃股),但要有名稱
                 if not name:
-                    dropped += 1
+                    dropped_code += 1
+                    continue
+                # 產業別硬驗證:有查到產業、且落在該主題黑名單 → 剔除(航運股跑進科技主題等)
+                industry = industry_map.get(code)
+                if industry and any(b in industry for b in block):
+                    dropped_ind += 1
                     continue
                 stocks.append({"symbol": code, "name": name})
             role = str(g.get("role", "")).strip()
@@ -199,7 +277,8 @@ def validate(raw: dict, code_name: dict, tpex_ok: bool) -> list[dict]:
                 "subtitle": str(t.get("subtitle", "")).strip(),
                 "groups": groups,
             })
-    print(f"   驗證後保留 {len(out)} 主題,剔除 {dropped} 檔可疑代號", file=sys.stderr)
+    print(f"   驗證後保留 {len(out)} 主題;剔除 代號可疑 {dropped_code} 檔、"
+          f"產業不搭 {dropped_ind} 檔", file=sys.stderr)
     return out
 
 
@@ -218,10 +297,13 @@ def main():
     print("🔍 抓 TWSE/TPEx 官方股號清單...", file=sys.stderr)
     code_name, tpex_ok = fetch_official_codes()
 
+    print("🏷  抓官方產業別(主題歸類硬驗證用)...", file=sys.stderr)
+    industry_map = fetch_industry_map()
+
     print(f"🤖 呼叫 Claude ({model}) 產生主題...", file=sys.stderr)
     text = call_claude(api_key, model)
     raw = extract_json(text)
-    themes = validate(raw, code_name, tpex_ok)
+    themes = validate(raw, code_name, tpex_ok, industry_map)
 
     if len(themes) < MIN_THEMES:
         # 保護:產出太少 → 不覆蓋線上好資料,讓 Actions 紅燈通知

@@ -23,6 +23,12 @@ import urllib.error
 FINMIND_URL = "https://api.finmindtrade.com/api/v4/data"
 DATASET = "TaiwanStockDividend"
 TWSE_BWIBBU = "https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_d"
+# 上櫃(OTC)本益比殖利率報表 — 對應 BWIBBU 的櫃買版
+TPEX_PERATIO = "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_peratio_analysis"
+# 上櫃只收殖利率 > 此值(會配息)的股 → 控制 FinMind 呼叫量,避免爆免費額度
+MIN_YIELD_OTC = 1.0
+# 動態 ETF 清單:FinMind 證券總表裡這些分類視為 ETF(BWIBBU 不含 ETF,必須另抓)
+ETF_CATEGORIES = {"ETF", "上櫃指數股票型基金(ETF)", "上櫃ETF"}
 
 # 23 檔精選池(對齊 lib/data/private_picks.dart,即使 TWSE 沒列也保證有)
 DEFAULT_PICKS = [
@@ -127,6 +133,61 @@ def fetch_finmind_one(stock_id: str, token: str, retries: int = 3) -> list:
     return []
 
 
+def fetch_all_etfs(token: str) -> list[tuple[str, str]]:
+    """從 FinMind 證券總表抓「全 ETF 宇宙」(BWIBBU 不含 ETF,熱門市值/高息 ETF 都要靠這個)。
+    抓不到就回空(不擋上市流程)。"""
+    qs = urllib.parse.urlencode({"dataset": "TaiwanStockInfo", "token": token})
+    try:
+        req = urllib.request.Request(
+            f"{FINMIND_URL}?{qs}", headers={"User-Agent": "jtl_dividend_navigator/2.0"})
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            data = json.loads(resp.read().decode("utf-8")).get("data", [])
+    except Exception as e:
+        print(f"   ⚠️ TaiwanStockInfo 失敗,跳過 ETF 動態清單 ({e})", file=sys.stderr)
+        return []
+    out, seen = [], set()
+    for r in data:
+        sid = (r.get("stock_id") or "").strip()
+        if r.get("industry_category") in ETF_CATEGORIES and sid and sid not in seen:
+            seen.add(sid)
+            out.append((sid, (r.get("stock_name") or "").strip()))
+    return out
+
+
+def fetch_tpex_high_yield(min_yield: float) -> list[tuple[str, str]]:
+    """從 TPEx 上櫃本益比殖利率報表抓「會配息(殖利率 > min_yield)」的上櫃股。
+    用殖利率門檻過濾,避免把不配息的小股也丟去打 FinMind 爆免費額度。
+    TPEx 失敗不 raise(上櫃是加值,不該擋掉上市流程),回空 list。"""
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(
+                TPEX_PERATIO,
+                headers={"User-Agent": "Mozilla/5.0 jtl_dividend_navigator"})
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+            break
+        except Exception as e:
+            print(f"   TPEx 第 {attempt+1}/3 次失敗 ({e}),等 30 秒...", file=sys.stderr)
+            if attempt < 2:
+                time.sleep(30)
+    else:
+        print("   ⚠️ TPEx 連 3 次失敗,跳過上櫃(不影響上市)", file=sys.stderr)
+        return []
+    out = []
+    for row in data:
+        code = (row.get("SecuritiesCompanyCode") or "").strip()
+        name = (row.get("CompanyName") or "").strip()
+        if not code or not name:
+            continue
+        try:
+            y = float(row.get("YieldRatio") or 0)
+        except (ValueError, TypeError):
+            continue
+        if y > min_yield:
+            out.append((code, name))
+    return out
+
+
 def normalize_event(raw: dict) -> dict | None:
     cash_ex = (raw.get("CashExDividendTradingDate") or "").strip()
     stock_ex = (raw.get("StockExDividendTradingDate") or "").strip()
@@ -171,7 +232,21 @@ def main():
         if s not in seen:
             seen.add(s)
             picks.append((s, n))
-    print(f"📋 共 {len(picks)} 檔待抓 FinMind (精選 {len(DEFAULT_PICKS)} + 全市場新增 {len(picks) - len(DEFAULT_PICKS)})", file=sys.stderr)
+    # 全 ETF 宇宙(BWIBBU 不含 ETF,熱門市值/高息 ETF 都靠這個)
+    etf_picks = fetch_all_etfs(token)
+    print(f"   ETF 動態清單 {len(etf_picks)} 檔", file=sys.stderr)
+    for s, n in etf_picks:
+        if s not in seen:
+            seen.add(s)
+            picks.append((s, n))
+    # 上櫃(OTC)會配息的股 — 殖利率門檻過濾控制量,避免爆免費額度
+    tpex_picks = fetch_tpex_high_yield(MIN_YIELD_OTC)
+    print(f"   TPEx 上櫃殖利率 > {MIN_YIELD_OTC}% 找到 {len(tpex_picks)} 檔", file=sys.stderr)
+    for s, n in tpex_picks:
+        if s not in seen:
+            seen.add(s)
+            picks.append((s, n))
+    print(f"📋 共 {len(picks)} 檔待抓 FinMind (精選 {len(DEFAULT_PICKS)} + 上市 {len(twse_picks)} + ETF {len(etf_picks)} + 上櫃 {len(tpex_picks)},去重後)", file=sys.stderr)
 
     # 第三步:打 FinMind
     stocks = {}

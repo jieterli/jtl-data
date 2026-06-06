@@ -1,9 +1,75 @@
 {
-  "updated_at": "2026-06-01T15:30:49+00:00",
+  "updated_at": "2026-06-06T05:30:00+00:00",
   "season_label": "台股當紅主題 · 2026 Q2",
   "source": "Claude AI (claude-opus-4-8) 產生 + TWSE/TPEx 官方股號驗證",
-  "theme_count": 8,
+  "theme_count": 9,
   "themes": [
+    {
+      "id": "nvidia_chain",
+      "emoji": "🧥",
+      "title": "黃爸爸概念股",
+      "subtitle": "輝達(NVIDIA)執行長黃仁勳的台廠供應鏈：AI 伺服器、ABF 載板、散熱液冷、CPO、高速連接",
+      "groups": [
+        {
+          "role": "AI 伺服器 ODM",
+          "stocks": [
+            {"symbol": "2317", "name": "鴻海"},
+            {"symbol": "2382", "name": "廣達"},
+            {"symbol": "3231", "name": "緯創"},
+            {"symbol": "6669", "name": "緯穎"},
+            {"symbol": "2376", "name": "技嘉"}
+          ]
+        },
+        {
+          "role": "ABF 載板 / PCB",
+          "stocks": [
+            {"symbol": "3037", "name": "欣興"},
+            {"symbol": "8046", "name": "南電"},
+            {"symbol": "3189", "name": "景碩"},
+            {"symbol": "2368", "name": "金像電"}
+          ]
+        },
+        {
+          "role": "散熱 / 液冷",
+          "stocks": [
+            {"symbol": "3017", "name": "奇鋐"},
+            {"symbol": "3013", "name": "晟銘電"},
+            {"symbol": "2421", "name": "建準"}
+          ]
+        },
+        {
+          "role": "電源",
+          "stocks": [
+            {"symbol": "2308", "name": "台達電"},
+            {"symbol": "6412", "name": "群電"}
+          ]
+        },
+        {
+          "role": "CPO / 矽光子",
+          "stocks": [
+            {"symbol": "4979", "name": "華星光"},
+            {"symbol": "4977", "name": "眾達-KY"},
+            {"symbol": "3023", "name": "信邦"}
+          ]
+        },
+        {
+          "role": "高速連接 / 銅纜",
+          "stocks": [
+            {"symbol": "2392", "name": "正崴"},
+            {"symbol": "2345", "name": "智邦"},
+            {"symbol": "5388", "name": "中磊"}
+          ]
+        },
+        {
+          "role": "晶圓 / ASIC",
+          "stocks": [
+            {"symbol": "2330", "name": "台積電"},
+            {"symbol": "3661", "name": "世芯-KY"},
+            {"symbol": "2454", "name": "聯發科"}
+          ]
+        }
+      ]
+    },
     {
       "id": "ai_server",
       "emoji": "🖥️",

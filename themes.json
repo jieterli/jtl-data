@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-21T23:51:14+00:00",
+  "updated_at": "2026-06-22T23:43:00+08:00",
   "season_label": "台股當紅主題 · 2026 Q2",
   "source": "Claude AI (claude-opus-4-8) 產生 + TWSE/TPEx 官方股號驗證",
-  "theme_count": 8,
+  "theme_count": 9,
   "themes": [
     {
       "id": "nvidia_chain",
@@ -378,6 +378,83 @@
             {
               "symbol": "8255",
               "name": "朋程"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ukraine_drone_chain",
+      "emoji": "🛩️",
+      "title": "烏克蘭無人機「非紅供應鏈」",
+      "subtitle": "烏克蘭戰場催生全球去中化無人機需求,台灣從整機組裝、飛控軟體、通訊載板到光學鏡頭的完整供應鏈。",
+      "groups": [
+        {
+          "role": "全機組裝 / 系統整合",
+          "stocks": [
+            {
+              "symbol": "8033",
+              "name": "雷虎"
+            },
+            {
+              "symbol": "2634",
+              "name": "漢翔"
+            }
+          ]
+        },
+        {
+          "role": "飛控 / AI 影像 / 地面站",
+          "stocks": [
+            {
+              "symbol": "5371",
+              "name": "中光電"
+            },
+            {
+              "symbol": "3706",
+              "name": "神達"
+            }
+          ]
+        },
+        {
+          "role": "通訊 / 定位 / PCB 載板",
+          "stocks": [
+            {
+              "symbol": "2313",
+              "name": "華通"
+            },
+            {
+              "symbol": "3138",
+              "name": "耀登"
+            }
+          ]
+        },
+        {
+          "role": "光學鏡頭 / 偵照感測",
+          "stocks": [
+            {
+              "symbol": "3362",
+              "name": "先進光"
+            },
+            {
+              "symbol": "4976",
+              "name": "佳凌"
+            }
+          ]
+        },
+        {
+          "role": "航太精密零組件",
+          "stocks": [
+            {
+              "symbol": "2645",
+              "name": "長榮航太"
+            },
+            {
+              "symbol": "8222",
+              "name": "寶一"
+            },
+            {
+              "symbol": "8383",
+              "name": "千附"
             }
           ]
         }

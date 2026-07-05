@@ -61,10 +61,10 @@ START_DATE = "2024-01-01"
 
 def fetch_twse_high_yield(min_yield: float) -> list[tuple[str, str]]:
     """從 TWSE BWIBBU_d 抓全市場股票(min_yield=0 → 全抓)
-    3 次重試,間隔 30 秒。全失敗才 raise(這樣 Actions 會紅燈)
+    5 次重試,間隔 30 秒。全失敗才 raise;由 main() 決定要保留舊資料綠燈、還是紅燈
     """
     last_err = None
-    for attempt in range(3):
+    for attempt in range(5):
         try:
             req = urllib.request.Request(
                 TWSE_BWIBBU,
@@ -75,12 +75,12 @@ def fetch_twse_high_yield(min_yield: float) -> list[tuple[str, str]]:
             break  # 成功就跳出
         except Exception as e:
             last_err = e
-            print(f"   TWSE 第 {attempt+1}/3 次失敗 ({e}),等 30 秒...", file=sys.stderr)
-            if attempt < 2:
+            print(f"   TWSE 第 {attempt+1}/5 次失敗 ({e}),等 30 秒...", file=sys.stderr)
+            if attempt < 4:
                 time.sleep(30)
     else:
-        # 3 次都失敗 → 別 silent fallback,讓 Actions 看到錯誤
-        raise RuntimeError(f"TWSE BWIBBU_d 連 3 次失敗: {last_err}")
+        # 全部失敗 → raise,由 main() 決定是「保留舊資料綠燈」還是紅燈
+        raise RuntimeError(f"TWSE BWIBBU_d 連 5 次失敗: {last_err}")
     out = []
     for row in data:
         code = (row.get("Code") or "").strip()
@@ -213,13 +213,21 @@ def main():
         print("❌ 環境變數 FINMIND_TOKEN 未設定", file=sys.stderr)
         sys.exit(1)
 
-    # 第一步:TWSE 全市場掃股(3 次重試,全失敗就 raise 讓 Actions 紅燈)
+    # 第一步:TWSE 全市場掃股。
+    # 注意:TWSE openapi 從 GitHub(境外/雲端 IP)有時會被限流連不上。
+    # 抓不到時「不覆蓋好資料、安靜跳過(綠燈收工)」,不再寄失敗信;
+    # 下次排程 TWSE 通了會自動補更新(失敗是間歇的,通常隔天就好)。
     print(f"🔍 從 TWSE 抓殖利率 > {MIN_YIELD_INCLUDE}% 的股票...", file=sys.stderr)
-    twse_picks = fetch_twse_high_yield(MIN_YIELD_INCLUDE)
+    try:
+        twse_picks = fetch_twse_high_yield(MIN_YIELD_INCLUDE)
+    except Exception as e:
+        print(f"⚠️ TWSE 全市場清單抓不到({e})— 保留現有 dividends.json,本次不更新(不視為失敗)", file=sys.stderr)
+        return
     print(f"   TWSE 找到 {len(twse_picks)} 檔", file=sys.stderr)
     if len(twse_picks) < 100:
-        # 正常應該有 1000+ 檔,< 100 顯然不對,提前失敗保護現有好資料
-        raise RuntimeError(f"TWSE 只回 {len(twse_picks)} 檔(預期 >1000)— 暫停更新避免覆蓋好資料")
+        # 正常應該有 1000+ 檔,< 100 顯然不對(可能被回錯頁面)→ 保留好資料,本次跳過
+        print(f"⚠️ TWSE 只回 {len(twse_picks)} 檔(預期 >1000)— 保留現有資料,本次不更新(不視為失敗)", file=sys.stderr)
+        return
 
     # 第二步:union 精選池(去重)
     seen = set()

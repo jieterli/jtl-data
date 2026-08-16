@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T01:23:50+00:00",
+  "updated_at": "2026-08-16T01:23:12+00:00",
   "source": "FinMind TaiwanStockDividend + TWSE BWIBBU_d (覆蓋全市場高殖利率股)",
   "stock_count": 2023,
   "covered_high_yield_threshold": 0.0,
@@ -95,7 +95,6 @@
     "3092",
     "3149",
     "3229",
-    "3257",
     "3266",
     "3296",
     "3305",
@@ -373,7 +372,6 @@
     "00985A",
     "00986A",
     "00987A",
-    "00987B",
     "00988A",
     "00989A",
     "00990A",
@@ -401,10 +399,6 @@
     "009826",
     "009819",
     "1815",
-    "6548",
-    "6556",
-    "6561",
-    "6568",
     "6569",
     "6570",
     "6574",
@@ -417,7 +411,11 @@
     "6612",
     "6613",
     "6620",
-    "6629"
+    "6629",
+    "6637",
+    "6640",
+    "6642",
+    "6649"
   ],
   "stocks": {
     "2884": {
@@ -15982,7 +15980,29 @@
     },
     "3257": {
       "name": "虹冠電",
-      "events": []
+      "events": [
+        {
+          "ex_date": "2024-04-02",
+          "pay_date": "2024-05-07",
+          "cash_dividend": 3.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112"
+        },
+        {
+          "ex_date": "2025-04-01",
+          "pay_date": "2025-05-07",
+          "cash_dividend": 2.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113"
+        },
+        {
+          "ex_date": "2026-05-22",
+          "pay_date": "2026-06-22",
+          "cash_dividend": 2.8,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114"
+        }
+      ]
     },
     "3266": {
       "name": "昇陽",
@@ -27032,6 +27052,13 @@
           "cash_dividend": 0.123,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-11",
+          "cash_dividend": 0.127,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
         }
       ]
     },
@@ -27062,6 +27089,13 @@
         {
           "ex_date": "2026-05-19",
           "pay_date": "2026-06-12",
+          "cash_dividend": 0.56,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-11",
           "cash_dividend": 0.56,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
@@ -27138,6 +27172,13 @@
           "ex_date": "2026-05-19",
           "pay_date": "2026-06-12",
           "cash_dividend": 0.4,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-11",
+          "cash_dividend": 0.45,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
         }
@@ -27655,6 +27696,13 @@
           "cash_dividend": 0.199,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-10",
+          "cash_dividend": 0.199,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
         }
       ]
     },
@@ -27960,6 +28008,13 @@
           "ex_date": "2026-05-19",
           "pay_date": "2026-06-12",
           "cash_dividend": 0.48,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-11",
+          "cash_dividend": 0.5,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
         }
@@ -28527,6 +28582,13 @@
           "cash_dividend": 0.34,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-11",
+          "cash_dividend": 0.34,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
         }
       ]
     },
@@ -28773,6 +28835,13 @@
           "ex_date": "2026-07-16",
           "pay_date": "2026-08-11",
           "cash_dividend": 0.14,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-11",
+          "cash_dividend": 0.142,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
         }
@@ -29381,6 +29450,13 @@
           "cash_dividend": 0.14,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-11",
+          "cash_dividend": 0.14,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
         }
       ]
     },
@@ -29768,6 +29844,13 @@
         {
           "ex_date": "2026-07-16",
           "pay_date": "2026-08-11",
+          "cash_dividend": 0.145,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-11",
           "cash_dividend": 0.145,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
@@ -30273,6 +30356,13 @@
           "cash_dividend": 0.145,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-11",
+          "cash_dividend": 0.145,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
         }
       ]
     },
@@ -30627,6 +30717,13 @@
           "cash_dividend": 0.42,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-11",
+          "cash_dividend": 0.42,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
         }
       ]
     },
@@ -30943,6 +31040,13 @@
           "cash_dividend": 0.14,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-11",
+          "cash_dividend": 0.14,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
         }
       ]
     },
@@ -31135,6 +31239,13 @@
           "ex_date": "2026-07-16",
           "pay_date": "2026-08-10",
           "cash_dividend": 0.175,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-10",
+          "cash_dividend": 0.185,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
         }
@@ -31589,6 +31700,13 @@
           "cash_dividend": 0.443,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-11",
+          "cash_dividend": 0.47,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
         }
       ]
     },
@@ -31940,6 +32058,13 @@
           "cash_dividend": 0.437,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-10",
+          "cash_dividend": 0.465,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
         }
       ]
     },
@@ -32013,6 +32138,13 @@
           "ex_date": "2026-05-19",
           "pay_date": "2026-06-11",
           "cash_dividend": 0.394,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-10",
+          "cash_dividend": 0.417,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
         }
@@ -32702,6 +32834,13 @@
         {
           "ex_date": "2026-07-16",
           "pay_date": "2026-08-11",
+          "cash_dividend": 0.042,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-11",
           "cash_dividend": 0.042,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
@@ -33677,6 +33816,13 @@
           "cash_dividend": 0.33,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-11",
+          "cash_dividend": 0.33,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
         }
       ]
     },
@@ -33858,6 +34004,13 @@
           "ex_date": "2026-05-19",
           "pay_date": "2026-06-12",
           "cash_dividend": 0.365,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-11",
+          "cash_dividend": 0.475,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
         }
@@ -34072,6 +34225,13 @@
         {
           "ex_date": "2026-07-16",
           "pay_date": "2026-08-11",
+          "cash_dividend": 0.072,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-11",
           "cash_dividend": 0.072,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
@@ -34403,6 +34563,13 @@
           "ex_date": "2026-05-19",
           "pay_date": "2026-06-12",
           "cash_dividend": 0.49,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-11",
+          "cash_dividend": 0.506,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
         }
@@ -39265,6 +39432,13 @@
           "cash_dividend": 0.061,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-15",
+          "cash_dividend": 0.061,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
         }
       ]
     },
@@ -39351,7 +39525,15 @@
     },
     "00987B": {
       "name": "野村10+澳洲公債",
-      "events": []
+      "events": [
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-11",
+          "cash_dividend": 0.202,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
+        }
+      ]
     },
     "00988A": {
       "name": "主動統一全球創新",
@@ -39378,6 +39560,13 @@
           "ex_date": "2026-07-16",
           "pay_date": "2026-08-07",
           "cash_dividend": 0.157,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-09",
+          "cash_dividend": 0.153,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
         }
@@ -39631,6 +39820,13 @@
           "cash_dividend": 0.045,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-10",
+          "cash_dividend": 0.045,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
         }
       ]
     },
@@ -39867,6 +40063,13 @@
         {
           "ex_date": "2026-07-16",
           "pay_date": "2026-08-07",
+          "cash_dividend": 0.114,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-09",
           "cash_dividend": 0.114,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
@@ -40145,6 +40348,13 @@
         {
           "ex_date": "2026-07-16",
           "pay_date": "2026-08-11",
+          "cash_dividend": 0.07,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-11",
           "cash_dividend": 0.07,
           "stock_dividend": 0.0,
           "fiscal_year": "115"
@@ -49565,19 +49775,156 @@
     },
     "6548": {
       "name": "長科*",
-      "events": []
+      "events": [
+        {
+          "ex_date": "2024-03-14",
+          "pay_date": "2024-04-10",
+          "cash_dividend": 0.4,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112第3季"
+        },
+        {
+          "ex_date": "2024-06-24",
+          "pay_date": "2024-07-17",
+          "cash_dividend": 0.41,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112第4季"
+        },
+        {
+          "ex_date": "2024-09-19",
+          "pay_date": "2024-10-16",
+          "cash_dividend": 0.41,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113第1季"
+        },
+        {
+          "ex_date": "2024-12-19",
+          "pay_date": "2025-01-15",
+          "cash_dividend": 0.41,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113第2季"
+        },
+        {
+          "ex_date": "2025-03-13",
+          "pay_date": "2025-04-16",
+          "cash_dividend": 0.450024,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113第3季"
+        },
+        {
+          "ex_date": "2025-06-19",
+          "pay_date": "2025-07-16",
+          "cash_dividend": 0.458167,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113第4季"
+        },
+        {
+          "ex_date": "2025-12-18",
+          "pay_date": "2026-01-14",
+          "cash_dividend": 0.45,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114第2季"
+        },
+        {
+          "ex_date": "2026-03-20",
+          "pay_date": "2026-04-15",
+          "cash_dividend": 0.450012,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114第3季"
+        },
+        {
+          "ex_date": "2026-06-17",
+          "pay_date": "2026-07-15",
+          "cash_dividend": 0.45,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114第4季"
+        }
+      ]
     },
     "6556": {
       "name": "勝品",
-      "events": []
+      "events": [
+        {
+          "ex_date": "2024-07-11",
+          "pay_date": "2024-08-09",
+          "cash_dividend": 3.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112"
+        },
+        {
+          "ex_date": "2025-07-15",
+          "pay_date": "2025-08-11",
+          "cash_dividend": 4.2,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113"
+        },
+        {
+          "ex_date": "2026-07-14",
+          "pay_date": "2026-08-10",
+          "cash_dividend": 3.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114"
+        }
+      ]
     },
     "6561": {
       "name": "是方",
-      "events": []
+      "events": [
+        {
+          "ex_date": "2024-07-01",
+          "pay_date": "2024-07-19",
+          "cash_dividend": 10.6,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112"
+        },
+        {
+          "ex_date": "2025-06-17",
+          "pay_date": "2025-07-10",
+          "cash_dividend": 12.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113"
+        },
+        {
+          "ex_date": "2025-12-31",
+          "pay_date": "2026-01-30",
+          "cash_dividend": 6.6,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114前半度"
+        },
+        {
+          "ex_date": "2026-07-08",
+          "pay_date": "2026-07-30",
+          "cash_dividend": 7.698755,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114後半度"
+        }
+      ]
     },
     "6568": {
       "name": "宏觀",
-      "events": []
+      "events": [
+        {
+          "ex_date": "2024-06-18",
+          "pay_date": "2024-07-15",
+          "cash_dividend": 1.817287,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112"
+        },
+        {
+          "ex_date": "2025-05-29",
+          "pay_date": "2025-06-27",
+          "cash_dividend": 2.037314,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113"
+        },
+        {
+          "ex_date": "2026-05-29",
+          "pay_date": "2026-06-29",
+          "cash_dividend": 2.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114"
+        }
+      ]
     },
     "6569": {
       "name": "醫揚",
@@ -49633,93 +49980,19 @@
     },
     "6637": {
       "name": "醫影",
-      "events": [
-        {
-          "ex_date": "2024-09-02",
-          "pay_date": "2024-10-03",
-          "cash_dividend": 2.647059,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112"
-        },
-        {
-          "ex_date": "2025-08-28",
-          "pay_date": "2025-09-26",
-          "cash_dividend": 3.627005,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113"
-        },
-        {
-          "ex_date": "2026-08-27",
-          "pay_date": "2026-09-24",
-          "cash_dividend": 4.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114"
-        }
-      ]
+      "events": []
     },
     "6640": {
       "name": "均華",
-      "events": [
-        {
-          "ex_date": "2024-06-25",
-          "pay_date": "2024-07-10",
-          "cash_dividend": 5.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112"
-        },
-        {
-          "ex_date": "2025-06-17",
-          "pay_date": "2025-07-10",
-          "cash_dividend": 15.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113"
-        },
-        {
-          "ex_date": "2026-06-17",
-          "pay_date": "2026-07-10",
-          "cash_dividend": 15.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114"
-        }
-      ]
+      "events": []
     },
     "6642": {
       "name": "富致",
-      "events": [
-        {
-          "ex_date": "2024-03-21",
-          "pay_date": "2024-05-03",
-          "cash_dividend": 1.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112"
-        },
-        {
-          "ex_date": "2025-03-27",
-          "pay_date": "2025-04-24",
-          "cash_dividend": 2.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113"
-        },
-        {
-          "ex_date": "2026-03-26",
-          "pay_date": "2026-04-30",
-          "cash_dividend": 1.8,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114"
-        }
-      ]
+      "events": []
     },
     "6649": {
       "name": "台生材",
-      "events": [
-        {
-          "ex_date": "2026-04-09",
-          "pay_date": "2026-05-06",
-          "cash_dividend": 1.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114"
-        }
-      ]
+      "events": []
     },
     "6651": {
       "name": "全宇昕",

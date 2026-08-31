@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T22:47:32+00:00",
+  "updated_at": "2026-08-31T00:46:05+00:00",
   "season_label": "台股當紅主題 · 2026 Q3",
   "source": "Claude AI (claude-opus-4-8) 產生 + TWSE/TPEx 官方股號驗證",
   "theme_count": 8,
@@ -8,15 +8,11 @@
       "id": "nvidia_chain",
       "emoji": "🧥",
       "title": "黃爸爸概念股",
-      "subtitle": "輝達(NVIDIA)執行長黃仁勳的台廠供應鏈,涵蓋 GB200/GB300/Rubin 平台相關的 AI 伺服器代工、載板、散熱、電源、光通訊與高速連接等環節",
+      "subtitle": "輝達(NVIDIA)執行長黃仁勳相關的台灣供應鏈廠商,涵蓋 GB200/GB300/Rubin 平台的 AI 伺服器代工、載板、散熱、電源、光通訊與晶圓製造等環節",
       "groups": [
         {
-          "role": "AI 伺服器 ODM / 系統組裝",
+          "role": "AI 伺服器 ODM / 組裝",
           "stocks": [
-            {
-              "symbol": "2382",
-              "name": "廣達"
-            },
             {
               "symbol": "3231",
               "name": "緯創"
@@ -26,25 +22,25 @@
               "name": "緯穎"
             },
             {
-              "symbol": "2376",
-              "name": "技嘉"
-            },
-            {
               "symbol": "2317",
               "name": "鴻海"
+            },
+            {
+              "symbol": "2382",
+              "name": "廣達"
+            },
+            {
+              "symbol": "2376",
+              "name": "技嘉"
             }
           ]
         },
         {
-          "role": "晶圓代工 / ASIC / 封測",
+          "role": "晶圓代工 / 封測",
           "stocks": [
             {
               "symbol": "2330",
               "name": "台積電"
-            },
-            {
-              "symbol": "3661",
-              "name": "世芯-KY"
             },
             {
               "symbol": "3711",
@@ -64,12 +60,12 @@
               "name": "南電"
             },
             {
-              "symbol": "6274",
-              "name": "台燿"
-            },
-            {
               "symbol": "3189",
               "name": "景碩"
+            },
+            {
+              "symbol": "2368",
+              "name": "金像電"
             }
           ]
         },
@@ -81,17 +77,17 @@
               "name": "奇鋐"
             },
             {
-              "symbol": "3324",
-              "name": "雙鴻"
-            },
-            {
               "symbol": "6230",
               "name": "尼得科超眾"
+            },
+            {
+              "symbol": "3324",
+              "name": "雙鴻"
             }
           ]
         },
         {
-          "role": "電源供應 / 電源管理",
+          "role": "電源供應",
           "stocks": [
             {
               "symbol": "2308",
@@ -102,8 +98,8 @@
               "name": "群電"
             },
             {
-              "symbol": "4919",
-              "name": "新唐"
+              "symbol": "6438",
+              "name": "迅得"
             }
           ]
         },
@@ -132,41 +128,54 @@
               "name": "台達電"
             },
             {
-              "symbol": "3665",
-              "name": "貿聯-KY"
+              "symbol": "2492",
+              "name": "華新科"
             },
             {
-              "symbol": "2345",
-              "name": "智邦"
+              "symbol": "3665",
+              "name": "貿聯-KY"
             }
           ]
         }
       ]
     },
     {
-      "id": "high_yield_etf",
+      "id": "high_dividend_etf",
       "emoji": "💰",
       "title": "高股息 ETF",
-      "subtitle": "以高股利殖利率或收益平準金機制為選股主軸的台股交易所交易基金",
+      "subtitle": "以配息為主要訴求的台股指數股票型基金,追蹤高殖利率或穩定配息成分股",
       "groups": [
         {
-          "role": "月配 / 季配息 ETF",
+          "role": "月配息型 ETF",
           "stocks": [
             {
               "symbol": "00929",
               "name": "復華台灣科技優息"
             },
             {
-              "symbol": "00919",
-              "name": "群益台灣精選高息"
+              "symbol": "00934",
+              "name": "中信成長高股息"
+            },
+            {
+              "symbol": "00939",
+              "name": "統一台灣高息動能"
+            }
+          ]
+        },
+        {
+          "role": "季配息型 ETF",
+          "stocks": [
+            {
+              "symbol": "0056",
+              "name": "元大高股息"
             },
             {
               "symbol": "00878",
               "name": "國泰永續高股息"
             },
             {
-              "symbol": "0056",
-              "name": "元大高股息"
+              "symbol": "00919",
+              "name": "群益台灣精選高息"
             },
             {
               "symbol": "00713",
@@ -175,7 +184,7 @@
           ]
         },
         {
-          "role": "市值型 / 大盤型 ETF",
+          "role": "市值型 ETF",
           "stocks": [
             {
               "symbol": "0050",
@@ -193,7 +202,7 @@
       "id": "financials",
       "emoji": "🏦",
       "title": "金融股",
-      "subtitle": "涵蓋金控、銀行、壽險與證券業務的台股金融類股",
+      "subtitle": "涵蓋銀行、保險、證券等業務的金融控股與金融服務公司",
       "groups": [
         {
           "role": "金控",
@@ -213,69 +222,74 @@
             {
               "symbol": "2886",
               "name": "兆豐金"
-            },
-            {
-              "symbol": "2884",
-              "name": "玉山金"
             }
           ]
         },
         {
-          "role": "銀行 / 證券",
+          "role": "官股金控 / 銀行",
           "stocks": [
             {
-              "symbol": "2801",
-              "name": "彰銀"
+              "symbol": "2880",
+              "name": "華南金"
             },
             {
-              "symbol": "2892",
-              "name": "第一金"
+              "symbol": "2884",
+              "name": "玉山金"
             },
             {
-              "symbol": "6005",
-              "name": "群益證"
+              "symbol": "5880",
+              "name": "合庫金"
             }
           ]
         }
       ]
     },
     {
-      "id": "heavy_electric",
+      "id": "power_grid",
       "emoji": "⚡",
       "title": "重電 / 電網",
-      "subtitle": "從事電力設備、變壓器、電線電纜與電網基礎建設相關的產業",
+      "subtitle": "從事電力設備、變壓器、電網基礎建設與電力工程的廠商",
       "groups": [
         {
-          "role": "重電設備 / 變壓器",
+          "role": "重電設備",
           "stocks": [
             {
               "symbol": "1503",
               "name": "士電"
             },
             {
+              "symbol": "1504",
+              "name": "東元"
+            },
+            {
               "symbol": "1519",
               "name": "華城"
+            }
+          ]
+        },
+        {
+          "role": "電線電纜 / 傳輸",
+          "stocks": [
+            {
+              "symbol": "1605",
+              "name": "華新"
             },
+            {
+              "symbol": "1615",
+              "name": "大山"
+            }
+          ]
+        },
+        {
+          "role": "電力工程 / 統包",
+          "stocks": [
             {
               "symbol": "1513",
               "name": "中興電"
             },
             {
-              "symbol": "1504",
-              "name": "東元"
-            }
-          ]
-        },
-        {
-          "role": "電線電纜",
-          "stocks": [
-            {
-              "symbol": "1609",
-              "name": "大亞"
-            },
-            {
-              "symbol": "1605",
-              "name": "華新"
+              "symbol": "1514",
+              "name": "亞力"
             }
           ]
         }
@@ -284,11 +298,11 @@
     {
       "id": "robotics_automation",
       "emoji": "🤖",
-      "title": "機器人 / 工廠自動化",
-      "subtitle": "涵蓋工業機器人、傳動零組件、減速機與自動化控制設備的產業",
+      "title": "機器人 / 自動化",
+      "subtitle": "涉及工業機器人、關鍵傳動零組件與工廠自動化的製造廠商",
       "groups": [
         {
-          "role": "傳動零組件 / 線性滑軌",
+          "role": "線性傳動 / 滑軌",
           "stocks": [
             {
               "symbol": "2049",
@@ -301,58 +315,122 @@
           ]
         },
         {
-          "role": "工具機 / 自動化整合",
+          "role": "減速機 / 齒輪",
           "stocks": [
             {
               "symbol": "1560",
               "name": "中砂"
+            },
+            {
+              "symbol": "4576",
+              "name": "大銀微系統"
             }
           ]
         },
         {
-          "role": "馬達 / 控制",
+          "role": "工業電腦 / 控制",
           "stocks": [
             {
-              "symbol": "1504",
-              "name": "東元"
+              "symbol": "2360",
+              "name": "致茂"
             },
             {
-              "symbol": "2308",
-              "name": "台達電"
+              "symbol": "3131",
+              "name": "弘塑"
             }
           ]
         }
       ]
     },
     {
-      "id": "defense",
+      "id": "defense_aerospace",
       "emoji": "🛡️",
-      "title": "軍工 / 航太國防",
-      "subtitle": "從事航太零組件、無人機、國防電子與軍用設備製造的產業",
+      "title": "軍工 / 航太",
+      "subtitle": "從事國防、航太零組件、無人機與相關系統整合的廠商",
       "groups": [
         {
-          "role": "航太零組件",
+          "role": "航太結構件 / 引擎",
           "stocks": [
             {
               "symbol": "2634",
               "name": "漢翔"
             },
             {
-              "symbol": "3552",
-              "name": "同致"
+              "symbol": "2645",
+              "name": "長榮航太"
             }
           ]
         },
         {
-          "role": "國防電子 / 無人機",
+          "role": "無人機 / 系統",
           "stocks": [
             {
-              "symbol": "8996",
-              "name": "高力"
+              "symbol": "8938",
+              "name": "明安"
             },
             {
-              "symbol": "2038",
-              "name": "海光"
+              "symbol": "2404",
+              "name": "漢唐"
+            }
+          ]
+        },
+        {
+          "role": "軍用電子 / 通訊",
+          "stocks": [
+            {
+              "symbol": "2308",
+              "name": "台達電"
+            },
+            {
+              "symbol": "6462",
+              "name": "神盾"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ev_auto",
+      "emoji": "🚗",
+      "title": "車用 / 電動車",
+      "subtitle": "供應電動車動力、電子零組件與車用晶片的供應鏈廠商",
+      "groups": [
+        {
+          "role": "車用電子 / 電源",
+          "stocks": [
+            {
+              "symbol": "2308",
+              "name": "台達電"
+            },
+            {
+              "symbol": "3665",
+              "name": "貿聯-KY"
+            }
+          ]
+        },
+        {
+          "role": "車用半導體",
+          "stocks": [
+            {
+              "symbol": "2379",
+              "name": "瑞昱"
+            },
+            {
+              "symbol": "3529",
+              "name": "力旺"
+            }
+          ]
+        },
+        {
+          "role": "整車 / 電動巴士",
+          "stocks": [
+            {
+              "symbol": "2201",
+              "name": "裕隆"
+            },
+            {
+              "symbol": "2231",
+              "name": "為升"
             }
           ]
         }
@@ -361,23 +439,32 @@
     {
       "id": "biotech",
       "emoji": "🧬",
-      "title": "生技醫療",
-      "subtitle": "涵蓋新藥研發、原料藥、醫療器材與委託開發製造(CDMO)的產業",
+      "title": "生技 / 醫療",
+      "subtitle": "涵蓋新藥研發、原料藥、醫療器材與委託開發製造的生技醫療廠商",
       "groups": [
         {
-          "role": "新藥 / CDMO",
+          "role": "新藥研發",
           "stocks": [
             {
               "symbol": "6446",
               "name": "藥華藥"
             },
             {
-              "symbol": "4746",
-              "name": "台耀"
-            },
+              "symbol": "4736",
+              "name": "泰博"
+            }
+          ]
+        },
+        {
+          "role": "原料藥 / CDMO",
+          "stocks": [
             {
               "symbol": "1795",
               "name": "美時"
+            },
+            {
+              "symbol": "4746",
+              "name": "台耀"
             }
           ]
         },
@@ -385,46 +472,12 @@
           "role": "醫療器材 / 檢測",
           "stocks": [
             {
-              "symbol": "4966",
-              "name": "譜瑞-KY"
+              "symbol": "1707",
+              "name": "葡萄王"
             },
             {
-              "symbol": "1734",
-              "name": "杏輝"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "auto_ev",
-      "emoji": "🚗",
-      "title": "車用電子 / 電動車",
-      "subtitle": "涵蓋車用電子、電源模組、充電設施與電動車供應鏈的產業",
-      "groups": [
-        {
-          "role": "車用電源 / 充電",
-          "stocks": [
-            {
-              "symbol": "2308",
-              "name": "台達電"
-            },
-            {
-              "symbol": "6414",
-              "name": "樺漢"
-            }
-          ]
-        },
-        {
-          "role": "車用零組件 / 連接",
-          "stocks": [
-            {
-              "symbol": "3665",
-              "name": "貿聯-KY"
-            },
-            {
-              "symbol": "2313",
-              "name": "華通"
+              "symbol": "4142",
+              "name": "國光生"
             }
           ]
         }

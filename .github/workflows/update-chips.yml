@@ -1,0 +1,32 @@
+name: Update chips/ (籌碼日報)
+
+on:
+  schedule:
+    # 每天台北時間 18:40 = UTC 10:40(TWSE / TPEx 日報約 16:30–17:30 出齊)
+    - cron: "40 10 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Fetch TWSE / TPEx daily chips
+        run: python tools/chips_fetch.py
+      - name: Commit changes (if any)
+        run: |
+          git config user.name  "JTL Bot"
+          git config user.email "bot@jieterlimusic.uk"
+          if [ -n "$(git status --porcelain chips)" ]; then
+            git add chips
+            git commit -m "auto: chips $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          else
+            echo "No change."
+          fi

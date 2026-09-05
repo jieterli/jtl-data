@@ -56,7 +56,9 @@ DEFAULT_PICKS = [
 # 想壓低 quota 改成 3.0 / 5.0 等,只抓高殖利率股
 MIN_YIELD_INCLUDE = 0.0
 
-START_DATE = "2024-01-01"
+# 2026-09-05 從 2024 拉長到 2012:股息婆婆「婆婆幫你整理」要算「連續配息幾年」,
+# 只有兩三年的紀錄分不出長期存股型。FinMind 同樣一支 request,只是回的列數變多。
+START_DATE = "2012-01-01"
 
 
 def fetch_twse_high_yield(min_yield: float) -> list[tuple[str, str]]:

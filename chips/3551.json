@@ -1,3 +1,3 @@
-{"symbol":"3551","name":"世禾","market":"TPEx","updated":"2026-09-05","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low"],"days":[
-["2026-09-04",182.0,6.0,278204.0,null,null,null,null,null,null,null,183.0,176.5]
+{"symbol":"3551","name":"世禾","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",182.0,6.0,278204.0,79000.0,0.0,9119.0,88119.0,1607.0,3.0,10.21,183.0,176.5,178.5,180.43]
 ]}

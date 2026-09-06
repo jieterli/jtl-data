@@ -1,3 +1,3 @@
-{"symbol":"3081","name":"聯亞","market":"TPEx","updated":"2026-09-05","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low"],"days":[
-["2026-09-04",3170.0,50.0,5533009.0,null,null,null,null,null,null,null,3315.0,2980.0]
+{"symbol":"3081","name":"聯亞","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",3170.0,50.0,5533009.0,626465.0,-547000.0,33317.0,112782.0,5763.0,263.0,22.23,3315.0,2980.0,3245.0,3123.2]
 ]}

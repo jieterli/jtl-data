@@ -1,3 +1,3 @@
-{"symbol":"6016","name":"康和證","market":"TPEx","updated":"2026-09-05","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low"],"days":[
-["2026-09-04",22.4,1.0,6567322.0,null,null,null,null,null,null,null,22.4,21.55]
+{"symbol":"6016","name":"康和證","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",22.4,1.0,6567322.0,899747.0,0.0,0.0,899747.0,6101.0,44.0,3.81,22.4,21.55,21.8,22.04]
 ]}

@@ -25,12 +25,12 @@ from pathlib import Path
 
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/537.36 Chrome/120 Safari/537.36"
 OUT_DIR = Path(os.environ.get("CHIPS_DIR", "chips"))
-KEEP_DAYS = 60
+KEEP_DAYS = 80  # 60 日線要 60 個交易日,多留一點
 # 一次最多回補幾個交易日(GitHub Actions 有 6 小時上限;TWSE 每次請求間隔 SLEEP 秒)
 MAX_BACKFILL = int(os.environ.get("MAX_BACKFILL", "45"))
 SLEEP = float(os.environ.get("FETCH_SLEEP", "2.5"))
 FIELDS = ["date", "close", "change", "volume", "foreign_net", "trust_net", "dealer_net",
-          "total_net", "margin_bal", "short_bal", "foreign_pct", "high", "low"]
+          "total_net", "margin_bal", "short_bal", "foreign_pct", "high", "low", "open", "avg"]  # open/avg 2026-09-06 加(蠟燭圖、均價要)
 
 TWSE = {
     "quotes": "https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX?date={d8}&type=ALLBUT0999&response=json",
@@ -156,6 +156,12 @@ class Store:
             self.recs[sym] = rec
         if name and rec.get("name") != name:
             rec["name"] = name
+        if rec.get("fields") != FIELDS:
+            # 欄位表變了(例如 2026-09-06 加 open):舊列補 None 對齊
+            for d in rec["days"]:
+                while len(d) < len(FIELDS):
+                    d.append(None)
+            rec["fields"] = FIELDS
         dm = self.day_map(rec)
         row = dm.get(iso)
         if row is None:
@@ -172,7 +178,8 @@ class Store:
         TPEx 用 total_net 判:行情抓到但法人那段失敗時,下次還會補。"""
         idx = FIELDS.index(field)
         for r in self.recs.values():
-            if r["market"] == market and any(d[0] == iso and d[idx] is not None for d in r["days"]):
+            if r["market"] == market and any(
+                    d[0] == iso and len(d) > idx and d[idx] is not None for d in r["days"]):
                 return True
         return False
 
@@ -213,9 +220,10 @@ def fetch_twse_day(store, d: date):
         log(f"TWSE {iso}: 找不到收盤行情表")
         return False
     f = qt["fields"]
-    ic, iname, ivol, iclose, isign, idiff, ihigh, ilow = (
+    ic, iname, ivol, iclose, isign, idiff, ihigh, ilow, iopen = (
         f.index("證券代號"), f.index("證券名稱"), f.index("成交股數"), f.index("收盤價"),
-        f.index("漲跌(+/-)"), f.index("漲跌價差"), f.index("最高價"), f.index("最低價"))
+        f.index("漲跌(+/-)"), f.index("漲跌價差"), f.index("最高價"), f.index("最低價"), f.index("開盤價"))
+    ivalue = f.index("成交金額")
     n = 0
     for r in qt["data"]:
         sym = clean_code(r[ic])
@@ -226,7 +234,8 @@ def fetch_twse_day(store, d: date):
         diff = num(r[idiff])
         store.upsert("TWSE", sym, r[iname].strip(), iso, {
             "close": close, "change": None if diff is None else sign * diff,
-            "volume": num(r[ivol]), "high": num(r[ihigh]), "low": num(r[ilow])})
+            "volume": num(r[ivol]), "high": num(r[ihigh]), "low": num(r[ilow]), "open": num(r[iopen]),
+            "avg": (num(r[ivalue]) / num(r[ivol])) if (num(r[ivol]) or 0) > 0 and num(r[ivalue]) is not None else None})
         n += 1
     log(f"TWSE {iso}: quotes {n}")
 
@@ -287,7 +296,7 @@ def fetch_tpex_today(store):
             continue
         store.upsert("TPEx", clean_code(r["SecuritiesCompanyCode"]), r["CompanyName"].strip(), iso, {
             "close": close, "change": num(r.get("Change")), "volume": num(r.get("TradingShares")),
-            "high": num(r.get("High")), "low": num(r.get("Low"))})
+            "high": num(r.get("High")), "low": num(r.get("Low")), "open": num(r.get("Open")), "avg": num(r.get("Average"))})
         n += 1
     log(f"TPEx {iso}: quotes {n}")
     time.sleep(1)
@@ -328,14 +337,14 @@ def main():
     done = 0
     d = start
     scanned = 0
-    while scanned < 95 and done < MAX_BACKFILL:
+    while scanned < 125 and done < MAX_BACKFILL:
         scanned += 1
-        if d.weekday() < 5 and not store.has_day("TWSE", d.isoformat()):
+        if d.weekday() < 5 and not store.has_day("TWSE", d.isoformat(), "avg"):
             ok = fetch_twse_day(store, d)
             if ok:
                 done += 1
         d -= timedelta(days=1)
-        if (start - d).days > 90:
+        if (start - d).days > 120:
             break
     fetch_tpex_today(store)
     store.save(today.isoformat())

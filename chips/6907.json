@@ -1,3 +1,3 @@
-{"symbol":"6907","name":"雅特力-KY","market":"TPEx","updated":"2026-09-05","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low"],"days":[
-["2026-09-04",181.5,4.0,737771.0,null,null,null,null,null,null,null,183.5,176.5]
+{"symbol":"6907","name":"雅特力-KY","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",181.5,4.0,737771.0,22809.0,0.0,-4375.0,18434.0,1709.0,6.0,51.93,183.5,176.5,182.0,180.11]
 ]}

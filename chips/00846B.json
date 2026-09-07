@@ -1,3 +1,4 @@
-{"symbol":"00846B","name":"富邦歐洲銀行債","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",35.11,0.04,104139.0,0.0,0.0,139.0,139.0,0.0,0.0,null,35.12,34.97,34.97,35.11]
+{"symbol":"00846B","name":"富邦歐洲銀行債","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",35.11,0.04,104139.0,0.0,0.0,139.0,139.0,0.0,0.0,null,35.12,34.97,34.97,35.11],
+["2026-09-07",34.93,-0.18,105292.0,0.0,0.0,-1283.0,-1283.0,0.0,0.0,null,35.0,34.84,34.84,34.93]
 ]}

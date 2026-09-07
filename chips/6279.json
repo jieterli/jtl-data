@@ -1,3 +1,4 @@
-{"symbol":"6279","name":"胡連","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",117.5,-0.5,475003.0,-214200.0,-1552.0,-4180.0,-219932.0,2362.0,0.0,9.24,118.5,116.0,118.0,117.3]
+{"symbol":"6279","name":"胡連","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",117.5,-0.5,475003.0,-214200.0,-1552.0,-4180.0,-219932.0,2362.0,0.0,9.24,118.5,116.0,118.0,117.3],
+["2026-09-07",114.0,-3.5,1042739.0,-710000.0,0.0,-27114.0,-737114.0,2379.0,0.0,8.84,117.0,113.5,117.0,114.32]
 ]}

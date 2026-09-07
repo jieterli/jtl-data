@@ -1,3 +1,4 @@
-{"symbol":"3455","name":"由田","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",236.5,-2.5,1907761.0,-4078.0,0.0,-21381.0,-25459.0,5465.0,52.0,12.07,249.0,231.5,248.0,238.67]
+{"symbol":"3455","name":"由田","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",236.5,-2.5,1907761.0,-4078.0,0.0,-21381.0,-25459.0,5465.0,52.0,12.07,249.0,231.5,248.0,238.67],
+["2026-09-07",235.0,-1.5,1459719.0,-107741.0,0.0,-12938.0,-120679.0,5382.0,52.0,12.1,242.5,233.0,242.5,237.32]
 ]}

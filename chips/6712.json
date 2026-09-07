@@ -1,3 +1,4 @@
-{"symbol":"6712","name":"長聖","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",157.0,0.5,164256.0,47418.0,0.0,1553.0,48971.0,1428.0,2.0,5.29,158.5,156.5,157.5,157.48]
+{"symbol":"6712","name":"長聖","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",157.0,0.5,164256.0,47418.0,0.0,1553.0,48971.0,1428.0,2.0,5.29,158.5,156.5,157.5,157.48],
+["2026-09-07",155.0,-2.0,271673.0,-35000.0,0.0,-2373.0,-37373.0,1428.0,2.0,5.27,157.5,153.5,157.5,155.01]
 ]}

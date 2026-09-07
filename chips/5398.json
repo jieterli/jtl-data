@@ -1,3 +1,4 @@
-{"symbol":"5398","name":"慕康生醫","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",14.2,-0.05,21022.0,-15000.0,0.0,390.0,-14610.0,3255.0,0.0,5.6,14.25,14.0,14.25,14.2]
+{"symbol":"5398","name":"慕康生醫","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",14.2,-0.05,21022.0,-15000.0,0.0,390.0,-14610.0,3255.0,0.0,5.6,14.25,14.0,14.25,14.2],
+["2026-09-07",14.4,0.2,258036.0,-29000.0,0.0,-12.0,-29012.0,3255.0,0.0,5.54,14.4,14.2,14.25,14.25]
 ]}

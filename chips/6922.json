@@ -1,3 +1,4 @@
-{"symbol":"6922","name":"宸曜","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",208.5,7.5,136319.0,67985.0,0.0,-6078.0,61907.0,360.0,0.0,4.15,209.0,202.0,204.5,206.3]
+{"symbol":"6922","name":"宸曜","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",208.5,7.5,136319.0,67985.0,0.0,-6078.0,61907.0,360.0,0.0,4.15,209.0,202.0,204.5,206.3],
+["2026-09-07",209.0,0.5,434307.0,-53150.0,0.0,39531.0,-13619.0,382.0,0.0,3.99,217.0,209.0,213.5,212.76]
 ]}

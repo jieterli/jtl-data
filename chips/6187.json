@@ -1,3 +1,4 @@
-{"symbol":"6187","name":"萬潤","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",1305.0,5.0,2009478.0,-101815.0,38000.0,15610.0,-48205.0,3435.0,38.0,33.1,1360.0,1280.0,1345.0,1305.59]
+{"symbol":"6187","name":"萬潤","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",1305.0,5.0,2009478.0,-101815.0,38000.0,15610.0,-48205.0,3435.0,38.0,33.1,1360.0,1280.0,1345.0,1305.59],
+["2026-09-07",1370.0,65.0,2393479.0,36148.0,50000.0,-21759.0,64389.0,3398.0,52.0,33.15,1400.0,1310.0,1320.0,1358.98]
 ]}

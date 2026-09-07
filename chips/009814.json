@@ -1,3 +1,4 @@
-{"symbol":"009814","name":"富邦標普500","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",11.43,0.12,508842.0,15000.0,0.0,34623.0,49623.0,20.0,0.0,null,11.47,11.39,11.47,11.42]
+{"symbol":"009814","name":"富邦標普500","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",11.43,0.12,508842.0,15000.0,0.0,34623.0,49623.0,20.0,0.0,null,11.47,11.39,11.47,11.42],
+["2026-09-07",11.36,-0.07,1182852.0,-21000.0,0.0,-435940.0,-456940.0,20.0,0.0,null,11.37,11.33,11.36,11.35]
 ]}

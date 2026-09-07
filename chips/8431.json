@@ -1,3 +1,4 @@
-{"symbol":"8431","name":"匯鑽科","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",68.8,5.1,10687557.0,710202.0,0.0,104450.0,814652.0,6143.0,232.0,6.8,69.7,64.0,64.8,67.58]
+{"symbol":"8431","name":"匯鑽科","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",68.8,5.1,10687557.0,710202.0,0.0,104450.0,814652.0,6143.0,232.0,6.8,69.7,64.0,64.8,67.58],
+["2026-09-07",67.3,-1.5,5372270.0,-48379.0,0.0,-13272.0,-61651.0,6291.0,198.0,6.7,70.3,66.9,69.1,68.66]
 ]}

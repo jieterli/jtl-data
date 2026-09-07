@@ -1,3 +1,4 @@
-{"symbol":"5493","name":"三聯","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",84.4,0.3,65362.0,19000.0,0.0,-1193.0,17807.0,2454.0,4.0,2.85,85.0,84.0,85.0,84.32]
+{"symbol":"5493","name":"三聯","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",84.4,0.3,65362.0,19000.0,0.0,-1193.0,17807.0,2454.0,4.0,2.85,85.0,84.0,85.0,84.32],
+["2026-09-07",84.0,-0.4,49092.0,4000.0,0.0,964.0,4964.0,2448.0,4.0,2.91,84.8,83.8,84.5,84.18]
 ]}

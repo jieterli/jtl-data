@@ -1,3 +1,4 @@
-{"symbol":"6968","name":"萬達寵物","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",41.7,-0.05,31044.0,-1140.0,0.0,-1980.0,-3120.0,265.0,0.0,1.46,41.85,41.5,41.85,41.61]
+{"symbol":"6968","name":"萬達寵物","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",41.7,-0.05,31044.0,-1140.0,0.0,-1980.0,-3120.0,265.0,0.0,1.46,41.85,41.5,41.85,41.61],
+["2026-09-07",41.75,0.05,151112.0,-11000.0,0.0,-10000.0,-21000.0,266.0,0.0,1.44,42.15,41.2,41.7,41.66]
 ]}

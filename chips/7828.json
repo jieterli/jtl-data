@@ -1,3 +1,4 @@
-{"symbol":"7828","name":"創新服務","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",1930.0,175.0,545115.0,78923.0,17000.0,37645.0,133568.0,null,null,26.87,1930.0,1775.0,1810.0,1886.04]
+{"symbol":"7828","name":"創新服務","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",1930.0,175.0,545115.0,78923.0,17000.0,37645.0,133568.0,null,null,26.87,1930.0,1775.0,1810.0,1886.04],
+["2026-09-07",1870.0,-60.0,371518.0,-7085.0,33000.0,-38800.0,-12885.0,null,null,26.9,2000.0,1855.0,1990.0,1916.83]
 ]}

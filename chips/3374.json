@@ -1,3 +1,4 @@
-{"symbol":"3374","name":"精材","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",430.0,30.0,4976882.0,1339995.0,0.0,-235290.0,1104705.0,28659.0,680.0,21.41,430.0,403.0,420.0,419.79]
+{"symbol":"3374","name":"精材","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",430.0,30.0,4976882.0,1339995.0,0.0,-235290.0,1104705.0,28659.0,680.0,21.41,430.0,403.0,420.0,419.79],
+["2026-09-07",469.5,39.5,4790471.0,719979.0,0.0,212535.0,932514.0,29383.0,722.0,21.68,472.5,436.0,448.0,460.37]
 ]}

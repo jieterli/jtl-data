@@ -1,3 +1,4 @@
-{"symbol":"3357","name":"臺慶科","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",214.0,11.0,1645743.0,394546.0,0.0,17972.0,412518.0,4066.0,67.0,20.21,215.5,206.5,206.5,211.85]
+{"symbol":"3357","name":"臺慶科","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",214.0,11.0,1645743.0,394546.0,0.0,17972.0,412518.0,4066.0,67.0,20.21,215.5,206.5,206.5,211.85],
+["2026-09-07",213.5,-0.5,1996065.0,158462.0,0.0,-4568.0,153894.0,4133.0,59.0,20.37,221.0,213.5,221.0,216.91]
 ]}

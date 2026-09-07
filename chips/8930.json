@@ -1,3 +1,4 @@
-{"symbol":"8930","name":"青鋼","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",30.0,-0.1,45180.0,2000.0,0.0,0.0,2000.0,806.0,0.0,2.66,30.1,30.0,30.1,30.09]
+{"symbol":"8930","name":"青鋼","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",30.0,-0.1,45180.0,2000.0,0.0,0.0,2000.0,806.0,0.0,2.66,30.1,30.0,30.1,30.09],
+["2026-09-07",29.9,-0.1,23133.0,-6000.0,0.0,0.0,-6000.0,809.0,0.0,2.65,30.0,29.05,30.0,29.82]
 ]}

@@ -1,3 +1,4 @@
-{"symbol":"00746B","name":"富邦A級公司債","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",34.36,0.02,472053.0,1000.0,0.0,-62947.0,-61947.0,0.0,0.0,null,34.37,34.28,34.28,34.34]
+{"symbol":"00746B","name":"富邦A級公司債","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",34.36,0.02,472053.0,1000.0,0.0,-62947.0,-61947.0,0.0,0.0,null,34.37,34.28,34.28,34.34],
+["2026-09-07",34.15,-0.21,213212.0,1000.0,0.0,-149000.0,-148000.0,0.0,0.0,null,34.35,34.15,34.35,34.18]
 ]}

@@ -1,3 +1,4 @@
-{"symbol":"6840","name":"東研信超","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",92.8,2.7,395354.0,33901.0,0.0,-8896.0,25005.0,2580.0,52.0,6.19,93.4,89.2,90.5,91.2]
+{"symbol":"6840","name":"東研信超","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",92.8,2.7,395354.0,33901.0,0.0,-8896.0,25005.0,2580.0,52.0,6.19,93.4,89.2,90.5,91.2],
+["2026-09-07",92.9,0.1,182235.0,27000.0,0.0,-1886.0,25114.0,2597.0,42.0,6.28,94.3,91.6,93.9,93.24]
 ]}

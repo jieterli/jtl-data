@@ -1,3 +1,4 @@
-{"symbol":"6574","name":"霈方","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",118.5,-1.0,20419.0,-3405.0,0.0,-230.0,-3635.0,null,null,0.69,120.5,117.5,120.5,118.07]
+{"symbol":"6574","name":"霈方","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",118.5,-1.0,20419.0,-3405.0,0.0,-230.0,-3635.0,null,null,0.69,120.5,117.5,120.5,118.07],
+["2026-09-07",120.0,1.5,27891.0,7290.0,0.0,-505.0,6785.0,null,null,0.72,120.5,117.5,119.0,119.23]
 ]}

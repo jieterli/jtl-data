@@ -1,3 +1,4 @@
-{"symbol":"5452","name":"佶優","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",27.1,0.35,273491.0,75000.0,0.0,-1013.0,73987.0,3356.0,8.0,13.69,27.15,26.55,27.05,26.88]
+{"symbol":"5452","name":"佶優","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",27.1,0.35,273491.0,75000.0,0.0,-1013.0,73987.0,3356.0,8.0,13.69,27.15,26.55,27.05,26.88],
+["2026-09-07",26.9,-0.2,275307.0,23347.0,0.0,-1000.0,22347.0,3365.0,7.0,13.71,27.35,26.8,27.25,26.9]
 ]}

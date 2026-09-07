@@ -1,3 +1,4 @@
-{"symbol":"8182","name":"加高","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",38.85,0.85,261361.0,80150.0,0.0,340.0,80490.0,1592.0,8.0,53.07,39.2,38.15,38.4,38.7]
+{"symbol":"8182","name":"加高","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",38.85,0.85,261361.0,80150.0,0.0,340.0,80490.0,1592.0,8.0,53.07,39.2,38.15,38.4,38.7],
+["2026-09-07",39.6,0.75,499747.0,108021.0,0.0,1081.0,109102.0,1592.0,8.0,53.18,40.5,38.85,39.4,39.79]
 ]}

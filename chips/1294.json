@@ -1,3 +1,4 @@
-{"symbol":"1294","name":"漢田生技","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",53.4,0.0,5481.0,0.0,0.0,0.0,0.0,157.0,0.0,2.01,53.5,53.4,53.5,53.46]
+{"symbol":"1294","name":"漢田生技","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",53.4,0.0,5481.0,0.0,0.0,0.0,0.0,157.0,0.0,2.01,53.5,53.4,53.5,53.46],
+["2026-09-07",53.5,0.1,24149.0,3000.0,0.0,-127.0,2873.0,157.0,0.0,2.02,53.9,53.0,53.1,53.41]
 ]}

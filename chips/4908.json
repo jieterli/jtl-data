@@ -1,3 +1,4 @@
-{"symbol":"4908","name":"前鼎","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",224.5,20.0,1795882.0,113910.0,0.0,6858.0,120768.0,6631.0,126.0,8.54,224.5,199.0,214.0,213.77]
+{"symbol":"4908","name":"前鼎","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",224.5,20.0,1795882.0,113910.0,0.0,6858.0,120768.0,6631.0,126.0,8.54,224.5,199.0,214.0,213.77],
+["2026-09-07",223.0,-1.5,1431425.0,-98950.0,0.0,23651.0,-75299.0,6527.0,120.0,8.42,231.5,220.5,230.5,225.96]
 ]}

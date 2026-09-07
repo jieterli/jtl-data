@@ -1,3 +1,4 @@
-{"symbol":"4523","name":"永彰","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",23.7,-0.1,83719.0,7000.0,0.0,737.0,7737.0,924.0,0.0,3.4,23.8,23.4,23.8,23.57]
+{"symbol":"4523","name":"永彰","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",23.7,-0.1,83719.0,7000.0,0.0,737.0,7737.0,924.0,0.0,3.4,23.8,23.4,23.8,23.57],
+["2026-09-07",23.65,-0.05,32242.0,6000.0,0.0,-25.0,5975.0,926.0,0.0,3.41,23.8,23.5,23.65,23.6]
 ]}

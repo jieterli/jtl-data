@@ -1,3 +1,4 @@
-{"symbol":"6664","name":"群翊","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",355.5,-7.5,752355.0,-185750.0,10000.0,-19665.0,-195415.0,1537.0,2.0,9.3,370.0,348.0,368.0,356.82]
+{"symbol":"6664","name":"群翊","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",355.5,-7.5,752355.0,-185750.0,10000.0,-19665.0,-195415.0,1537.0,2.0,9.3,370.0,348.0,368.0,356.82],
+["2026-09-07",356.5,1.0,363842.0,67717.0,4000.0,-793.0,70924.0,1522.0,2.0,9.43,363.0,353.0,360.0,357.38]
 ]}

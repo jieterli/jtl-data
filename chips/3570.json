@@ -1,3 +1,4 @@
-{"symbol":"3570","name":"大塚","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",163.5,1.0,3449.0,1000.0,0.0,0.0,1000.0,104.0,0.0,45.52,164.0,162.5,162.5,163.32]
+{"symbol":"3570","name":"大塚","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",163.5,1.0,3449.0,1000.0,0.0,0.0,1000.0,104.0,0.0,45.52,164.0,162.5,162.5,163.32],
+["2026-09-07",163.5,0.0,12696.0,4000.0,0.0,0.0,4000.0,104.0,0.0,45.54,163.5,163.0,163.5,163.17]
 ]}

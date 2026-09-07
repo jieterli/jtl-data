@@ -1,3 +1,4 @@
-{"symbol":"1259","name":"安心","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",64.1,0.5,19741.0,0.0,0.0,-1000.0,-1000.0,44.0,0.0,26.19,65.4,63.7,63.7,64.57]
+{"symbol":"1259","name":"安心","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",64.1,0.5,19741.0,0.0,0.0,-1000.0,-1000.0,44.0,0.0,26.19,65.4,63.7,63.7,64.57],
+["2026-09-07",62.9,-1.2,1072.0,null,null,null,null,44.0,0.0,26.19,62.9,62.9,62.9,62.9]
 ]}

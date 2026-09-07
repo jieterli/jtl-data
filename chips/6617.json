@@ -1,3 +1,4 @@
-{"symbol":"6617","name":"共信-KY","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",123.0,9.5,1232666.0,208104.0,0.0,611.0,208715.0,1630.0,7.0,39.46,124.0,113.0,113.0,120.3]
+{"symbol":"6617","name":"共信-KY","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",123.0,9.5,1232666.0,208104.0,0.0,611.0,208715.0,1630.0,7.0,39.46,124.0,113.0,113.0,120.3],
+["2026-09-07",135.0,12.0,535365.0,-127000.0,0.0,38022.0,-88978.0,1623.0,21.0,39.36,135.0,135.0,135.0,135.0]
 ]}

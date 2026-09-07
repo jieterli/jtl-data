@@ -1,3 +1,4 @@
-{"symbol":"5425","name":"台半","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",92.9,1.7,10419919.0,1688570.0,0.0,-287074.0,1401496.0,12799.0,745.0,17.38,93.5,89.0,92.7,91.6]
+{"symbol":"5425","name":"台半","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",92.9,1.7,10419919.0,1688570.0,0.0,-287074.0,1401496.0,12799.0,745.0,17.38,93.5,89.0,92.7,91.6],
+["2026-09-07",92.4,-0.5,10771255.0,-594383.0,-10000.0,-29395.0,-633778.0,12708.0,744.0,17.23,95.3,91.8,93.5,93.68]
 ]}

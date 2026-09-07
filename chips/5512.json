@@ -1,3 +1,4 @@
-{"symbol":"5512","name":"力麒","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",7.77,-0.02,446473.0,-106000.0,0.0,-1155.0,-107155.0,4211.0,0.0,5.89,7.8,7.74,7.8,7.75]
+{"symbol":"5512","name":"力麒","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",7.77,-0.02,446473.0,-106000.0,0.0,-1155.0,-107155.0,4211.0,0.0,5.89,7.8,7.74,7.8,7.75],
+["2026-09-07",7.72,-0.05,304040.0,-147000.0,0.0,-693.0,-147693.0,4228.0,0.0,5.87,7.84,7.72,7.84,7.74]
 ]}

@@ -1,3 +1,4 @@
-{"symbol":"3093","name":"港建*","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",45.2,-0.4,204588.0,-35982.0,0.0,531.0,-35451.0,6171.0,7.0,69.2,46.65,44.8,45.75,45.51]
+{"symbol":"3093","name":"港建*","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",45.2,-0.4,204588.0,-35982.0,0.0,531.0,-35451.0,6171.0,7.0,69.2,46.65,44.8,45.75,45.51],
+["2026-09-07",45.6,0.4,217475.0,8000.0,0.0,109.0,8109.0,6155.0,7.0,69.22,46.25,43.65,46.25,45.01]
 ]}

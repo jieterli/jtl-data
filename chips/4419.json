@@ -1,3 +1,4 @@
-{"symbol":"4419","name":"皇家美食","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",48.35,1.6,1401.0,null,null,null,null,null,null,0.0,48.35,48.35,48.35,46.89]
+{"symbol":"4419","name":"皇家美食","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",48.35,1.6,1401.0,null,null,null,null,null,null,0.0,48.35,48.35,48.35,46.89],
+["2026-09-07",47.1,-1.25,3001.0,-1000.0,0.0,0.0,-1000.0,null,null,0.0,47.95,46.95,47.95,47.33]
 ]}

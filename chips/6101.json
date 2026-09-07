@@ -1,3 +1,4 @@
-{"symbol":"6101","name":"寬魚國際","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",37.95,0.25,253495.0,-43000.0,0.0,-1000.0,-44000.0,8105.0,82.0,0.46,38.8,37.55,38.55,37.86]
+{"symbol":"6101","name":"寬魚國際","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",37.95,0.25,253495.0,-43000.0,0.0,-1000.0,-44000.0,8105.0,82.0,0.46,38.8,37.55,38.55,37.86],
+["2026-09-07",38.1,0.15,129402.0,-23000.0,0.0,0.0,-23000.0,8164.0,82.0,0.45,38.35,37.7,38.35,38.01]
 ]}

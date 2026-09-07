@@ -1,3 +1,4 @@
-{"symbol":"6662","name":"樂斯科","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",28.5,0.0,1229.0,null,null,null,null,null,null,0.2,28.5,28.5,28.5,28.5]
+{"symbol":"6662","name":"樂斯科","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",28.5,0.0,1229.0,null,null,null,null,null,null,0.2,28.5,28.5,28.5,28.5],
+["2026-09-07",28.5,0.0,5112.0,-3000.0,0.0,0.0,-3000.0,null,null,0.19,28.5,28.5,28.5,28.5]
 ]}

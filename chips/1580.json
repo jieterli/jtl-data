@@ -1,3 +1,4 @@
-{"symbol":"1580","name":"新麥","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",102.5,-0.5,95124.0,-7000.0,0.0,307.0,-6693.0,29.0,0.0,5.11,103.0,102.0,102.5,102.25]
+{"symbol":"1580","name":"新麥","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",102.5,-0.5,95124.0,-7000.0,0.0,307.0,-6693.0,29.0,0.0,5.11,103.0,102.0,102.5,102.25],
+["2026-09-07",100.5,-2.0,300448.0,700.0,0.0,-601.0,99.0,30.0,0.0,5.12,102.0,100.0,102.0,100.57]
 ]}

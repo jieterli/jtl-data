@@ -1,3 +1,4 @@
-{"symbol":"00764B","name":"群益25年美債","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",27.02,0.01,9240971.0,-1000.0,0.0,-1616422.0,-1617422.0,37.0,0.0,null,27.04,26.96,26.98,27.01]
+{"symbol":"00764B","name":"群益25年美債","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",27.02,0.01,9240971.0,-1000.0,0.0,-1616422.0,-1617422.0,37.0,0.0,null,27.04,26.96,26.98,27.01],
+["2026-09-07",26.85,-0.17,3340451.0,-10000.0,0.0,-72721.0,-82721.0,37.0,0.0,null,26.93,26.85,26.93,26.86]
 ]}

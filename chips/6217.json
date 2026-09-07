@@ -1,3 +1,4 @@
-{"symbol":"6217","name":"中探針","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",188.5,-7.0,8622537.0,-362585.0,0.0,1583.0,-361002.0,14395.0,346.0,22.14,203.5,186.0,199.5,193.19]
+{"symbol":"6217","name":"中探針","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",188.5,-7.0,8622537.0,-362585.0,0.0,1583.0,-361002.0,14395.0,346.0,22.14,203.5,186.0,199.5,193.19],
+["2026-09-07",181.5,-7.0,5656546.0,-297753.0,0.0,-28222.0,-325975.0,14208.0,291.0,22.15,193.0,179.5,191.5,186.16]
 ]}

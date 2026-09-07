@@ -1,3 +1,4 @@
-{"symbol":"4554","name":"橙的","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",29.3,0.1,20511.0,-5000.0,0.0,0.0,-5000.0,63.0,0.0,24.58,29.6,29.3,29.3,29.35]
+{"symbol":"4554","name":"橙的","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",29.3,0.1,20511.0,-5000.0,0.0,0.0,-5000.0,63.0,0.0,24.58,29.6,29.3,29.3,29.35],
+["2026-09-07",29.6,0.3,15146.0,-3000.0,0.0,-310.0,-3310.0,61.0,0.0,24.57,30.0,29.6,30.0,29.8]
 ]}

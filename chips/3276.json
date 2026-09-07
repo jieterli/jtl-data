@@ -1,3 +1,4 @@
-{"symbol":"3276","name":"宇環","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",14.2,0.15,139166.0,-33000.0,0.0,-30.0,-33030.0,1539.0,0.0,1.75,14.25,14.05,14.2,14.13]
+{"symbol":"3276","name":"宇環","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",14.2,0.15,139166.0,-33000.0,0.0,-30.0,-33030.0,1539.0,0.0,1.75,14.25,14.05,14.2,14.13],
+["2026-09-07",14.05,-0.15,162420.0,-24000.0,0.0,-67.0,-24067.0,1553.0,0.0,1.71,14.15,13.95,14.15,14.04]
 ]}

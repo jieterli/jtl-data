@@ -1,3 +1,4 @@
-{"symbol":"3322","name":"建舜電","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",11.1,-0.05,147844.0,-41000.0,0.0,22.0,-40978.0,9508.0,2.0,2.91,11.4,11.1,11.4,11.18]
+{"symbol":"3322","name":"建舜電","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",11.1,-0.05,147844.0,-41000.0,0.0,22.0,-40978.0,9508.0,2.0,2.91,11.4,11.1,11.4,11.18],
+["2026-09-07",11.05,-0.05,165380.0,6000.0,0.0,-3.0,5997.0,9493.0,2.0,2.92,11.2,11.0,11.15,11.06]
 ]}

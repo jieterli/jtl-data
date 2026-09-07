@@ -1,3 +1,4 @@
-{"symbol":"3587","name":"閎康","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",255.0,5.5,319525.0,55823.0,0.0,-14088.0,41735.0,3066.0,7.0,12.72,256.5,249.0,255.0,253.5]
+{"symbol":"3587","name":"閎康","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",255.0,5.5,319525.0,55823.0,0.0,-14088.0,41735.0,3066.0,7.0,12.72,256.5,249.0,255.0,253.5],
+["2026-09-07",252.5,-2.5,350718.0,-32000.0,0.0,-3099.0,-35099.0,3100.0,8.0,12.73,258.5,252.0,258.5,254.12]
 ]}

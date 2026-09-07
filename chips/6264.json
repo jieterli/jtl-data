@@ -1,3 +1,4 @@
-{"symbol":"6264","name":"富裔","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",6.01,0.0,27000.0,null,null,null,null,0.0,0.0,0.05,6.05,5.96,6.0,6.01]
+{"symbol":"6264","name":"富裔","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",6.01,0.0,27000.0,null,null,null,null,0.0,0.0,0.05,6.05,5.96,6.0,6.01],
+["2026-09-07",6.03,0.02,35000.0,1000.0,0.0,0.0,1000.0,0.0,0.0,0.05,6.03,5.93,5.94,5.96]
 ]}

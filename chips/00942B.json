@@ -1,3 +1,4 @@
-{"symbol":"00942B","name":"台新美A公司債20+","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",13.73,0.0,1423161.0,0.0,0.0,388214.0,388214.0,8.0,0.0,null,13.73,13.7,13.71,13.73]
+{"symbol":"00942B","name":"台新美A公司債20+","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",13.73,0.0,1423161.0,0.0,0.0,388214.0,388214.0,8.0,0.0,null,13.73,13.7,13.71,13.73],
+["2026-09-07",13.63,-0.1,1508615.0,-3000.0,0.0,252273.0,249273.0,8.0,0.0,null,13.73,13.63,13.73,13.65]
 ]}

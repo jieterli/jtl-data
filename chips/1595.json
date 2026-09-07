@@ -1,3 +1,4 @@
-{"symbol":"1595","name":"川寶","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",68.8,-1.2,619415.0,-152838.0,0.0,2721.0,-150117.0,4459.0,37.0,5.44,70.8,67.5,70.1,69.02]
+{"symbol":"1595","name":"川寶","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",68.8,-1.2,619415.0,-152838.0,0.0,2721.0,-150117.0,4459.0,37.0,5.44,70.8,67.5,70.1,69.02],
+["2026-09-07",68.5,-0.3,330553.0,-15811.0,0.0,381.0,-15430.0,4420.0,36.0,5.44,70.7,68.1,68.8,69.08]
 ]}

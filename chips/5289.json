@@ -1,3 +1,4 @@
-{"symbol":"5289","name":"宜鼎","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",1360.0,15.0,1344855.0,-112989.0,0.0,262.0,-112727.0,4510.0,5.0,26.8,1385.0,1320.0,1370.0,1351.76]
+{"symbol":"5289","name":"宜鼎","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",1360.0,15.0,1344855.0,-112989.0,0.0,262.0,-112727.0,4510.0,5.0,26.8,1385.0,1320.0,1370.0,1351.76],
+["2026-09-07",1405.0,45.0,1615681.0,-85191.0,35000.0,17617.0,-32574.0,4592.0,10.0,26.8,1440.0,1390.0,1415.0,1409.6]
 ]}

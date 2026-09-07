@@ -1,3 +1,4 @@
-{"symbol":"5490","name":"同亨","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",26.5,-0.3,538755.0,-236180.0,0.0,-312.0,-236492.0,3117.0,0.0,6.86,27.1,26.35,26.85,26.53]
+{"symbol":"5490","name":"同亨","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",26.5,-0.3,538755.0,-236180.0,0.0,-312.0,-236492.0,3117.0,0.0,6.86,27.1,26.35,26.85,26.53],
+["2026-09-07",25.95,-0.55,815433.0,-18411.0,0.0,525.0,-17886.0,2824.0,0.0,6.86,26.55,25.85,26.55,26.05]
 ]}

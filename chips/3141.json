@@ -1,3 +1,4 @@
-{"symbol":"3141","name":"晶宏","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",102.5,2.5,14713583.0,-1002250.0,0.0,34744.0,-967506.0,7545.0,130.0,21.32,110.0,101.0,106.0,104.67]
+{"symbol":"3141","name":"晶宏","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",102.5,2.5,14713583.0,-1002250.0,0.0,34744.0,-967506.0,7545.0,130.0,21.32,110.0,101.0,106.0,104.67],
+["2026-09-07",102.0,-0.5,8381197.0,1172354.0,0.0,-14701.0,1157653.0,7015.0,8.0,22.88,105.0,98.2,103.5,100.74]
 ]}

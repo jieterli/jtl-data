@@ -1,3 +1,4 @@
-{"symbol":"6651","name":"全宇昕","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",151.0,3.0,110216.0,9245.0,0.0,103.0,9348.0,1733.0,0.0,7.1,152.0,147.5,150.0,149.83]
+{"symbol":"6651","name":"全宇昕","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",151.0,3.0,110216.0,9245.0,0.0,103.0,9348.0,1733.0,0.0,7.1,152.0,147.5,150.0,149.83],
+["2026-09-07",147.0,-4.0,171082.0,-28042.0,0.0,500.0,-27542.0,1748.0,0.0,7.1,153.5,145.0,153.5,148.39]
 ]}

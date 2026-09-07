@@ -1,3 +1,4 @@
-{"symbol":"00836B","name":"永豐10年A公司債","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",27.8,0.09,73023.0,71000.0,0.0,0.0,71000.0,0.0,0.0,null,27.8,27.76,27.76,27.78]
+{"symbol":"00836B","name":"永豐10年A公司債","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",27.8,0.09,73023.0,71000.0,0.0,0.0,71000.0,0.0,0.0,null,27.8,27.76,27.76,27.78],
+["2026-09-07",27.57,-0.23,96099.0,27000.0,0.0,38259.0,65259.0,0.0,0.0,null,27.78,27.57,27.78,27.63]
 ]}

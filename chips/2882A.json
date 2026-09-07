@@ -1,5 +1,4 @@
-{"symbol":"2882A","name":"國泰特","market":"TWSE","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-05-14",62.3,0.1,1356483.0,5000.0,0.0,0.0,5000.0,null,null,0.02,62.3,62.2,62.2,62.10168501927411],
+{"symbol":"2882A","name":"國泰特","market":"TWSE","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-05-15",62.2,-0.1,89104.0,null,null,null,null,null,null,0.02,62.3,62.2,62.3,62.29315182258934],
 ["2026-05-18",62.2,0.0,709630.0,null,null,null,null,null,null,0.02,62.2,62.2,62.2,62.1152713385849],
 ["2026-05-19",62.3,0.1,93253.0,12000.0,0.0,0.0,12000.0,null,null,0.02,62.3,62.0,62.2,62.1823426592174],
@@ -78,5 +77,6 @@
 ["2026-09-01",60.4,0.0,75119.0,null,null,null,null,null,null,0.02,60.4,60.4,60.4,60.39607822255355],
 ["2026-09-02",60.3,-0.1,304843.0,null,null,null,null,null,null,0.02,60.4,60.0,60.4,60.1404165422857],
 ["2026-09-03",60.3,0.0,20591.0,null,null,null,null,null,null,0.02,60.3,60.2,60.2,60.267981156816084],
-["2026-09-04",60.3,0.0,58405.0,null,null,null,null,null,null,0.02,60.3,60.2,60.2,60.24735895899324]
+["2026-09-04",60.3,0.0,58405.0,null,null,null,null,null,null,0.02,60.3,60.2,60.2,60.24735895899324],
+["2026-09-07",60.4,0.1,31517.0,0,13000.0,0.0,13000.0,null,null,0.02,60.4,60.3,60.3,60.30995970428658]
 ]}

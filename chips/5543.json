@@ -1,3 +1,4 @@
-{"symbol":"5543","name":"桓鼎-KY","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",28.1,-0.7,10026.0,0.0,0.0,16.0,16.0,0.0,0.0,0.02,29.2,28.1,28.2,28.32]
+{"symbol":"5543","name":"桓鼎-KY","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",28.1,-0.7,10026.0,0.0,0.0,16.0,16.0,0.0,0.0,0.02,29.2,28.1,28.2,28.32],
+["2026-09-07",27.85,-0.25,15282.0,-6000.0,0.0,-758.0,-6758.0,0.0,0.0,0.01,27.85,27.5,27.65,27.57]
 ]}

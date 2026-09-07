@@ -1,3 +1,4 @@
-{"symbol":"3567","name":"逸昌","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",25.5,-0.15,26159.0,-11000.0,0.0,-50.0,-11050.0,702.0,0.0,4.51,25.9,25.35,25.65,25.51]
+{"symbol":"3567","name":"逸昌","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",25.5,-0.15,26159.0,-11000.0,0.0,-50.0,-11050.0,702.0,0.0,4.51,25.9,25.35,25.65,25.51],
+["2026-09-07",25.35,-0.15,16243.0,-7000.0,0.0,-33.0,-7033.0,701.0,0.0,4.49,25.6,25.35,25.6,25.49]
 ]}

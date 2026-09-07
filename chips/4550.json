@@ -1,3 +1,4 @@
-{"symbol":"4550","name":null,"market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",null,null,null,null,null,null,null,162.0,0.0,1.93,null,null,null,null]
+{"symbol":"4550","name":"長佳","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",null,null,null,null,null,null,null,162.0,0.0,1.93,null,null,null,null],
+["2026-09-07",24.0,0.0,21288.0,-10000.0,0.0,-288.0,-10288.0,162.0,0.0,1.91,24.0,23.6,23.6,23.91]
 ]}

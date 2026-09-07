@@ -1,3 +1,4 @@
-{"symbol":"6667","name":"信紘科","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",239.5,21.5,879458.0,25309.0,0.0,22288.0,47597.0,1561.0,34.0,5.31,239.5,230.5,231.0,236.7]
+{"symbol":"6667","name":"信紘科","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",239.5,21.5,879458.0,25309.0,0.0,22288.0,47597.0,1561.0,34.0,5.31,239.5,230.5,231.0,236.7],
+["2026-09-07",255.0,15.5,1091014.0,-117000.0,0.0,27300.0,-89700.0,1587.0,29.0,5.12,261.5,245.5,245.5,254.79]
 ]}

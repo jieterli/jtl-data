@@ -1,3 +1,4 @@
-{"symbol":"6263","name":"普萊德","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",169.5,-2.0,136531.0,22972.0,0.0,631.0,23603.0,449.0,0.0,4.07,173.5,169.0,173.5,170.72]
+{"symbol":"6263","name":"普萊德","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",169.5,-2.0,136531.0,22972.0,0.0,631.0,23603.0,449.0,0.0,4.07,173.5,169.0,173.5,170.72],
+["2026-09-07",170.5,1.0,200673.0,39792.0,0.0,288.0,40080.0,451.0,1.0,4.15,173.5,168.0,171.5,170.94]
 ]}

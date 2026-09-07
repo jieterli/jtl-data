@@ -1,3 +1,4 @@
-{"symbol":"7704","name":"明遠精密","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",59.6,-0.5,23680.0,-4000.0,0.0,-670.0,-4670.0,636.0,0.0,2.03,60.7,59.0,60.7,59.52]
+{"symbol":"7704","name":"明遠精密","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",59.6,-0.5,23680.0,-4000.0,0.0,-670.0,-4670.0,636.0,0.0,2.03,60.7,59.0,60.7,59.52],
+["2026-09-07",59.9,0.3,45025.0,4000.0,0.0,-3001.0,999.0,623.0,0.0,2.04,60.2,58.6,59.1,59.25]
 ]}

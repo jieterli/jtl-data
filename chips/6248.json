@@ -1,3 +1,4 @@
-{"symbol":"6248","name":"沛波","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",16.95,0.0,59086.0,-5000.0,0.0,-238.0,-5238.0,590.0,5.0,0.97,17.0,16.9,17.0,16.93]
+{"symbol":"6248","name":"沛波","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",16.95,0.0,59086.0,-5000.0,0.0,-238.0,-5238.0,590.0,5.0,0.97,17.0,16.9,17.0,16.93],
+["2026-09-07",16.9,-0.05,40808.0,-1000.0,0.0,-439.0,-1439.0,584.0,5.0,0.97,16.95,16.8,16.95,16.85]
 ]}

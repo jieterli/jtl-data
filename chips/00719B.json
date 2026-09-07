@@ -1,3 +1,4 @@
-{"symbol":"00719B","name":"元大美債1-3","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",31.04,0.02,1449943.0,-127000.0,0.0,-617009.0,-744009.0,97.0,0.0,null,31.05,31.01,31.02,31.03]
+{"symbol":"00719B","name":"元大美債1-3","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",31.04,0.02,1449943.0,-127000.0,0.0,-617009.0,-744009.0,97.0,0.0,null,31.05,31.01,31.02,31.03],
+["2026-09-07",30.93,-0.11,2678304.0,-9970.0,0.0,-1808983.0,-1818953.0,99.0,0.0,null,30.95,30.9,30.95,30.93]
 ]}

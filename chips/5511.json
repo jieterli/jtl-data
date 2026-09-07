@@ -1,3 +1,4 @@
-{"symbol":"5511","name":"德昌","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",69.3,-0.7,149616.0,-75000.0,0.0,-7.0,-75007.0,508.0,8.0,5.91,69.8,69.3,69.8,69.43]
+{"symbol":"5511","name":"德昌","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",69.3,-0.7,149616.0,-75000.0,0.0,-7.0,-75007.0,508.0,8.0,5.91,69.8,69.3,69.8,69.43],
+["2026-09-07",69.4,0.1,132171.0,8890.0,0.0,0.0,8890.0,512.0,8.0,5.92,70.0,69.0,69.8,69.34]
 ]}

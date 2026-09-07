@@ -1,3 +1,4 @@
-{"symbol":"3685","name":"元創精密","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",36.9,0.7,1017618.0,121003.0,0.0,-38.0,120965.0,11.0,0.0,1.2,37.5,36.4,36.45,37.1]
+{"symbol":"3685","name":"元創精密","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",36.9,0.7,1017618.0,121003.0,0.0,-38.0,120965.0,11.0,0.0,1.2,37.5,36.4,36.45,37.1],
+["2026-09-07",36.95,0.05,570126.0,-95994.0,0.0,-3001.0,-98995.0,11.0,0.0,1.08,37.05,36.3,36.95,36.75]
 ]}

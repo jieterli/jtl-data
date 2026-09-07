@@ -1,3 +1,4 @@
-{"symbol":"00791B","name":"復華信用債1-5","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",56.6,0.05,100034.0,0.0,0.0,34.0,34.0,0.0,0.0,null,56.6,56.6,56.6,56.6]
+{"symbol":"00791B","name":"復華信用債1-5","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",56.6,0.05,100034.0,0.0,0.0,34.0,34.0,0.0,0.0,null,56.6,56.6,56.6,56.6],
+["2026-09-07",56.4,-0.2,103000.0,-3000.0,0.0,0.0,-3000.0,0.0,0.0,null,56.5,56.4,56.5,56.4]
 ]}

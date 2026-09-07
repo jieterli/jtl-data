@@ -1,3 +1,4 @@
-{"symbol":"6423","name":"億而得","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",85.4,0.9,33220.0,6000.0,0.0,0.0,6000.0,633.0,3.0,5.45,86.3,84.7,84.7,85.67]
+{"symbol":"6423","name":"億而得","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",85.4,0.9,33220.0,6000.0,0.0,0.0,6000.0,633.0,3.0,5.45,86.3,84.7,84.7,85.67],
+["2026-09-07",84.4,-1.0,20402.0,3000.0,0.0,0.0,3000.0,636.0,3.0,5.46,87.0,83.8,86.8,85.27]
 ]}

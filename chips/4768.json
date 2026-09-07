@@ -1,3 +1,4 @@
-{"symbol":"4768","name":"晶呈科技","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",306.0,15.5,452019.0,28880.0,0.0,7544.0,36424.0,2637.0,5.0,11.14,308.0,291.0,300.5,300.76]
+{"symbol":"4768","name":"晶呈科技","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",306.0,15.5,452019.0,28880.0,0.0,7544.0,36424.0,2637.0,5.0,11.14,308.0,291.0,300.5,300.76],
+["2026-09-07",303.0,-3.0,246867.0,-47120.0,0.0,2324.0,-44796.0,2635.0,5.0,11.23,309.0,300.5,306.0,305.17]
 ]}

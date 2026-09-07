@@ -1,3 +1,4 @@
-{"symbol":"8446","name":"華研","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",85.7,0.1,25082.0,4000.0,0.0,-289.0,3711.0,241.0,0.0,6.02,85.7,85.1,85.6,85.44]
+{"symbol":"8446","name":"華研","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",85.7,0.1,25082.0,4000.0,0.0,-289.0,3711.0,241.0,0.0,6.02,85.7,85.1,85.6,85.44],
+["2026-09-07",85.4,-0.3,51640.0,25000.0,0.0,-34.0,24966.0,236.0,0.0,6.06,85.8,85.0,85.7,85.32]
 ]}

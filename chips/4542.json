@@ -1,3 +1,4 @@
-{"symbol":"4542","name":"科嶠","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",283.5,4.5,484617.0,19846.0,0.0,-444.0,19402.0,5193.0,39.0,6.13,290.0,277.0,282.5,282.86]
+{"symbol":"4542","name":"科嶠","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",283.5,4.5,484617.0,19846.0,0.0,-444.0,19402.0,5193.0,39.0,6.13,290.0,277.0,282.5,282.86],
+["2026-09-07",288.0,4.5,479079.0,33000.0,0.0,4017.0,37017.0,5168.0,31.0,6.27,291.0,278.5,284.5,284.15]
 ]}

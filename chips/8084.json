@@ -1,3 +1,4 @@
-{"symbol":"8084","name":"巨虹","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",45.55,-1.8,423164.0,-8000.0,0.0,-839.0,-8839.0,null,null,0.29,47.3,45.55,47.3,46.15]
+{"symbol":"8084","name":"巨虹","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",45.55,-1.8,423164.0,-8000.0,0.0,-839.0,-8839.0,null,null,0.29,47.3,45.55,47.3,46.15],
+["2026-09-07",45.4,-0.15,477710.0,153000.0,0.0,330.0,153330.0,null,null,0.53,46.4,45.0,46.05,45.53]
 ]}

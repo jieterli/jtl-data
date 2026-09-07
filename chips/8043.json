@@ -1,3 +1,4 @@
-{"symbol":"8043","name":"蜜望實","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",142.0,6.5,5829054.0,235265.0,0.0,12919.0,248184.0,5001.0,91.0,5.37,146.0,140.5,140.5,143.54]
+{"symbol":"8043","name":"蜜望實","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",142.0,6.5,5829054.0,235265.0,0.0,12919.0,248184.0,5001.0,91.0,5.37,146.0,140.5,140.5,143.54],
+["2026-09-07",144.0,2.0,4998735.0,-228705.0,0.0,-17216.0,-245921.0,5068.0,95.0,5.13,149.5,142.5,146.0,145.81]
 ]}

@@ -1,3 +1,4 @@
-{"symbol":"6123","name":"上奇","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",43.6,-0.1,23536.0,-7000.0,0.0,-152.0,-7152.0,263.0,0.0,2.7,43.75,43.6,43.75,43.69]
+{"symbol":"6123","name":"上奇","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",43.6,-0.1,23536.0,-7000.0,0.0,-152.0,-7152.0,263.0,0.0,2.7,43.75,43.6,43.75,43.69],
+["2026-09-07",43.6,0.0,34518.0,3000.0,0.0,-372.0,2628.0,263.0,0.0,2.71,43.7,43.15,43.7,43.38]
 ]}

@@ -1,3 +1,4 @@
-{"symbol":"00754B","name":"群益AAA-AA公司債","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",31.27,0.03,100000.0,0.0,0.0,0.0,0.0,0.0,0.0,null,31.27,31.27,31.27,31.27]
+{"symbol":"00754B","name":"群益AAA-AA公司債","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",31.27,0.03,100000.0,0.0,0.0,0.0,0.0,0.0,0.0,null,31.27,31.27,31.27,31.27],
+["2026-09-07",31.14,-0.13,100214.0,0.0,0.0,-105.0,-105.0,0.0,0.0,null,31.14,31.14,31.14,31.14]
 ]}

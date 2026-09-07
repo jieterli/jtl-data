@@ -1,3 +1,4 @@
-{"symbol":"6654","name":"天正國際","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",219.5,4.5,144922.0,24000.0,0.0,1117.0,25117.0,3443.0,4.0,1.2,223.0,212.5,215.0,218.07]
+{"symbol":"6654","name":"天正國際","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",219.5,4.5,144922.0,24000.0,0.0,1117.0,25117.0,3443.0,4.0,1.2,223.0,212.5,215.0,218.07],
+["2026-09-07",215.0,-4.5,85102.0,-23000.0,0.0,-1613.0,-24613.0,3453.0,4.0,1.14,224.5,212.0,219.5,217.14]
 ]}

@@ -1,3 +1,4 @@
-{"symbol":"6261","name":"久元","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",78.4,-0.2,528481.0,25100.0,0.0,-2884.0,22216.0,3581.0,0.0,13.55,80.1,77.2,80.1,78.01]
+{"symbol":"6261","name":"久元","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",78.4,-0.2,528481.0,25100.0,0.0,-2884.0,22216.0,3581.0,0.0,13.55,80.1,77.2,80.1,78.01],
+["2026-09-07",79.3,0.9,405510.0,121933.0,0.0,11337.0,133270.0,3582.0,0.0,13.66,80.4,77.7,79.9,79.38]
 ]}

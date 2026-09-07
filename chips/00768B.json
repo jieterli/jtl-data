@@ -1,3 +1,4 @@
-{"symbol":"00768B","name":"復華20年美債","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",48.01,0.02,284286.0,115000.0,0.0,-73756.0,41244.0,429.0,0.0,null,48.01,47.9,48.01,47.98]
+{"symbol":"00768B","name":"復華20年美債","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",48.01,0.02,284286.0,115000.0,0.0,-73756.0,41244.0,429.0,0.0,null,48.01,47.9,48.01,47.98],
+["2026-09-07",47.75,-0.26,231946.0,0.0,0.0,-18672.0,-18672.0,437.0,0.0,null,47.89,47.74,47.89,47.77]
 ]}

@@ -1,3 +1,4 @@
-{"symbol":"00857B","name":"永豐20年美公債","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",22.53,0.02,294055.0,0.0,0.0,189991.0,189991.0,68.0,0.0,null,22.53,22.46,22.51,22.5]
+{"symbol":"00857B","name":"永豐20年美公債","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",22.53,0.02,294055.0,0.0,0.0,189991.0,189991.0,68.0,0.0,null,22.53,22.46,22.51,22.5],
+["2026-09-07",22.4,-0.13,925922.0,470000.0,0.0,-148403.0,321597.0,68.0,0.0,null,22.47,22.38,22.47,22.4]
 ]}

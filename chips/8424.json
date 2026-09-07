@@ -1,3 +1,4 @@
-{"symbol":"8424","name":"惠普","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",68.8,0.0,3079.0,-1000.0,0.0,0.0,-1000.0,3.0,0.0,0.59,68.9,68.5,68.5,68.74]
+{"symbol":"8424","name":"惠普","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",68.8,0.0,3079.0,-1000.0,0.0,0.0,-1000.0,3.0,0.0,0.59,68.9,68.5,68.5,68.74],
+["2026-09-07",68.6,-0.2,14268.0,0.0,0.0,0.0,0.0,3.0,0.0,0.59,68.7,68.6,68.7,68.63]
 ]}

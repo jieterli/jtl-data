@@ -1,3 +1,4 @@
-{"symbol":"00981B","name":"第一金優選非投債","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",9.15,0.0,9408189.0,491000.0,0.0,-4321630.0,-3830630.0,11145.0,0.0,null,9.15,9.13,9.15,9.14]
+{"symbol":"00981B","name":"第一金優選非投債","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",9.15,0.0,9408189.0,491000.0,0.0,-4321630.0,-3830630.0,11145.0,0.0,null,9.15,9.13,9.15,9.14],
+["2026-09-07",9.11,-0.04,21402810.0,-6060000.0,0.0,-10506269.0,-16566269.0,11557.0,0.0,null,9.14,9.1,9.14,9.11]
 ]}

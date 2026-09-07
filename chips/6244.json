@@ -1,3 +1,4 @@
-{"symbol":"6244","name":"茂迪","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",23.4,0.3,1464620.0,109545.0,0.0,-23021.0,86524.0,11341.0,31.0,22.65,23.7,23.2,23.45,23.48]
+{"symbol":"6244","name":"茂迪","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",23.4,0.3,1464620.0,109545.0,0.0,-23021.0,86524.0,11341.0,31.0,22.65,23.7,23.2,23.45,23.48],
+["2026-09-07",23.45,0.05,1050489.0,4999.0,0.0,-20000.0,-15001.0,11318.0,31.0,22.67,23.6,23.25,23.6,23.45]
 ]}

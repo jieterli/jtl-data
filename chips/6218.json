@@ -1,3 +1,4 @@
-{"symbol":"6218","name":"豪勉","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",42.25,-0.35,1306768.0,-22851.0,0.0,-618.0,-23469.0,1474.0,33.0,7.28,43.75,41.5,43.25,42.3]
+{"symbol":"6218","name":"豪勉","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",42.25,-0.35,1306768.0,-22851.0,0.0,-618.0,-23469.0,1474.0,33.0,7.28,43.75,41.5,43.25,42.3],
+["2026-09-07",44.55,2.3,2980649.0,525524.0,0.0,-3080.0,522444.0,1700.0,37.0,8.11,45.5,42.7,43.2,44.38]
 ]}

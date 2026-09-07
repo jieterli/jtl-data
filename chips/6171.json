@@ -1,3 +1,4 @@
-{"symbol":"6171","name":"大城地產","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",26.2,0.35,46142.0,-4000.0,0.0,0.0,-4000.0,265.0,0.0,0.24,26.6,25.95,26.6,26.1]
+{"symbol":"6171","name":"大城地產","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",26.2,0.35,46142.0,-4000.0,0.0,0.0,-4000.0,265.0,0.0,0.24,26.6,25.95,26.6,26.1],
+["2026-09-07",25.8,-0.4,57283.0,1000.0,0.0,0.0,1000.0,265.0,0.0,0.24,27.0,25.55,25.9,25.87]
 ]}

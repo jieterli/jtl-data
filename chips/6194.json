@@ -1,3 +1,4 @@
-{"symbol":"6194","name":"育富","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",29.65,0.0,34430.0,0.0,0.0,0.0,0.0,1601.0,0.0,2.18,29.65,29.6,29.65,29.65]
+{"symbol":"6194","name":"育富","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",29.65,0.0,34430.0,0.0,0.0,0.0,0.0,1601.0,0.0,2.18,29.65,29.6,29.65,29.65],
+["2026-09-07",29.7,0.05,16000.0,1000.0,0.0,0.0,1000.0,1602.0,0.0,2.18,29.7,29.6,29.6,29.67]
 ]}

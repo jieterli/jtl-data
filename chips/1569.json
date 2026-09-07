@@ -1,3 +1,4 @@
-{"symbol":"1569","name":"濱川","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",48.7,3.3,589657.0,195000.0,0.0,7519.0,202519.0,10315.0,59.0,3.5,48.7,45.4,45.8,47.11]
+{"symbol":"1569","name":"濱川","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",48.7,3.3,589657.0,195000.0,0.0,7519.0,202519.0,10315.0,59.0,3.5,48.7,45.4,45.8,47.11],
+["2026-09-07",50.2,1.5,2036751.0,-265000.0,0.0,22321.0,-242679.0,10702.0,67.0,3.4,51.2,48.2,50.6,49.95]
 ]}

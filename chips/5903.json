@@ -1,3 +1,4 @@
-{"symbol":"5903","name":"全家","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",185.0,0.5,7332.0,2000.0,0.0,0.0,2000.0,8.0,0.0,51.0,185.0,184.0,184.0,184.84]
+{"symbol":"5903","name":"全家","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",185.0,0.5,7332.0,2000.0,0.0,0.0,2000.0,8.0,0.0,51.0,185.0,184.0,184.0,184.84],
+["2026-09-07",185.0,0.0,21446.0,8000.0,0.0,-1.0,7999.0,8.0,0.0,51.01,185.0,184.0,184.0,184.67]
 ]}

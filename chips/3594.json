@@ -1,3 +1,4 @@
-{"symbol":"3594","name":"磐儀","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",49.15,1.85,762322.0,-30180.0,0.0,-1902.0,-32082.0,3673.0,14.0,3.85,49.2,47.1,48.25,48.34]
+{"symbol":"3594","name":"磐儀","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",49.15,1.85,762322.0,-30180.0,0.0,-1902.0,-32082.0,3673.0,14.0,3.85,49.2,47.1,48.25,48.34],
+["2026-09-07",48.3,-0.85,464664.0,-13809.0,0.0,-1180.0,-14989.0,3674.0,14.0,3.85,49.5,48.3,49.3,48.76]
 ]}

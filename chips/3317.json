@@ -1,3 +1,4 @@
-{"symbol":"3317","name":"尼克森","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",62.6,1.6,440165.0,217776.0,0.0,-960.0,216816.0,4054.0,13.0,15.45,62.9,61.2,62.0,62.18]
+{"symbol":"3317","name":"尼克森","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",62.6,1.6,440165.0,217776.0,0.0,-960.0,216816.0,4054.0,13.0,15.45,62.9,61.2,62.0,62.18],
+["2026-09-07",62.2,-0.4,425546.0,42357.0,0.0,1000.0,43357.0,4069.0,12.0,15.5,63.8,62.1,63.4,62.79]
 ]}

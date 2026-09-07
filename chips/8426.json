@@ -1,3 +1,4 @@
-{"symbol":"8426","name":"紅木-KY","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",20.8,0.15,34000.0,21000.0,0.0,0.0,21000.0,823.0,0.0,68.34,20.8,20.35,20.7,20.68]
+{"symbol":"8426","name":"紅木-KY","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",20.8,0.15,34000.0,21000.0,0.0,0.0,21000.0,823.0,0.0,68.34,20.8,20.35,20.7,20.68],
+["2026-09-07",20.8,0.0,12259.0,-1000.0,0.0,996.0,-4.0,823.0,0.0,68.34,20.8,20.65,20.8,20.77]
 ]}

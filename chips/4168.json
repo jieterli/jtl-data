@@ -1,3 +1,4 @@
-{"symbol":"4168","name":"醣聯","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",22.1,-0.2,149316.0,-50000.0,0.0,-387.0,-50387.0,77.0,0.0,4.77,22.35,21.9,22.0,22.03]
+{"symbol":"4168","name":"醣聯","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",22.1,-0.2,149316.0,-50000.0,0.0,-387.0,-50387.0,77.0,0.0,4.77,22.35,21.9,22.0,22.03],
+["2026-09-07",22.15,0.05,97182.0,-9000.0,0.0,31.0,-8969.0,77.0,0.0,4.76,22.15,21.75,21.95,21.84]
 ]}

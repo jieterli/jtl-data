@@ -1,3 +1,4 @@
-{"symbol":"6127","name":"九豪","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",49.05,2.2,3122866.0,919870.0,0.0,-8277.0,911593.0,4602.0,80.0,7.92,49.7,47.6,47.6,49.04]
+{"symbol":"6127","name":"九豪","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",49.05,2.2,3122866.0,919870.0,0.0,-8277.0,911593.0,4602.0,80.0,7.92,49.7,47.6,47.6,49.04],
+["2026-09-07",49.65,0.6,2507127.0,347534.0,0.0,19812.0,367346.0,4559.0,100.0,8.25,50.9,49.45,50.0,50.08]
 ]}

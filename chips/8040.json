@@ -1,3 +1,4 @@
-{"symbol":"8040","name":"九暘","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",75.0,0.3,1357491.0,-236563.0,0.0,9874.0,-226689.0,3438.0,19.0,4.03,76.5,73.7,74.7,74.85]
+{"symbol":"8040","name":"九暘","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",75.0,0.3,1357491.0,-236563.0,0.0,9874.0,-226689.0,3438.0,19.0,4.03,76.5,73.7,74.7,74.85],
+["2026-09-07",82.5,7.5,4946764.0,267136.0,0.0,380.0,267516.0,3306.0,44.0,4.42,82.5,74.5,77.5,80.85]
 ]}

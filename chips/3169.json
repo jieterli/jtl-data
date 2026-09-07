@@ -1,3 +1,4 @@
-{"symbol":"3169","name":"亞信","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",104.5,-0.5,199919.0,-6670.0,0.0,-173.0,-6843.0,1192.0,1.0,4.62,107.0,104.0,107.0,105.11]
+{"symbol":"3169","name":"亞信","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",104.5,-0.5,199919.0,-6670.0,0.0,-173.0,-6843.0,1192.0,1.0,4.62,107.0,104.0,107.0,105.11],
+["2026-09-07",107.5,3.0,626938.0,-37995.0,0.0,-521.0,-38516.0,1230.0,0.0,4.6,112.0,105.0,107.5,109.05]
 ]}

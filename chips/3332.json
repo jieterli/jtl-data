@@ -1,3 +1,4 @@
-{"symbol":"3332","name":"幸康","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",61.0,0.0,3011.0,-1000.0,0.0,0.0,-1000.0,105.0,0.0,0.88,61.0,61.0,61.0,61.0]
+{"symbol":"3332","name":"幸康","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",61.0,0.0,3011.0,-1000.0,0.0,0.0,-1000.0,105.0,0.0,0.88,61.0,61.0,61.0,61.0],
+["2026-09-07",60.8,-0.2,7000.0,-2000.0,0.0,0.0,-2000.0,103.0,0.0,0.88,61.1,60.8,61.1,60.96]
 ]}

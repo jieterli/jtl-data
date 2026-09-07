@@ -1,5 +1,4 @@
-{"symbol":"1522A","name":"堤維西甲特","market":"TWSE","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-05-14",50.1,-0.3,1000.0,null,null,null,null,null,null,0.0,50.1,50.1,50.1,50.1],
+{"symbol":"1522A","name":"堤維西甲特","market":"TWSE","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-05-15",50.0,-0.1,6122.0,null,null,null,null,null,null,0.0,50.0,50.0,50.0,50.0],
 ["2026-05-18",null,null,null,null,null,null,null,null,null,0.0,null,null,null,null],
 ["2026-05-19",50.0,0.0,11000.0,null,null,null,null,null,null,0.0,50.0,50.0,50.0,50.0],
@@ -78,5 +77,6 @@
 ["2026-09-01",51.0,0.0,2000.0,null,null,null,null,null,null,0.01,51.0,51.0,51.0,51.0],
 ["2026-09-02",51.0,0.0,2000.0,null,null,null,null,null,null,0.01,51.0,51.0,51.0,51.0],
 ["2026-09-03",51.0,0.0,1000.0,null,null,null,null,null,null,0.01,51.0,51.0,51.0,51.0],
-["2026-09-04",null,null,null,null,null,null,null,null,null,0.01,null,null,null,null]
+["2026-09-04",null,null,null,null,null,null,null,null,null,0.01,null,null,null,null],
+["2026-09-07",50.9,0.0,29000.0,-1000.0,0.0,0.0,-1000.0,null,null,0.0,51.0,50.9,51.0,50.9448275862069]
 ]}

@@ -1,3 +1,4 @@
-{"symbol":"8289","name":"泰藝","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",44.5,0.3,222303.0,61110.0,0.0,-38.0,61072.0,3242.0,43.0,6.12,45.25,43.95,45.15,44.64]
+{"symbol":"8289","name":"泰藝","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",44.5,0.3,222303.0,61110.0,0.0,-38.0,61072.0,3242.0,43.0,6.12,45.25,43.95,45.15,44.64],
+["2026-09-07",45.4,0.9,222372.0,57786.0,0.0,1595.0,59381.0,3239.0,43.0,6.22,45.75,44.4,44.6,45.14]
 ]}

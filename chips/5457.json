@@ -1,3 +1,4 @@
-{"symbol":"5457","name":"宣德","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",27.65,-0.05,145643.0,-12000.0,0.0,-286.0,-12286.0,5471.0,0.0,27.38,28.15,27.6,28.15,27.73]
+{"symbol":"5457","name":"宣德","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",27.65,-0.05,145643.0,-12000.0,0.0,-286.0,-12286.0,5471.0,0.0,27.38,28.15,27.6,28.15,27.73],
+["2026-09-07",27.2,-0.45,267384.0,-109000.0,0.0,-3305.0,-112305.0,5518.0,0.0,27.36,27.7,27.1,27.65,27.29]
 ]}

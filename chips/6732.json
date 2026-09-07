@@ -1,3 +1,4 @@
-{"symbol":"6732","name":"昇佳電子","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",149.5,1.0,95046.0,-12575.0,0.0,746.0,-11829.0,704.0,0.0,6.24,150.0,148.0,149.0,148.84]
+{"symbol":"6732","name":"昇佳電子","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",149.5,1.0,95046.0,-12575.0,0.0,746.0,-11829.0,704.0,0.0,6.24,150.0,148.0,149.0,148.84],
+["2026-09-07",148.5,-1.0,58065.0,-6000.0,0.0,-905.0,-6905.0,705.0,0.0,6.24,150.0,148.0,150.0,148.78]
 ]}

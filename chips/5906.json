@@ -1,5 +1,4 @@
-{"symbol":"5906","name":"台南-KY","market":"TWSE","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-05-14",46.45,-0.05,1010.0,0,0.0,0.0,0.0,245.0,0.0,19.35,46.45,46.45,46.45,46.45049504950495],
+{"symbol":"5906","name":"台南-KY","market":"TWSE","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-05-15",null,null,null,null,null,null,null,245.0,0.0,19.35,null,null,null,null],
 ["2026-05-18",null,null,null,null,null,null,null,245.0,0.0,19.35,null,null,null,null],
 ["2026-05-19",null,null,null,null,null,null,null,245.0,0.0,19.35,null,null,null,null],
@@ -78,5 +77,6 @@
 ["2026-09-01",null,null,null,null,null,null,null,20.0,0.0,19.53,null,null,null,null],
 ["2026-09-02",38.0,0.0,1027.0,-1000.0,0.0,0.0,-1000.0,20.0,0.0,19.52,38.0,38.0,38.0,38.0],
 ["2026-09-03",38.0,0.0,1000.0,0,0.0,0.0,0.0,20.0,0.0,19.52,38.0,38.0,38.0,38.0],
-["2026-09-04",null,null,null,null,null,null,null,20.0,0.0,19.52,null,null,null,null]
+["2026-09-04",null,null,null,null,null,null,null,20.0,0.0,19.52,null,null,null,null],
+["2026-09-07",38.0,0.0,1440.0,0,0.0,0.0,0.0,20.0,0.0,19.52,38.0,38.0,38.0,38.0]
 ]}

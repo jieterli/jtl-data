@@ -1,3 +1,4 @@
-{"symbol":"5227","name":"立凱-KY","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",29.95,-0.25,233759.0,-30666.0,0.0,-438.0,-31104.0,17.0,0.0,16.16,30.45,29.8,30.4,30.06]
+{"symbol":"5227","name":"立凱-KY","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",29.95,-0.25,233759.0,-30666.0,0.0,-438.0,-31104.0,17.0,0.0,16.16,30.45,29.8,30.4,30.06],
+["2026-09-07",30.3,0.35,220859.0,-39000.0,0.0,261.0,-38739.0,17.0,0.0,16.1,30.3,29.0,29.95,29.56]
 ]}

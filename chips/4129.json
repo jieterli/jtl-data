@@ -1,3 +1,4 @@
-{"symbol":"4129","name":"聯合","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",81.5,0.3,164038.0,-108000.0,0.0,0.0,-108000.0,1343.0,7.0,10.89,81.5,81.1,81.3,81.3]
+{"symbol":"4129","name":"聯合","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",81.5,0.3,164038.0,-108000.0,0.0,0.0,-108000.0,1343.0,7.0,10.89,81.5,81.1,81.3,81.3],
+["2026-09-07",82.4,0.9,164148.0,-58000.0,0.0,1351.0,-56649.0,1345.0,7.0,10.87,83.1,81.6,81.6,82.46]
 ]}

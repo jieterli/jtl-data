@@ -1,3 +1,4 @@
-{"symbol":"6227","name":"茂綸","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",113.5,0.5,248115.0,-36125.0,0.0,-5863.0,-41988.0,1772.0,21.0,5.43,117.0,111.5,113.5,114.0]
+{"symbol":"6227","name":"茂綸","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",113.5,0.5,248115.0,-36125.0,0.0,-5863.0,-41988.0,1772.0,21.0,5.43,117.0,111.5,113.5,114.0],
+["2026-09-07",111.5,-2.0,378697.0,-147000.0,0.0,-108930.0,-255930.0,1833.0,21.0,5.26,115.0,111.0,115.0,111.9]
 ]}

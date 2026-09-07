@@ -1,3 +1,4 @@
-{"symbol":"00724B","name":"群益投資級金融債","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",32.7,0.04,5422515.0,-265000.0,0.0,363288.0,98288.0,21.0,0.0,null,32.7,32.63,32.66,32.68]
+{"symbol":"00724B","name":"群益投資級金融債","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",32.7,0.04,5422515.0,-265000.0,0.0,363288.0,98288.0,21.0,0.0,null,32.7,32.63,32.66,32.68],
+["2026-09-07",32.5,-0.2,3719053.0,91000.0,0.0,-178352.0,-87352.0,21.0,0.0,null,32.57,32.48,32.57,32.5]
 ]}

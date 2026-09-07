@@ -1,3 +1,4 @@
-{"symbol":"3511","name":"矽瑪","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",19.7,0.05,60760.0,-23000.0,0.0,0.0,-23000.0,2634.0,1.0,3.38,20.0,19.5,20.0,19.71]
+{"symbol":"3511","name":"矽瑪","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",19.7,0.05,60760.0,-23000.0,0.0,0.0,-23000.0,2634.0,1.0,3.38,20.0,19.5,20.0,19.71],
+["2026-09-07",19.3,-0.4,107144.0,-16000.0,0.0,0.0,-16000.0,2650.0,1.0,3.36,19.55,19.3,19.5,19.39]
 ]}

@@ -1,3 +1,4 @@
-{"symbol":"00867B","name":"台新A-BBB電信債","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",29.28,-0.01,225000.0,-42000.0,0.0,40000.0,-2000.0,0.0,0.0,null,29.35,29.28,29.35,29.33]
+{"symbol":"00867B","name":"台新A-BBB電信債","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",29.28,-0.01,225000.0,-42000.0,0.0,40000.0,-2000.0,0.0,0.0,null,29.35,29.28,29.35,29.33],
+["2026-09-07",29.2,-0.08,1034.0,-1000.0,0.0,-34.0,-1034.0,0.0,0.0,null,29.2,29.2,29.2,29.2]
 ]}

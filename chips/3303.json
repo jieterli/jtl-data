@@ -1,3 +1,4 @@
-{"symbol":"3303","name":"岱稜","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",51.3,0.0,214640.0,-63488.0,0.0,-673.0,-64161.0,1834.0,1.0,6.37,51.5,51.1,51.3,51.34]
+{"symbol":"3303","name":"岱稜","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",51.3,0.0,214640.0,-63488.0,0.0,-673.0,-64161.0,1834.0,1.0,6.37,51.5,51.1,51.3,51.34],
+["2026-09-07",51.2,-0.1,194211.0,-10173.0,0.0,-434.0,-10607.0,1840.0,1.0,6.36,51.6,51.1,51.6,51.3]
 ]}

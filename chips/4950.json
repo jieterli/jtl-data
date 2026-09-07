@@ -1,3 +1,4 @@
-{"symbol":"4950","name":"金耘國際","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",16.0,-0.3,26410.0,0.0,0.0,667.0,667.0,null,null,0.07,16.0,16.0,16.0,16.0]
+{"symbol":"4950","name":"金耘國際","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",16.0,-0.3,26410.0,0.0,0.0,667.0,667.0,null,null,0.07,16.0,16.0,16.0,16.0],
+["2026-09-07",null,null,null,null,null,null,null,null,null,0.07,null,null,null,null]
 ]}

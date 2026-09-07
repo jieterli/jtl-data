@@ -1,3 +1,4 @@
-{"symbol":"4192","name":"杏國","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",18.9,0.4,7367.0,null,null,null,null,null,null,0.31,18.9,18.3,18.3,18.44]
+{"symbol":"4192","name":"杏國","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",18.9,0.4,7367.0,null,null,null,null,null,null,0.31,18.9,18.3,18.3,18.44],
+["2026-09-07",18.85,-0.05,13506.0,null,null,null,null,null,null,0.31,18.85,18.4,18.65,18.58]
 ]}

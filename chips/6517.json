@@ -1,3 +1,4 @@
-{"symbol":"6517","name":"保勝光學","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",69.2,2.4,674185.0,226769.0,0.0,0.0,226769.0,1874.0,13.0,9.65,71.0,67.5,68.0,69.21]
+{"symbol":"6517","name":"保勝光學","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",69.2,2.4,674185.0,226769.0,0.0,0.0,226769.0,1874.0,13.0,9.65,71.0,67.5,68.0,69.21],
+["2026-09-07",67.3,-1.9,536933.0,-171812.0,0.0,337.0,-171475.0,1877.0,7.0,9.12,70.7,67.0,70.7,67.84]
 ]}

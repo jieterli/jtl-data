@@ -1,3 +1,4 @@
-{"symbol":"00751B","name":"元大AAA至A公司債","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",30.3,0.0,4051611.0,39050.0,0.0,1316188.0,1355238.0,1942.0,0.0,null,30.31,30.23,30.3,30.28]
+{"symbol":"00751B","name":"元大AAA至A公司債","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",30.3,0.0,4051611.0,39050.0,0.0,1316188.0,1355238.0,1942.0,0.0,null,30.31,30.23,30.3,30.28],
+["2026-09-07",30.15,-0.15,5097880.0,-37687.0,0.0,-940914.0,-978601.0,1964.0,0.0,null,30.26,30.13,30.26,30.16]
 ]}

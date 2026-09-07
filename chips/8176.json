@@ -1,3 +1,4 @@
-{"symbol":"8176","name":"智捷","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",9.77,0.01,69057.0,-5000.0,0.0,292.0,-4708.0,0.0,0.0,1.11,9.77,9.75,9.76,9.76]
+{"symbol":"8176","name":"智捷","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",9.77,0.01,69057.0,-5000.0,0.0,292.0,-4708.0,0.0,0.0,1.11,9.77,9.75,9.76,9.76],
+["2026-09-07",9.8,0.03,64205.0,-1000.0,0.0,0.0,-1000.0,0.0,0.0,1.1,9.8,9.68,9.68,9.7]
 ]}

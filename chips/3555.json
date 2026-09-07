@@ -1,3 +1,4 @@
-{"symbol":"3555","name":"博士旺","market":"TPEx","updated":"2026-09-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-04",193.5,8.0,122909.0,-14760.0,0.0,4895.0,-9865.0,785.0,1.0,2.07,199.0,186.0,187.0,193.78]
+{"symbol":"3555","name":"博士旺","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-04",193.5,8.0,122909.0,-14760.0,0.0,4895.0,-9865.0,785.0,1.0,2.07,199.0,186.0,187.0,193.78],
+["2026-09-07",207.0,13.5,193265.0,-11694.0,0.0,53116.0,41422.0,795.0,1.0,2.04,209.5,192.5,193.5,201.86]
 ]}

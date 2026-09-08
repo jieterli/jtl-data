@@ -1,4 +1,5 @@
 {"symbol":"6904","name":"伯鑫","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",null,null,null,null,null,null,null,null,null,0.06,null,null,null,null],
-["2026-09-07",123.5,0.0,1002.0,null,null,null,null,null,null,0.06,123.5,123.5,123.5,123.48]
+["2026-09-07",123.5,0.0,1002.0,null,null,null,null,null,null,0.06,123.5,123.5,123.5,123.48],
+["2026-09-08",123.0,-0.5,1000.0,null,null,null,null,null,null,0.06,123.0,123.0,123.0,123.0]
 ]}

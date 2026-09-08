@@ -1,4 +1,5 @@
 {"symbol":"6855","name":"數泓科","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",120.5,3.5,1284.0,null,null,null,null,null,null,0.2,120.5,120.5,120.5,120.02],
-["2026-09-07",119.5,-1.0,1205.0,null,null,null,null,null,null,0.2,119.5,119.5,119.5,119.5]
+["2026-09-07",119.5,-1.0,1205.0,null,null,null,null,null,null,0.2,119.5,119.5,119.5,119.5],
+["2026-09-08",119.0,-0.5,8593.0,-2000.0,0.0,0.0,-2000.0,null,null,0.2,119.5,116.0,119.5,119.01]
 ]}

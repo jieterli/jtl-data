@@ -1,4 +1,5 @@
 {"symbol":"4154","name":null,"market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",null,null,null,null,null,null,null,null,null,29.97,null,null,null,null],
-["2026-09-07",null,null,null,null,null,null,null,null,null,29.97,null,null,null,null]
+["2026-09-07",null,null,null,null,null,null,null,null,null,29.97,null,null,null,null],
+["2026-09-08",null,null,null,null,null,null,null,null,null,29.97,null,null,null,null]
 ]}

@@ -1,4 +1,5 @@
 {"symbol":"6730","name":"常廣","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",32.8,-0.2,9132.0,null,null,null,null,6.0,0.0,0.02,32.8,32.3,32.35,32.42],
-["2026-09-07",32.3,-0.5,18286.0,null,null,null,null,6.0,0.0,0.02,32.8,32.1,32.8,32.27]
+["2026-09-07",32.3,-0.5,18286.0,null,null,null,null,6.0,0.0,0.02,32.8,32.1,32.8,32.27],
+["2026-09-08",32.05,-0.25,7040.0,null,null,null,null,6.0,0.0,0.02,32.3,32.05,32.3,32.2]
 ]}

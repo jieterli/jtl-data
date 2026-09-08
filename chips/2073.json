@@ -1,4 +1,5 @@
 {"symbol":"2073","name":"雄順","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",26.6,0.0,3000.0,null,null,null,null,null,null,0.04,26.6,25.5,25.5,25.87],
-["2026-09-07",25.55,-1.05,3137.0,null,null,null,null,null,null,0.04,26.25,25.55,26.25,25.96]
+["2026-09-07",25.55,-1.05,3137.0,null,null,null,null,null,null,0.04,26.25,25.55,26.25,25.96],
+["2026-09-08",25.6,0.05,1021.0,null,null,null,null,null,null,0.04,25.6,25.6,25.6,25.6]
 ]}

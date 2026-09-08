@@ -1,4 +1,5 @@
 {"symbol":"3067","name":"全域","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",null,null,null,null,null,null,null,null,null,0.02,null,null,null,null],
-["2026-09-07",16.5,-0.65,23065.0,null,null,null,null,null,null,0.02,17.0,16.15,16.15,16.54]
+["2026-09-07",16.5,-0.65,23065.0,null,null,null,null,null,null,0.02,17.0,16.15,16.15,16.54],
+["2026-09-08",16.6,0.1,5000.0,null,null,null,null,null,null,0.02,16.8,16.6,16.65,16.69]
 ]}

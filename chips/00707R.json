@@ -1,5 +1,4 @@
-{"symbol":"00707R","name":"期元大S&P日圓反1","market":"TWSE","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-05-18",31.86,0.1,21000.0,0,0.0,21000.0,21000.0,0.0,0.0,0.0,31.86,31.86,31.86,31.86],
+{"symbol":"00707R","name":"期元大S&P日圓反1","market":"TWSE","updated":"2026-09-09","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-05-19",null,null,null,null,null,null,null,0.0,0.0,0.0,null,null,null,null],
 ["2026-05-20",31.98,0.0,3000.0,0,0.0,0.0,0.0,0.0,0.0,0.0,31.98,31.88,31.88,31.913333333333334],
 ["2026-05-21",null,null,null,null,null,null,null,0.0,0.0,0.0,null,null,null,null],
@@ -78,5 +77,6 @@
 ["2026-09-03",null,null,null,null,null,null,null,0.0,0.0,0.0,null,null,null,null],
 ["2026-09-04",31.62,0.0,1000.0,0,0.0,-1000.0,-1000.0,0.0,0.0,0.0,31.62,31.62,31.62,31.62],
 ["2026-09-07",null,null,null,null,null,null,null,0.0,0.0,0.0,null,null,null,null],
-["2026-09-08",null,null,null,0,0.0,-90.0,-90.0,0.0,0.0,0.0,null,null,null,null]
+["2026-09-08",null,null,null,0,0.0,-90.0,-90.0,0.0,0.0,0.0,null,null,null,null],
+["2026-09-09",31.08,0.0,4000.0,0,0.0,-4000.0,-4000.0,0.0,0.0,0.0,31.08,31.08,31.08,31.08]
 ]}

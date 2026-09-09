@@ -1,5 +1,6 @@
-{"symbol":"00793B","name":"群益AAA-A醫療債","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"00793B","name":"群益AAA-A醫療債","market":"TPEx","updated":"2026-09-09","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",29.75,0.13,7000.0,0.0,0.0,6000.0,6000.0,0.0,0.0,null,29.75,29.71,29.72,29.72],
 ["2026-09-07",29.58,-0.17,57021.0,0.0,0.0,7010.0,7010.0,0.0,0.0,null,29.58,29.57,29.57,29.58],
-["2026-09-08",29.49,-0.09,80850.0,-19000.0,0.0,29812.0,10812.0,0.0,0.0,null,29.53,29.45,29.49,29.51]
+["2026-09-08",29.49,-0.09,80850.0,-19000.0,0.0,29812.0,10812.0,0.0,0.0,null,29.53,29.45,29.49,29.51],
+["2026-09-09",29.58,0.09,20000.0,0.0,0.0,20000.0,20000.0,0.0,0.0,null,29.58,29.58,29.58,29.58]
 ]}

@@ -1,5 +1,6 @@
-{"symbol":"5212","name":"凌網","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"5212","name":"凌網","market":"TPEx","updated":"2026-09-09","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",46.4,0.0,7404.0,null,null,null,null,74.0,0.0,21.85,46.5,46.2,46.5,46.31],
 ["2026-09-07",47.0,0.6,14258.0,0.0,0.0,0.0,0.0,74.0,0.0,21.85,47.0,46.2,46.4,46.37],
-["2026-09-08",46.2,-0.8,8200.0,2000.0,0.0,0.0,2000.0,74.0,0.0,21.85,46.5,46.2,46.5,46.35]
+["2026-09-08",46.2,-0.8,8200.0,2000.0,0.0,0.0,2000.0,74.0,0.0,21.85,46.5,46.2,46.5,46.35],
+["2026-09-09",46.3,0.1,6213.0,1000.0,0.0,0.0,1000.0,74.0,0.0,21.85,46.3,46.2,46.2,46.26]
 ]}

@@ -1,5 +1,6 @@
-{"symbol":"7782","name":"光速火箭","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"7782","name":"光速火箭","market":"TPEx","updated":"2026-09-09","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",null,null,null,null,null,null,null,46.0,0.0,0.34,null,null,null,null],
 ["2026-09-07",26.0,-0.4,3037.0,null,null,null,null,46.0,0.0,0.34,26.0,25.95,26.0,25.99],
-["2026-09-08",26.0,0.0,4250.0,null,null,null,null,46.0,0.0,0.34,26.1,26.0,26.1,26.02]
+["2026-09-08",26.0,0.0,4250.0,null,null,null,null,46.0,0.0,0.34,26.1,26.0,26.1,26.02],
+["2026-09-09",25.65,-0.35,21074.0,null,null,null,null,48.0,0.0,0.34,25.85,25.05,25.85,25.46]
 ]}

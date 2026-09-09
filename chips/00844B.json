@@ -1,5 +1,6 @@
-{"symbol":"00844B","name":"台新15年IG金融債","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"00844B","name":"台新15年IG金融債","market":"TPEx","updated":"2026-09-09","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",30.29,-0.05,161000.0,0.0,0.0,1000.0,1000.0,0.0,0.0,null,30.35,30.29,30.35,30.35],
 ["2026-09-07",30.2,-0.09,80345.0,0.0,0.0,-337.0,-337.0,0.0,0.0,null,30.2,30.2,30.2,30.2],
-["2026-09-08",30.17,-0.03,80000.0,0.0,0.0,0.0,0.0,0.0,0.0,null,30.17,30.17,30.17,30.17]
+["2026-09-08",30.17,-0.03,80000.0,0.0,0.0,0.0,0.0,0.0,0.0,null,30.17,30.17,30.17,30.17],
+["2026-09-09",30.15,-0.02,81050.0,-1000.0,0.0,1000.0,0.0,0.0,0.0,null,30.19,30.15,30.19,30.15]
 ]}

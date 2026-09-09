@@ -1,5 +1,6 @@
-{"symbol":"6884","name":"海柏特","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"6884","name":"海柏特","market":"TPEx","updated":"2026-09-09","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",29.45,0.0,5000.0,null,null,null,null,null,null,5.58,29.95,29.45,29.45,29.57],
 ["2026-09-07",30.15,0.7,5231.0,null,null,null,null,null,null,5.58,30.5,30.15,30.5,30.25],
-["2026-09-08",30.05,-0.1,29916.0,null,null,null,null,null,null,5.58,31.0,30.05,30.5,30.3]
+["2026-09-08",30.05,-0.1,29916.0,null,null,null,null,null,null,5.58,31.0,30.05,30.5,30.3],
+["2026-09-09",30.7,0.65,14599.0,null,null,null,null,null,null,5.58,30.7,30.5,30.5,30.6]
 ]}

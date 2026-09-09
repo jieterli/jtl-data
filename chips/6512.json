@@ -1,5 +1,6 @@
-{"symbol":"6512","name":"啟發電","market":"TPEx","updated":"2026-09-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"6512","name":"啟發電","market":"TPEx","updated":"2026-09-09","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",20.2,0.0,5768.0,0.0,0.0,-61.0,-61.0,null,null,0.08,20.2,20.15,20.15,20.18],
 ["2026-09-07",20.2,0.0,1238.0,null,null,null,null,null,null,0.08,20.2,20.2,20.2,20.2],
-["2026-09-08",20.85,0.65,9467.0,0.0,0.0,136.0,136.0,null,null,0.08,21.05,19.95,20.2,20.41]
+["2026-09-08",20.85,0.65,9467.0,0.0,0.0,136.0,136.0,null,null,0.08,21.05,19.95,20.2,20.41],
+["2026-09-09",20.5,-0.35,3946.0,0.0,0.0,-97.0,-97.0,null,null,0.08,20.5,20.2,20.2,20.31]
 ]}

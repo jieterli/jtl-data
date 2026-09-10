@@ -1,6 +1,7 @@
-{"symbol":"7794","name":"宏碁智新","market":"TPEx","updated":"2026-09-09","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"7794","name":"宏碁智新","market":"TPEx","updated":"2026-09-10","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",28.8,0.4,11070.0,null,null,null,null,null,null,1.58,28.8,28.25,28.4,28.44],
 ["2026-09-07",31.65,2.85,135370.0,null,null,null,null,null,null,1.58,31.65,31.65,31.65,31.65],
 ["2026-09-08",33.0,1.35,399310.0,-30000.0,0.0,-1000.0,-31000.0,null,null,1.47,34.8,30.0,34.8,33.21],
-["2026-09-09",32.5,-0.5,87808.0,-1000.0,0.0,0.0,-1000.0,null,null,1.47,33.0,32.3,32.6,32.6]
+["2026-09-09",32.5,-0.5,87808.0,-1000.0,0.0,0.0,-1000.0,null,null,1.47,33.0,32.3,32.6,32.6],
+["2026-09-10",32.0,-0.5,36662.0,-1000.0,0.0,0.0,-1000.0,null,null,1.47,32.3,31.6,32.1,32.02]
 ]}

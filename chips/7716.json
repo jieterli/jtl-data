@@ -1,6 +1,7 @@
-{"symbol":"7716","name":"昱臺國際","market":"TPEx","updated":"2026-09-09","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"7716","name":"昱臺國際","market":"TPEx","updated":"2026-09-10","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",23.5,-0.3,6000.0,2000.0,0.0,0.0,2000.0,null,null,0.01,23.75,23.5,23.5,23.54],
 ["2026-09-07",23.5,0.0,2000.0,null,null,null,null,null,null,0.01,23.5,23.5,23.5,23.5],
 ["2026-09-08",23.9,0.4,1306.0,null,null,null,null,null,null,0.01,23.9,23.9,23.9,23.81],
-["2026-09-09",23.75,-0.15,3000.0,null,null,null,null,null,null,0.01,23.85,23.3,23.85,23.63]
+["2026-09-09",23.75,-0.15,3000.0,null,null,null,null,null,null,0.01,23.85,23.3,23.85,23.63],
+["2026-09-10",23.75,0.0,1000.0,-1000.0,0.0,0.0,-1000.0,null,null,0.01,23.75,23.75,23.75,23.75]
 ]}

@@ -1,6 +1,7 @@
-{"symbol":"7842","name":"天能綠電","market":"TPEx","updated":"2026-09-09","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"7842","name":"天能綠電","market":"TPEx","updated":"2026-09-10","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",98.2,-0.7,23769.0,0.0,0.0,0.0,0.0,null,null,0.9,100.0,97.9,99.7,99.1],
 ["2026-09-07",99.9,1.7,24296.0,-7000.0,0.0,0.0,-7000.0,null,null,0.86,101.5,97.2,97.2,98.89],
 ["2026-09-08",98.2,-1.7,9314.0,-1000.0,0.0,0.0,-1000.0,null,null,0.86,101.0,97.3,97.3,99.85],
-["2026-09-09",99.9,1.7,48512.0,-12000.0,0.0,0.0,-12000.0,null,null,0.79,100.5,96.1,96.1,99.12]
+["2026-09-09",99.9,1.7,48512.0,-12000.0,0.0,0.0,-12000.0,null,null,0.79,100.5,96.1,96.1,99.12],
+["2026-09-10",99.9,0.0,9240.0,0.0,0.0,0.0,0.0,null,null,0.79,100.0,97.9,97.9,99.5]
 ]}

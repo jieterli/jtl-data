@@ -1,6 +1,7 @@
-{"symbol":"8409","name":"商之器","market":"TPEx","updated":"2026-09-09","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"8409","name":"商之器","market":"TPEx","updated":"2026-09-10","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",18.05,0.0,4044.0,null,null,null,null,null,null,0.11,18.3,18.05,18.3,18.18],
 ["2026-09-07",18.15,0.1,2679.0,0.0,0.0,2.0,2.0,null,null,0.11,18.2,18.15,18.2,18.33],
 ["2026-09-08",18.25,0.1,11631.0,0.0,0.0,0.0,0.0,null,null,0.11,18.25,18.1,18.1,18.18],
-["2026-09-09",18.3,0.05,1206.0,null,null,null,null,null,null,0.11,18.3,18.3,18.3,18.29]
+["2026-09-09",18.3,0.05,1206.0,null,null,null,null,null,null,0.11,18.3,18.3,18.3,18.29],
+["2026-09-10",18.2,-0.1,1027.0,0.0,0.0,2.0,2.0,null,null,0.11,18.2,18.2,18.2,18.2]
 ]}

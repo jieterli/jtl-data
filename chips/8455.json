@@ -1,6 +1,7 @@
-{"symbol":"8455","name":"大拓-KY","market":"TPEx","updated":"2026-09-09","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"8455","name":"大拓-KY","market":"TPEx","updated":"2026-09-10","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",22.5,0.0,16001.0,null,null,null,null,null,null,87.85,23.0,22.1,23.0,22.47],
 ["2026-09-07",23.0,0.5,4099.0,-1000.0,0.0,0.0,-1000.0,null,null,87.84,23.2,22.5,22.5,22.91],
 ["2026-09-08",22.75,-0.25,7051.0,null,null,null,null,null,null,87.84,23.7,22.75,23.7,23.45],
-["2026-09-09",22.4,-0.35,2616.0,null,null,null,null,null,null,87.84,23.45,22.4,23.45,22.84]
+["2026-09-09",22.4,-0.35,2616.0,null,null,null,null,null,null,87.84,23.45,22.4,23.45,22.84],
+["2026-09-10",23.0,0.6,13140.0,null,null,null,null,null,null,87.84,23.0,22.2,22.25,22.27]
 ]}

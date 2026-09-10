@@ -1,6 +1,7 @@
-{"symbol":"1240","name":"茂生農經","market":"TPEx","updated":"2026-09-09","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"1240","name":"茂生農經","market":"TPEx","updated":"2026-09-10","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",55.5,0.5,6898.0,1000.0,0.0,1000.0,2000.0,18.0,0.0,3.68,55.5,55.0,55.0,55.4],
 ["2026-09-07",55.3,-0.2,5248.0,0.0,0.0,-4000.0,-4000.0,18.0,0.0,3.68,55.5,55.3,55.5,55.35],
 ["2026-09-08",55.3,0.0,8152.0,null,null,null,null,18.0,0.0,3.68,55.3,55.3,55.3,55.3],
-["2026-09-09",55.3,0.0,2148.0,null,null,null,null,18.0,0.0,3.68,55.3,55.3,55.3,55.31]
+["2026-09-09",55.3,0.0,2148.0,null,null,null,null,18.0,0.0,3.68,55.3,55.3,55.3,55.31],
+["2026-09-10",55.3,0.0,5125.0,null,null,null,null,18.0,0.0,3.68,55.4,55.3,55.4,55.32]
 ]}

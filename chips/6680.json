@@ -1,6 +1,7 @@
-{"symbol":"6680","name":"鑫創電子","market":"TPEx","updated":"2026-09-09","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"6680","name":"鑫創電子","market":"TPEx","updated":"2026-09-10","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",54.7,3.3,5228.0,null,null,null,null,null,null,0.17,54.7,52.1,52.1,53.29],
 ["2026-09-07",55.3,0.6,1031.0,0.0,0.0,-1.0,-1.0,null,null,0.17,55.3,55.3,55.3,55.3],
 ["2026-09-08",52.2,-3.1,4048.0,-1000.0,0.0,0.0,-1000.0,null,null,0.17,57.0,52.2,56.8,55.32],
-["2026-09-09",53.3,1.1,4032.0,-1000.0,0.0,0.0,-1000.0,null,null,0.17,54.3,50.4,50.4,52.51]
+["2026-09-09",53.3,1.1,4032.0,-1000.0,0.0,0.0,-1000.0,null,null,0.17,54.3,50.4,50.4,52.51],
+["2026-09-10",null,null,null,null,null,null,null,null,null,0.07,null,null,null,null]
 ]}

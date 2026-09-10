@@ -1,6 +1,7 @@
-{"symbol":"4131","name":"浩泰","market":"TPEx","updated":"2026-09-09","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"4131","name":"浩泰","market":"TPEx","updated":"2026-09-10","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",30.95,0.2,5201.0,null,null,null,null,null,null,1.18,31.5,30.1,31.5,30.83],
 ["2026-09-07",30.5,-0.45,216000.0,null,null,null,null,null,null,1.18,31.5,30.1,30.5,30.98],
 ["2026-09-08",30.5,0.0,20401.0,null,null,null,null,null,null,1.18,31.5,29.7,31.5,30.26],
-["2026-09-09",30.7,0.2,8224.0,null,null,null,null,null,null,1.18,30.85,30.0,30.4,30.31]
+["2026-09-09",30.7,0.2,8224.0,null,null,null,null,null,null,1.18,30.85,30.0,30.4,30.31],
+["2026-09-10",31.2,0.5,1035.0,null,null,null,null,null,null,1.18,31.2,31.2,31.2,31.17]
 ]}

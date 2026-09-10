@@ -1,6 +1,7 @@
-{"symbol":"8087","name":"麗升能源","market":"TPEx","updated":"2026-09-09","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"8087","name":"麗升能源","market":"TPEx","updated":"2026-09-10","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",27.0,0.3,5001.0,null,null,null,null,93.0,0.0,3.33,27.0,26.1,26.2,26.32],
 ["2026-09-07",null,null,null,0.0,0.0,5.0,5.0,93.0,0.0,3.33,null,null,null,null],
 ["2026-09-08",null,null,null,null,null,null,null,93.0,0.0,3.33,null,null,null,null],
-["2026-09-09",26.5,-0.15,6007.0,0.0,0.0,-2.0,-2.0,92.0,0.0,3.33,26.55,26.15,26.2,26.28]
+["2026-09-09",26.5,-0.15,6007.0,0.0,0.0,-2.0,-2.0,92.0,0.0,3.33,26.55,26.15,26.2,26.28],
+["2026-09-10",26.7,0.2,11002.0,-1000.0,0.0,0.0,-1000.0,93.0,0.0,3.33,26.7,26.1,26.1,26.21]
 ]}

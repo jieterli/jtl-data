@@ -1,6 +1,7 @@
-{"symbol":"9950","name":"萬國通","market":"TPEx","updated":"2026-09-09","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"9950","name":"萬國通","market":"TPEx","updated":"2026-09-10","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",10.3,0.0,13001.0,null,null,null,null,0.0,0.0,0.04,10.3,10.3,10.3,10.3],
 ["2026-09-07",10.4,0.1,29000.0,1000.0,0.0,0.0,1000.0,0.0,0.0,0.05,10.4,10.25,10.25,10.35],
 ["2026-09-08",10.4,0.0,27001.0,null,null,null,null,0.0,0.0,0.05,10.4,10.2,10.2,10.33],
-["2026-09-09",10.3,-0.1,14128.0,null,null,null,null,0.0,0.0,0.05,10.4,10.3,10.3,10.31]
+["2026-09-09",10.3,-0.1,14128.0,null,null,null,null,0.0,0.0,0.05,10.4,10.3,10.3,10.31],
+["2026-09-10",10.3,0.0,15308.0,null,null,null,null,0.0,0.0,0.05,10.35,10.2,10.2,10.27]
 ]}

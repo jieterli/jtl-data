@@ -1,7 +1,8 @@
-{"symbol":"3064","name":"泰偉","market":"TPEx","updated":"2026-09-10","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"3064","name":"泰偉","market":"TPEx","updated":"2026-09-11","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",null,null,null,null,null,null,null,0.0,0.0,0.12,null,null,null,null],
 ["2026-09-07",null,null,null,null,null,null,null,0.0,0.0,0.12,null,null,null,null],
 ["2026-09-08",17.15,-1.8,1746.0,null,null,null,null,0.0,0.0,0.12,17.15,17.15,17.15,17.17],
 ["2026-09-09",null,null,null,null,null,null,null,0.0,0.0,0.12,null,null,null,null],
-["2026-09-10",null,null,null,null,null,null,null,0.0,0.0,0.12,null,null,null,null]
+["2026-09-10",null,null,null,null,null,null,null,0.0,0.0,0.12,null,null,null,null],
+["2026-09-11",16.9,-1.3,3000.0,null,null,null,null,0.0,0.0,0.12,16.9,16.55,16.55,16.67]
 ]}

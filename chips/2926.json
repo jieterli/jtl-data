@@ -1,7 +1,8 @@
-{"symbol":"2926","name":"誠品生活","market":"TPEx","updated":"2026-09-10","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"2926","name":"誠品生活","market":"TPEx","updated":"2026-09-11","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",30.5,0.0,5010.0,-2000.0,0.0,0.0,-2000.0,4.0,0.0,1.2,30.5,30.25,30.3,30.4],
 ["2026-09-07",29.9,-0.6,22182.0,1000.0,0.0,0.0,1000.0,4.0,0.0,1.2,29.9,29.5,29.65,29.64],
 ["2026-09-08",30.0,0.1,5001.0,-2000.0,0.0,0.0,-2000.0,4.0,0.0,1.19,30.0,29.9,29.9,29.94],
 ["2026-09-09",29.8,-0.2,3040.0,null,null,null,null,4.0,0.0,1.19,29.8,29.8,29.8,29.8],
-["2026-09-10",30.0,0.2,7060.0,null,null,null,null,4.0,0.0,1.19,30.0,29.65,29.95,29.85]
+["2026-09-10",30.0,0.2,7060.0,null,null,null,null,4.0,0.0,1.19,30.0,29.65,29.95,29.85],
+["2026-09-11",30.1,0.1,2220.0,null,null,null,null,4.0,0.0,1.19,30.1,30.0,30.0,30.11]
 ]}

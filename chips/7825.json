@@ -1,3 +1,4 @@
-{"symbol":"7825","name":"和亞智慧","market":"TPEx","updated":"2026-09-10","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-10",109.5,60.6,2678210.0,109010.0,0.0,0.0,109010.0,null,null,0.63,119.5,91.0,91.0,102.01]
+{"symbol":"7825","name":"和亞智慧","market":"TPEx","updated":"2026-09-11","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-10",109.5,60.6,2678210.0,109010.0,0.0,0.0,109010.0,null,null,0.63,119.5,91.0,91.0,102.01],
+["2026-09-11",107.5,-2.0,1720389.0,178061.0,0.0,0.0,178061.0,null,null,1.32,117.5,98.2,101.0,107.57]
 ]}

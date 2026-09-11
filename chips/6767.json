@@ -1,7 +1,8 @@
-{"symbol":"6767","name":"台微醫","market":"TPEx","updated":"2026-09-10","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"6767","name":"台微醫","market":"TPEx","updated":"2026-09-11","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",null,null,null,null,null,null,null,null,null,0.23,null,null,null,null],
 ["2026-09-07",24.4,-0.95,7030.0,null,null,null,null,null,null,0.23,24.5,24.4,24.4,24.41],
 ["2026-09-08",24.8,0.4,9000.0,-2000.0,0.0,0.0,-2000.0,null,null,0.22,24.8,24.05,24.4,24.39],
 ["2026-09-09",24.5,-0.3,14000.0,null,null,null,null,null,null,0.22,25.0,24.5,25.0,24.94],
-["2026-09-10",24.5,0.0,2000.0,null,null,null,null,null,null,0.22,24.5,24.5,24.5,24.5]
+["2026-09-10",24.5,0.0,2000.0,null,null,null,null,null,null,0.22,24.5,24.5,24.5,24.5],
+["2026-09-11",24.65,0.15,1100.0,null,null,null,null,null,null,0.22,24.65,24.65,24.65,24.59]
 ]}

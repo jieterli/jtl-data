@@ -1,7 +1,8 @@
-{"symbol":"6692","name":"進能服","market":"TPEx","updated":"2026-09-10","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"6692","name":"進能服","market":"TPEx","updated":"2026-09-11","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",23.05,-0.4,18300.0,4000.0,0.0,0.0,4000.0,406.0,0.0,0.27,23.4,23.05,23.25,23.2],
 ["2026-09-07",23.35,0.3,12300.0,3000.0,0.0,0.0,3000.0,408.0,0.0,0.27,23.35,22.6,22.6,23.08],
 ["2026-09-08",23.65,0.3,21120.0,null,null,null,null,404.0,0.0,0.27,23.95,23.5,23.55,23.71],
 ["2026-09-09",23.8,0.15,2150.0,null,null,null,null,404.0,0.0,0.27,23.8,23.0,23.0,23.38],
-["2026-09-10",23.8,0.0,12121.0,null,null,null,null,408.0,0.0,0.27,24.05,23.0,24.05,23.3]
+["2026-09-10",23.8,0.0,12121.0,null,null,null,null,408.0,0.0,0.27,24.05,23.0,24.05,23.3],
+["2026-09-11",23.95,0.15,4030.0,null,null,null,null,408.0,0.0,0.27,24.0,23.75,23.75,23.91]
 ]}

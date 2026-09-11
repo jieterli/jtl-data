@@ -1,7 +1,8 @@
-{"symbol":"7757","name":"金色三麥","market":"TPEx","updated":"2026-09-10","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"7757","name":"金色三麥","market":"TPEx","updated":"2026-09-11","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",88.6,-0.1,3479.0,null,null,null,null,10.0,0.0,19.55,88.7,88.6,88.7,88.72],
 ["2026-09-07",null,null,null,null,null,null,null,10.0,0.0,19.55,null,null,null,null],
 ["2026-09-08",89.0,0.2,2048.0,null,null,null,null,10.0,0.0,19.55,89.0,88.8,88.8,88.9],
 ["2026-09-09",89.9,0.9,6128.0,-1000.0,0.0,0.0,-1000.0,10.0,0.0,19.54,89.9,89.8,89.8,89.89],
-["2026-09-10",89.1,-0.8,45137.0,2000.0,0.0,0.0,2000.0,10.0,0.0,19.55,90.0,88.8,89.9,89.14]
+["2026-09-10",89.1,-0.8,45137.0,2000.0,0.0,0.0,2000.0,10.0,0.0,19.55,90.0,88.8,89.9,89.14],
+["2026-09-11",88.7,-0.4,23505.0,-3000.0,0.0,0.0,-3000.0,10.0,0.0,19.54,90.7,88.0,88.2,89.12]
 ]}

@@ -1,7 +1,8 @@
-{"symbol":"8272","name":"全景軟體","market":"TPEx","updated":"2026-09-10","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"8272","name":"全景軟體","market":"TPEx","updated":"2026-09-11","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",64.9,1.4,5028.0,null,null,null,null,null,null,0.18,65.7,62.5,65.7,63.92],
 ["2026-09-07",64.4,-0.5,5200.0,null,null,null,null,null,null,0.18,64.7,62.6,64.7,63.86],
 ["2026-09-08",63.8,-0.6,4230.0,-1000.0,0.0,0.0,-1000.0,null,null,0.18,64.0,62.6,64.0,63.3],
 ["2026-09-09",63.0,-0.8,10820.0,-1000.0,0.0,0.0,-1000.0,null,null,0.17,63.5,62.5,62.5,62.81],
-["2026-09-10",62.9,-0.1,8790.0,null,null,null,null,null,null,0.17,64.2,62.0,64.2,62.65]
+["2026-09-10",62.9,-0.1,8790.0,null,null,null,null,null,null,0.17,64.2,62.0,64.2,62.65],
+["2026-09-11",62.1,-0.8,9237.0,null,null,null,null,null,null,0.17,63.8,61.0,63.8,61.81]
 ]}

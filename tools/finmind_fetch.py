@@ -9,11 +9,14 @@ FinMind 台股配息抓取腳本(v2 — 涵蓋全市場高殖利率股票)
 quota:約 500-700 query/day,FinMind 免費版 600/hr,單次跑約 1-2 小時內完成
 """
 
+from __future__ import annotations  # 讓 X | None 型別註記在舊版 Python 也能跑
+
 import json
 import os
+import re
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import urllib.request
@@ -27,6 +30,11 @@ TWSE_BWIBBU = "https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_d"
 TPEX_PERATIO = "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_peratio_analysis"
 # 上櫃只收殖利率 > 此值(會配息)的股 → 控制 FinMind 呼叫量,避免爆免費額度
 MIN_YIELD_OTC = 1.0
+# 證交所「除權除息預告表」— 已公告但尚未除息的真除息日(FinMind 對 ETF 會落後數週)
+# 這是除息日的權威來源,絕不可用「上次除息日 + N 天」推估取代。
+TWSE_EXRIGHT_PRE = "https://www.twse.com.tw/rwd/zh/exRight/TWT48U?response=json"
+# 證交所開休市日曆 — 算「最後買進日 = 除息日前一交易日」要用,不能只扣 1 天
+TWSE_HOLIDAY = "https://openapi.twse.com.tw/v1/holidaySchedule/holidaySchedule"
 # 動態 ETF 清單:FinMind 證券總表裡這些分類視為 ETF(BWIBBU 不含 ETF,必須另抓)
 ETF_CATEGORIES = {"ETF", "上櫃指數股票型基金(ETF)", "上櫃ETF"}
 
@@ -190,6 +198,104 @@ def fetch_tpex_high_yield(min_yield: float) -> list[tuple[str, str]]:
     return out
 
 
+def _roc_to_iso(s: str) -> str | None:
+    """民國日期轉西元 ISO。吃兩種格式:'115年09月16日' 與 '1150916'。"""
+    s = (s or "").strip()
+    m = re.match(r"^(\d{2,3})年(\d{1,2})月(\d{1,2})日$", s)
+    if m:
+        y, mo, d = int(m.group(1)) + 1911, int(m.group(2)), int(m.group(3))
+        return f"{y:04d}-{mo:02d}-{d:02d}"
+    if re.match(r"^\d{7}$", s):
+        return f"{int(s[:3]) + 1911:04d}-{s[3:5]}-{s[5:7]}"
+    return None
+
+
+def fetch_market_closures() -> set[str]:
+    """證交所休市日(ISO 字串)。名稱含「開始交易 / 最後交易」的是交易日公告,不算休市。
+    抓不到就回空 set(退化成只扣週末,並在 log 出聲)。"""
+    try:
+        req = urllib.request.Request(
+            TWSE_HOLIDAY, headers={"User-Agent": "Mozilla/5.0 jtl_dividend_navigator"})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            rows = json.loads(resp.read().decode("utf-8"))
+    except Exception as e:
+        print(f"   ⚠️ 休市日曆抓取失敗 ({e}) — 最後買進日只會扣週末", file=sys.stderr)
+        return set()
+    out = set()
+    for r in rows:
+        name = (r.get("Name") or "")
+        if "開始交易" in name or "最後交易" in name:
+            continue  # 這兩種是「有開市」的公告,不是休市
+        iso = _roc_to_iso(r.get("Date") or "")
+        if iso:
+            out.add(iso)
+    return out
+
+
+def prev_trading_day(ex_date: str, closures: set[str]) -> str | None:
+    """最後買進日 = 除息日的前一個交易日(往前跳週末與休市日)。"""
+    try:
+        d = datetime.strptime(ex_date, "%Y-%m-%d").date()
+    except (ValueError, TypeError):
+        return None
+    for _ in range(30):  # 最長連假也不會超過 30 天
+        d -= timedelta(days=1)
+        if d.weekday() >= 5 or d.isoformat() in closures:
+            continue
+        return d.isoformat()
+    return None
+
+
+def fetch_exright_preannouncement() -> dict[str, list[dict]]:
+    """證交所除權除息預告表 → {股票代號: [event, ...]}。
+    金額欄可能是「待公告實際收益分配金額」(ETF 常見)→ 金額給 None,日期照收。
+    失敗不 raise,但要大聲 log — 少了它 ETF 的最近一次除息日會抓不到。"""
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(
+                TWSE_EXRIGHT_PRE,
+                headers={"User-Agent": "Mozilla/5.0 jtl_dividend_navigator"})
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                payload = json.loads(resp.read().decode("utf-8"))
+            break
+        except Exception as e:
+            print(f"   除權除息預告表第 {attempt+1}/3 次失敗 ({e})", file=sys.stderr)
+            if attempt < 2:
+                time.sleep(20)
+    else:
+        print("   ⚠️ 除權除息預告表 3 次都失敗 — 未來除息日會只剩 FinMind(會落後)",
+              file=sys.stderr)
+        return {}
+
+    out: dict[str, list[dict]] = {}
+    for row in payload.get("data") or []:
+        if len(row) < 8:
+            continue
+        ex_date = _roc_to_iso(row[0])
+        code = (row[1] or "").strip()
+        if not ex_date or not code:
+            continue
+
+        def _num(v):
+            try:
+                return float(str(v).strip())
+            except (ValueError, TypeError):
+                return None  # 「待公告實際收益分配金額」之類的 HTML 字串
+
+        cash = _num(row[7])
+        stock = _num(row[4])
+        out.setdefault(code, []).append({
+            "ex_date": ex_date,
+            "pay_date": None,
+            "cash_dividend": cash if cash is not None else 0.0,
+            "stock_dividend": stock if stock is not None else 0.0,
+            "amount_announced": cash is not None,
+            "source": "twse_exright_preannouncement",
+            "fiscal_year": "",
+        })
+    return out
+
+
 def normalize_event(raw: dict) -> dict | None:
     cash_ex = (raw.get("CashExDividendTradingDate") or "").strip()
     stock_ex = (raw.get("StockExDividendTradingDate") or "").strip()
@@ -206,6 +312,8 @@ def normalize_event(raw: dict) -> dict | None:
         "cash_dividend": round(cash, 6),
         "stock_dividend": round(stock, 6),
         "fiscal_year": str(raw.get("year") or "").replace("年", ""),
+        "amount_announced": True,
+        "source": "finmind",
     }
 
 
@@ -258,7 +366,16 @@ def main():
             picks.append((s, n))
     print(f"📋 共 {len(picks)} 檔待抓 FinMind (精選 {len(DEFAULT_PICKS)} + 上市 {len(twse_picks)} + ETF {len(etf_picks)} + 上櫃 {len(tpex_picks)},去重後)", file=sys.stderr)
 
-    # 第三步:打 FinMind
+    # 第三步:除息日的權威來源 — 證交所除權除息預告表 + 開休市日曆
+    #   FinMind 的 TaiwanStockDividend 對 ETF 會落後好幾週(00919 2026Q3 就是案例),
+    #   所以「未來除息日」一律以預告表為準,FinMind 只補歷史與金額。
+    print("📅 抓證交所除權除息預告表 + 開休市日曆...", file=sys.stderr)
+    pre_announced = fetch_exright_preannouncement()
+    closures = fetch_market_closures()
+    print(f"   預告表 {sum(len(v) for v in pre_announced.values())} 筆 / "
+          f"{len(pre_announced)} 檔,休市日 {len(closures)} 天", file=sys.stderr)
+
+    # 第四步:打 FinMind
     stocks = {}
     failed = []
     for i, (stock_id, name) in enumerate(picks, 1):
@@ -272,9 +389,35 @@ def main():
         stocks[stock_id] = {"name": name, "events": events}
         time.sleep(0.3)  # 禮貌節流,免費版 600/hr → 約 0.17 秒/次,我們 0.3 秒
 
+    # 第五步:把預告表的真除息日併進去(同一天以 FinMind 的金額為準,新的日期直接補進來)
+    merged = 0
+    for code, pre_events in pre_announced.items():
+        entry = stocks.get(code)
+        if entry is None:
+            continue  # 不在追蹤清單就不硬塞,避免混進沒名字的檔
+        have = {e["ex_date"] for e in entry["events"]}
+        for pe in pre_events:
+            if pe["ex_date"] in have:
+                continue
+            entry["events"].append(pe)
+            merged += 1
+        entry["events"].sort(key=lambda e: e["ex_date"])
+    print(f"🔗 預告表補進 {merged} 筆 FinMind 還沒有的除息日", file=sys.stderr)
+
+    # 第六步:每筆事件都算好「最後買進日」— App 端只負責顯示,不得自己推算
+    for entry in stocks.values():
+        for e in entry["events"]:
+            e["last_buy_date"] = prev_trading_day(e["ex_date"], closures)
+            e.setdefault("amount_announced", True)
+            e.setdefault("source", "finmind")
+
     data = {
         "updated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "source": "FinMind TaiwanStockDividend + TWSE BWIBBU_d (覆蓋全市場高殖利率股)",
+        "source": ("FinMind TaiwanStockDividend(歷史與金額) + TWSE TWT48U 除權除息預告表"
+                   "(未來除息日權威來源) + TWSE holidaySchedule(最後買進日)"),
+        "schema_version": 2,
+        "pre_announced_merged": merged,
+        "market_closures": sorted(closures),
         "stock_count": len(stocks),
         "covered_high_yield_threshold": MIN_YIELD_INCLUDE,
         "failed": failed,

@@ -1,5 +1,4 @@
-{"symbol":"1341","name":"富林-KY","market":"TWSE","updated":"2026-09-15","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-05-25",61.6,0.3,5355.0,null,null,null,null,null,null,79.88,61.6,60.2,60.3,60.44444444444444],
+{"symbol":"1341","name":"富林-KY","market":"TWSE","updated":"2026-09-16","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-05-26",61.5,-0.1,5004.0,0,0.0,0.0,0.0,null,null,79.88,61.5,61.5,61.5,61.49860111910472],
 ["2026-05-27",61.8,0.3,4244.0,1000.0,0.0,0.0,1000.0,null,null,79.88,61.8,61.0,61.0,61.333176248821864],
 ["2026-05-28",61.7,-0.1,1003.0,null,null,null,null,null,null,79.88,61.7,61.7,61.7,61.69491525423729],
@@ -78,5 +77,6 @@
 ["2026-09-10",59.8,-0.2,4010.0,1000.0,0.0,0.0,1000.0,null,null,80.01,59.8,59.3,59.7,59.550124688279304],
 ["2026-09-11",57.9,-1.9,2001.0,-1000.0,0.0,0.0,-1000.0,null,null,80.01,59.0,57.9,59.0,58.44977511244378],
 ["2026-09-14",null,null,null,null,null,null,null,null,null,80.01,null,null,null,null],
-["2026-09-15",59.4,0.0,3510.0,-2000.0,0.0,0.0,-2000.0,null,null,80.0,59.4,58.2,58.2,58.874928774928776]
+["2026-09-15",59.4,0.0,3510.0,-2000.0,0.0,0.0,-2000.0,null,null,80.0,59.4,58.2,58.2,58.874928774928776],
+["2026-09-16",null,null,null,null,null,null,null,null,null,80.0,null,null,null,null]
 ]}

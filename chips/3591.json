@@ -1,5 +1,4 @@
-{"symbol":"3591","name":"艾笛森","market":"TWSE","updated":"2026-09-15","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-05-25",26.5,-0.25,3302723.0,-28997.0,0.0,-2083.0,-31080.0,25736.0,12.0,6.55,27.3,26.35,27.3,26.682818995114033],
+{"symbol":"3591","name":"艾笛森","market":"TWSE","updated":"2026-09-16","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-05-26",25.9,-0.6,2257001.0,583000.0,0.0,56927.0,639927.0,25872.0,13.0,6.63,26.55,25.7,26.5,25.946544551818985],
 ["2026-05-27",25.5,-0.4,1767162.0,-123000.0,0.0,1587.0,-121413.0,26233.0,12.0,6.36,26.3,25.15,26.3,25.510310882646866],
 ["2026-05-28",26.05,0.55,2551604.0,626067.0,0.0,202013.0,828080.0,26099.0,14.0,6.65,26.85,25.5,25.55,26.009125632347338],
@@ -78,5 +77,6 @@
 ["2026-09-10",null,null,null,null,null,null,null,26466.0,0.0,5.73,null,null,null,null],
 ["2026-09-11",null,null,null,null,null,null,null,26464.0,0.0,5.73,null,null,null,null],
 ["2026-09-14",null,null,null,null,null,null,null,26462.0,0.0,5.73,null,null,null,null],
-["2026-09-15",null,null,null,null,null,null,null,26462.0,0.0,5.73,null,null,null,null]
+["2026-09-15",null,null,null,null,null,null,null,26462.0,0.0,5.73,null,null,null,null],
+["2026-09-16",null,null,null,null,null,null,null,26462.0,0.0,5.73,null,null,null,null]
 ]}

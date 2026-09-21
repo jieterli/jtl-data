@@ -1,5 +1,4 @@
-{"symbol":"1538","name":"正峰","market":"TWSE","updated":"2026-09-18","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-05-28",11.8,0.0,3167.0,null,null,null,null,0.0,0.0,0.06,11.8,11.75,11.8,11.77486580359962],
+{"symbol":"1538","name":"正峰","market":"TWSE","updated":"2026-09-22","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-05-29",11.8,0.0,6776.0,null,null,null,null,0.0,0.0,0.06,11.9,11.6,11.9,11.708234946871311],
 ["2026-06-01",11.7,-0.1,4109.0,null,null,null,null,0.0,0.0,0.06,11.7,11.15,11.15,11.432221951813093],
 ["2026-06-02",11.7,0.0,14481.0,null,null,null,null,0.0,0.0,0.06,11.7,11.0,11.35,11.136040328706581],
@@ -78,5 +77,6 @@
 ["2026-09-15",null,null,null,null,null,null,null,0.0,0.0,0.02,null,null,null,null],
 ["2026-09-16",null,null,null,null,null,null,null,0.0,0.0,0.02,null,null,null,null],
 ["2026-09-17",null,null,null,null,null,null,null,0.0,0.0,0.02,null,null,null,null],
-["2026-09-18",null,null,null,null,null,null,null,0.0,0.0,0.02,null,null,null,null]
+["2026-09-18",null,null,null,null,null,null,null,0.0,0.0,0.02,null,null,null,null],
+["2026-09-21",8.3,0.0,3452.0,null,null,null,null,0.0,0.0,0.02,8.3,8.3,8.3,8.250289687137892]
 ]}

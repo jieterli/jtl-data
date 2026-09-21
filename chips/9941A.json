@@ -1,5 +1,4 @@
-{"symbol":"9941A","name":"裕融甲特","market":"TWSE","updated":"2026-09-18","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-05-28",50.3,-0.2,18037.0,null,null,null,null,null,null,0.0,50.4,50.2,50.4,50.262349614680936],
+{"symbol":"9941A","name":"裕融甲特","market":"TWSE","updated":"2026-09-22","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-05-29",50.3,0.0,1000.0,null,null,null,null,null,null,0.0,50.3,50.3,50.3,50.3],
 ["2026-06-01",50.4,0.1,57972.0,null,null,null,null,null,null,0.0,50.4,50.3,50.4,50.39553577589181],
 ["2026-06-02",50.3,-0.1,150291.0,null,null,null,null,null,null,0.0,50.4,50.3,50.4,50.3626298314603],
@@ -78,5 +77,6 @@
 ["2026-09-15",48.7,-0.05,1010.0,null,null,null,null,null,null,0.0,48.7,48.7,48.7,48.7009900990099],
 ["2026-09-16",48.9,0.2,82300.0,null,null,null,null,null,null,0.0,48.9,48.9,48.9,48.89856622114216],
 ["2026-09-17",null,null,null,null,null,null,null,null,null,0.0,null,null,null,null],
-["2026-09-18",48.8,0.0,9170.0,null,null,null,null,null,null,0.0,48.9,48.75,48.9,48.828680479825515]
+["2026-09-18",48.8,0.0,9170.0,null,null,null,null,null,null,0.0,48.9,48.75,48.9,48.828680479825515],
+["2026-09-21",48.85,0.05,1000.0,null,null,null,null,null,null,0.0,48.85,48.85,48.85,48.85]
 ]}

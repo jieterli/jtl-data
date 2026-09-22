@@ -1,5 +1,6 @@
 {"symbol":"2938","name":"床的世界","market":"TPEx","updated":"2026-09-22","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-17",18.15,-0.4,364224.0,null,null,null,null,null,null,0.0,18.55,18.15,18.45,18.3],
 ["2026-09-18",18.1,-0.05,129403.0,null,null,null,null,null,null,0.0,18.15,18.05,18.05,18.1],
-["2026-09-21",18.5,0.4,302451.0,null,null,null,null,null,null,0.0,18.55,18.1,18.15,18.42]
+["2026-09-21",18.5,0.4,302451.0,null,null,null,null,null,null,0.0,18.55,18.1,18.15,18.42],
+["2026-09-22",18.4,-0.1,42787.0,null,null,null,null,null,null,0.0,18.5,18.25,18.25,18.4]
 ]}

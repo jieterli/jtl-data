@@ -1,3 +1,4 @@
-{"symbol":"7812","name":null,"market":"TWSE","updated":"2026-09-22","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-09-21",null,null,null,null,null,null,null,null,null,0.0,null,null,null,null]
+{"symbol":"7812","name":"稜研科技*-創","market":"TWSE","updated":"2026-09-22","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-09-21",null,null,null,null,null,null,null,null,null,0.0,null,null,null,null],
+["2026-09-22",70.0,0.0,478021.0,1000.0,0.0,0.0,1000.0,null,null,0.02,75.0,68.5,71.0,70.2911901359982]
 ]}

@@ -1,4 +1,4 @@
-{"symbol":"7708","name":"全家餐飲","market":"TPEx","updated":"2026-09-22","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"7708","name":"全家餐飲","market":"TPEx","updated":"2026-09-23","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",92.0,0.1,14421.0,1000.0,0.0,0.0,1000.0,null,null,0.4,92.0,91.9,92.0,92.0],
 ["2026-09-07",92.0,0.0,4356.0,null,null,null,null,null,null,0.4,92.0,92.0,92.0,92.02],
 ["2026-09-08",92.3,0.3,7496.0,null,null,null,null,null,null,0.4,92.5,92.3,92.5,92.44],
@@ -10,5 +10,6 @@
 ["2026-09-17",92.0,0.0,24034.0,-2000.0,0.0,0.0,-2000.0,null,null,0.38,92.0,91.9,91.9,91.97],
 ["2026-09-18",91.6,-0.4,6565.0,null,null,null,null,null,null,0.38,92.0,91.6,91.7,91.72],
 ["2026-09-21",null,null,null,null,null,null,null,null,null,0.38,null,null,null,null],
-["2026-09-22",91.9,0.1,20545.0,null,null,null,null,null,null,0.38,92.2,91.8,91.8,91.93]
+["2026-09-22",91.9,0.1,20545.0,null,null,null,null,null,null,0.38,92.2,91.8,91.8,91.93],
+["2026-09-23",92.0,0.1,8265.0,null,null,null,null,null,null,0.38,92.0,91.9,91.9,91.98]
 ]}

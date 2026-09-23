@@ -1,4 +1,4 @@
-{"symbol":"5348","name":"正能量智能","market":"TPEx","updated":"2026-09-22","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"5348","name":"正能量智能","market":"TPEx","updated":"2026-09-23","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",16.65,-0.2,3153.0,null,null,null,null,null,null,0.02,16.7,16.65,16.7,16.66],
 ["2026-09-07",16.6,-0.05,2460.0,null,null,null,null,null,null,0.02,16.65,16.6,16.65,16.51],
 ["2026-09-08",16.55,-0.05,1002.0,null,null,null,null,null,null,0.02,16.55,16.55,16.55,16.55],
@@ -10,5 +10,6 @@
 ["2026-09-17",15.95,0.1,4115.0,null,null,null,null,null,null,0.02,16.05,15.45,16.05,15.86],
 ["2026-09-18",16.4,0.45,6002.0,null,null,null,null,null,null,0.02,16.5,15.95,16.45,16.3],
 ["2026-09-21",16.6,0.2,1100.0,null,null,null,null,null,null,0.02,16.6,16.6,16.6,16.58],
-["2026-09-22",16.55,-0.05,1100.0,null,null,null,null,null,null,0.02,16.55,16.55,16.55,16.54]
+["2026-09-22",16.55,-0.05,1100.0,null,null,null,null,null,null,0.02,16.55,16.55,16.55,16.54],
+["2026-09-23",16.1,-0.45,11610.0,null,null,null,null,null,null,0.02,16.55,15.5,16.55,15.9]
 ]}

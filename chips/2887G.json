@@ -1,5 +1,4 @@
-{"symbol":"2887G","name":"台新新光庚特一","market":"TWSE","updated":"2026-09-23","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-06-02",42.65,0.1,123603.0,null,null,null,null,null,null,0.07,42.65,42.6,42.6,42.609435046074935],
+{"symbol":"2887G","name":"台新新光庚特一","market":"TWSE","updated":"2026-09-24","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-06-03",42.7,0.05,55645.0,null,null,null,null,null,null,0.07,42.75,42.65,42.65,42.66766106568425],
 ["2026-06-04",42.85,0.15,68877.0,null,null,null,null,null,null,0.07,42.85,42.7,42.7,42.78603888090364],
 ["2026-06-05",42.95,0.1,112972.0,null,null,null,null,null,null,0.07,42.95,42.85,42.85,42.88234252735191],
@@ -78,5 +77,6 @@
 ["2026-09-18",44.35,0.15,59535.0,null,null,null,null,null,null,0.33,44.35,44.3,44.3,44.32464936591921],
 ["2026-09-21",44.45,0.1,52093.0,3000.0,0.0,0.0,3000.0,null,null,0.33,44.55,44.4,44.4,44.46681895840132],
 ["2026-09-22",44.5,0.05,22196.0,1000.0,0.0,0.0,1000.0,null,null,0.33,44.5,44.45,44.45,44.48436655253199],
-["2026-09-23",44.4,-0.1,52417.0,null,null,null,null,null,null,0.33,44.5,44.4,44.5,44.45525306675315]
+["2026-09-23",44.4,-0.1,52417.0,null,null,null,null,null,null,0.33,44.5,44.4,44.5,44.45525306675315],
+["2026-09-24",44.6,0.2,270172.0,null,null,null,null,null,null,0.33,44.65,44.5,44.55,44.59005744488696]
 ]}

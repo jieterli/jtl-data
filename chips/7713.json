@@ -1,4 +1,4 @@
-{"symbol":"7713","name":"威力德生醫","market":"TPEx","updated":"2026-09-23","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"7713","name":"威力德生醫","market":"TPEx","updated":"2026-09-24","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",73.9,-0.1,6044.0,null,null,null,null,null,null,0.08,74.0,73.9,74.0,73.98],
 ["2026-09-07",73.9,0.0,2154.0,null,null,null,null,null,null,0.08,73.9,73.9,73.9,73.87],
 ["2026-09-08",null,null,null,null,null,null,null,null,null,0.08,null,null,null,null],
@@ -11,5 +11,6 @@
 ["2026-09-18",73.8,0.7,7194.0,0.0,0.0,0.0,0.0,null,null,0.09,74.0,73.8,74.0,73.32],
 ["2026-09-21",74.9,1.1,4019.0,null,null,null,null,null,null,0.09,74.9,74.7,74.7,74.74],
 ["2026-09-22",73.8,-1.1,6000.0,-2000.0,0.0,0.0,-2000.0,null,null,0.08,74.8,73.8,74.8,74.63],
-["2026-09-23",74.0,0.2,12008.0,-3000.0,0.0,0.0,-3000.0,null,null,0.08,74.5,73.9,73.9,74.04]
+["2026-09-23",74.0,0.2,12008.0,-3000.0,0.0,0.0,-3000.0,null,null,0.08,74.5,73.9,73.9,74.04],
+["2026-09-24",73.8,-0.2,5057.0,-1000.0,0.0,0.0,-1000.0,null,null,0.07,74.5,73.8,74.0,74.06]
 ]}

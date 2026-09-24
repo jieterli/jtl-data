@@ -1,4 +1,4 @@
-{"symbol":"6856","name":"鑫傳","market":"TPEx","updated":"2026-09-23","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"6856","name":"鑫傳","market":"TPEx","updated":"2026-09-24","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",42.05,-0.25,3100.0,null,null,null,null,null,null,0.03,42.35,41.0,42.35,41.8],
 ["2026-09-07",42.0,-0.05,1009.0,null,null,null,null,null,null,0.03,42.0,42.0,42.0,42.0],
 ["2026-09-08",null,null,null,null,null,null,null,null,null,0.03,null,null,null,null],
@@ -11,5 +11,6 @@
 ["2026-09-18",42.0,0.65,14172.0,null,null,null,null,null,null,0.02,43.95,41.0,42.7,41.71],
 ["2026-09-21",42.0,0.0,9012.0,null,null,null,null,null,null,0.02,42.0,41.1,41.1,41.56],
 ["2026-09-22",41.8,-0.2,5039.0,-1000.0,0.0,0.0,-1000.0,null,null,0.02,41.8,40.8,41.1,41.22],
-["2026-09-23",41.85,0.05,6022.0,null,null,null,null,null,null,0.02,41.85,41.1,41.1,41.45]
+["2026-09-23",41.85,0.05,6022.0,null,null,null,null,null,null,0.02,41.85,41.1,41.1,41.45],
+["2026-09-24",42.3,0.45,12000.0,null,null,null,null,null,null,0.02,42.3,40.85,41.1,41.6]
 ]}

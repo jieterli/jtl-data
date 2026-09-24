@@ -1,5 +1,4 @@
-{"symbol":"9110","name":"越南控-DR","market":"TWSE","updated":"2026-09-23","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-06-02",3.3,0.26,191000.0,null,null,null,null,null,null,0.04,3.34,3.18,3.31,3.279476439790576],
+{"symbol":"9110","name":"越南控-DR","market":"TWSE","updated":"2026-09-24","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-06-03",3.6,0.3,170000.0,null,null,null,null,null,null,0.04,3.63,3.35,3.5,3.559470588235294],
 ["2026-06-04",3.96,0.36,492001.0,null,null,null,null,null,null,0.04,3.96,3.86,3.86,3.9444086495759154],
 ["2026-06-05",3.95,-0.01,334302.0,null,null,null,null,null,null,0.04,3.95,3.57,3.95,3.7474558931744353],
@@ -78,5 +77,6 @@
 ["2026-09-18",3.0,0.04,2495.0,null,null,null,null,null,null,0.04,3.0,2.99,2.99,2.935871743486974],
 ["2026-09-21",2.9,-0.1,83006.0,null,null,null,null,null,null,0.04,3.1,2.71,3.1,2.767715586825049],
 ["2026-09-22",2.69,-0.21,28042.0,null,null,null,null,null,null,0.04,2.78,2.65,2.78,2.6985949646958134],
-["2026-09-23",2.92,0.23,34901.0,null,null,null,null,null,null,0.04,2.92,2.52,2.52,2.622131171026618]
+["2026-09-23",2.92,0.23,34901.0,null,null,null,null,null,null,0.04,2.92,2.52,2.52,2.622131171026618],
+["2026-09-24",2.82,-0.1,22000.0,1000.0,0.0,0.0,1000.0,null,null,0.04,2.89,2.66,2.8,2.8145454545454545]
 ]}

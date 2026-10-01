@@ -1,4 +1,4 @@
-{"symbol":"4529","name":"淳紳","market":"TPEx","updated":"2026-10-01","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"4529","name":"淳紳","market":"TPEx","updated":"2026-10-02","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",3.69,-0.09,52322.0,1000.0,0.0,0.0,1000.0,0.0,0.0,38.04,3.79,3.65,3.79,3.68],
 ["2026-09-07",3.69,0.0,15300.0,null,null,null,null,0.0,0.0,38.04,3.69,3.69,3.69,3.69],
 ["2026-09-08",3.71,0.02,25001.0,null,null,null,null,0.0,0.0,38.04,3.71,3.65,3.7,3.68],
@@ -14,5 +14,6 @@
 ["2026-09-23",3.28,-0.13,48326.0,null,null,null,null,0.0,0.0,38.04,3.38,3.23,3.38,3.27],
 ["2026-09-24",3.3,0.02,8031.0,null,null,null,null,0.0,0.0,38.04,3.3,3.28,3.28,3.29],
 ["2026-09-29",3.33,0.03,5002.0,null,null,null,null,0.0,0.0,38.04,3.33,3.33,3.33,3.33],
-["2026-09-30",3.33,0.0,17000.0,null,null,null,null,0.0,0.0,38.04,3.33,3.33,3.33,3.33]
+["2026-09-30",3.33,0.0,17000.0,null,null,null,null,0.0,0.0,38.04,3.33,3.33,3.33,3.33],
+["2026-10-01",3.33,0.0,3000.0,null,null,null,null,0.0,0.0,38.04,3.33,3.33,3.33,3.33]
 ]}

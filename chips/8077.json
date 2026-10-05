@@ -1,4 +1,4 @@
-{"symbol":"8077","name":"洛碁","market":"TPEx","updated":"2026-10-03","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"8077","name":"洛碁","market":"TPEx","updated":"2026-10-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",null,null,null,null,null,null,null,null,null,51.13,null,null,null,null],
 ["2026-09-07",43.95,0.2,3008.0,1000.0,0.0,0.0,1000.0,null,null,51.13,43.95,43.75,43.75,43.82],
 ["2026-09-08",43.95,0.0,1005.0,null,null,null,null,null,null,51.13,43.95,43.95,43.95,43.95],
@@ -16,5 +16,6 @@
 ["2026-09-29",null,null,null,null,null,null,null,null,null,51.14,null,null,null,null],
 ["2026-09-30",42.15,-0.65,10009.0,null,null,null,null,null,null,51.14,42.35,42.15,42.3,42.24],
 ["2026-10-01",41.8,-0.35,1028.0,null,null,null,null,null,null,51.14,41.8,41.8,41.8,41.79],
-["2026-10-02",41.5,-0.3,2003.0,null,null,null,null,null,null,51.14,41.5,41.2,41.2,41.35]
+["2026-10-02",41.5,-0.3,2003.0,null,null,null,null,null,null,51.14,41.5,41.2,41.2,41.35],
+["2026-10-05",41.5,0.0,1033.0,null,null,null,null,null,null,51.14,41.5,41.5,41.5,41.51]
 ]}

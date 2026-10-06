@@ -1,4 +1,4 @@
-{"symbol":"7747","name":"昕奇雲端","market":"TPEx","updated":"2026-10-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"7747","name":"昕奇雲端","market":"TPEx","updated":"2026-10-07","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",114.5,1.5,8122.0,null,null,null,null,null,null,0.67,114.5,112.0,112.0,113.19],
 ["2026-09-07",114.0,-0.5,2121.0,null,null,null,null,null,null,0.67,114.0,113.5,113.5,113.71],
 ["2026-09-08",null,null,null,null,null,null,null,null,null,0.67,null,null,null,null],
@@ -17,5 +17,6 @@
 ["2026-09-30",111.5,0.5,1135.0,null,null,null,null,null,null,0.67,111.5,111.5,111.5,111.5],
 ["2026-10-01",111.5,0.0,301203.0,0.0,0.0,-300000.0,-300000.0,null,null,0.67,111.5,111.5,111.5,111.5],
 ["2026-10-02",112.0,0.5,300766.0,0.0,0.0,-300000.0,-300000.0,null,null,0.67,112.0,112.0,112.0,112.0],
-["2026-10-05",111.5,-0.5,2099.0,null,null,null,null,null,null,0.67,112.0,111.5,112.0,111.72]
+["2026-10-05",111.5,-0.5,2099.0,null,null,null,null,null,null,0.67,112.0,111.5,112.0,111.72],
+["2026-10-06",null,null,null,900.0,0.0,0.0,900.0,null,null,0.67,null,null,null,null]
 ]}

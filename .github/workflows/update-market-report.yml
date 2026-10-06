@@ -1,0 +1,53 @@
+name: Update report/ (台股盤後報告)
+
+on:
+  schedule:
+    # 台北 15:30 / 17:00 / 21:00 = UTC 07:30 / 09:00 / 13:00(交易日才有新資料)
+    # 分三次是因為各項公布時間不同:大盤約 14:30 後、個股日成交約 15:00、
+    # 三大法人約 16:00。前面抓到的 ok 欄位不會被後面的空值覆蓋(merge_keep_ok)。
+    - cron: "30 7 * * 1-5"
+    - cron: "0 9 * * 1-5"
+    - cron: "0 13 * * 1-5"
+  workflow_dispatch: {}
+  # 腳本或本檔有推送就跑一次當煙霧測試(沒變就不會 commit,不會無限循環)
+  push:
+    paths:
+      - "tools/market_report_fetch.py"
+      - "tools/test_market_report.py"
+      - ".github/workflows/update-market-report.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      # 先跑測試:解析壞掉就不要讓它寫出錯的 JSON 給兩支 APP 讀
+      - name: Unit tests
+        env:
+          SKIP_LIVE: "1"
+        run: python tools/test_market_report.py
+
+      - name: Fetch TWSE open data + FinMind
+        env:
+          FINMIND_TOKEN: ${{ secrets.FINMIND_TOKEN }}
+        run: python tools/market_report_fetch.py
+
+      - name: Commit changes (if any)
+        run: |
+          git config user.name  "JTL Bot"
+          git config user.email "bot@jieterlimusic.uk"
+          if [ -n "$(git status --porcelain report)" ]; then
+            git add report
+            git commit -m "auto: market report $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          else
+            echo "No change."
+          fi

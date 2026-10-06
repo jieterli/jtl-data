@@ -57,6 +57,26 @@
 | 三大法人買賣金額 | FinMind `TaiwanStockTotalInstitutionalInvestors` | `date`、`name`、`buy`、`sell`(`name` 有 `Dealer_self` / `Dealer_Hedging` / `Investment_Trust` / `Foreign_Investor` / `Foreign_Dealer_Self` / `total`) |
 | 休市日 | `/v1/holidaySchedule/holidaySchedule` | `Name`、`Date`、`Weekday`、`Description` |
 
+### ⏱ 時效:證交所開放 API 慢一天(2026-10-07 實測)
+
+10/6 收盤九小時後(10/7 00:15)去打,`MI_INDEX` / `FMTQIK` / `STOCK_DAY_ALL`
+最新仍然只到 **10/5**;FinMind 當天就有 10/6。所以:
+
+| 區塊 | 主來源 | 備援 / 對帳 |
+| --- | --- | --- |
+| 大盤開高低收、成交量值筆數 | **FinMind** `TaiwanStockPrice` data_id=`TAIEX` | 證交所(同一天都有就比收盤,差 >1 點標 error) |
+| 權值股(台積電) | **FinMind** `TaiwanStockPrice` | 證交所 `STOCK_DAY_ALL` |
+| 三大法人 | **FinMind** `TaiwanStockTotalInstitutionalInvestors` | 無(證交所開放 API 沒有) |
+| 類股指數 | 證交所 `MI_INDEX`(**只有這裡有**) | 無 → 會比大盤慢一天,照實標 `asOf` + `staleVsTradeDate` |
+
+⚠️ **盤中防呆**:FinMind 盤中就給當天那根「還沒收盤」的 K。排程若在盤中跑,
+拿半根當收盤價就是在發錯資訊 → `usable_finmind_rows()` 擋掉 14:30 前的當日資料。
+
+⚠️ **日期混用是這個功能最容易犯的錯**。已經犯過兩次:
+① APP 端拿 FinMind 歷史算均線時混到當天盤中那根(10/5 的報告配 10/6 的高點);
+② 判讀句寫「資金流向 X」用的是慢一天的類股資料卻沒標日期。
+每一筆數字都帶 `asOf`,畫面只要日期不同就要寫出來。
+
 ### 踩過的坑(別重複踩)
 
 1. **證交所開放 API 沒有三大法人。** 143 個端點全列過,`BFI84U` 是「停資停券預告表」、

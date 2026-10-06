@@ -3,7 +3,12 @@
 
 ⚠️ 合法資料源白名單(2026-10-06 查證,胡老師拍板「新功能全走合法源」):
    ✅ openapi.twse.com.tw      證交所開放 API,政府資料開放授權(https://data.gov.tw/license)
-   ✅ api.finmindtrade.com     FinMind(三大法人買賣金額;股息婆婆已在用)
+   ✅ api.finmindtrade.com     FinMind(股息婆婆已在用)
+
+⏱ 時效(2026-10-07 實測,收盤九小時後):
+   證交所開放 API 的 MI_INDEX / FMTQIK / STOCK_DAY_ALL **當天不會出,隔天才補**。
+   FinMind 當天就有。所以大盤、個股、法人以 FinMind 為主、證交所為輔(兩邊都有就對帳),
+   類股指數只有證交所有 → 會比大盤慢一天,照實標它自己的 asOf,畫面要標明。
    ❌ www.twse.com.tw/rwd/...  **不可用** —— 證交所使用條款「下載軟體或資料」一節明文
       禁止以自動化裝置、指令碼、爬蟲程式下載本網站資料,僅「已授權政府資料開放平臺」
       的資料不在此限(https://www.twse.com.tw/zh/page/terms/use.html)。
@@ -42,6 +47,9 @@ EP_FMTQIK = f"{TWSE_OPENAPI}/exchangeReport/FMTQIK"              # 市場成交�
 EP_STOCK_DAY_ALL = f"{TWSE_OPENAPI}/exchangeReport/STOCK_DAY_ALL"  # 上市個股日成交
 EP_ADVANCE_DECLINE = f"{TWSE_OPENAPI}/opendata/twtazu_od"        # 漲跌證券數(⚠ 開放版更新不穩)
 EP_HOLIDAY = f"{TWSE_OPENAPI}/holidaySchedule/holidaySchedule"   # 開(休)市日期
+
+FM_PRICE = "TaiwanStockPrice"          # 日 K(data_id=TAIEX 就是加權指數)
+FM_INSTI = "TaiwanStockTotalInstitutionalInvestors"  # 三大法人買賣金額
 
 MAIN_INDEX_NAME = "發行量加權股價指數"
 
@@ -133,25 +141,75 @@ def pick_latest(rows: list[dict], date_key: str) -> tuple[str | None, dict | Non
     return best_iso, best_row
 
 
-def build_taiex(mi_rows, hist_rows, fmtqik_rows, trade_date: str) -> dict:
-    """大盤卡片:收盤、漲跌點、漲跌幅、開高低、成交量值筆數。"""
-    src = "TWSE"
-    main = None
-    main_date = None
+def build_taiex(mi_rows, hist_rows, fmtqik_rows, trade_date: str, fm_rows=None) -> dict:
+    """大盤卡片:收盤、漲跌點、漲跌幅、開高低、成交量值筆數。
+
+    FinMind 優先(當天就有),證交所開放 API 補位並對帳(隔天才有)。
+    兩邊同一天卻對不起來 → 標 error,**寧可不顯示也不顯示錯的**。
+    """
+    fm = None
+    for r in fm_rows or []:
+        if str(r.get("date", "")) == trade_date:
+            fm = r
+    prev_close = None
+    if fm is not None:
+        earlier = [r for r in (fm_rows or []) if str(r.get("date", "")) < trade_date]
+        if earlier:
+            earlier.sort(key=lambda r: r["date"])
+            prev_close = earlier[-1].get("close")
+
+    # 證交所那邊(可能還是前一天的)
+    tw, tw_date = None, None
     for r in mi_rows or []:
         if str(r.get("指數", "")).strip() == MAIN_INDEX_NAME:
             iso = roc_to_iso(str(r.get("日期", "")))
-            if iso and (main_date is None or iso > main_date):
-                main, main_date = r, iso
+            if iso and (tw_date is None or iso > tw_date):
+                tw, tw_date = r, iso
 
     out = {}
-    if main:
-        sign = -1 if str(main.get("漲跌", "")).strip() == "-" else 1
-        pts = to_scaled(main.get("漲跌點數"), 2)
-        pct = to_scaled(main.get("漲跌百分比"), 2)
-        out["close"] = _dated(to_scaled(main.get("收盤指數"), 2), 2, src, main_date, trade_date)
-        out["change"] = _dated(None if pts is None else sign * pts, 2, src, main_date, trade_date)
-        out["changePct"] = _dated(None if pct is None else sign * abs(pct), 2, src, main_date, trade_date)
+
+    def from_finmind(key, scale):
+        v = to_scaled(fm.get(key), scale) if fm else None
+        return None if v is None else field(v, scale, OK, "FinMind", trade_date)
+
+    if fm is not None:
+        out["close"] = from_finmind("close", 2)
+        out["open"] = from_finmind("open", 2)
+        out["high"] = from_finmind("max", 2)
+        out["low"] = from_finmind("min", 2)
+        out["tradeValue"] = from_finmind("Trading_money", 0)
+        out["tradeVolume"] = from_finmind("Trading_Volume", 0)
+        out["transaction"] = from_finmind("Trading_turnover", 0)
+        spread = to_scaled(fm.get("spread"), 2)
+        out["change"] = (field(spread, 2, OK, "FinMind", trade_date)
+                         if spread is not None
+                         else field(None, 2, PENDING, "FinMind", trade_date))
+        if spread is not None and prev_close:
+            pct = spread / 100 / float(prev_close) * 100
+            out["changePct"] = field(round(pct * 100), 2, OK, "FinMind", trade_date)
+        else:
+            out["changePct"] = field(None, 2, PENDING, "FinMind", trade_date)
+
+        # 對帳:證交所也出了同一天就比收盤,差超過 1 點代表有一邊不對
+        if tw is not None and tw_date == trade_date:
+            tw_close = to_scaled(tw.get("收盤指數"), 2)
+            if tw_close is not None and out["close"]["value"] is not None:
+                if abs(tw_close - out["close"]["value"]) > 100:  # scale 2 → 100 = 1 點
+                    out["close"] = field(
+                        None, 2, ERROR, "FinMind+TWSE", trade_date,
+                        f"兩個來源對不起來:FinMind {out['close']['value'] / 100}"
+                        f" vs 證交所 {tw_close / 100}")
+        return out
+
+    # FinMind 沒有這天 → 退回證交所開放 API
+    src = "TWSE"
+    if tw:
+        sign = -1 if str(tw.get("漲跌", "")).strip() == "-" else 1
+        pts = to_scaled(tw.get("漲跌點數"), 2)
+        pct = to_scaled(tw.get("漲跌百分比"), 2)
+        out["close"] = _dated(to_scaled(tw.get("收盤指數"), 2), 2, src, tw_date, trade_date)
+        out["change"] = _dated(None if pts is None else sign * pts, 2, src, tw_date, trade_date)
+        out["changePct"] = _dated(None if pct is None else sign * abs(pct), 2, src, tw_date, trade_date)
     else:
         for k in ("close", "change", "changePct"):
             out[k] = field(None, 2, PENDING, src, None, "MI_INDEX 查無發行量加權股價指數")
@@ -165,7 +223,6 @@ def build_taiex(mi_rows, hist_rows, fmtqik_rows, trade_date: str) -> dict:
     out["tradeVolume"] = _dated(to_scaled((q or {}).get("TradeVolume"), 0), 0, src, q_date, trade_date)
     out["transaction"] = _dated(to_scaled((q or {}).get("Transaction"), 0), 0, src, q_date, trade_date)
     return out
-
 
 def build_advance_decline(rows, trade_date: str) -> dict:
     """漲跌家數。開放版 twtazu_od 實測會停在舊日期(2026-10-06 查到的是 6/5),
@@ -203,27 +260,34 @@ def build_sectors(mi_rows, trade_date: str) -> dict:
         sign = -1 if str(r.get("漲跌", "")).strip() == "-" else 1
         pct = to_scaled(r.get("漲跌百分比"), 2)
         close = to_scaled(r.get("收盤指數"), 2)
+        # ⚠️ 類股只有證交所有,而證交所開放 API 比 FinMind 慢一天。
+        # 這裡**不**套「日期不符就 pending」,否則整個類股區會空掉;
+        # 改成照實記自己的 asOf,畫面再標明「類股資料日期 X/X」。
         items.append({
             "name": name,
             "aggregate": name in AGGREGATE_SECTORS,
-            "close": _dated(close, 2, src, iso, trade_date),
-            "changePct": _dated(None if pct is None else sign * abs(pct), 2, src, iso, trade_date),
+            "close": field(close, 2, OK if close is not None else PENDING, src, iso),
+            "changePct": field(None if pct is None else sign * abs(pct), 2,
+                               OK if pct is not None else PENDING, src, iso),
         })
 
     ranked = [i for i in items
               if not i["aggregate"] and i["changePct"]["status"] == OK]
     ranked.sort(key=lambda i: i["changePct"]["value"], reverse=True)
+    sector_date = items[0]["close"]["asOf"] if items else None
     return {
         "all": items,
         "topGainers": [i["name"] for i in ranked[:4]],
         "topLosers": [i["name"] for i in reversed(ranked[-3:])] if len(ranked) >= 3 else [],
         "status": OK if ranked else PENDING,
         "source": src,
-        "asOf": trade_date if ranked else None,
+        "asOf": sector_date,
+        # 類股比大盤慢一天時,畫面要標出來(別讓人以為是當天的)
+        "staleVsTradeDate": bool(sector_date and sector_date != trade_date),
     }
 
 
-def build_heavyweights(stock_rows, trade_date: str) -> dict:
+def build_heavyweights(stock_rows, trade_date: str, fm_rows_by_code=None) -> dict:
     """權值股(台積電)收盤與漲跌。Change 官方給的是絕對值帶正負號。"""
     src = "TWSE"
     by_code = {}
@@ -234,6 +298,19 @@ def build_heavyweights(stock_rows, trade_date: str) -> dict:
 
     out = {}
     for code, name in HEAVYWEIGHTS.items():
+        # FinMind 當天就有,證交所要隔天 → FinMind 優先
+        fm = ((fm_rows_by_code or {}).get(code) or {})
+        if str(fm.get("date", "")) == trade_date:
+            out[code] = {
+                "name": name,
+                "close": field(to_scaled(fm.get("close"), 2), 2, OK, "FinMind", trade_date),
+                "change": field(to_scaled(fm.get("spread"), 2), 2, OK, "FinMind", trade_date),
+                "open": field(to_scaled(fm.get("open"), 2), 2, OK, "FinMind", trade_date),
+                "high": field(to_scaled(fm.get("max"), 2), 2, OK, "FinMind", trade_date),
+                "low": field(to_scaled(fm.get("min"), 2), 2, OK, "FinMind", trade_date),
+                "tradeValue": field(to_scaled(fm.get("Trading_money"), 0), 0, OK, "FinMind", trade_date),
+            }
+            continue
         r = by_code.get(code)
         iso = roc_to_iso(str((r or {}).get("Date", ""))) if r else None
         out[code] = {
@@ -328,9 +405,44 @@ def fetch_json(url: str, timeout: int = 30, retries: int = 3):
     return None
 
 
+# 台股 13:30 收盤,留一小時給資料落地。盤中跑排程時,當天那根是「還沒收盤」的半根,
+# 拿去當收盤價就是在發錯資訊 —— 一律擋掉(2026-10-07 加)。
+MARKET_SETTLED_HOUR = 14.5
+
+
+def usable_finmind_rows(rows, now: datetime):
+    """砍掉「今天但還沒收盤」的那一根。其他日期照留。"""
+    today = now.date().isoformat()
+    settled = (now.hour + now.minute / 60) >= MARKET_SETTLED_HOUR
+    out = []
+    for r in rows or []:
+        d = str(r.get("date", ""))
+        if d == today and not settled:
+            continue
+        if d > today:
+            continue
+        out.append(r)
+    return out
+
+
+def fetch_finmind_price(data_id: str, start_date: str):
+    params = {
+        "dataset": FM_PRICE,
+        "data_id": data_id,
+        "start_date": start_date,
+    }
+    token = os.environ.get("FINMIND_TOKEN", "").strip()
+    if token:
+        params["token"] = token
+    payload = fetch_json(f"{FINMIND_API}?{urllib.parse.urlencode(params)}")
+    if not payload or payload.get("status") != 200:
+        return []
+    return payload.get("data") or []
+
+
 def fetch_institutional_rows(trade_date: str):
     params = {
-        "dataset": "TaiwanStockTotalInstitutionalInvestors",
+        "dataset": FM_INSTI,
         "start_date": trade_date,
         "end_date": trade_date,
     }
@@ -354,13 +466,31 @@ def build_report(now: datetime | None = None) -> dict:
     adv_rows = fetch_json(EP_ADVANCE_DECLINE)
     holiday_rows = fetch_json(EP_HOLIDAY)
 
-    # 交易日由官方出表日期決定,不自己推算(MI_INDEX 是大盤的權威出表日)。
-    trade_date, _ = pick_latest(
+    # FinMind:當天收盤後就有,證交所開放 API 要隔天(2026-10-07 實測)
+    start = (now - timedelta(days=20)).date().isoformat()
+    fm_taiex = usable_finmind_rows(fetch_finmind_price("TAIEX", start), now)
+    fm_heavy = {
+        code: usable_finmind_rows(fetch_finmind_price(code, start), now)
+        for code in HEAVYWEIGHTS
+    }
+
+    # 交易日 = 兩邊有資料的最新那天(誰先出就用誰,不等對方)
+    candidates = []
+    if fm_taiex:
+        candidates.append(max(str(r.get("date", "")) for r in fm_taiex))
+    twse_date, _ = pick_latest(
         [r for r in (mi_rows or []) if str(r.get("指數", "")).strip() == MAIN_INDEX_NAME],
         "日期",
     )
-    if trade_date is None:
-        trade_date = pick_latest(fmtqik_rows, "Date")[0] or today_iso
+    if twse_date:
+        candidates.append(twse_date)
+    trade_date = max(candidates) if candidates else today_iso
+
+    fm_heavy_latest = {}
+    for code, rows in fm_heavy.items():
+        for r in rows:
+            if str(r.get("date", "")) == trade_date:
+                fm_heavy_latest[code] = r
 
     insti_rows = fetch_institutional_rows(trade_date)
 
@@ -368,9 +498,9 @@ def build_report(now: datetime | None = None) -> dict:
         "tradeDate": trade_date,
         "generatedAt": now.isoformat(timespec="seconds"),
         "isLatestTradingDayToday": trade_date == today_iso,
-        "taiex": build_taiex(mi_rows, hist_rows, fmtqik_rows, trade_date),
+        "taiex": build_taiex(mi_rows, hist_rows, fmtqik_rows, trade_date, fm_rows=fm_taiex),
         "breadth": build_advance_decline(adv_rows, trade_date),
-        "heavyweights": build_heavyweights(stock_rows, trade_date),
+        "heavyweights": build_heavyweights(stock_rows, trade_date, fm_rows_by_code=fm_heavy_latest),
         "sectors": build_sectors(mi_rows, trade_date),
         "institutional": build_institutional(insti_rows, trade_date),
         "holidays": build_holidays(holiday_rows, today_iso),

@@ -19,6 +19,7 @@ import unittest
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from market_report_fetch import (  # noqa: E402
+    ERROR,
     OK,
     PENDING,
     UNAVAILABLE,
@@ -33,8 +34,22 @@ from market_report_fetch import (  # noqa: E402
     roc_to_iso,
     summarize,
     to_scaled,
+    usable_finmind_rows,
     write_report,
 )
+from datetime import datetime, timedelta, timezone  # noqa: E402
+
+TPE = timezone(timedelta(hours=8))
+
+# FinMind 的 10/6(當天就有,證交所要隔天才出)
+FM_TAIEX_ROWS = [
+    {"date": "2026-10-05", "stock_id": "TAIEX", "Trading_Volume": 14490437804,
+     "Trading_money": 1211041395113, "open": 48574.95, "max": 49770.66,
+     "min": 48574.95, "close": 49712.04, "spread": 1236.30, "Trading_turnover": 5843674},
+    {"date": "2026-10-06", "stock_id": "TAIEX", "Trading_Volume": 10889677530,
+     "Trading_money": 1026204771139, "open": 49736.37, "max": 49968.92,
+     "min": 49479.69, "close": 49822.55, "spread": 110.51, "Trading_turnover": 4923225},
+]
 
 # ── 真實回傳(2026-10-06 抓的)──────────────────────────────────
 
@@ -382,6 +397,88 @@ class TestLiveApi(unittest.TestCase):
             self.assertGreater(close, 10000, "加權指數不可能低於一萬點,解析一定錯了")
             self.assertLess(close, 200000)
         print("\n── 線上實測 ──\n" + summarize(report))
+
+
+class TestFinMindFirst(unittest.TestCase):
+    """2026-10-07 實測:證交所開放 API 收盤九小時後仍只有前一天,FinMind 當天就有。
+    所以大盤改以 FinMind 為主、證交所對帳。"""
+
+    def test_uses_finmind_for_today(self):
+        t = build_taiex(MI_INDEX_ROWS, TAIEX_HIST_ROWS, FMTQIK_ROWS,
+                        "2026-10-06", fm_rows=FM_TAIEX_ROWS)
+        self.assertEqual(v(t["close"]), 49822.55)
+        self.assertEqual(v(t["change"]), 110.51)
+        self.assertEqual(v(t["high"]), 49968.92)
+        self.assertEqual(v(t["tradeValue"]), 1026204771139)
+        self.assertEqual(t["close"]["source"], "FinMind")
+        self.assertEqual(t["close"]["status"], OK)
+
+    def test_change_pct_computed_from_prev_close(self):
+        t = build_taiex([], [], [], "2026-10-06", fm_rows=FM_TAIEX_ROWS)
+        # 110.51 / 49712.04 = 0.2223%
+        self.assertAlmostEqual(v(t["changePct"]), 0.22, places=2)
+
+    def test_falls_back_to_twse_when_finmind_missing_that_day(self):
+        t = build_taiex(MI_INDEX_ROWS, TAIEX_HIST_ROWS, FMTQIK_ROWS,
+                        "2026-10-05", fm_rows=[])
+        self.assertEqual(v(t["close"]), 49712.04)
+        self.assertEqual(t["close"]["source"], "TWSE")
+
+    def test_two_sources_disagree_is_error_not_a_guess(self):
+        """兩邊同一天卻對不起來 → 標 error,寧可不顯示也不顯示錯的。"""
+        bad = [dict(FM_TAIEX_ROWS[0], close=48000.0)]
+        t = build_taiex(MI_INDEX_ROWS, TAIEX_HIST_ROWS, FMTQIK_ROWS,
+                        "2026-10-05", fm_rows=bad)
+        self.assertEqual(t["close"]["status"], ERROR)
+        self.assertIsNone(t["close"]["value"])
+        self.assertIn("對不起來", t["close"]["note"])
+
+    def test_two_sources_agree_passes(self):
+        t = build_taiex(MI_INDEX_ROWS, TAIEX_HIST_ROWS, FMTQIK_ROWS,
+                        "2026-10-05", fm_rows=FM_TAIEX_ROWS)
+        self.assertEqual(t["close"]["status"], OK)
+        self.assertEqual(v(t["close"]), 49712.04)
+
+
+class TestIntradayGuard(unittest.TestCase):
+    """台股 13:30 收盤。盤中跑排程時 FinMind 給的是還沒收盤的半根,
+    拿去當收盤價就是發錯資訊 —— 一律擋掉。"""
+
+    def test_drops_todays_bar_before_close(self):
+        now = datetime(2026, 10, 6, 11, 0, tzinfo=TPE)  # 盤中
+        rows = usable_finmind_rows(FM_TAIEX_ROWS, now)
+        self.assertEqual([r["date"] for r in rows], ["2026-10-05"])
+
+    def test_keeps_todays_bar_after_settle(self):
+        now = datetime(2026, 10, 6, 15, 30, tzinfo=TPE)  # 收盤後
+        rows = usable_finmind_rows(FM_TAIEX_ROWS, now)
+        self.assertEqual([r["date"] for r in rows], ["2026-10-05", "2026-10-06"])
+
+    def test_boundary_1430(self):
+        self.assertEqual(
+            len(usable_finmind_rows(FM_TAIEX_ROWS, datetime(2026, 10, 6, 14, 29, tzinfo=TPE))), 1)
+        self.assertEqual(
+            len(usable_finmind_rows(FM_TAIEX_ROWS, datetime(2026, 10, 6, 14, 30, tzinfo=TPE))), 2)
+
+    def test_never_future(self):
+        now = datetime(2026, 10, 5, 16, 0, tzinfo=TPE)
+        rows = usable_finmind_rows(FM_TAIEX_ROWS, now)
+        self.assertEqual([r["date"] for r in rows], ["2026-10-05"])
+
+
+class TestSectorsKeepOwnDate(unittest.TestCase):
+    """類股只有證交所有,會比大盤慢一天。整區消失不行,假裝是當天的也不行 ——
+    照實記自己的 asOf,並標 staleVsTradeDate 讓畫面寫出來。"""
+
+    def test_keeps_data_with_own_date(self):
+        s = build_sectors(MI_INDEX_ROWS, "2026-10-06")
+        self.assertTrue(s["topGainers"], "類股不該因為慢一天就空掉")
+        self.assertEqual(s["asOf"], "2026-10-05")
+        self.assertTrue(s["staleVsTradeDate"])
+
+    def test_not_stale_when_same_day(self):
+        s = build_sectors(MI_INDEX_ROWS, "2026-10-05")
+        self.assertFalse(s["staleVsTradeDate"])
 
 
 if __name__ == "__main__":

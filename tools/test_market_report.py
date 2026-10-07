@@ -466,6 +466,41 @@ class TestIntradayGuard(unittest.TestCase):
         self.assertEqual([r["date"] for r in rows], ["2026-10-05"])
 
 
+class TestAggregateSectors(unittest.TestCase):
+    """證交所 37 個類指數裡有 5 個是大類,跟子類一起排名會重複計算。
+    2026-10-07 踩到:排行榜同時出現「電子工業」與它底下的「半導體」「電子零組件」。"""
+
+    def _rows(self):
+        data = [("水泥窯製類指數", 9.0), ("塑膠化工類指數", 8.0),
+                ("化學生技醫療類指數", 7.0), ("機電類指數", 6.0),
+                ("電子工業類指數", 5.0), ("半導體類指數", 4.0),
+                ("生技醫療類指數", 3.0), ("食品類指數", 2.0),
+                ("航運類指數", -1.0), ("水泥類指數", -2.0), ("造紙類指數", -3.0)]
+        return [{"日期": "1151007", "指數": n, "收盤指數": "100.00",
+                 "漲跌": "+" if p >= 0 else "-", "漲跌點數": "1.00",
+                 "漲跌百分比": str(p)} for n, p in data]
+
+    def test_all_five_aggregates_excluded_from_ranking(self):
+        s = build_sectors(self._rows(), "2026-10-07")
+        for agg in ("水泥窯製類指數", "塑膠化工類指數", "化學生技醫療類指數",
+                    "機電類指數", "電子工業類指數"):
+            self.assertNotIn(agg, s["topGainers"], f"{agg} 是大類,不該進榜")
+            self.assertNotIn(agg, s["topLosers"], f"{agg} 是大類,不該進榜")
+
+    def test_ranking_is_leaf_sectors_only(self):
+        s = build_sectors(self._rows(), "2026-10-07")
+        self.assertEqual(s["topGainers"],
+                         ["半導體類指數", "生技醫療類指數", "食品類指數", "航運類指數"])
+        self.assertEqual(s["topLosers"],
+                         ["造紙類指數", "水泥類指數", "航運類指數"])
+
+    def test_aggregates_still_in_all_for_cross_check(self):
+        s = build_sectors(self._rows(), "2026-10-07")
+        self.assertEqual(len(s["all"]), 11, "大類的原始數字仍要留著可核對")
+        aggs = [i for i in s["all"] if i["aggregate"]]
+        self.assertEqual(len(aggs), 5)
+
+
 class TestSectorsKeepOwnDate(unittest.TestCase):
     """類股只有證交所有,會比大盤慢一天。整區消失不行,假裝是當天的也不行 ——
     照實記自己的 asOf,並標 staleVsTradeDate 讓畫面寫出來。"""

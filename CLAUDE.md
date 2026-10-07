@@ -142,6 +142,27 @@ python tools/market_report_fetch.py              # 寫 report/
 
 ---
 
+## ⏰ 排程:本機 launchd 為主,GitHub Actions 為輔(2026-10-08)
+
+**GitHub Actions 的排程不可靠。** 2026-10-07 實測:`update-market-report.yml` 的排程
+整天一次都沒被觸發(同 repo 的配息排程遲到 3 小時、籌碼遲到 6 小時)。
+收盤後要馬上看到資料的功能不能只靠它。
+
+| | 位置 | 時間 | 備註 |
+| --- | --- | --- | --- |
+| 主力 | Mac launchd `com.jieterli.market-report` | 交易日 15:35 / 17:05 / 21:05 | Mac 開著就準時 |
+| 備援 | GitHub Actions | 同上(實際會遲到) | 晚跑只是寫同樣的數字,不衝突 |
+
+- 排程用的 clone:**`~/jtl-data`**(不是桌面那份)。
+  ⚠️ **macOS TCC 不讓 launchd 背景程式讀寫 `~/Desktop`** —— 放桌面會直接
+  `Operation not permitted`(exit 126)而且不跳授權視窗。桌面那份留著手動開發用,
+  兩份 push 到同一個 remote。
+- 包裝腳本:`tools/run_market_report.sh`(git pull → 抓取 → 有變動才 commit + push)
+- 紀錄:`~/Library/Logs/jtl-market-report.log`
+- 停用:`launchctl bootout gui/$(id -u)/com.jieterli.market-report`
+- 手動跑一次:`launchctl kickstart gui/$(id -u)/com.jieterli.market-report`
+- 資料沒變時會沿用舊的 `generatedAt`,讓檔案內容不變 → 休市日不會累積空 commit。
+
 ## 部署 SOP
 
 `git pull` → 改 → 跑測試 → `git push`。GitHub Actions 自動跑排程並 commit 資料檔。

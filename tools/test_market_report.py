@@ -339,6 +339,47 @@ class TestNoOverwrite(unittest.TestCase):
         self.assertEqual(saved["taiex"]["close"]["value"], 4971204)
 
 
+class TestNoPointlessCommits(unittest.TestCase):
+    """generatedAt 每跑一次都會變。數字沒動時要沿用舊時間戳,
+    否則休市日每班排程都產生一個內容一樣的 commit。"""
+
+    def test_unchanged_data_keeps_old_timestamp(self):
+        report = {
+            "tradeDate": TRADE_DATE,
+            "generatedAt": "2026-10-05T15:30:00+08:00",
+            "taiex": {"close": {"value": 4971204, "scale": 2, "status": OK,
+                                "source": "TWSE", "asOf": TRADE_DATE}},
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            write_report(report, tmp)
+            again = dict(report, generatedAt="2026-10-05T17:00:00+08:00")
+            write_report(again, tmp)
+            with open(os.path.join(tmp, "report", "latest.json"), encoding="utf-8") as fh:
+                saved = json.load(fh)
+        self.assertEqual(saved["generatedAt"], "2026-10-05T15:30:00+08:00")
+
+    def test_changed_data_updates_timestamp(self):
+        report = {
+            "tradeDate": TRADE_DATE,
+            "generatedAt": "2026-10-05T15:30:00+08:00",
+            "taiex": {"close": {"value": None, "scale": 2, "status": PENDING,
+                                "source": "TWSE", "asOf": None}},
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            write_report(report, tmp)
+            filled = {
+                "tradeDate": TRADE_DATE,
+                "generatedAt": "2026-10-05T17:00:00+08:00",
+                "taiex": {"close": {"value": 4971204, "scale": 2, "status": OK,
+                                    "source": "TWSE", "asOf": TRADE_DATE}},
+            }
+            write_report(filled, tmp)
+            with open(os.path.join(tmp, "report", "latest.json"), encoding="utf-8") as fh:
+                saved = json.load(fh)
+        self.assertEqual(saved["generatedAt"], "2026-10-05T17:00:00+08:00")
+        self.assertEqual(saved["taiex"]["close"]["value"], 4971204)
+
+
 class TestNoAdviceWords(unittest.TestCase):
     """驗收清單:禁用詞檢查。這份事實層 JSON 兩支 APP 共用,一個字都不能有。"""
 

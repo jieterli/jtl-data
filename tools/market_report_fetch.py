@@ -522,6 +522,14 @@ def build_report(now: datetime | None = None) -> dict:
     }
 
 
+def _same_data(a: dict, b: dict) -> bool:
+    """除了 generatedAt 以外都一樣?(判斷這次抓到的東西有沒有真的變)"""
+    def strip(d):
+        return {k: v for k, v in d.items() if k != "generatedAt"}
+
+    return strip(a) == strip(b)
+
+
 def write_report(report: dict, repo_root: str) -> list[str]:
     out_dir = os.path.join(repo_root, "report")
     os.makedirs(out_dir, exist_ok=True)
@@ -530,9 +538,15 @@ def write_report(report: dict, repo_root: str) -> list[str]:
     if os.path.exists(dated_path):
         with open(dated_path, encoding="utf-8") as fh:
             try:
-                report = merge_keep_ok(json.load(fh), report)
+                old = json.load(fh)
             except json.JSONDecodeError:
-                pass  # 檔壞掉就以新的為準
+                old = None  # 檔壞掉就以新的為準
+        if old is not None:
+            report = merge_keep_ok(old, report)
+            # generatedAt 每跑一次都不一樣。若數字完全沒動,就沿用舊的時間戳,
+            # 讓檔案內容一模一樣 → git 看不到變動 → 休市日不會一直產生空 commit。
+            if _same_data(old, report):
+                report["generatedAt"] = old.get("generatedAt", report.get("generatedAt"))
 
     written = []
     for path in (dated_path, os.path.join(out_dir, "latest.json")):

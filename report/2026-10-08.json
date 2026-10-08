@@ -1,7 +1,7 @@
 {
  "tradeDate": "2026-10-08",
- "generatedAt": "2026-10-08T21:05:04+08:00",
- "isLatestTradingDayToday": true,
+ "generatedAt": "2026-10-09T00:03:30+08:00",
+ "isLatestTradingDayToday": false,
  "taiex": {
   "close": {
    "value": 4931344,
@@ -1001,7 +1001,7 @@
   ],
   "status": "ok",
   "source": "TWSE",
-  "asOf": "2026-10-08"
+  "asOf": "2026-10-09"
  },
  "attribution": "資料來源:臺灣證券交易所(開放資料)、FinMind",
  "disclaimer": "本頁僅彙整臺灣證券交易所公開資料,不提供任何投資建議。"

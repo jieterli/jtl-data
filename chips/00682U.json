@@ -1,5 +1,4 @@
-{"symbol":"00682U","name":"期元大美元指數","market":"TWSE","updated":"2026-10-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-06-12",null,null,null,null,null,null,null,5.0,0.0,2.18,null,null,null,null],
+{"symbol":"00682U","name":"期元大美元指數","market":"TWSE","updated":"2026-10-09","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-06-15",null,null,null,0,0.0,-18.0,-18.0,5.0,0.0,2.18,null,null,null,null],
 ["2026-06-16",20.51,0.0,15306.0,0,0.0,-14800.0,-14800.0,5.0,0.0,2.18,20.51,20.51,20.51,20.507709395008494],
 ["2026-06-17",20.41,-0.1,14001.0,0,0.0,13999.0,13999.0,5.0,0.0,2.18,20.41,20.41,20.41,20.4099707163774],
@@ -78,5 +77,6 @@
 ["2026-10-02",20.95,0.04,3138.0,0,0.0,2894.0,2894.0,3.0,0.0,2.21,20.95,20.95,20.95,20.95697896749522],
 ["2026-10-05",21.09,0.14,11023.0,0,0.0,977.0,977.0,3.0,0.0,2.21,21.09,21.06,21.06,21.08736278690012],
 ["2026-10-06",21.04,-0.05,27146.0,0,0.0,-23854.0,-23854.0,3.0,0.0,2.21,21.05,21.04,21.05,21.048589110734547],
-["2026-10-07",null,null,null,null,null,null,null,3.0,0.0,2.21,null,null,null,null]
+["2026-10-07",null,null,null,null,null,null,null,3.0,0.0,2.21,null,null,null,null],
+["2026-10-08",null,null,null,0,0.0,-81.0,-81.0,3.0,0.0,2.21,null,null,null,null]
 ]}

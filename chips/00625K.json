@@ -1,5 +1,4 @@
-{"symbol":"00625K","name":"富邦上証+R","market":"TWSE","updated":"2026-10-08","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-06-12",8.83,0.0,1000.0,0,0.0,0.0,0.0,null,null,0.0,8.83,8.83,8.83,8.83],
+{"symbol":"00625K","name":"富邦上証+R","market":"TWSE","updated":"2026-10-09","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-06-15",null,null,null,null,null,null,null,null,null,0.0,null,null,null,null],
 ["2026-06-16",null,null,null,null,null,null,null,null,null,0.0,null,null,null,null],
 ["2026-06-17",null,null,null,null,null,null,null,null,null,0.0,null,null,null,null],
@@ -78,5 +77,6 @@
 ["2026-10-02",null,null,null,null,null,null,null,null,null,0.0,null,null,null,null],
 ["2026-10-05",null,null,null,null,null,null,null,null,null,0.0,null,null,null,null],
 ["2026-10-06",null,null,null,null,null,null,null,null,null,0.0,null,null,null,null],
-["2026-10-07",null,null,null,null,null,null,null,null,null,0.0,null,null,null,null]
+["2026-10-07",null,null,null,null,null,null,null,null,null,0.0,null,null,null,null],
+["2026-10-08",null,null,null,null,null,null,null,null,null,0.0,null,null,null,null]
 ]}

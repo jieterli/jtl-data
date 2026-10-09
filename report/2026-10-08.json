@@ -1,6 +1,6 @@
 {
  "tradeDate": "2026-10-08",
- "generatedAt": "2026-10-09T15:35:03+08:00",
+ "generatedAt": "2026-10-10T02:41:35+08:00",
  "isLatestTradingDayToday": false,
  "taiex": {
   "close": {
@@ -974,11 +974,6 @@
  "holidays": {
   "items": [
    {
-    "date": "2026-10-09",
-    "name": "國慶日",
-    "weekday": "五"
-   },
-   {
     "date": "2026-10-10",
     "name": "國慶日",
     "weekday": "六"
@@ -1001,7 +996,7 @@
   ],
   "status": "ok",
   "source": "TWSE",
-  "asOf": "2026-10-09"
+  "asOf": "2026-10-10"
  },
  "attribution": "資料來源:臺灣證券交易所(開放資料)、FinMind",
  "disclaimer": "本頁僅彙整臺灣證券交易所公開資料,不提供任何投資建議。"

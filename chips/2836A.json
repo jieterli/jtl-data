@@ -1,5 +1,4 @@
-{"symbol":"2836A","name":"高雄銀甲特","market":"TWSE","updated":"2026-10-13","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-06-16",24.6,0.1,62081.0,null,null,null,null,null,null,0.01,24.6,24.5,24.55,24.51360319582481],
+{"symbol":"2836A","name":"高雄銀甲特","market":"TWSE","updated":"2026-10-14","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-06-17",24.6,0.0,2779.0,null,null,null,null,null,null,0.01,24.6,24.6,24.6,24.59625764663548],
 ["2026-06-18",24.65,0.05,12393.0,null,null,null,null,null,null,0.01,24.65,24.6,24.6,24.63366416525458],
 ["2026-06-22",24.6,-0.05,25000.0,null,null,null,null,null,null,0.01,24.6,24.5,24.6,24.544],
@@ -78,5 +77,6 @@
 ["2026-10-06",23.85,-0.05,10000.0,null,null,null,null,null,null,0.0,23.85,23.8,23.85,23.8228],
 ["2026-10-07",23.85,0.0,4000.0,null,null,null,null,null,null,0.0,23.85,23.85,23.85,23.85],
 ["2026-10-08",23.95,0.1,17000.0,null,null,null,null,null,null,0.0,23.95,23.8,23.85,23.873529411764707],
-["2026-10-12",23.95,0.0,9739.0,null,null,null,null,null,null,0.0,23.95,23.95,23.95,23.94599034808502]
+["2026-10-12",23.95,0.0,9739.0,null,null,null,null,null,null,0.0,23.95,23.95,23.95,23.94599034808502],
+["2026-10-13",23.9,-0.05,32140.0,null,null,null,null,null,null,0.0,23.95,23.85,23.95,23.856689483509644]
 ]}

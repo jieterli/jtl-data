@@ -1,3 +1,4 @@
-{"symbol":"00412A","name":null,"market":"TWSE","updated":"2026-10-13","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-10-12",null,null,null,null,null,null,null,0.0,0.0,0.0,null,null,null,null]
+{"symbol":"00412A","name":"主動安聯亞半導體","market":"TWSE","updated":"2026-10-14","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-10-12",null,null,null,null,null,null,null,0.0,0.0,0.0,null,null,null,null],
+["2026-10-13",9.75,-0.15,54869971.0,6300.0,0.0,-29377776.0,-29371476.0,902.0,0.0,0.6,9.82,9.67,9.69,9.734763410026224]
 ]}

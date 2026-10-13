@@ -1,70 +1,70 @@
 {
- "tradeDate": "2026-10-12",
- "generatedAt": "2026-10-13T05:37:34+08:00",
- "isLatestTradingDayToday": false,
+ "tradeDate": "2026-10-13",
+ "generatedAt": "2026-10-13T15:35:06+08:00",
+ "isLatestTradingDayToday": true,
  "taiex": {
   "close": {
-   "value": 4930196,
+   "value": 4834131,
    "scale": 2,
    "status": "ok",
    "source": "FinMind",
-   "asOf": "2026-10-12"
+   "asOf": "2026-10-13"
   },
   "open": {
-   "value": 4927208,
+   "value": 4912627,
    "scale": 2,
    "status": "ok",
    "source": "FinMind",
-   "asOf": "2026-10-12"
+   "asOf": "2026-10-13"
   },
   "high": {
-   "value": 4941290,
+   "value": 4912627,
    "scale": 2,
    "status": "ok",
    "source": "FinMind",
-   "asOf": "2026-10-12"
+   "asOf": "2026-10-13"
   },
   "low": {
-   "value": 4876882,
+   "value": 4806636,
    "scale": 2,
    "status": "ok",
    "source": "FinMind",
-   "asOf": "2026-10-12"
+   "asOf": "2026-10-13"
   },
   "tradeValue": {
-   "value": 894521928358,
+   "value": 1198629946866,
    "scale": 0,
    "status": "ok",
    "source": "FinMind",
-   "asOf": "2026-10-12"
+   "asOf": "2026-10-13"
   },
   "tradeVolume": {
-   "value": 10868236326,
+   "value": 14845590146,
    "scale": 0,
    "status": "ok",
    "source": "FinMind",
-   "asOf": "2026-10-12"
+   "asOf": "2026-10-13"
   },
   "transaction": {
-   "value": 4759498,
+   "value": 7269071,
    "scale": 0,
    "status": "ok",
    "source": "FinMind",
-   "asOf": "2026-10-12"
+   "asOf": "2026-10-13"
   },
   "change": {
-   "value": -1148,
+   "value": -96065,
    "scale": 2,
    "status": "ok",
    "source": "FinMind",
-   "asOf": "2026-10-12"
+   "asOf": "2026-10-13"
   },
   "changePct": {
-   "value": -2,
+   "value": -195,
    "scale": 2,
    "status": "ok",
    "source": "FinMind",
-   "asOf": "2026-10-12"
+   "asOf": "2026-10-13"
   }
  },
  "breadth": {
@@ -74,7 +74,7 @@
    "status": "unavailable",
    "source": "TWSE",
    "asOf": "2026-06-05",
-   "note": "開放版停在 2026-06-05,非 2026-10-12"
+   "note": "開放版停在 2026-06-05,非 2026-10-13"
   },
   "declines": {
    "value": null,
@@ -82,7 +82,7 @@
    "status": "unavailable",
    "source": "TWSE",
    "asOf": "2026-06-05",
-   "note": "開放版停在 2026-06-05,非 2026-10-12"
+   "note": "開放版停在 2026-06-05,非 2026-10-13"
   },
   "unchanged": {
    "value": null,
@@ -90,53 +90,53 @@
    "status": "unavailable",
    "source": "TWSE",
    "asOf": "2026-06-05",
-   "note": "開放版停在 2026-06-05,非 2026-10-12"
+   "note": "開放版停在 2026-06-05,非 2026-10-13"
   }
  },
  "heavyweights": {
   "2330": {
    "name": "台積電",
    "close": {
-    "value": 254000,
+    "value": 249000,
     "scale": 2,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-12"
+    "asOf": "2026-10-13"
    },
    "change": {
-    "value": -1000,
+    "value": -5000,
     "scale": 2,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-12"
+    "asOf": "2026-10-13"
    },
    "open": {
-    "value": 251000,
+    "value": 250000,
     "scale": 2,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-12"
+    "asOf": "2026-10-13"
    },
    "high": {
-    "value": 255000,
-    "scale": 2,
-    "status": "ok",
-    "source": "FinMind",
-    "asOf": "2026-10-12"
-   },
-   "low": {
     "value": 251000,
     "scale": 2,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-12"
+    "asOf": "2026-10-13"
+   },
+   "low": {
+    "value": 249000,
+    "scale": 2,
+    "status": "ok",
+    "source": "FinMind",
+    "asOf": "2026-10-13"
    },
    "tradeValue": {
-    "value": 59600136896,
+    "value": 101680302000,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-12"
+    "asOf": "2026-10-13"
    }
   }
  },
@@ -823,103 +823,103 @@
   "status": "ok",
   "source": "TWSE",
   "asOf": "2026-10-12",
-  "staleVsTradeDate": false
+  "staleVsTradeDate": true
  },
  "institutional": {
   "dealerSelf": {
    "label": "自營商(自行買賣)",
    "buy": {
-    "value": 7427842603,
+    "value": 10923022534,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-12"
+    "asOf": "2026-10-13"
    },
    "sell": {
-    "value": 8227215631,
+    "value": 20170053714,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-12"
+    "asOf": "2026-10-13"
    },
    "net": {
-    "value": -799373028,
+    "value": -9247031180,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-12"
+    "asOf": "2026-10-13"
    }
   },
   "dealerHedging": {
    "label": "自營商(避險)",
    "buy": {
-    "value": 30566874658,
+    "value": 44729854709,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-12"
+    "asOf": "2026-10-13"
    },
    "sell": {
-    "value": 44061605271,
+    "value": 92459075853,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-12"
+    "asOf": "2026-10-13"
    },
    "net": {
-    "value": -13494730613,
+    "value": -47729221144,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-12"
+    "asOf": "2026-10-13"
    }
   },
   "investmentTrust": {
    "label": "投信",
    "buy": {
-    "value": 26036212786,
+    "value": 46936948720,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-12"
+    "asOf": "2026-10-13"
    },
    "sell": {
-    "value": 18895287719,
+    "value": 23064907906,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-12"
+    "asOf": "2026-10-13"
    },
    "net": {
-    "value": 7140925067,
+    "value": 23872040814,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-12"
+    "asOf": "2026-10-13"
    }
   },
   "foreign": {
    "label": "外資及陸資(不含外資自營商)",
    "buy": {
-    "value": 312724764934,
+    "value": 339066597359,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-12"
+    "asOf": "2026-10-13"
    },
    "sell": {
-    "value": 364922911390,
+    "value": 504408674294,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-12"
+    "asOf": "2026-10-13"
    },
    "net": {
-    "value": -52198146456,
+    "value": -165342076935,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-12"
+    "asOf": "2026-10-13"
    }
   },
   "foreignDealer": {
@@ -929,45 +929,45 @@
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-12"
+    "asOf": "2026-10-13"
    },
    "sell": {
     "value": 0,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-12"
+    "asOf": "2026-10-13"
    },
    "net": {
     "value": 0,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-12"
+    "asOf": "2026-10-13"
    }
   },
   "total": {
    "label": "合計",
    "buy": {
-    "value": 376755694981,
+    "value": 441656423322,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-12"
+    "asOf": "2026-10-13"
    },
    "sell": {
-    "value": 436107020011,
+    "value": 640102711767,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-12"
+    "asOf": "2026-10-13"
    },
    "net": {
-    "value": -59351325030,
+    "value": -198446288445,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-12"
+    "asOf": "2026-10-13"
    }
   }
  },

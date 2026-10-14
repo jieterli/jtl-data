@@ -22,5 +22,6 @@
 ["2026-10-07",12.3,0.3,1000.0,null,null,null,null,null,null,29.97,12.3,12.3,12.3,12.3],
 ["2026-10-08",12.45,0.15,3000.0,null,null,null,null,null,null,29.97,12.45,11.75,11.75,12.1],
 ["2026-10-12",12.6,0.15,2062.0,null,null,null,null,null,null,29.97,12.6,12.2,12.2,12.39],
-["2026-10-13",12.3,-0.3,16000.0,null,null,null,null,null,null,29.97,12.55,11.65,12.5,12.29]
+["2026-10-13",12.3,-0.3,16000.0,null,null,null,null,null,null,29.97,12.55,11.65,12.5,12.29],
+["2026-10-14",null,null,null,null,null,null,null,null,null,29.97,null,null,null,null]
 ]}

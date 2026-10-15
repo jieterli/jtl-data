@@ -1,4 +1,4 @@
-{"symbol":"8444","name":"綠河-KY","market":"TPEx","updated":"2026-10-14","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"8444","name":"綠河-KY","market":"TPEx","updated":"2026-10-15","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-09-04",4.95,0.35,6181.0,null,null,null,null,1.0,0.0,44.37,4.95,4.6,4.6,4.67],
 ["2026-09-07",5.0,0.05,14710.0,null,null,null,null,1.0,0.0,44.37,5.0,5.0,5.0,5.0],
 ["2026-09-08",5.0,0.0,5155.0,null,null,null,null,1.0,0.0,44.37,5.0,5.0,5.0,4.99],
@@ -23,5 +23,6 @@
 ["2026-10-08",3.49,-0.24,39650.0,null,null,null,null,0.0,0.0,44.37,3.49,3.37,3.41,3.4],
 ["2026-10-12",3.31,-0.18,43901.0,null,null,null,null,0.0,0.0,44.37,3.35,3.19,3.19,3.24],
 ["2026-10-13",3.01,-0.3,41875.0,2000.0,0.0,0.0,2000.0,0.0,0.0,44.37,3.31,3.01,3.31,3.06],
-["2026-10-14",3.31,0.3,192312.0,null,null,null,null,0.0,0.0,44.37,3.31,3.26,3.28,3.31]
+["2026-10-14",3.31,0.3,192312.0,null,null,null,null,0.0,0.0,44.37,3.31,3.26,3.28,3.31],
+["2026-10-15",3.12,-0.19,10000.0,null,null,null,null,0.0,0.0,44.37,3.29,3.05,3.29,3.15]
 ]}

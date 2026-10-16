@@ -1,5 +1,4 @@
-{"symbol":"2887F","name":"台新新光戊特二","market":"TWSE","updated":"2026-10-15","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-06-22",47.15,0.05,32448.0,null,null,null,null,null,null,0.07,47.2,47.1,47.1,47.14022435897436],
+{"symbol":"2887F","name":"台新新光戊特二","market":"TWSE","updated":"2026-10-16","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-06-23",47.25,0.1,72081.0,10000.0,0.0,0.0,10000.0,null,null,0.07,47.3,47.15,47.15,47.24368418862113],
 ["2026-06-24",47.25,0.0,26000.0,null,null,null,null,null,null,0.07,47.25,47.2,47.25,47.23461538461538],
 ["2026-06-25",47.25,0.0,36168.0,4000.0,0.0,0.0,4000.0,null,null,0.07,47.3,47.25,47.25,47.24599093120991],
@@ -78,5 +77,6 @@
 ["2026-10-12",45.35,0.0,18808.0,null,null,null,null,null,null,0.1,45.4,45.35,45.35,45.3570820927265],
 ["2026-10-13",45.35,0.0,36252.0,null,null,null,null,null,null,0.1,45.35,45.35,45.35,45.34996689837802],
 ["2026-10-14",45.3,-0.05,26768.0,null,null,null,null,null,null,0.1,45.35,45.25,45.35,45.310183801554096],
-["2026-10-15",45.25,-0.05,23542.0,null,null,null,null,null,null,0.1,45.35,45.25,45.3,45.275082830685584]
+["2026-10-15",45.25,-0.05,23542.0,null,null,null,null,null,null,0.1,45.35,45.25,45.3,45.275082830685584],
+["2026-10-16",45.15,-0.1,51490.0,null,null,null,null,null,null,0.1,45.25,45.15,45.25,45.18786172072247]
 ]}

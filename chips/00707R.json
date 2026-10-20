@@ -1,5 +1,4 @@
 {"symbol":"00707R","name":"期元大S&P日圓反1","market":"TWSE","updated":"2026-10-20","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-06-24",null,null,null,0,0.0,400.0,400.0,0.0,0.0,0.0,null,null,null,null],
 ["2026-06-25",32.63,0.0,31000.0,0,0.0,-1000.0,-1000.0,0.0,0.0,0.0,32.63,32.52,32.52,32.523548387096774],
 ["2026-06-26",null,null,null,null,null,null,null,0.0,0.0,0.0,null,null,null,null],
 ["2026-06-29",null,null,null,0,0.0,1.0,1.0,0.0,0.0,0.0,null,null,null,null],
@@ -78,5 +77,6 @@
 ["2026-10-14",null,null,null,null,null,null,null,0.0,0.0,14.58,null,null,null,null],
 ["2026-10-15",null,null,null,null,null,null,null,0.0,0.0,14.58,null,null,null,null],
 ["2026-10-16",32.05,0.0,1000.0,0,0.0,1000.0,1000.0,0.0,0.0,14.58,32.05,32.05,32.05,32.05],
-["2026-10-19",null,null,null,null,null,null,null,0.0,0.0,14.58,null,null,null,null]
+["2026-10-19",null,null,null,null,null,null,null,0.0,0.0,14.58,null,null,null,null],
+["2026-10-20",null,null,null,null,null,null,null,0.0,0.0,14.58,null,null,null,null]
 ]}

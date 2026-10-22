@@ -1,5 +1,4 @@
-{"symbol":"1213","name":"大飲","market":"TWSE","updated":"2026-10-21","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-06-26",7.56,-0.53,13392.0,null,null,null,null,0.0,0.0,0.01,8.09,7.56,8.08,7.887171445639187],
+{"symbol":"1213","name":"大飲","market":"TWSE","updated":"2026-10-22","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-06-29",7.5,-0.06,63616.0,null,null,null,null,0.0,0.0,0.01,8.0,7.5,7.81,7.602489939637827],
 ["2026-06-30",8.19,0.69,21885.0,null,null,null,null,0.0,0.0,0.01,8.2,7.5,7.5,7.874160383824537],
 ["2026-07-01",7.9,-0.29,7002.0,null,null,null,null,0.0,0.0,0.01,8.02,7.9,8.02,7.957012282205084],
@@ -78,5 +77,6 @@
 ["2026-10-16",7.48,0.31,10178.0,null,null,null,null,0.0,0.0,0.01,7.52,7.11,7.11,7.4304382000393],
 ["2026-10-19",null,null,null,null,null,null,null,0.0,0.0,0.01,null,null,null,null],
 ["2026-10-20",7.13,0.0,2444.0,null,null,null,null,0.0,0.0,0.01,7.13,7.12,7.12,7.127250409165303],
-["2026-10-21",7.21,0.08,1000.0,null,null,null,null,0.0,0.0,0.01,7.21,7.21,7.21,7.21]
+["2026-10-21",7.21,0.08,1000.0,null,null,null,null,0.0,0.0,0.01,7.21,7.21,7.21,7.21],
+["2026-10-22",7.21,0.0,8725.0,null,null,null,null,0.0,0.0,0.01,7.21,7.06,7.15,7.123323782234957]
 ]}

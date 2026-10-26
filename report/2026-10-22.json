@@ -1,6 +1,6 @@
 {
  "tradeDate": "2026-10-22",
- "generatedAt": "2026-10-26T15:35:04+08:00",
+ "generatedAt": "2026-10-27T03:03:43+08:00",
  "isLatestTradingDayToday": false,
  "taiex": {
   "close": {
@@ -974,11 +974,6 @@
  "holidays": {
   "items": [
    {
-    "date": "2026-10-26",
-    "name": "臺灣光復暨金門古寧頭大捷紀念日",
-    "weekday": "一"
-   },
-   {
     "date": "2026-12-25",
     "name": "行憲紀念日",
     "weekday": "五"
@@ -986,7 +981,7 @@
   ],
   "status": "ok",
   "source": "TWSE",
-  "asOf": "2026-10-26"
+  "asOf": "2026-10-27"
  },
  "attribution": "資料來源:臺灣證券交易所(開放資料)、FinMind",
  "disclaimer": "本頁僅彙整臺灣證券交易所公開資料,不提供任何投資建議。"

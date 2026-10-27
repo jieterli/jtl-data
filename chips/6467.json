@@ -1,6 +1,7 @@
-{"symbol":"6467","name":"泰合","market":"TWSE","updated":"2026-10-22","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+{"symbol":"6467","name":"泰合","market":"TWSE","updated":"2026-10-27","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-10-19",null,null,null,null,null,null,null,null,null,0.0,null,null,null,null],
 ["2026-10-20",200.0,0.0,3100797.0,421452.0,0.0,0.0,421452.0,null,null,1.66,219.5,168.0,179.0,189.29241353110183],
 ["2026-10-21",187.0,-13.0,1207854.0,-243570.0,0.0,0.0,-243570.0,null,null,1.26,201.5,187.0,196.5,192.4133239613397],
-["2026-10-22",202.5,15.5,1090297.0,309509.0,0.0,-13.0,309496.0,null,null,1.77,212.0,184.0,186.0,201.0860471963144]
+["2026-10-22",202.5,15.5,1090297.0,309509.0,0.0,-13.0,309496.0,null,null,1.77,212.0,184.0,186.0,201.0860471963144],
+["2026-10-27",203.5,1.0,1155470.0,226200.0,0.0,0.0,226200.0,null,null,2.15,209.5,190.0,194.0,200.16393934935567]
 ]}

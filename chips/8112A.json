@@ -1,5 +1,4 @@
-{"symbol":"8112A","name":"至上甲特","market":"TWSE","updated":"2026-10-22","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-06-29",46.85,0.0,7683.0,null,null,null,null,null,null,11.53,46.85,46.85,46.85,46.85005857087075],
+{"symbol":"8112A","name":"至上甲特","market":"TWSE","updated":"2026-10-27","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-06-30",47.05,0.2,21785.0,null,null,null,null,null,null,11.53,47.2,46.9,46.9,47.03084691301354],
 ["2026-07-01",47.05,0.0,14572.0,null,null,null,null,null,null,11.53,47.2,47.05,47.2,47.07212462256382],
 ["2026-07-02",47.1,0.05,33173.0,null,null,null,null,null,null,11.53,47.1,47.05,47.05,47.07409640370181],
@@ -78,5 +77,6 @@
 ["2026-10-19",45.5,-0.05,18123.0,null,null,null,null,null,null,14.5,45.5,45.5,45.5,45.49588920156707],
 ["2026-10-20",45.5,0.0,8000.0,null,null,null,null,null,null,14.5,45.5,45.45,45.45,45.45625],
 ["2026-10-21",45.55,0.05,3256.0,null,null,null,null,null,null,14.5,45.55,45.55,45.55,45.5497542997543],
-["2026-10-22",45.6,0.05,1806.0,null,null,null,null,null,null,14.5,45.6,45.6,45.6,45.51495016611295]
+["2026-10-22",45.6,0.05,1806.0,null,null,null,null,null,null,14.5,45.6,45.6,45.6,45.51495016611295],
+["2026-10-27",45.5,-0.1,3699.0,null,null,null,null,null,null,14.5,45.5,45.5,45.5,45.5117599351176]
 ]}

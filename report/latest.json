@@ -1,70 +1,70 @@
 {
- "tradeDate": "2026-10-27",
- "generatedAt": "2026-10-28T02:35:41+08:00",
- "isLatestTradingDayToday": false,
+ "tradeDate": "2026-10-28",
+ "generatedAt": "2026-10-28T22:22:13+08:00",
+ "isLatestTradingDayToday": true,
  "taiex": {
   "close": {
-   "value": 4609623,
+   "value": 4703558,
    "scale": 2,
    "status": "ok",
    "source": "FinMind",
-   "asOf": "2026-10-27"
+   "asOf": "2026-10-28"
   },
   "open": {
-   "value": 4621120,
+   "value": 4640279,
    "scale": 2,
    "status": "ok",
    "source": "FinMind",
-   "asOf": "2026-10-27"
+   "asOf": "2026-10-28"
   },
   "high": {
-   "value": 4658545,
+   "value": 4706046,
    "scale": 2,
    "status": "ok",
    "source": "FinMind",
-   "asOf": "2026-10-27"
+   "asOf": "2026-10-28"
   },
   "low": {
-   "value": 4567667,
+   "value": 4640279,
    "scale": 2,
    "status": "ok",
    "source": "FinMind",
-   "asOf": "2026-10-27"
+   "asOf": "2026-10-28"
   },
   "tradeValue": {
-   "value": 1031683538938,
+   "value": 750340536882,
    "scale": 0,
    "status": "ok",
    "source": "FinMind",
-   "asOf": "2026-10-27"
+   "asOf": "2026-10-28"
   },
   "tradeVolume": {
-   "value": 11786032535,
+   "value": 9000687119,
    "scale": 0,
    "status": "ok",
    "source": "FinMind",
-   "asOf": "2026-10-27"
+   "asOf": "2026-10-28"
   },
   "transaction": {
-   "value": 4894450,
+   "value": 3261452,
    "scale": 0,
    "status": "ok",
    "source": "FinMind",
-   "asOf": "2026-10-27"
+   "asOf": "2026-10-28"
   },
   "change": {
-   "value": 5480,
+   "value": 93935,
    "scale": 2,
    "status": "ok",
    "source": "FinMind",
-   "asOf": "2026-10-27"
+   "asOf": "2026-10-28"
   },
   "changePct": {
-   "value": 12,
+   "value": 204,
    "scale": 2,
    "status": "ok",
    "source": "FinMind",
-   "asOf": "2026-10-27"
+   "asOf": "2026-10-28"
   }
  },
  "breadth": {
@@ -74,7 +74,7 @@
    "status": "unavailable",
    "source": "TWSE",
    "asOf": "2026-06-05",
-   "note": "開放版停在 2026-06-05,非 2026-10-27"
+   "note": "開放版停在 2026-06-05,非 2026-10-28"
   },
   "declines": {
    "value": null,
@@ -82,7 +82,7 @@
    "status": "unavailable",
    "source": "TWSE",
    "asOf": "2026-06-05",
-   "note": "開放版停在 2026-06-05,非 2026-10-27"
+   "note": "開放版停在 2026-06-05,非 2026-10-28"
   },
   "unchanged": {
    "value": null,
@@ -90,53 +90,53 @@
    "status": "unavailable",
    "source": "TWSE",
    "asOf": "2026-06-05",
-   "note": "開放版停在 2026-06-05,非 2026-10-27"
+   "note": "開放版停在 2026-06-05,非 2026-10-28"
   }
  },
  "heavyweights": {
   "2330": {
    "name": "台積電",
    "close": {
-    "value": 240000,
+    "value": 242500,
     "scale": 2,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-28"
    },
    "change": {
-    "value": 1500,
+    "value": 2500,
     "scale": 2,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-28"
    },
    "open": {
-    "value": 238000,
+    "value": 242000,
     "scale": 2,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-28"
    },
    "high": {
-    "value": 240500,
+    "value": 243000,
     "scale": 2,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-28"
    },
    "low": {
-    "value": 238000,
+    "value": 241000,
     "scale": 2,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-28"
    },
    "tradeValue": {
-    "value": 91313227194,
+    "value": 52940678675,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-28"
    }
   }
  },
@@ -146,780 +146,780 @@
     "name": "水泥窯製類指數",
     "aggregate": true,
     "close": {
-     "value": 69738,
+     "value": 69201,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     },
     "changePct": {
-     "value": 172,
+     "value": -77,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     }
    },
    {
     "name": "塑膠化工類指數",
     "aggregate": true,
     "close": {
-     "value": 127940,
+     "value": 127459,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     },
     "changePct": {
-     "value": -408,
+     "value": -38,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     }
    },
    {
     "name": "機電類指數",
     "aggregate": true,
     "close": {
-     "value": 1576474,
+     "value": 1577127,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     },
     "changePct": {
-     "value": -211,
+     "value": 4,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     }
    },
    {
     "name": "水泥類指數",
     "aggregate": false,
     "close": {
-     "value": 13537,
+     "value": 13574,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     },
     "changePct": {
-     "value": 283,
+     "value": 27,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     }
    },
    {
     "name": "食品類指數",
     "aggregate": false,
     "close": {
-     "value": 194541,
+     "value": 195798,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
-    },
-    "changePct": {
-     "value": 83,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    }
-   },
-   {
-    "name": "塑膠類指數",
-    "aggregate": false,
-    "close": {
-     "value": 47215,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    },
-    "changePct": {
-     "value": -539,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    }
-   },
-   {
-    "name": "紡織纖維類指數",
-    "aggregate": false,
-    "close": {
-     "value": 48470,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    },
-    "changePct": {
-     "value": 11,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    }
-   },
-   {
-    "name": "電機機械類指數",
-    "aggregate": false,
-    "close": {
-     "value": 51377,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    },
-    "changePct": {
-     "value": -253,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    }
-   },
-   {
-    "name": "電器電纜類指數",
-    "aggregate": false,
-    "close": {
-     "value": 10632,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    },
-    "changePct": {
-     "value": -69,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    }
-   },
-   {
-    "name": "化學生技醫療類指數",
-    "aggregate": true,
-    "close": {
-     "value": 15852,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    },
-    "changePct": {
-     "value": -184,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    }
-   },
-   {
-    "name": "化學類指數",
-    "aggregate": false,
-    "close": {
-     "value": 19491,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    },
-    "changePct": {
-     "value": -254,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    }
-   },
-   {
-    "name": "生技醫療類指數",
-    "aggregate": false,
-    "close": {
-     "value": 8751,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    },
-    "changePct": {
-     "value": -150,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    }
-   },
-   {
-    "name": "玻璃陶瓷類指數",
-    "aggregate": false,
-    "close": {
-     "value": 15740,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    },
-    "changePct": {
-     "value": -23,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    }
-   },
-   {
-    "name": "造紙類指數",
-    "aggregate": false,
-    "close": {
-     "value": 27156,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    },
-    "changePct": {
-     "value": 42,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    }
-   },
-   {
-    "name": "鋼鐵類指數",
-    "aggregate": false,
-    "close": {
-     "value": 12571,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    },
-    "changePct": {
-     "value": 39,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    }
-   },
-   {
-    "name": "橡膠類指數",
-    "aggregate": false,
-    "close": {
-     "value": 19596,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    },
-    "changePct": {
-     "value": -9,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    }
-   },
-   {
-    "name": "汽車類指數",
-    "aggregate": false,
-    "close": {
-     "value": 29200,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    },
-    "changePct": {
-     "value": -1,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    }
-   },
-   {
-    "name": "電子工業類指數",
-    "aggregate": true,
-    "close": {
-     "value": 286647,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    },
-    "changePct": {
-     "value": -211,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    }
-   },
-   {
-    "name": "半導體類指數",
-    "aggregate": false,
-    "close": {
-     "value": 152274,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    },
-    "changePct": {
-     "value": -191,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    }
-   },
-   {
-    "name": "電腦及週邊設備類指數",
-    "aggregate": false,
-    "close": {
-     "value": 44171,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    },
-    "changePct": {
-     "value": -229,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    }
-   },
-   {
-    "name": "光電類指數",
-    "aggregate": false,
-    "close": {
-     "value": 7615,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    },
-    "changePct": {
-     "value": -203,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    }
-   },
-   {
-    "name": "通信網路類指數",
-    "aggregate": false,
-    "close": {
-     "value": 23944,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    },
-    "changePct": {
-     "value": 2,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    }
-   },
-   {
-    "name": "電子零組件類指數",
-    "aggregate": false,
-    "close": {
-     "value": 88370,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    },
-    "changePct": {
-     "value": -364,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    }
-   },
-   {
-    "name": "電子通路類指數",
-    "aggregate": false,
-    "close": {
-     "value": 37487,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    },
-    "changePct": {
-     "value": -99,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    }
-   },
-   {
-    "name": "資訊服務類指數",
-    "aggregate": false,
-    "close": {
-     "value": 25062,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    },
-    "changePct": {
-     "value": 149,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    }
-   },
-   {
-    "name": "其他電子類指數",
-    "aggregate": false,
-    "close": {
-     "value": 26540,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    },
-    "changePct": {
-     "value": -214,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    }
-   },
-   {
-    "name": "建材營造類指數",
-    "aggregate": false,
-    "close": {
-     "value": 43939,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    },
-    "changePct": {
-     "value": -25,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    }
-   },
-   {
-    "name": "航運類指數",
-    "aggregate": false,
-    "close": {
-     "value": 21722,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     },
     "changePct": {
      "value": 65,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     }
    },
    {
-    "name": "觀光餐旅類指數",
+    "name": "塑膠類指數",
     "aggregate": false,
     "close": {
-     "value": 10253,
+     "value": 46989,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     },
     "changePct": {
-     "value": -15,
+     "value": -48,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     }
    },
    {
-    "name": "金融保險類指數",
+    "name": "紡織纖維類指數",
     "aggregate": false,
     "close": {
-     "value": 374282,
+     "value": 48321,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     },
     "changePct": {
-     "value": 62,
+     "value": -31,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     }
    },
    {
-    "name": "貿易百貨類指數",
+    "name": "電機機械類指數",
     "aggregate": false,
     "close": {
-     "value": 24265,
+     "value": 51870,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     },
     "changePct": {
-     "value": 56,
+     "value": 96,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     }
    },
    {
-    "name": "油電燃氣類指數",
+    "name": "電器電纜類指數",
     "aggregate": false,
     "close": {
-     "value": 13896,
+     "value": 10599,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     },
     "changePct": {
-     "value": -245,
+     "value": -31,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     }
    },
    {
-    "name": "綠能環保類指數",
-    "aggregate": false,
+    "name": "化學生技醫療類指數",
+    "aggregate": true,
     "close": {
-     "value": 12138,
+     "value": 15825,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     },
     "changePct": {
-     "value": -195,
+     "value": -17,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     }
    },
    {
-    "name": "數位雲端類指數",
+    "name": "化學類指數",
     "aggregate": false,
     "close": {
-     "value": 4006,
+     "value": 19306,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     },
     "changePct": {
-     "value": -50,
+     "value": -95,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     }
    },
    {
-    "name": "運動休閒類指數",
+    "name": "生技醫療類指數",
     "aggregate": false,
     "close": {
-     "value": 5524,
+     "value": 8768,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
-    },
-    "changePct": {
-     "value": -90,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
-    }
-   },
-   {
-    "name": "居家生活類指數",
-    "aggregate": false,
-    "close": {
-     "value": 9814,
-     "scale": 2,
-     "status": "ok",
-     "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     },
     "changePct": {
      "value": 19,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
+    }
+   },
+   {
+    "name": "玻璃陶瓷類指數",
+    "aggregate": false,
+    "close": {
+     "value": 15318,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    },
+    "changePct": {
+     "value": -268,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    }
+   },
+   {
+    "name": "造紙類指數",
+    "aggregate": false,
+    "close": {
+     "value": 27503,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    },
+    "changePct": {
+     "value": 128,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    }
+   },
+   {
+    "name": "鋼鐵類指數",
+    "aggregate": false,
+    "close": {
+     "value": 12674,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    },
+    "changePct": {
+     "value": 82,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    }
+   },
+   {
+    "name": "橡膠類指數",
+    "aggregate": false,
+    "close": {
+     "value": 19524,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    },
+    "changePct": {
+     "value": -37,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    }
+   },
+   {
+    "name": "汽車類指數",
+    "aggregate": false,
+    "close": {
+     "value": 29765,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    },
+    "changePct": {
+     "value": 193,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    }
+   },
+   {
+    "name": "電子工業類指數",
+    "aggregate": true,
+    "close": {
+     "value": 286731,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    },
+    "changePct": {
+     "value": 3,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    }
+   },
+   {
+    "name": "半導體類指數",
+    "aggregate": false,
+    "close": {
+     "value": 152982,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    },
+    "changePct": {
+     "value": 46,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    }
+   },
+   {
+    "name": "電腦及週邊設備類指數",
+    "aggregate": false,
+    "close": {
+     "value": 44877,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    },
+    "changePct": {
+     "value": 160,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    }
+   },
+   {
+    "name": "光電類指數",
+    "aggregate": false,
+    "close": {
+     "value": 7480,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    },
+    "changePct": {
+     "value": -177,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    }
+   },
+   {
+    "name": "通信網路類指數",
+    "aggregate": false,
+    "close": {
+     "value": 23875,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    },
+    "changePct": {
+     "value": -29,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    }
+   },
+   {
+    "name": "電子零組件類指數",
+    "aggregate": false,
+    "close": {
+     "value": 85940,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    },
+    "changePct": {
+     "value": -275,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    }
+   },
+   {
+    "name": "電子通路類指數",
+    "aggregate": false,
+    "close": {
+     "value": 37899,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    },
+    "changePct": {
+     "value": 110,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    }
+   },
+   {
+    "name": "資訊服務類指數",
+    "aggregate": false,
+    "close": {
+     "value": 25373,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    },
+    "changePct": {
+     "value": 124,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    }
+   },
+   {
+    "name": "其他電子類指數",
+    "aggregate": false,
+    "close": {
+     "value": 26520,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    },
+    "changePct": {
+     "value": -8,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    }
+   },
+   {
+    "name": "建材營造類指數",
+    "aggregate": false,
+    "close": {
+     "value": 44728,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    },
+    "changePct": {
+     "value": 180,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    }
+   },
+   {
+    "name": "航運類指數",
+    "aggregate": false,
+    "close": {
+     "value": 21751,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    },
+    "changePct": {
+     "value": 13,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    }
+   },
+   {
+    "name": "觀光餐旅類指數",
+    "aggregate": false,
+    "close": {
+     "value": 10252,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    },
+    "changePct": {
+     "value": -1,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    }
+   },
+   {
+    "name": "金融保險類指數",
+    "aggregate": false,
+    "close": {
+     "value": 377057,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    },
+    "changePct": {
+     "value": 74,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    }
+   },
+   {
+    "name": "貿易百貨類指數",
+    "aggregate": false,
+    "close": {
+     "value": 24218,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    },
+    "changePct": {
+     "value": -19,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    }
+   },
+   {
+    "name": "油電燃氣類指數",
+    "aggregate": false,
+    "close": {
+     "value": 13856,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    },
+    "changePct": {
+     "value": -29,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    }
+   },
+   {
+    "name": "綠能環保類指數",
+    "aggregate": false,
+    "close": {
+     "value": 12100,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    },
+    "changePct": {
+     "value": -31,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    }
+   },
+   {
+    "name": "數位雲端類指數",
+    "aggregate": false,
+    "close": {
+     "value": 4007,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    },
+    "changePct": {
+     "value": 2,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    }
+   },
+   {
+    "name": "運動休閒類指數",
+    "aggregate": false,
+    "close": {
+     "value": 5599,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    },
+    "changePct": {
+     "value": 136,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    }
+   },
+   {
+    "name": "居家生活類指數",
+    "aggregate": false,
+    "close": {
+     "value": 9991,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
+    },
+    "changePct": {
+     "value": 180,
+     "scale": 2,
+     "status": "ok",
+     "source": "TWSE",
+     "asOf": "2026-10-27"
     }
    },
    {
     "name": "其他類指數",
     "aggregate": false,
     "close": {
-     "value": 27380,
+     "value": 27542,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     },
     "changePct": {
-     "value": -33,
+     "value": 59,
      "scale": 2,
      "status": "ok",
      "source": "TWSE",
-     "asOf": "2026-10-22"
+     "asOf": "2026-10-27"
     }
    }
   ],
   "topGainers": [
-   "水泥類指數",
-   "資訊服務類指數",
-   "食品類指數",
-   "航運類指數"
+   "汽車類指數",
+   "建材營造類指數",
+   "居家生活類指數",
+   "電腦及週邊設備類指數"
   ],
   "topLosers": [
-   "塑膠類指數",
    "電子零組件類指數",
-   "化學類指數"
+   "玻璃陶瓷類指數",
+   "光電類指數"
   ],
   "status": "ok",
   "source": "TWSE",
-  "asOf": "2026-10-22",
+  "asOf": "2026-10-27",
   "staleVsTradeDate": true
  },
  "institutional": {
   "dealerSelf": {
    "label": "自營商(自行買賣)",
    "buy": {
-    "value": 9007716092,
+    "value": 9441773851,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-28"
    },
    "sell": {
-    "value": 8239495006,
+    "value": 6993400085,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-28"
    },
    "net": {
-    "value": 768221086,
+    "value": 2448373766,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-28"
    }
   },
   "dealerHedging": {
    "label": "自營商(避險)",
    "buy": {
-    "value": 35473740121,
+    "value": 21806262947,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-28"
    },
    "sell": {
-    "value": 48640735317,
+    "value": 22089351730,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-28"
    },
    "net": {
-    "value": -13166995196,
+    "value": -283088783,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-28"
    }
   },
   "investmentTrust": {
    "label": "投信",
    "buy": {
-    "value": 38392407004,
+    "value": 23828954087,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-28"
    },
    "sell": {
-    "value": 14787900746,
+    "value": 9509301784,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-28"
    },
    "net": {
-    "value": 23604506258,
+    "value": 14319652303,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-28"
    }
   },
   "foreign": {
    "label": "外資及陸資(不含外資自營商)",
    "buy": {
-    "value": 514123007104,
+    "value": 326204972366,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-28"
    },
    "sell": {
-    "value": 522161880243,
+    "value": 310248352578,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-28"
    },
    "net": {
-    "value": -8038873139,
+    "value": 15956619788,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-28"
    }
   },
   "foreignDealer": {
@@ -929,45 +929,45 @@
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-28"
    },
    "sell": {
     "value": 0,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-28"
    },
    "net": {
     "value": 0,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-28"
    }
   },
   "total": {
    "label": "合計",
    "buy": {
-    "value": 596996870321,
+    "value": 381281963251,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-28"
    },
    "sell": {
-    "value": 593830011312,
+    "value": 348840406177,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-28"
    },
    "net": {
-    "value": 3166859009,
+    "value": 32441557074,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-28"
    }
   }
  },

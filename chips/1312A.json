@@ -1,5 +1,4 @@
-{"symbol":"1312A","name":"國喬特","market":"TWSE","updated":"2026-10-29","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-07-01",21.95,0.05,20000.0,null,null,null,null,null,null,0.29,22.2,21.9,21.9,21.985],
+{"symbol":"1312A","name":"國喬特","market":"TWSE","updated":"2026-10-30","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-07-02",22.15,0.2,8000.0,null,null,null,null,null,null,0.29,22.2,22.0,22.0,22.09375],
 ["2026-07-03",22.25,0.1,37000.0,null,null,null,null,null,null,0.29,22.25,21.9,21.9,22.12837837837838],
 ["2026-07-06",22.15,-0.1,8000.0,null,null,null,null,null,null,0.29,22.15,22.15,22.15,22.15],
@@ -78,5 +77,6 @@
 ["2026-10-21",null,null,null,null,null,null,null,null,null,0.19,null,null,null,null],
 ["2026-10-22",23.1,0.0,16000.0,2000.0,0.0,0.0,2000.0,null,null,0.2,23.4,23.1,23.4,23.225],
 ["2026-10-27",null,null,null,null,null,null,null,null,null,0.2,null,null,null,null],
-["2026-10-28",23.0,0.0,10000.0,null,null,null,null,null,null,0.2,23.1,23.0,23.1,23.035]
+["2026-10-28",23.0,0.0,10000.0,null,null,null,null,null,null,0.2,23.1,23.0,23.1,23.035],
+["2026-10-29",null,null,null,null,null,null,null,null,null,0.2,null,null,null,null]
 ]}

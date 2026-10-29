@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T04:01:15+00:00",
+  "updated_at": "2026-10-29T04:35:22+00:00",
   "source": "FinMind TaiwanStockDividend(歷史與金額) + TWSE TWT48U 除權除息預告表(未來除息日權威來源) + TWSE holidaySchedule(最後買進日)",
   "schema_version": 2,
   "pre_announced_merged": 10,
@@ -29,7 +29,7 @@
     "2026-10-26",
     "2026-12-25"
   ],
-  "stock_count": 2034,
+  "stock_count": 2032,
   "covered_high_yield_threshold": 0.0,
   "failed": [
     "00933",
@@ -56,7 +56,6 @@
     "2440",
     "2646",
     "3043",
-    "3257",
     "3266",
     "3296",
     "3305",
@@ -73,6 +72,7 @@
     "3413",
     "3416",
     "3419",
+    "3432",
     "3593",
     "3686",
     "4108",
@@ -115,12 +115,6 @@
     "00886",
     "00877",
     "00969B",
-    "00756B",
-    "00734B",
-    "00751B",
-    "00750B",
-    "00758B",
-    "00779B",
     "00749B",
     "00760B",
     "00746B",
@@ -132,8 +126,12 @@
     "00741B",
     "00773B",
     "00780B",
+    "00764B",
+    "00740B",
     "00925",
     "00767",
+    "00774C",
+    "00774B",
     "00732",
     "00743",
     "00766L",
@@ -284,23 +282,23 @@
     "009827",
     "009828",
     "009829",
-    "6527",
-    "6530",
-    "6532",
-    "6546",
-    "6548",
-    "6556",
-    "6561",
-    "6568",
-    "6569",
-    "6570",
-    "6574",
-    "6577",
-    "6578",
-    "6590",
-    "6596",
-    "6597",
-    "6603"
+    "6603",
+    "6604",
+    "6612",
+    "6613",
+    "6620",
+    "6629",
+    "6637",
+    "6640",
+    "6642",
+    "6649",
+    "6651",
+    "6662",
+    "6664",
+    "6667",
+    "6679",
+    "6690",
+    "6697"
   ],
   "stocks": {
     "2884": {
@@ -76797,7 +76795,158 @@
     },
     "3257": {
       "name": "虹冠電",
-      "events": []
+      "events": [
+        {
+          "ex_date": "2012-07-03",
+          "pay_date": null,
+          "cash_dividend": 1.57,
+          "stock_dividend": 0.0,
+          "fiscal_year": "100",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2012-07-02"
+        },
+        {
+          "ex_date": "2013-07-18",
+          "pay_date": null,
+          "cash_dividend": 1.5,
+          "stock_dividend": 0.6,
+          "fiscal_year": "101",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2013-07-17"
+        },
+        {
+          "ex_date": "2014-08-26",
+          "pay_date": "2014-09-25",
+          "cash_dividend": 2.5,
+          "stock_dividend": 0.6,
+          "fiscal_year": "102",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2014-08-25"
+        },
+        {
+          "ex_date": "2015-08-26",
+          "pay_date": "2015-09-25",
+          "cash_dividend": 2.75,
+          "stock_dividend": 0.85,
+          "fiscal_year": "103",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2015-08-25"
+        },
+        {
+          "ex_date": "2016-08-26",
+          "pay_date": "2016-09-30",
+          "cash_dividend": 0.65,
+          "stock_dividend": 0.85,
+          "fiscal_year": "104",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2016-08-25"
+        },
+        {
+          "ex_date": "2017-08-21",
+          "pay_date": "2017-09-20",
+          "cash_dividend": 0.65,
+          "stock_dividend": 0.65,
+          "fiscal_year": "105",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2017-08-18"
+        },
+        {
+          "ex_date": "2018-08-30",
+          "pay_date": "2018-09-28",
+          "cash_dividend": 0.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "106",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2018-08-29"
+        },
+        {
+          "ex_date": "2019-08-20",
+          "pay_date": "2019-09-16",
+          "cash_dividend": 4.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "107",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-08-19"
+        },
+        {
+          "ex_date": "2020-07-21",
+          "pay_date": "2020-08-18",
+          "cash_dividend": 2.43169,
+          "stock_dividend": 0.486338,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-07-20"
+        },
+        {
+          "ex_date": "2021-07-30",
+          "pay_date": "2021-08-24",
+          "cash_dividend": 3.0,
+          "stock_dividend": 1.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-07-29"
+        },
+        {
+          "ex_date": "2022-05-27",
+          "pay_date": "2022-06-23",
+          "cash_dividend": 5.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-05-26"
+        },
+        {
+          "ex_date": "2023-04-26",
+          "pay_date": "2023-05-26",
+          "cash_dividend": 1.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-04-25"
+        },
+        {
+          "ex_date": "2024-04-02",
+          "pay_date": "2024-05-07",
+          "cash_dividend": 3.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-04-01"
+        },
+        {
+          "ex_date": "2025-04-01",
+          "pay_date": "2025-05-07",
+          "cash_dividend": 2.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-03-31"
+        },
+        {
+          "ex_date": "2026-05-22",
+          "pay_date": "2026-06-22",
+          "cash_dividend": 2.8,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-05-21"
+        }
+      ]
     },
     "3266": {
       "name": "昇陽",
@@ -76865,88 +77014,7 @@
     },
     "3432": {
       "name": "台端",
-      "events": [
-        {
-          "ex_date": "2015-09-21",
-          "pay_date": "2015-10-27",
-          "cash_dividend": 0.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "103",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2015-09-18"
-        },
-        {
-          "ex_date": "2016-08-26",
-          "pay_date": "2016-09-30",
-          "cash_dividend": 0.2,
-          "stock_dividend": 0.0,
-          "fiscal_year": "104",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2016-08-25"
-        },
-        {
-          "ex_date": "2017-08-30",
-          "pay_date": "2017-09-26",
-          "cash_dividend": 0.1,
-          "stock_dividend": 0.0,
-          "fiscal_year": "105",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2017-08-29"
-        },
-        {
-          "ex_date": "2018-07-19",
-          "pay_date": "2018-08-21",
-          "cash_dividend": 2.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "106",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2018-07-18"
-        },
-        {
-          "ex_date": "2019-09-17",
-          "pay_date": "2019-10-18",
-          "cash_dividend": 0.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "107",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2019-09-16"
-        },
-        {
-          "ex_date": "2020-09-23",
-          "pay_date": "2020-10-28",
-          "cash_dividend": 0.3,
-          "stock_dividend": 0.0,
-          "fiscal_year": "108",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2020-09-22"
-        },
-        {
-          "ex_date": "2021-10-06",
-          "pay_date": "2021-11-05",
-          "cash_dividend": 0.25,
-          "stock_dividend": 0.0,
-          "fiscal_year": "109",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-10-05"
-        },
-        {
-          "ex_date": "2022-07-29",
-          "pay_date": "2022-08-30",
-          "cash_dividend": 0.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-07-28"
-        }
-      ]
+      "events": []
     },
     "3437": {
       "name": "榮創",
@@ -149323,27 +149391,1903 @@
     },
     "00756B": {
       "name": "群益投等新興公債",
-      "events": []
+      "events": [
+        {
+          "ex_date": "2019-02-26",
+          "pay_date": "2019-03-27",
+          "cash_dividend": 0.113,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-02-25"
+        },
+        {
+          "ex_date": "2019-05-16",
+          "pay_date": "2019-06-14",
+          "cash_dividend": 0.167,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-05-15"
+        },
+        {
+          "ex_date": "2019-08-15",
+          "pay_date": "2019-09-12",
+          "cash_dividend": 0.427,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-08-14"
+        },
+        {
+          "ex_date": "2019-11-18",
+          "pay_date": "2019-12-16",
+          "cash_dividend": 0.497,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-11-15"
+        },
+        {
+          "ex_date": "2020-02-18",
+          "pay_date": "2020-03-16",
+          "cash_dividend": 0.515,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-02-17"
+        },
+        {
+          "ex_date": "2020-05-19",
+          "pay_date": "2020-06-12",
+          "cash_dividend": 0.445,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-05-18"
+        },
+        {
+          "ex_date": "2020-08-18",
+          "pay_date": "2020-09-11",
+          "cash_dividend": 0.458,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-08-17"
+        },
+        {
+          "ex_date": "2020-11-17",
+          "pay_date": "2020-12-11",
+          "cash_dividend": 0.406,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-11-16"
+        },
+        {
+          "ex_date": "2021-02-25",
+          "pay_date": "2021-03-24",
+          "cash_dividend": 0.393,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-02-24"
+        },
+        {
+          "ex_date": "2021-05-18",
+          "pay_date": "2021-06-11",
+          "cash_dividend": 0.412,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-05-17"
+        },
+        {
+          "ex_date": "2021-08-17",
+          "pay_date": "2021-09-10",
+          "cash_dividend": 0.413,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-08-16"
+        },
+        {
+          "ex_date": "2021-11-16",
+          "pay_date": "2021-12-10",
+          "cash_dividend": 0.413,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-11-15"
+        },
+        {
+          "ex_date": "2022-02-22",
+          "pay_date": "2022-03-21",
+          "cash_dividend": 0.409,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-02-21"
+        },
+        {
+          "ex_date": "2022-05-18",
+          "pay_date": "2022-06-14",
+          "cash_dividend": 0.444,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-05-17"
+        },
+        {
+          "ex_date": "2022-08-16",
+          "pay_date": "2022-09-12",
+          "cash_dividend": 0.413,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-08-15"
+        },
+        {
+          "ex_date": "2022-11-16",
+          "pay_date": "2022-12-12",
+          "cash_dividend": 0.464,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-11-15"
+        },
+        {
+          "ex_date": "2023-02-16",
+          "pay_date": "2023-03-16",
+          "cash_dividend": 0.428,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-02-15"
+        },
+        {
+          "ex_date": "2023-05-17",
+          "pay_date": "2023-06-12",
+          "cash_dividend": 0.466,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-05-16"
+        },
+        {
+          "ex_date": "2023-08-16",
+          "pay_date": "2023-09-11",
+          "cash_dividend": 0.481,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-08-15"
+        },
+        {
+          "ex_date": "2023-11-16",
+          "pay_date": "2023-12-12",
+          "cash_dividend": 0.513,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-11-15"
+        },
+        {
+          "ex_date": "2024-02-27",
+          "pay_date": "2024-03-25",
+          "cash_dividend": 0.479,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-02-26"
+        },
+        {
+          "ex_date": "2024-05-17",
+          "pay_date": "2024-06-13",
+          "cash_dividend": 0.507,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-05-16"
+        },
+        {
+          "ex_date": "2024-08-21",
+          "pay_date": "2024-09-11",
+          "cash_dividend": 0.505,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-08-20"
+        },
+        {
+          "ex_date": "2024-11-21",
+          "pay_date": "2024-12-12",
+          "cash_dividend": 0.498,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-11-20"
+        },
+        {
+          "ex_date": "2025-02-18",
+          "pay_date": "2025-03-17",
+          "cash_dividend": 0.508,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-02-17"
+        },
+        {
+          "ex_date": "2025-05-19",
+          "pay_date": "2025-06-13",
+          "cash_dividend": 0.502,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-05-16"
+        },
+        {
+          "ex_date": "2025-08-18",
+          "pay_date": "2025-09-11",
+          "cash_dividend": 0.463,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-08-15"
+        },
+        {
+          "ex_date": "2025-11-18",
+          "pay_date": "2025-12-12",
+          "cash_dividend": 0.468,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-11-17"
+        },
+        {
+          "ex_date": "2026-02-26",
+          "pay_date": "2026-03-25",
+          "cash_dividend": 0.485,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-02-25"
+        },
+        {
+          "ex_date": "2026-05-19",
+          "pay_date": "2026-06-12",
+          "cash_dividend": 0.49,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-05-18"
+        },
+        {
+          "ex_date": "2026-08-18",
+          "pay_date": "2026-09-11",
+          "cash_dividend": 0.506,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-08-17"
+        }
+      ]
     },
     "00734B": {
       "name": "台新JPM新興債",
-      "events": []
+      "events": [
+        {
+          "ex_date": "2018-10-22",
+          "pay_date": "2018-11-12",
+          "cash_dividend": 0.3,
+          "stock_dividend": 0.0,
+          "fiscal_year": "107",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2018-10-19"
+        },
+        {
+          "ex_date": "2019-01-21",
+          "pay_date": "2019-02-18",
+          "cash_dividend": 0.23,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-01-18"
+        },
+        {
+          "ex_date": "2019-04-22",
+          "pay_date": "2019-05-15",
+          "cash_dividend": 0.23,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-04-19"
+        },
+        {
+          "ex_date": "2019-07-18",
+          "pay_date": "2019-08-09",
+          "cash_dividend": 0.23,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-07-17"
+        },
+        {
+          "ex_date": "2019-10-22",
+          "pay_date": "2019-11-13",
+          "cash_dividend": 0.23,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-10-21"
+        },
+        {
+          "ex_date": "2020-01-30",
+          "pay_date": "2020-02-18",
+          "cash_dividend": 0.2,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-01-29"
+        },
+        {
+          "ex_date": "2020-04-22",
+          "pay_date": "2020-05-15",
+          "cash_dividend": 0.21,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-04-21"
+        },
+        {
+          "ex_date": "2020-07-20",
+          "pay_date": "2020-08-11",
+          "cash_dividend": 0.18,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-07-17"
+        },
+        {
+          "ex_date": "2020-10-23",
+          "pay_date": "2020-11-16",
+          "cash_dividend": 0.18,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-10-22"
+        },
+        {
+          "ex_date": "2021-01-21",
+          "pay_date": "2021-02-19",
+          "cash_dividend": 0.17,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-01-20"
+        },
+        {
+          "ex_date": "2021-04-22",
+          "pay_date": "2021-05-17",
+          "cash_dividend": 0.19,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-04-21"
+        },
+        {
+          "ex_date": "2021-07-20",
+          "pay_date": "2021-08-11",
+          "cash_dividend": 0.18,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-07-19"
+        },
+        {
+          "ex_date": "2021-10-21",
+          "pay_date": "2021-11-12",
+          "cash_dividend": 0.18,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-10-20"
+        },
+        {
+          "ex_date": "2022-01-20",
+          "pay_date": "2022-02-17",
+          "cash_dividend": 0.18,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-01-19"
+        },
+        {
+          "ex_date": "2022-04-22",
+          "pay_date": "2022-05-17",
+          "cash_dividend": 0.19,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-04-21"
+        },
+        {
+          "ex_date": "2022-07-20",
+          "pay_date": "2022-08-11",
+          "cash_dividend": 0.22,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-07-19"
+        },
+        {
+          "ex_date": "2022-10-21",
+          "pay_date": "2022-11-14",
+          "cash_dividend": 0.24,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-10-20"
+        },
+        {
+          "ex_date": "2023-02-01",
+          "pay_date": "2023-02-23",
+          "cash_dividend": 0.22,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-01-31"
+        },
+        {
+          "ex_date": "2023-04-25",
+          "pay_date": "2023-05-16",
+          "cash_dividend": 0.22,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-04-24"
+        },
+        {
+          "ex_date": "2023-07-20",
+          "pay_date": "2023-08-09",
+          "cash_dividend": 0.22,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-07-19"
+        },
+        {
+          "ex_date": "2023-10-23",
+          "pay_date": "2023-11-10",
+          "cash_dividend": 0.25,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-10-20"
+        },
+        {
+          "ex_date": "2024-01-16",
+          "pay_date": "2024-02-05",
+          "cash_dividend": 0.22,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-01-15"
+        },
+        {
+          "ex_date": "2024-04-17",
+          "pay_date": "2024-05-08",
+          "cash_dividend": 0.18,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-04-16"
+        },
+        {
+          "ex_date": "2024-07-16",
+          "pay_date": "2024-08-05",
+          "cash_dividend": 0.16,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-07-15"
+        },
+        {
+          "ex_date": "2024-10-21",
+          "pay_date": "2024-11-08",
+          "cash_dividend": 0.16,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-10-18"
+        },
+        {
+          "ex_date": "2025-01-16",
+          "pay_date": "2025-02-14",
+          "cash_dividend": 0.16,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-01-15"
+        },
+        {
+          "ex_date": "2025-04-17",
+          "pay_date": "2025-05-08",
+          "cash_dividend": 0.16,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-04-16"
+        },
+        {
+          "ex_date": "2025-07-15",
+          "pay_date": "2025-08-04",
+          "cash_dividend": 0.16,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-07-14"
+        },
+        {
+          "ex_date": "2025-10-17",
+          "pay_date": "2025-11-07",
+          "cash_dividend": 0.16,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-10-16"
+        },
+        {
+          "ex_date": "2026-01-16",
+          "pay_date": "2026-02-05",
+          "cash_dividend": 0.16,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-01-15"
+        },
+        {
+          "ex_date": "2026-04-17",
+          "pay_date": "2026-05-08",
+          "cash_dividend": 0.16,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-04-16"
+        },
+        {
+          "ex_date": "2026-07-15",
+          "pay_date": "2026-08-04",
+          "cash_dividend": 0.16,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-07-14"
+        },
+        {
+          "ex_date": "2026-10-16",
+          "pay_date": "2026-11-06",
+          "cash_dividend": 0.16,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-10-15"
+        }
+      ]
     },
     "00751B": {
       "name": "元大AAA至A公司債",
-      "events": []
+      "events": [
+        {
+          "ex_date": "2019-06-24",
+          "pay_date": "2019-07-23",
+          "cash_dividend": 0.59,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-06-21"
+        },
+        {
+          "ex_date": "2019-09-23",
+          "pay_date": "2019-10-24",
+          "cash_dividend": 0.4,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-09-20"
+        },
+        {
+          "ex_date": "2019-12-20",
+          "pay_date": "2020-01-21",
+          "cash_dividend": 0.38,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-12-19"
+        },
+        {
+          "ex_date": "2020-03-20",
+          "pay_date": "2020-04-22",
+          "cash_dividend": 0.365,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-03-19"
+        },
+        {
+          "ex_date": "2020-06-16",
+          "pay_date": "2020-07-17",
+          "cash_dividend": 0.365,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-06-15"
+        },
+        {
+          "ex_date": "2020-09-16",
+          "pay_date": "2020-10-15",
+          "cash_dividend": 0.375,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-09-15"
+        },
+        {
+          "ex_date": "2020-12-16",
+          "pay_date": "2021-01-12",
+          "cash_dividend": 0.355,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-12-15"
+        },
+        {
+          "ex_date": "2021-03-17",
+          "pay_date": "2021-04-14",
+          "cash_dividend": 0.36,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-03-16"
+        },
+        {
+          "ex_date": "2021-06-17",
+          "pay_date": "2021-07-13",
+          "cash_dividend": 0.36,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-06-16"
+        },
+        {
+          "ex_date": "2021-09-17",
+          "pay_date": "2021-10-18",
+          "cash_dividend": 0.35,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-09-16"
+        },
+        {
+          "ex_date": "2021-12-16",
+          "pay_date": "2022-01-12",
+          "cash_dividend": 0.35,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-12-15"
+        },
+        {
+          "ex_date": "2022-03-16",
+          "pay_date": "2022-04-13",
+          "cash_dividend": 0.37,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-03-15"
+        },
+        {
+          "ex_date": "2022-06-17",
+          "pay_date": "2022-07-14",
+          "cash_dividend": 0.42,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-06-16"
+        },
+        {
+          "ex_date": "2022-09-20",
+          "pay_date": "2022-10-17",
+          "cash_dividend": 0.44,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-09-19"
+        },
+        {
+          "ex_date": "2022-12-16",
+          "pay_date": "2023-01-13",
+          "cash_dividend": 0.46,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-12-15"
+        },
+        {
+          "ex_date": "2023-03-16",
+          "pay_date": "2023-04-14",
+          "cash_dividend": 0.45,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-03-15"
+        },
+        {
+          "ex_date": "2023-06-16",
+          "pay_date": "2023-07-14",
+          "cash_dividend": 0.44,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-06-15"
+        },
+        {
+          "ex_date": "2023-09-18",
+          "pay_date": "2023-10-17",
+          "cash_dividend": 0.45,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-09-15"
+        },
+        {
+          "ex_date": "2023-12-18",
+          "pay_date": "2024-01-12",
+          "cash_dividend": 0.45,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-12-15"
+        },
+        {
+          "ex_date": "2024-03-18",
+          "pay_date": "2024-04-15",
+          "cash_dividend": 0.44,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-03-15"
+        },
+        {
+          "ex_date": "2024-06-20",
+          "pay_date": "2024-07-16",
+          "cash_dividend": 0.47,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-06-19"
+        },
+        {
+          "ex_date": "2024-09-18",
+          "pay_date": "2024-10-15",
+          "cash_dividend": 0.46,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-09-17"
+        },
+        {
+          "ex_date": "2024-12-17",
+          "pay_date": "2025-01-13",
+          "cash_dividend": 0.46,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-12-16"
+        },
+        {
+          "ex_date": "2025-03-21",
+          "pay_date": "2025-04-15",
+          "cash_dividend": 0.45,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-03-20"
+        },
+        {
+          "ex_date": "2025-06-20",
+          "pay_date": "2025-07-11",
+          "cash_dividend": 0.41,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-06-19"
+        },
+        {
+          "ex_date": "2025-09-19",
+          "pay_date": "2025-10-15",
+          "cash_dividend": 0.41,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-09-18"
+        },
+        {
+          "ex_date": "2025-12-19",
+          "pay_date": "2026-01-12",
+          "cash_dividend": 0.41,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-12-18"
+        },
+        {
+          "ex_date": "2026-03-20",
+          "pay_date": "2026-04-14",
+          "cash_dividend": 0.41,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-03-19"
+        },
+        {
+          "ex_date": "2026-06-22",
+          "pay_date": "2026-07-10",
+          "cash_dividend": 0.43,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-06-18"
+        },
+        {
+          "ex_date": "2026-09-21",
+          "pay_date": "2026-10-13",
+          "cash_dividend": 0.43,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-09-18"
+        }
+      ]
     },
     "00750B": {
       "name": "凱基科技債10+",
-      "events": []
+      "events": [
+        {
+          "ex_date": "2019-01-21",
+          "pay_date": "2019-03-06",
+          "cash_dividend": 0.19,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-01-18"
+        },
+        {
+          "ex_date": "2019-04-23",
+          "pay_date": "2019-05-23",
+          "cash_dividend": 0.44,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-04-22"
+        },
+        {
+          "ex_date": "2019-07-17",
+          "pay_date": "2019-08-19",
+          "cash_dividend": 0.318,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-07-16"
+        },
+        {
+          "ex_date": "2019-10-21",
+          "pay_date": "2019-11-22",
+          "cash_dividend": 0.49,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-10-18"
+        },
+        {
+          "ex_date": "2020-01-31",
+          "pay_date": "2020-03-04",
+          "cash_dividend": 0.43,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-01-30"
+        },
+        {
+          "ex_date": "2020-04-21",
+          "pay_date": "2020-05-26",
+          "cash_dividend": 0.438,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-04-20"
+        },
+        {
+          "ex_date": "2020-07-17",
+          "pay_date": "2020-08-19",
+          "cash_dividend": 0.42,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-07-16"
+        },
+        {
+          "ex_date": "2020-10-21",
+          "pay_date": "2020-11-25",
+          "cash_dividend": 0.32,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-10-20"
+        },
+        {
+          "ex_date": "2021-01-19",
+          "pay_date": "2021-03-04",
+          "cash_dividend": 0.325,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-01-18"
+        },
+        {
+          "ex_date": "2021-04-20",
+          "pay_date": "2021-05-24",
+          "cash_dividend": 0.341,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-04-19"
+        },
+        {
+          "ex_date": "2021-07-16",
+          "pay_date": "2021-08-19",
+          "cash_dividend": 0.35,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-07-15"
+        },
+        {
+          "ex_date": "2021-10-19",
+          "pay_date": "2021-11-22",
+          "cash_dividend": 0.33,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-10-18"
+        },
+        {
+          "ex_date": "2022-01-18",
+          "pay_date": "2022-03-04",
+          "cash_dividend": 0.32,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-01-17"
+        },
+        {
+          "ex_date": "2022-04-20",
+          "pay_date": "2022-05-25",
+          "cash_dividend": 0.4,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-04-19"
+        },
+        {
+          "ex_date": "2022-07-18",
+          "pay_date": "2022-08-19",
+          "cash_dividend": 0.45,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-07-15"
+        },
+        {
+          "ex_date": "2022-10-19",
+          "pay_date": "2022-11-22",
+          "cash_dividend": 0.44,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-10-18"
+        },
+        {
+          "ex_date": "2023-01-30",
+          "pay_date": "2023-03-08",
+          "cash_dividend": 0.422,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-01-27"
+        },
+        {
+          "ex_date": "2023-04-21",
+          "pay_date": "2023-05-18",
+          "cash_dividend": 0.37,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-04-20"
+        },
+        {
+          "ex_date": "2023-07-18",
+          "pay_date": "2023-08-11",
+          "cash_dividend": 0.39,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-07-17"
+        },
+        {
+          "ex_date": "2023-10-19",
+          "pay_date": "2023-11-14",
+          "cash_dividend": 0.395,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-10-18"
+        },
+        {
+          "ex_date": "2024-01-17",
+          "pay_date": "2024-02-21",
+          "cash_dividend": 0.4,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-01-16"
+        },
+        {
+          "ex_date": "2024-04-18",
+          "pay_date": "2024-05-15",
+          "cash_dividend": 0.435,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-04-17"
+        },
+        {
+          "ex_date": "2024-07-16",
+          "pay_date": "2024-08-09",
+          "cash_dividend": 0.38,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-07-15"
+        },
+        {
+          "ex_date": "2024-10-21",
+          "pay_date": "2024-11-14",
+          "cash_dividend": 0.37,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-10-18"
+        },
+        {
+          "ex_date": "2025-01-17",
+          "pay_date": "2025-02-20",
+          "cash_dividend": 0.395,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-01-16"
+        },
+        {
+          "ex_date": "2025-04-21",
+          "pay_date": "2025-05-15",
+          "cash_dividend": 0.435,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-04-18"
+        },
+        {
+          "ex_date": "2025-07-16",
+          "pay_date": "2025-08-11",
+          "cash_dividend": 0.4,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-07-15"
+        },
+        {
+          "ex_date": "2025-10-20",
+          "pay_date": "2025-11-13",
+          "cash_dividend": 0.38,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-10-17"
+        },
+        {
+          "ex_date": "2026-01-20",
+          "pay_date": "2026-02-23",
+          "cash_dividend": 0.4,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-01-19"
+        },
+        {
+          "ex_date": "2026-04-20",
+          "pay_date": "2026-05-15",
+          "cash_dividend": 0.4,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-04-17"
+        },
+        {
+          "ex_date": "2026-07-16",
+          "pay_date": "2026-08-11",
+          "cash_dividend": 0.41,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-07-15"
+        },
+        {
+          "ex_date": "2026-10-19",
+          "pay_date": "2026-11-13",
+          "cash_dividend": 0.42,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-10-16"
+        }
+      ]
     },
     "00758B": {
       "name": "復華能源債",
-      "events": []
+      "events": [
+        {
+          "ex_date": "2019-03-07",
+          "pay_date": "2019-04-03",
+          "cash_dividend": 0.1,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-03-06"
+        },
+        {
+          "ex_date": "2019-05-23",
+          "pay_date": "2019-06-20",
+          "cash_dividend": 1.63,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-05-22"
+        },
+        {
+          "ex_date": "2019-08-22",
+          "pay_date": "2019-09-20",
+          "cash_dividend": 0.645,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-08-21"
+        },
+        {
+          "ex_date": "2019-11-26",
+          "pay_date": "2019-12-23",
+          "cash_dividend": 0.994,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-11-25"
+        },
+        {
+          "ex_date": "2020-02-26",
+          "pay_date": "2020-03-24",
+          "cash_dividend": 0.659,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-02-25"
+        },
+        {
+          "ex_date": "2020-05-20",
+          "pay_date": "2020-06-16",
+          "cash_dividend": 0.64,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-05-19"
+        },
+        {
+          "ex_date": "2020-08-19",
+          "pay_date": "2020-09-16",
+          "cash_dividend": 0.585,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-08-18"
+        },
+        {
+          "ex_date": "2020-11-18",
+          "pay_date": "2020-12-15",
+          "cash_dividend": 0.53,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-11-17"
+        },
+        {
+          "ex_date": "2021-03-02",
+          "pay_date": "2021-03-29",
+          "cash_dividend": 0.53,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-03-01"
+        },
+        {
+          "ex_date": "2021-05-19",
+          "pay_date": "2021-06-17",
+          "cash_dividend": 0.52,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-05-18"
+        },
+        {
+          "ex_date": "2021-08-18",
+          "pay_date": "2021-09-15",
+          "cash_dividend": 0.51,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-08-17"
+        },
+        {
+          "ex_date": "2021-11-17",
+          "pay_date": "2021-12-14",
+          "cash_dividend": 0.51,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-11-16"
+        },
+        {
+          "ex_date": "2022-02-23",
+          "pay_date": "2022-03-22",
+          "cash_dividend": 0.49,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-02-22"
+        },
+        {
+          "ex_date": "2022-05-19",
+          "pay_date": "2022-06-17",
+          "cash_dividend": 0.53,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-05-18"
+        },
+        {
+          "ex_date": "2022-08-17",
+          "pay_date": "2022-09-15",
+          "cash_dividend": 0.55,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-08-16"
+        },
+        {
+          "ex_date": "2022-11-17",
+          "pay_date": "2022-12-14",
+          "cash_dividend": 0.59,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-11-16"
+        },
+        {
+          "ex_date": "2023-02-23",
+          "pay_date": "2023-03-22",
+          "cash_dividend": 0.57,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-02-22"
+        },
+        {
+          "ex_date": "2023-05-18",
+          "pay_date": "2023-06-13",
+          "cash_dividend": 0.56,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-05-17"
+        },
+        {
+          "ex_date": "2023-08-17",
+          "pay_date": "2023-09-12",
+          "cash_dividend": 0.58,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-08-16"
+        },
+        {
+          "ex_date": "2023-11-21",
+          "pay_date": "2023-12-15",
+          "cash_dividend": 0.59,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-11-20"
+        },
+        {
+          "ex_date": "2024-02-29",
+          "pay_date": "2024-03-26",
+          "cash_dividend": 0.59,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-02-28"
+        },
+        {
+          "ex_date": "2024-05-22",
+          "pay_date": "2024-06-18",
+          "cash_dividend": 0.59,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-05-21"
+        },
+        {
+          "ex_date": "2024-08-20",
+          "pay_date": "2024-09-13",
+          "cash_dividend": 0.6,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-08-19"
+        },
+        {
+          "ex_date": "2024-11-19",
+          "pay_date": "2024-12-13",
+          "cash_dividend": 0.6,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-11-18"
+        },
+        {
+          "ex_date": "2025-02-19",
+          "pay_date": "2025-03-18",
+          "cash_dividend": 0.62,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-02-18"
+        },
+        {
+          "ex_date": "2025-05-21",
+          "pay_date": "2025-06-17",
+          "cash_dividend": 0.61,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-05-20"
+        },
+        {
+          "ex_date": "2025-08-19",
+          "pay_date": "2025-09-12",
+          "cash_dividend": 0.57,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-08-18"
+        },
+        {
+          "ex_date": "2025-11-19",
+          "pay_date": "2025-12-15",
+          "cash_dividend": 0.58,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-11-18"
+        },
+        {
+          "ex_date": "2026-03-03",
+          "pay_date": "2026-03-27",
+          "cash_dividend": 0.59,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-03-02"
+        },
+        {
+          "ex_date": "2026-05-20",
+          "pay_date": "2026-06-15",
+          "cash_dividend": 0.59,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-05-19"
+        },
+        {
+          "ex_date": "2026-08-19",
+          "pay_date": "2026-09-14",
+          "cash_dividend": 0.6,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-08-18"
+        }
+      ]
     },
     "00779B": {
       "name": "凱基美債25+",
-      "events": []
+      "events": [
+        {
+          "ex_date": "2019-06-20",
+          "pay_date": "2019-07-23",
+          "cash_dividend": 0.42,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-06-19"
+        },
+        {
+          "ex_date": "2019-09-19",
+          "pay_date": "2019-10-25",
+          "cash_dividend": 0.105,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-09-18"
+        },
+        {
+          "ex_date": "2019-12-18",
+          "pay_date": "2020-01-31",
+          "cash_dividend": 0.21,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-12-17"
+        },
+        {
+          "ex_date": "2020-03-18",
+          "pay_date": "2020-04-22",
+          "cash_dividend": 0.255,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-03-17"
+        },
+        {
+          "ex_date": "2020-06-17",
+          "pay_date": "2020-07-22",
+          "cash_dividend": 0.265,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-06-16"
+        },
+        {
+          "ex_date": "2020-09-17",
+          "pay_date": "2020-10-26",
+          "cash_dividend": 0.2,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-09-16"
+        },
+        {
+          "ex_date": "2020-12-16",
+          "pay_date": "2021-01-21",
+          "cash_dividend": 0.23,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-12-15"
+        },
+        {
+          "ex_date": "2021-03-17",
+          "pay_date": "2021-04-21",
+          "cash_dividend": 0.24,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-03-16"
+        },
+        {
+          "ex_date": "2021-06-17",
+          "pay_date": "2021-07-21",
+          "cash_dividend": 0.24,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-06-16"
+        },
+        {
+          "ex_date": "2021-09-16",
+          "pay_date": "2021-10-25",
+          "cash_dividend": 0.25,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-09-15"
+        },
+        {
+          "ex_date": "2021-12-16",
+          "pay_date": "2022-01-21",
+          "cash_dividend": 0.22,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-12-15"
+        },
+        {
+          "ex_date": "2022-03-16",
+          "pay_date": "2022-04-21",
+          "cash_dividend": 0.22,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-03-15"
+        },
+        {
+          "ex_date": "2022-06-17",
+          "pay_date": "2022-07-22",
+          "cash_dividend": 0.225,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-06-16"
+        },
+        {
+          "ex_date": "2022-09-19",
+          "pay_date": "2022-10-24",
+          "cash_dividend": 0.2,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-09-16"
+        },
+        {
+          "ex_date": "2022-12-16",
+          "pay_date": "2023-02-02",
+          "cash_dividend": 0.25,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-12-15"
+        },
+        {
+          "ex_date": "2023-03-16",
+          "pay_date": "2023-04-24",
+          "cash_dividend": 0.175,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-03-15"
+        },
+        {
+          "ex_date": "2023-06-16",
+          "pay_date": "2023-07-13",
+          "cash_dividend": 0.27,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-06-15"
+        },
+        {
+          "ex_date": "2023-09-18",
+          "pay_date": "2023-10-17",
+          "cash_dividend": 0.25,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-09-15"
+        },
+        {
+          "ex_date": "2023-12-18",
+          "pay_date": "2024-01-12",
+          "cash_dividend": 0.255,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-12-15"
+        },
+        {
+          "ex_date": "2024-03-18",
+          "pay_date": "2024-04-15",
+          "cash_dividend": 0.25,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-03-15"
+        },
+        {
+          "ex_date": "2024-06-20",
+          "pay_date": "2024-07-15",
+          "cash_dividend": 0.285,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-06-19"
+        },
+        {
+          "ex_date": "2024-09-19",
+          "pay_date": "2024-10-16",
+          "cash_dividend": 0.283,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-09-18"
+        },
+        {
+          "ex_date": "2024-12-17",
+          "pay_date": "2025-01-13",
+          "cash_dividend": 0.285,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-12-16"
+        },
+        {
+          "ex_date": "2025-03-18",
+          "pay_date": "2025-04-15",
+          "cash_dividend": 0.28,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-03-17"
+        },
+        {
+          "ex_date": "2025-06-17",
+          "pay_date": "2025-07-11",
+          "cash_dividend": 0.28,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-06-16"
+        },
+        {
+          "ex_date": "2025-09-16",
+          "pay_date": "2025-10-15",
+          "cash_dividend": 0.283,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-09-15"
+        },
+        {
+          "ex_date": "2025-12-16",
+          "pay_date": "2026-01-13",
+          "cash_dividend": 0.291,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-12-15"
+        },
+        {
+          "ex_date": "2026-03-17",
+          "pay_date": "2026-04-14",
+          "cash_dividend": 0.299,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-03-16"
+        },
+        {
+          "ex_date": "2026-06-16",
+          "pay_date": "2026-07-10",
+          "cash_dividend": 0.36,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-06-15"
+        },
+        {
+          "ex_date": "2026-09-16",
+          "pay_date": "2026-10-15",
+          "cash_dividend": 0.36,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-09-15"
+        }
+      ]
     },
     "00749B": {
       "name": "凱基新興債10+",
@@ -149391,803 +151335,11 @@
     },
     "00764B": {
       "name": "群益25年美債",
-      "events": [
-        {
-          "ex_date": "2019-06-18",
-          "pay_date": "2019-07-16",
-          "cash_dividend": 0.565,
-          "stock_dividend": 0.0,
-          "fiscal_year": "108",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2019-06-17"
-        },
-        {
-          "ex_date": "2019-09-18",
-          "pay_date": "2019-10-18",
-          "cash_dividend": 0.246,
-          "stock_dividend": 0.0,
-          "fiscal_year": "108",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2019-09-17"
-        },
-        {
-          "ex_date": "2019-12-16",
-          "pay_date": "2020-01-14",
-          "cash_dividend": 0.233,
-          "stock_dividend": 0.0,
-          "fiscal_year": "108",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2019-12-13"
-        },
-        {
-          "ex_date": "2020-03-17",
-          "pay_date": "2020-04-14",
-          "cash_dividend": 0.274,
-          "stock_dividend": 0.0,
-          "fiscal_year": "109",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2020-03-16"
-        },
-        {
-          "ex_date": "2020-09-16",
-          "pay_date": "2020-10-15",
-          "cash_dividend": 0.243,
-          "stock_dividend": 0.0,
-          "fiscal_year": "109",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2020-09-15"
-        },
-        {
-          "ex_date": "2020-12-16",
-          "pay_date": "2021-01-12",
-          "cash_dividend": 0.22,
-          "stock_dividend": 0.0,
-          "fiscal_year": "109",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2020-12-15"
-        },
-        {
-          "ex_date": "2021-03-17",
-          "pay_date": "2021-04-14",
-          "cash_dividend": 0.226,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-03-16"
-        },
-        {
-          "ex_date": "2021-06-17",
-          "pay_date": "2021-07-13",
-          "cash_dividend": 0.211,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-06-16"
-        },
-        {
-          "ex_date": "2021-09-16",
-          "pay_date": "2021-10-15",
-          "cash_dividend": 0.221,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-09-15"
-        },
-        {
-          "ex_date": "2021-12-16",
-          "pay_date": "2022-01-12",
-          "cash_dividend": 0.213,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-12-15"
-        },
-        {
-          "ex_date": "2022-03-16",
-          "pay_date": "2022-04-13",
-          "cash_dividend": 0.208,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-03-15"
-        },
-        {
-          "ex_date": "2022-06-17",
-          "pay_date": "2022-07-13",
-          "cash_dividend": 0.227,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-06-16"
-        },
-        {
-          "ex_date": "2022-09-19",
-          "pay_date": "2022-10-14",
-          "cash_dividend": 0.237,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-09-16"
-        },
-        {
-          "ex_date": "2022-12-16",
-          "pay_date": "2023-01-12",
-          "cash_dividend": 0.255,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-12-15"
-        },
-        {
-          "ex_date": "2023-03-16",
-          "pay_date": "2023-04-14",
-          "cash_dividend": 0.251,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2023-03-15"
-        },
-        {
-          "ex_date": "2023-06-16",
-          "pay_date": "2023-07-14",
-          "cash_dividend": 0.29,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2023-06-15"
-        },
-        {
-          "ex_date": "2023-09-18",
-          "pay_date": "2023-10-17",
-          "cash_dividend": 0.261,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2023-09-15"
-        },
-        {
-          "ex_date": "2023-12-18",
-          "pay_date": "2024-01-12",
-          "cash_dividend": 0.251,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2023-12-15"
-        },
-        {
-          "ex_date": "2024-03-18",
-          "pay_date": "2024-04-15",
-          "cash_dividend": 0.209,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-03-15"
-        },
-        {
-          "ex_date": "2024-06-24",
-          "pay_date": "2024-07-15",
-          "cash_dividend": 0.266,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-06-21"
-        },
-        {
-          "ex_date": "2024-09-23",
-          "pay_date": "2024-10-15",
-          "cash_dividend": 0.362,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-09-20"
-        },
-        {
-          "ex_date": "2024-12-20",
-          "pay_date": "2025-01-13",
-          "cash_dividend": 0.362,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-12-19"
-        },
-        {
-          "ex_date": "2025-03-18",
-          "pay_date": "2025-04-15",
-          "cash_dividend": 0.362,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-03-17"
-        },
-        {
-          "ex_date": "2025-06-17",
-          "pay_date": "2025-07-11",
-          "cash_dividend": 0.309,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-06-16"
-        },
-        {
-          "ex_date": "2025-09-16",
-          "pay_date": "2025-10-15",
-          "cash_dividend": 0.324,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-09-15"
-        },
-        {
-          "ex_date": "2025-12-16",
-          "pay_date": "2026-01-13",
-          "cash_dividend": 0.324,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-12-15"
-        },
-        {
-          "ex_date": "2026-03-17",
-          "pay_date": "2026-04-14",
-          "cash_dividend": 0.32,
-          "stock_dividend": 0.0,
-          "fiscal_year": "115",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-03-16"
-        },
-        {
-          "ex_date": "2026-06-16",
-          "pay_date": "2026-07-13",
-          "cash_dividend": 0.312,
-          "stock_dividend": 0.0,
-          "fiscal_year": "115",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-06-15"
-        },
-        {
-          "ex_date": "2026-09-16",
-          "pay_date": "2026-10-15",
-          "cash_dividend": 0.304,
-          "stock_dividend": 0.0,
-          "fiscal_year": "115",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-09-15"
-        }
-      ]
+      "events": []
     },
     "00740B": {
       "name": "富邦全球投等債",
-      "events": [
-        {
-          "ex_date": "2019-01-24",
-          "pay_date": "2019-03-12",
-          "cash_dividend": 0.071,
-          "stock_dividend": 0.0,
-          "fiscal_year": "108",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2019-01-23"
-        },
-        {
-          "ex_date": "2019-05-02",
-          "pay_date": "2019-06-05",
-          "cash_dividend": 0.245,
-          "stock_dividend": 0.0,
-          "fiscal_year": "108",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2019-05-01"
-        },
-        {
-          "ex_date": "2019-07-18",
-          "pay_date": "2019-08-27",
-          "cash_dividend": 0.632,
-          "stock_dividend": 0.0,
-          "fiscal_year": "108",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2019-07-17"
-        },
-        {
-          "ex_date": "2019-10-22",
-          "pay_date": "2019-11-28",
-          "cash_dividend": 0.513,
-          "stock_dividend": 0.0,
-          "fiscal_year": "108",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2019-10-21"
-        },
-        {
-          "ex_date": "2020-01-30",
-          "pay_date": "2020-02-27",
-          "cash_dividend": 0.445,
-          "stock_dividend": 0.0,
-          "fiscal_year": "109",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2020-01-29"
-        },
-        {
-          "ex_date": "2020-04-22",
-          "pay_date": "2020-05-29",
-          "cash_dividend": 0.511,
-          "stock_dividend": 0.0,
-          "fiscal_year": "109",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2020-04-21"
-        },
-        {
-          "ex_date": "2020-07-21",
-          "pay_date": "2020-08-18",
-          "cash_dividend": 0.392,
-          "stock_dividend": 0.0,
-          "fiscal_year": "109",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2020-07-20"
-        },
-        {
-          "ex_date": "2020-10-21",
-          "pay_date": "2020-11-23",
-          "cash_dividend": 0.403,
-          "stock_dividend": 0.0,
-          "fiscal_year": "109",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2020-10-20"
-        },
-        {
-          "ex_date": "2021-01-19",
-          "pay_date": "2021-02-25",
-          "cash_dividend": 0.506,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-01-18"
-        },
-        {
-          "ex_date": "2021-04-20",
-          "pay_date": "2021-05-24",
-          "cash_dividend": 0.443,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-04-19"
-        },
-        {
-          "ex_date": "2021-07-16",
-          "pay_date": "2021-08-18",
-          "cash_dividend": 0.419,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-07-15"
-        },
-        {
-          "ex_date": "2021-10-19",
-          "pay_date": "2021-11-19",
-          "cash_dividend": 0.391,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-10-18"
-        },
-        {
-          "ex_date": "2022-01-18",
-          "pay_date": "2022-02-25",
-          "cash_dividend": 0.46,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-01-17"
-        },
-        {
-          "ex_date": "2022-04-20",
-          "pay_date": "2022-05-24",
-          "cash_dividend": 0.454,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-04-19"
-        },
-        {
-          "ex_date": "2022-07-18",
-          "pay_date": "2022-08-18",
-          "cash_dividend": 0.432,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-07-15"
-        },
-        {
-          "ex_date": "2022-10-19",
-          "pay_date": "2022-11-21",
-          "cash_dividend": 0.512,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-10-18"
-        },
-        {
-          "ex_date": "2023-01-31",
-          "pay_date": "2023-02-24",
-          "cash_dividend": 0.509,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2023-01-30"
-        },
-        {
-          "ex_date": "2023-04-21",
-          "pay_date": "2023-05-18",
-          "cash_dividend": 0.503,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2023-04-20"
-        },
-        {
-          "ex_date": "2023-07-18",
-          "pay_date": "2023-08-11",
-          "cash_dividend": 0.457,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2023-07-17"
-        },
-        {
-          "ex_date": "2023-10-19",
-          "pay_date": "2023-11-14",
-          "cash_dividend": 0.518,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2023-10-18"
-        },
-        {
-          "ex_date": "2024-01-17",
-          "pay_date": "2024-02-17",
-          "cash_dividend": 0.505,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-01-16"
-        },
-        {
-          "ex_date": "2024-04-18",
-          "pay_date": "2024-05-15",
-          "cash_dividend": 0.482,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-04-17"
-        },
-        {
-          "ex_date": "2024-07-16",
-          "pay_date": "2024-08-09",
-          "cash_dividend": 0.556,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-07-15"
-        },
-        {
-          "ex_date": "2024-08-16",
-          "pay_date": "2024-09-11",
-          "cash_dividend": 0.229,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-08-15"
-        },
-        {
-          "ex_date": "2024-09-18",
-          "pay_date": "2024-10-14",
-          "cash_dividend": 0.229,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-09-17"
-        },
-        {
-          "ex_date": "2024-10-17",
-          "pay_date": "2024-11-11",
-          "cash_dividend": 0.229,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-10-16"
-        },
-        {
-          "ex_date": "2024-11-18",
-          "pay_date": "2024-12-12",
-          "cash_dividend": 0.213,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-11-15"
-        },
-        {
-          "ex_date": "2024-12-17",
-          "pay_date": "2025-01-10",
-          "cash_dividend": 0.2,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-12-16"
-        },
-        {
-          "ex_date": "2025-01-17",
-          "pay_date": "2025-02-18",
-          "cash_dividend": 0.196,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-01-16"
-        },
-        {
-          "ex_date": "2025-02-19",
-          "pay_date": "2025-03-14",
-          "cash_dividend": 0.196,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-02-18"
-        },
-        {
-          "ex_date": "2025-03-18",
-          "pay_date": "2025-04-14",
-          "cash_dividend": 0.179,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-03-17"
-        },
-        {
-          "ex_date": "2025-04-23",
-          "pay_date": "2025-05-19",
-          "cash_dividend": 0.198,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-04-22"
-        },
-        {
-          "ex_date": "2025-05-19",
-          "pay_date": "2025-06-13",
-          "cash_dividend": 0.169,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-05-16"
-        },
-        {
-          "ex_date": "2025-06-17",
-          "pay_date": "2025-07-10",
-          "cash_dividend": 0.154,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-06-16"
-        },
-        {
-          "ex_date": "2025-07-16",
-          "pay_date": "2025-08-08",
-          "cash_dividend": 0.154,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-07-15"
-        },
-        {
-          "ex_date": "2025-08-18",
-          "pay_date": "2025-09-11",
-          "cash_dividend": 0.181,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-08-15"
-        },
-        {
-          "ex_date": "2025-09-16",
-          "pay_date": "2025-10-14",
-          "cash_dividend": 0.164,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-09-15"
-        },
-        {
-          "ex_date": "2025-10-20",
-          "pay_date": "2025-11-13",
-          "cash_dividend": 0.175,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-10-17"
-        },
-        {
-          "ex_date": "2025-11-18",
-          "pay_date": "2025-12-11",
-          "cash_dividend": 0.167,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-11-17"
-        },
-        {
-          "ex_date": "2025-12-16",
-          "pay_date": "2026-01-12",
-          "cash_dividend": 0.167,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-12-15"
-        },
-        {
-          "ex_date": "2026-01-20",
-          "pay_date": "2026-02-12",
-          "cash_dividend": 0.175,
-          "stock_dividend": 0.0,
-          "fiscal_year": "115",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-01-19"
-        },
-        {
-          "ex_date": "2026-02-25",
-          "pay_date": "2026-03-20",
-          "cash_dividend": 0.175,
-          "stock_dividend": 0.0,
-          "fiscal_year": "115",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-02-24"
-        },
-        {
-          "ex_date": "2026-03-17",
-          "pay_date": "2026-04-13",
-          "cash_dividend": 0.195,
-          "stock_dividend": 0.0,
-          "fiscal_year": "115",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-03-16"
-        },
-        {
-          "ex_date": "2026-04-20",
-          "pay_date": "2026-05-15",
-          "cash_dividend": 0.195,
-          "stock_dividend": 0.0,
-          "fiscal_year": "115",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-04-17"
-        },
-        {
-          "ex_date": "2026-05-19",
-          "pay_date": "2026-06-11",
-          "cash_dividend": 0.195,
-          "stock_dividend": 0.0,
-          "fiscal_year": "115",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-05-18"
-        },
-        {
-          "ex_date": "2026-06-16",
-          "pay_date": "2026-07-09",
-          "cash_dividend": 0.175,
-          "stock_dividend": 0.0,
-          "fiscal_year": "115",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-06-15"
-        },
-        {
-          "ex_date": "2026-07-16",
-          "pay_date": "2026-08-10",
-          "cash_dividend": 0.175,
-          "stock_dividend": 0.0,
-          "fiscal_year": "115",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-07-15"
-        },
-        {
-          "ex_date": "2026-08-18",
-          "pay_date": "2026-09-10",
-          "cash_dividend": 0.185,
-          "stock_dividend": 0.0,
-          "fiscal_year": "115",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-08-17"
-        },
-        {
-          "ex_date": "2026-09-16",
-          "pay_date": "2026-10-14",
-          "cash_dividend": 0.185,
-          "stock_dividend": 0.0,
-          "fiscal_year": "115",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-09-15"
-        },
-        {
-          "ex_date": "2026-10-19",
-          "pay_date": "2026-11-12",
-          "cash_dividend": 0.185,
-          "stock_dividend": 0.0,
-          "fiscal_year": "115",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-10-16"
-        }
-      ]
+      "events": []
     },
     "00925": {
       "name": "新光標普電動車",
@@ -150199,153 +151351,11 @@
     },
     "00774C": {
       "name": "新光中政金綠債+R",
-      "events": [
-        {
-          "ex_date": "2019-10-23",
-          "pay_date": "2019-12-04",
-          "cash_dividend": 0.34,
-          "stock_dividend": 0.0,
-          "fiscal_year": "108",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2019-10-22"
-        },
-        {
-          "ex_date": "2020-04-24",
-          "pay_date": "2020-06-08",
-          "cash_dividend": 0.6,
-          "stock_dividend": 0.0,
-          "fiscal_year": "109",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2020-04-23"
-        },
-        {
-          "ex_date": "2020-10-23",
-          "pay_date": "2020-11-23",
-          "cash_dividend": 0.8,
-          "stock_dividend": 0.0,
-          "fiscal_year": "109",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2020-10-22"
-        },
-        {
-          "ex_date": "2021-04-22",
-          "pay_date": "2021-05-24",
-          "cash_dividend": 0.54,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-04-21"
-        },
-        {
-          "ex_date": "2021-10-21",
-          "pay_date": "2021-11-19",
-          "cash_dividend": 0.52,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-10-20"
-        },
-        {
-          "ex_date": "2022-04-22",
-          "pay_date": "2022-05-24",
-          "cash_dividend": 0.53,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-04-21"
-        },
-        {
-          "ex_date": "2022-10-21",
-          "pay_date": "2022-11-21",
-          "cash_dividend": 0.8,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-10-20"
-        }
-      ]
+      "events": []
     },
     "00774B": {
       "name": "新光中國政金綠債",
-      "events": [
-        {
-          "ex_date": "2019-10-23",
-          "pay_date": "2019-12-04",
-          "cash_dividend": 0.34,
-          "stock_dividend": 0.0,
-          "fiscal_year": "108",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2019-10-22"
-        },
-        {
-          "ex_date": "2020-04-24",
-          "pay_date": "2020-06-08",
-          "cash_dividend": 0.6,
-          "stock_dividend": 0.0,
-          "fiscal_year": "109",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2020-04-23"
-        },
-        {
-          "ex_date": "2020-10-23",
-          "pay_date": "2020-11-23",
-          "cash_dividend": 0.8,
-          "stock_dividend": 0.0,
-          "fiscal_year": "109",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2020-10-22"
-        },
-        {
-          "ex_date": "2021-04-22",
-          "pay_date": "2021-05-24",
-          "cash_dividend": 0.54,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-04-21"
-        },
-        {
-          "ex_date": "2021-10-21",
-          "pay_date": "2021-11-19",
-          "cash_dividend": 0.52,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-10-20"
-        },
-        {
-          "ex_date": "2022-04-22",
-          "pay_date": "2022-05-24",
-          "cash_dividend": 0.53,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-04-21"
-        },
-        {
-          "ex_date": "2022-10-21",
-          "pay_date": "2022-11-21",
-          "cash_dividend": 0.8,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-10-20"
-        }
-      ]
+      "events": []
     },
     "00732": {
       "name": "國泰RMB短期報酬",
@@ -172332,141 +173342,6 @@
         }
       ]
     },
-    "3236": {
-      "name": "千如",
-      "events": [
-        {
-          "ex_date": "2012-08-07",
-          "pay_date": null,
-          "cash_dividend": 0.043348,
-          "stock_dividend": 0.260091,
-          "fiscal_year": "100",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2012-08-06"
-        },
-        {
-          "ex_date": "2015-08-26",
-          "pay_date": "2015-09-25",
-          "cash_dividend": 0.15,
-          "stock_dividend": 0.55,
-          "fiscal_year": "103",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2015-08-25"
-        },
-        {
-          "ex_date": "2016-08-26",
-          "pay_date": "2016-09-30",
-          "cash_dividend": 0.1,
-          "stock_dividend": 0.45,
-          "fiscal_year": "104",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2016-08-25"
-        },
-        {
-          "ex_date": "2017-08-11",
-          "pay_date": "2017-09-15",
-          "cash_dividend": 0.502241,
-          "stock_dividend": 0.593557,
-          "fiscal_year": "105",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2017-08-10"
-        },
-        {
-          "ex_date": "2018-08-27",
-          "pay_date": "2018-09-28",
-          "cash_dividend": 0.5,
-          "stock_dividend": 1.7,
-          "fiscal_year": "106",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2018-08-24"
-        },
-        {
-          "ex_date": "2019-08-28",
-          "pay_date": "2019-10-02",
-          "cash_dividend": 0.35,
-          "stock_dividend": 0.85,
-          "fiscal_year": "107",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2019-08-27"
-        },
-        {
-          "ex_date": "2020-08-27",
-          "pay_date": "2020-09-25",
-          "cash_dividend": 0.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "108",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2020-08-26"
-        },
-        {
-          "ex_date": "2021-08-30",
-          "pay_date": "2021-09-30",
-          "cash_dividend": 0.65,
-          "stock_dividend": 0.0,
-          "fiscal_year": "109",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-08-27"
-        },
-        {
-          "ex_date": "2022-08-26",
-          "pay_date": "2022-09-28",
-          "cash_dividend": 0.6,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-08-25"
-        },
-        {
-          "ex_date": "2023-09-25",
-          "pay_date": "2023-10-26",
-          "cash_dividend": 0.24,
-          "stock_dividend": 1.3,
-          "fiscal_year": "111",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2023-09-22"
-        },
-        {
-          "ex_date": "2024-08-27",
-          "pay_date": "2024-09-26",
-          "cash_dividend": 0.22,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-08-26"
-        },
-        {
-          "ex_date": "2025-08-26",
-          "pay_date": "2025-09-24",
-          "cash_dividend": 0.35,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-08-25"
-        },
-        {
-          "ex_date": "2026-08-27",
-          "pay_date": "2026-09-23",
-          "cash_dividend": 0.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-08-26"
-        }
-      ]
-    },
     "3260": {
       "name": "威剛",
       "events": [
@@ -180179,6 +181054,16 @@
           "amount_announced": true,
           "source": "finmind",
           "last_buy_date": "2026-05-26"
+        },
+        {
+          "ex_date": "2026-11-12",
+          "pay_date": "2026-12-18",
+          "cash_dividend": 9.914746,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115前半度",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-11-11"
         }
       ]
     },
@@ -208404,1169 +209289,236 @@
     },
     "6527": {
       "name": "明達醫",
-      "events": []
-    },
-    "6530": {
-      "name": "創威",
-      "events": []
-    },
-    "6532": {
-      "name": "瑞耘",
-      "events": []
-    },
-    "6546": {
-      "name": "正基",
-      "events": []
-    },
-    "6548": {
-      "name": "長科*",
-      "events": []
-    },
-    "6556": {
-      "name": "勝品",
-      "events": []
-    },
-    "6561": {
-      "name": "是方",
-      "events": []
-    },
-    "6568": {
-      "name": "宏觀",
-      "events": []
-    },
-    "6569": {
-      "name": "醫揚",
-      "events": []
-    },
-    "6570": {
-      "name": "維田",
-      "events": []
-    },
-    "6574": {
-      "name": "霈方",
-      "events": []
-    },
-    "6577": {
-      "name": "勁豐",
-      "events": []
-    },
-    "6578": {
-      "name": "達邦蛋白",
-      "events": []
-    },
-    "6590": {
-      "name": "普鴻",
-      "events": []
-    },
-    "6596": {
-      "name": "寬宏藝術",
-      "events": []
-    },
-    "6597": {
-      "name": "立誠",
-      "events": []
-    },
-    "6603": {
-      "name": "富強鑫",
-      "events": []
-    },
-    "6604": {
-      "name": "儒億",
       "events": [
         {
-          "ex_date": "2026-07-27",
-          "pay_date": "2026-08-25",
-          "cash_dividend": 1.3,
+          "ex_date": "2015-07-23",
+          "pay_date": "2015-08-28",
+          "cash_dividend": 0.35,
           "stock_dividend": 0.0,
-          "fiscal_year": "114",
+          "fiscal_year": "103",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2026-07-24"
-        }
-      ]
-    },
-    "6612": {
-      "name": "奈米醫材",
-      "events": [
-        {
-          "ex_date": "2018-06-21",
-          "pay_date": "2018-07-13",
-          "cash_dividend": 0.498568,
-          "stock_dividend": 0.0,
-          "fiscal_year": "106",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2018-06-20"
+          "last_buy_date": "2015-07-22"
         },
         {
-          "ex_date": "2019-07-17",
-          "pay_date": "2019-08-06",
-          "cash_dividend": 0.496755,
-          "stock_dividend": 0.0,
-          "fiscal_year": "107",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2019-07-16"
-        },
-        {
-          "ex_date": "2020-06-19",
-          "pay_date": "2020-07-03",
-          "cash_dividend": 0.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "108",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2020-06-18"
-        },
-        {
-          "ex_date": "2021-07-16",
-          "pay_date": "2021-08-02",
-          "cash_dividend": 0.1,
-          "stock_dividend": 0.0,
-          "fiscal_year": "109",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-07-15"
-        },
-        {
-          "ex_date": "2022-04-07",
-          "pay_date": "2022-04-26",
-          "cash_dividend": 0.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-04-06"
-        },
-        {
-          "ex_date": "2023-03-30",
-          "pay_date": "2023-04-27",
-          "cash_dividend": 1.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2023-03-29"
-        },
-        {
-          "ex_date": "2024-07-08",
-          "pay_date": "2024-08-09",
-          "cash_dividend": 0.2,
-          "stock_dividend": 1.0,
-          "fiscal_year": "112",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-07-05"
-        },
-        {
-          "ex_date": "2025-08-22",
-          "pay_date": "2025-09-26",
-          "cash_dividend": 0.3,
-          "stock_dividend": 1.0,
-          "fiscal_year": "113",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-08-21"
-        },
-        {
-          "ex_date": "2026-08-26",
-          "pay_date": "2026-09-24",
-          "cash_dividend": 0.30231,
-          "stock_dividend": 1.007699,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-08-25"
-        }
-      ]
-    },
-    "6613": {
-      "name": "朋億*",
-      "events": [
-        {
-          "ex_date": "2017-06-13",
-          "pay_date": "2017-07-20",
-          "cash_dividend": 6.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "105",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2017-06-12"
-        },
-        {
-          "ex_date": "2018-06-26",
-          "pay_date": "2018-07-13",
-          "cash_dividend": 10.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "106",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2018-06-25"
-        },
-        {
-          "ex_date": "2019-06-24",
-          "pay_date": "2019-07-12",
-          "cash_dividend": 15.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "107",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2019-06-21"
-        },
-        {
-          "ex_date": "2020-06-29",
-          "pay_date": "2020-07-17",
-          "cash_dividend": 10.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "108",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2020-06-26"
-        },
-        {
-          "ex_date": "2021-06-28",
-          "pay_date": "2021-07-16",
-          "cash_dividend": 8.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "109",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-06-25"
-        },
-        {
-          "ex_date": "2022-06-30",
-          "pay_date": "2022-07-20",
-          "cash_dividend": 12.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-06-29"
-        },
-        {
-          "ex_date": "2023-01-30",
-          "pay_date": "2023-02-17",
-          "cash_dividend": 2.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111前半度",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2023-01-27"
-        },
-        {
-          "ex_date": "2023-06-29",
-          "pay_date": "2023-07-20",
-          "cash_dividend": 6.493001,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111後半度",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2023-06-28"
-        },
-        {
-          "ex_date": "2024-01-08",
-          "pay_date": "2024-01-26",
-          "cash_dividend": 3.429363,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112前半度",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-01-05"
-        },
-        {
-          "ex_date": "2024-06-27",
-          "pay_date": "2024-07-19",
-          "cash_dividend": 6.961233,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112後半度",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-06-26"
-        },
-        {
-          "ex_date": "2025-06-27",
-          "pay_date": "2025-07-18",
-          "cash_dividend": 9.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113後半度",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-06-26"
-        },
-        {
-          "ex_date": "2026-01-12",
-          "pay_date": "2026-01-30",
-          "cash_dividend": 3.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114前半度",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-01-09"
-        },
-        {
-          "ex_date": "2026-06-29",
-          "pay_date": "2026-07-17",
-          "cash_dividend": 7.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114後半度",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-06-26"
-        }
-      ]
-    },
-    "6620": {
-      "name": "漢達",
-      "events": [
-        {
-          "ex_date": "2024-04-18",
-          "pay_date": "2024-05-16",
-          "cash_dividend": 1.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-04-17"
-        },
-        {
-          "ex_date": "2025-07-02",
-          "pay_date": "2025-07-25",
-          "cash_dividend": 1.506791,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-07-01"
-        },
-        {
-          "ex_date": "2026-07-06",
-          "pay_date": "2026-07-30",
-          "cash_dividend": 2.073848,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-07-03"
-        }
-      ]
-    },
-    "6629": {
-      "name": "泰金-KY",
-      "events": [
-        {
-          "ex_date": "2020-07-27",
-          "pay_date": "2020-08-25",
-          "cash_dividend": 3.1,
-          "stock_dividend": 0.0,
-          "fiscal_year": "108",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2020-07-24"
-        },
-        {
-          "ex_date": "2021-04-15",
-          "pay_date": "2021-05-20",
-          "cash_dividend": 4.489524,
-          "stock_dividend": 0.0,
-          "fiscal_year": "109",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-04-14"
-        },
-        {
-          "ex_date": "2021-12-23",
-          "pay_date": "2022-01-20",
-          "cash_dividend": 2.2,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110前半度",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-12-22"
-        },
-        {
-          "ex_date": "2022-07-14",
-          "pay_date": "2022-08-16",
-          "cash_dividend": 1.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110後半度",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-07-13"
-        },
-        {
-          "ex_date": "2023-01-11",
-          "pay_date": "2023-02-15",
-          "cash_dividend": 1.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111前半度",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2023-01-10"
-        },
-        {
-          "ex_date": "2023-07-14",
-          "pay_date": "2023-08-16",
-          "cash_dividend": 1.27,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111後半度",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2023-07-13"
-        },
-        {
-          "ex_date": "2024-01-03",
-          "pay_date": "2024-02-05",
-          "cash_dividend": 1.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112前半度",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-01-02"
-        },
-        {
-          "ex_date": "2024-07-11",
-          "pay_date": "2024-08-07",
-          "cash_dividend": 2.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112後半度",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-07-10"
-        },
-        {
-          "ex_date": "2024-12-18",
-          "pay_date": "2025-01-22",
-          "cash_dividend": 5.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113前半度",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-12-17"
-        },
-        {
-          "ex_date": "2025-07-08",
-          "pay_date": "2025-08-06",
-          "cash_dividend": 4.2,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113後半度",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-07-07"
-        },
-        {
-          "ex_date": "2026-01-08",
-          "pay_date": "2026-02-11",
-          "cash_dividend": 1.997131,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114前半度",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-01-07"
-        },
-        {
-          "ex_date": "2026-06-24",
-          "pay_date": "2026-07-29",
-          "cash_dividend": 4.199087,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114後半度",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-06-23"
-        }
-      ]
-    },
-    "6637": {
-      "name": "醫影",
-      "events": [
-        {
-          "ex_date": "2017-07-21",
-          "pay_date": "2017-08-31",
-          "cash_dividend": 0.5,
-          "stock_dividend": 2.0,
-          "fiscal_year": "105",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2017-07-20"
-        },
-        {
-          "ex_date": "2018-08-23",
-          "pay_date": "2018-09-14",
+          "ex_date": "2016-08-25",
+          "pay_date": "2016-09-14",
           "cash_dividend": 1.2,
           "stock_dividend": 0.0,
-          "fiscal_year": "106",
+          "fiscal_year": "104",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2018-08-22"
+          "last_buy_date": "2016-08-24"
         },
         {
-          "ex_date": "2019-07-22",
-          "pay_date": "2019-08-26",
-          "cash_dividend": 2.5,
-          "stock_dividend": 1.0,
-          "fiscal_year": "107",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2019-07-19"
-        },
-        {
-          "ex_date": "2020-08-27",
-          "pay_date": "2020-09-23",
-          "cash_dividend": 2.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "108",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2020-08-26"
-        },
-        {
-          "ex_date": "2021-08-26",
-          "pay_date": "2021-09-24",
-          "cash_dividend": 2.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "109",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-08-25"
-        },
-        {
-          "ex_date": "2022-08-26",
-          "pay_date": "2022-09-23",
-          "cash_dividend": 2.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-08-25"
-        },
-        {
-          "ex_date": "2023-08-25",
-          "pay_date": "2023-09-25",
-          "cash_dividend": 2.8,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2023-08-24"
-        },
-        {
-          "ex_date": "2024-09-02",
-          "pay_date": "2024-10-03",
-          "cash_dividend": 2.647059,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-08-30"
-        },
-        {
-          "ex_date": "2025-08-28",
-          "pay_date": "2025-09-26",
-          "cash_dividend": 3.627005,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-08-27"
-        },
-        {
-          "ex_date": "2026-08-27",
-          "pay_date": "2026-09-24",
-          "cash_dividend": 4.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-08-26"
-        }
-      ]
-    },
-    "6640": {
-      "name": "均華",
-      "events": [
-        {
-          "ex_date": "2018-07-12",
-          "pay_date": "2018-07-25",
-          "cash_dividend": 3.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "106",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2018-07-11"
-        },
-        {
-          "ex_date": "2019-07-09",
-          "pay_date": "2019-07-24",
-          "cash_dividend": 3.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "107",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2019-07-08"
-        },
-        {
-          "ex_date": "2020-07-21",
-          "pay_date": "2020-07-31",
-          "cash_dividend": 3.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "108",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2020-07-20"
-        },
-        {
-          "ex_date": "2021-07-19",
-          "pay_date": "2021-07-30",
-          "cash_dividend": 3.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "109",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-07-16"
-        },
-        {
-          "ex_date": "2022-07-21",
-          "pay_date": "2022-08-05",
-          "cash_dividend": 5.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-07-20"
-        },
-        {
-          "ex_date": "2023-06-26",
-          "pay_date": "2023-07-12",
-          "cash_dividend": 6.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2023-06-23"
-        },
-        {
-          "ex_date": "2024-06-25",
-          "pay_date": "2024-07-10",
-          "cash_dividend": 5.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-06-24"
-        },
-        {
-          "ex_date": "2025-06-17",
-          "pay_date": "2025-07-10",
-          "cash_dividend": 15.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-06-16"
-        },
-        {
-          "ex_date": "2026-06-17",
-          "pay_date": "2026-07-10",
-          "cash_dividend": 15.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-06-16"
-        }
-      ]
-    },
-    "6642": {
-      "name": "富致",
-      "events": [
-        {
-          "ex_date": "2018-08-09",
-          "pay_date": "2018-09-06",
-          "cash_dividend": 1.7,
-          "stock_dividend": 0.0,
-          "fiscal_year": "106",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2018-08-08"
-        },
-        {
-          "ex_date": "2019-05-22",
-          "pay_date": "2019-06-19",
-          "cash_dividend": 2.63,
-          "stock_dividend": 0.0,
-          "fiscal_year": "107",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2019-05-21"
-        },
-        {
-          "ex_date": "2020-07-08",
-          "pay_date": "2020-08-05",
-          "cash_dividend": 1.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "108",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2020-07-07"
-        },
-        {
-          "ex_date": "2021-07-27",
-          "pay_date": "2021-08-24",
-          "cash_dividend": 1.8,
-          "stock_dividend": 0.0,
-          "fiscal_year": "109",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-07-26"
-        },
-        {
-          "ex_date": "2022-06-16",
-          "pay_date": "2022-07-15",
-          "cash_dividend": 3.6,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-06-15"
-        },
-        {
-          "ex_date": "2023-06-20",
-          "pay_date": "2023-07-21",
-          "cash_dividend": 3.6,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2023-06-19"
-        },
-        {
-          "ex_date": "2024-03-21",
-          "pay_date": "2024-05-03",
-          "cash_dividend": 1.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-03-20"
-        },
-        {
-          "ex_date": "2025-03-27",
-          "pay_date": "2025-04-24",
-          "cash_dividend": 2.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-03-26"
-        },
-        {
-          "ex_date": "2026-03-26",
-          "pay_date": "2026-04-30",
-          "cash_dividend": 1.8,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-03-25"
-        }
-      ]
-    },
-    "6649": {
-      "name": "台生材",
-      "events": [
-        {
-          "ex_date": "2023-08-09",
-          "pay_date": "2023-08-31",
-          "cash_dividend": 0.2,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2023-08-08"
-        },
-        {
-          "ex_date": "2026-04-09",
-          "pay_date": "2026-05-06",
+          "ex_date": "2017-08-03",
+          "pay_date": "2017-08-25",
           "cash_dividend": 1.0,
           "stock_dividend": 0.0,
-          "fiscal_year": "114",
+          "fiscal_year": "105",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2026-04-08"
-        }
-      ]
-    },
-    "6651": {
-      "name": "全宇昕",
-      "events": [
+          "last_buy_date": "2017-08-02"
+        },
         {
-          "ex_date": "2018-08-30",
-          "pay_date": "2018-10-15",
-          "cash_dividend": 1.84,
-          "stock_dividend": 1.0,
+          "ex_date": "2018-07-19",
+          "pay_date": "2018-08-10",
+          "cash_dividend": 1.005162,
+          "stock_dividend": 0.0,
           "fiscal_year": "106",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2018-08-29"
+          "last_buy_date": "2018-07-18"
         },
         {
           "ex_date": "2019-08-05",
-          "pay_date": "2019-09-19",
-          "cash_dividend": 1.02,
-          "stock_dividend": 1.02,
+          "pay_date": "2019-08-26",
+          "cash_dividend": 1.727055,
+          "stock_dividend": 0.0,
           "fiscal_year": "107",
           "amount_announced": true,
           "source": "finmind",
           "last_buy_date": "2019-08-02"
         },
         {
-          "ex_date": "2020-08-11",
-          "pay_date": "2020-09-15",
-          "cash_dividend": 1.0,
-          "stock_dividend": 1.0,
+          "ex_date": "2020-07-07",
+          "pay_date": "2020-07-27",
+          "cash_dividend": 2.55,
+          "stock_dividend": 0.0,
           "fiscal_year": "108",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2020-08-10"
+          "last_buy_date": "2020-07-06"
         },
         {
-          "ex_date": "2021-08-10",
-          "pay_date": "2021-08-31",
-          "cash_dividend": 3.0,
+          "ex_date": "2021-09-03",
+          "pay_date": "2021-09-28",
+          "cash_dividend": 1.4,
           "stock_dividend": 0.0,
           "fiscal_year": "109",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2021-08-09"
+          "last_buy_date": "2021-09-02"
         },
         {
-          "ex_date": "2022-08-23",
-          "pay_date": "2022-09-23",
-          "cash_dividend": 4.001195,
-          "stock_dividend": 0.500149,
+          "ex_date": "2022-07-01",
+          "pay_date": "2022-07-25",
+          "cash_dividend": 1.94,
+          "stock_dividend": 0.0,
           "fiscal_year": "110",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2022-08-22"
+          "last_buy_date": "2022-06-30"
         },
         {
           "ex_date": "2023-07-25",
-          "pay_date": "2023-08-15",
-          "cash_dividend": 6.0,
-          "stock_dividend": 0.0,
+          "pay_date": "2023-08-28",
+          "cash_dividend": 2.4,
+          "stock_dividend": 0.5,
           "fiscal_year": "111",
           "amount_announced": true,
           "source": "finmind",
           "last_buy_date": "2023-07-24"
         },
         {
-          "ex_date": "2024-06-24",
-          "pay_date": "2024-07-15",
-          "cash_dividend": 4.0,
+          "ex_date": "2024-07-11",
+          "pay_date": "2024-07-31",
+          "cash_dividend": 2.063629,
           "stock_dividend": 0.0,
           "fiscal_year": "112",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2024-06-21"
+          "last_buy_date": "2024-07-10"
         },
         {
-          "ex_date": "2025-03-27",
-          "pay_date": "2025-04-25",
-          "cash_dividend": 7.0,
+          "ex_date": "2025-07-24",
+          "pay_date": "2025-08-15",
+          "cash_dividend": 2.25,
           "stock_dividend": 0.0,
           "fiscal_year": "113",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2025-03-26"
+          "last_buy_date": "2025-07-23"
         },
         {
-          "ex_date": "2026-03-27",
-          "pay_date": "2026-04-28",
-          "cash_dividend": 4.0,
+          "ex_date": "2026-07-21",
+          "pay_date": "2026-08-14",
+          "cash_dividend": 2.9,
           "stock_dividend": 0.0,
           "fiscal_year": "114",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2026-03-26"
+          "last_buy_date": "2026-07-20"
         }
       ]
     },
-    "6662": {
-      "name": "樂斯科",
+    "6530": {
+      "name": "創威",
       "events": [
         {
-          "ex_date": "2018-07-30",
-          "pay_date": "2018-08-24",
-          "cash_dividend": 1.8,
-          "stock_dividend": 0.55,
+          "ex_date": "2016-08-10",
+          "pay_date": "2016-09-01",
+          "cash_dividend": 1.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "104",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2016-08-09"
+        },
+        {
+          "ex_date": "2017-07-18",
+          "pay_date": "2017-08-04",
+          "cash_dividend": 1.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "105",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2017-07-17"
+        },
+        {
+          "ex_date": "2018-06-14",
+          "pay_date": "2018-07-05",
+          "cash_dividend": 1.0,
+          "stock_dividend": 0.0,
           "fiscal_year": "106",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2018-07-27"
+          "last_buy_date": "2018-06-13"
         },
         {
-          "ex_date": "2019-07-17",
-          "pay_date": "2019-08-09",
-          "cash_dividend": 1.85,
+          "ex_date": "2019-06-17",
+          "pay_date": "2019-07-05",
+          "cash_dividend": 1.0,
           "stock_dividend": 0.0,
           "fiscal_year": "107",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2019-07-16"
+          "last_buy_date": "2019-06-14"
         },
         {
-          "ex_date": "2020-07-16",
-          "pay_date": "2020-08-14",
-          "cash_dividend": 1.9,
+          "ex_date": "2020-07-14",
+          "pay_date": "2020-08-05",
+          "cash_dividend": 1.0,
           "stock_dividend": 0.0,
           "fiscal_year": "108",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2020-07-15"
+          "last_buy_date": "2020-07-13"
         },
         {
-          "ex_date": "2021-08-23",
-          "pay_date": "2021-09-22",
-          "cash_dividend": 2.0,
+          "ex_date": "2021-07-23",
+          "pay_date": "2021-08-12",
+          "cash_dividend": 1.0,
           "stock_dividend": 0.0,
           "fiscal_year": "109",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2021-08-20"
+          "last_buy_date": "2021-07-22"
         },
         {
-          "ex_date": "2022-07-21",
-          "pay_date": "2022-08-26",
-          "cash_dividend": 1.6,
+          "ex_date": "2022-06-24",
+          "pay_date": "2022-07-15",
+          "cash_dividend": 1.1,
           "stock_dividend": 0.0,
           "fiscal_year": "110",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2022-07-20"
+          "last_buy_date": "2022-06-23"
         },
         {
-          "ex_date": "2023-08-16",
-          "pay_date": "2023-09-19",
+          "ex_date": "2023-07-05",
+          "pay_date": "2023-07-28",
           "cash_dividend": 1.5,
           "stock_dividend": 0.0,
           "fiscal_year": "111",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2023-08-15"
+          "last_buy_date": "2023-07-04"
         },
         {
-          "ex_date": "2024-07-25",
-          "pay_date": "2024-08-28",
-          "cash_dividend": 1.65,
+          "ex_date": "2024-06-18",
+          "pay_date": "2024-07-11",
+          "cash_dividend": 1.2,
           "stock_dividend": 0.0,
           "fiscal_year": "112",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2024-07-24"
+          "last_buy_date": "2024-06-17"
         },
         {
-          "ex_date": "2025-08-07",
-          "pay_date": "2025-09-10",
-          "cash_dividend": 1.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-08-06"
-        },
-        {
-          "ex_date": "2026-08-07",
-          "pay_date": "2026-09-07",
+          "ex_date": "2025-06-18",
+          "pay_date": "2025-07-11",
           "cash_dividend": 1.55,
           "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-08-06"
-        }
-      ]
-    },
-    "6664": {
-      "name": "群翊",
-      "events": [
-        {
-          "ex_date": "2018-07-17",
-          "pay_date": "2018-08-03",
-          "cash_dividend": 4.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "106",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2018-07-16"
-        },
-        {
-          "ex_date": "2019-07-12",
-          "pay_date": "2019-08-02",
-          "cash_dividend": 4.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "107",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2019-07-11"
-        },
-        {
-          "ex_date": "2020-07-22",
-          "pay_date": "2020-08-20",
-          "cash_dividend": 4.2,
-          "stock_dividend": 0.0,
-          "fiscal_year": "108",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2020-07-21"
-        },
-        {
-          "ex_date": "2021-07-27",
-          "pay_date": "2021-08-20",
-          "cash_dividend": 4.3,
-          "stock_dividend": 0.0,
-          "fiscal_year": "109",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-07-26"
-        },
-        {
-          "ex_date": "2022-07-28",
-          "pay_date": "2022-08-19",
-          "cash_dividend": 4.9,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-07-27"
-        },
-        {
-          "ex_date": "2023-07-24",
-          "pay_date": "2023-08-21",
-          "cash_dividend": 6.827812,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2023-07-21"
-        },
-        {
-          "ex_date": "2024-07-25",
-          "pay_date": "2024-08-20",
-          "cash_dividend": 7.821323,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-07-24"
-        },
-        {
-          "ex_date": "2025-07-25",
-          "pay_date": "2025-08-20",
-          "cash_dividend": 9.926055,
-          "stock_dividend": 0.0,
           "fiscal_year": "113",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2025-07-24"
-        },
-        {
-          "ex_date": "2026-07-28",
-          "pay_date": "2026-08-20",
-          "cash_dividend": 10.142498,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-07-27"
-        }
-      ]
-    },
-    "6667": {
-      "name": "信紘科",
-      "events": [
-        {
-          "ex_date": "2018-08-07",
-          "pay_date": "2018-08-31",
-          "cash_dividend": 3.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "106",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2018-08-06"
-        },
-        {
-          "ex_date": "2019-07-03",
-          "pay_date": "2019-07-31",
-          "cash_dividend": 2.795497,
-          "stock_dividend": 0.0,
-          "fiscal_year": "107",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2019-07-02"
-        },
-        {
-          "ex_date": "2020-07-06",
-          "pay_date": "2020-07-31",
-          "cash_dividend": 1.985677,
-          "stock_dividend": 0.0,
-          "fiscal_year": "108",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2020-07-03"
-        },
-        {
-          "ex_date": "2021-07-26",
-          "pay_date": "2021-08-11",
-          "cash_dividend": 1.66,
-          "stock_dividend": 0.0,
-          "fiscal_year": "109",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-07-23"
-        },
-        {
-          "ex_date": "2022-07-05",
-          "pay_date": "2022-07-25",
-          "cash_dividend": 2.94,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-07-04"
-        },
-        {
-          "ex_date": "2023-06-15",
-          "pay_date": "2023-07-07",
-          "cash_dividend": 4.24,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2023-06-14"
-        },
-        {
-          "ex_date": "2024-06-27",
-          "pay_date": "2024-07-18",
-          "cash_dividend": 6.46,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-06-26"
-        },
-        {
-          "ex_date": "2025-06-27",
-          "pay_date": "2025-07-17",
-          "cash_dividend": 8.55,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-06-26"
+          "last_buy_date": "2025-06-17"
         },
         {
           "ex_date": "2026-06-23",
-          "pay_date": "2026-07-09",
-          "cash_dividend": 11.705169,
+          "pay_date": "2026-07-15",
+          "cash_dividend": 2.0,
           "stock_dividend": 0.0,
           "fiscal_year": "114",
           "amount_announced": true,
@@ -209575,223 +209527,83 @@
         }
       ]
     },
-    "6679": {
-      "name": "鈺太",
+    "6532": {
+      "name": "瑞耘",
       "events": [
         {
-          "ex_date": "2018-08-07",
-          "pay_date": "2018-09-05",
-          "cash_dividend": 1.0,
+          "ex_date": "2015-07-22",
+          "pay_date": "2015-08-13",
+          "cash_dividend": 0.8,
+          "stock_dividend": 0.0,
+          "fiscal_year": "103",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2015-07-21"
+        },
+        {
+          "ex_date": "2016-07-04",
+          "pay_date": "2016-07-25",
+          "cash_dividend": 1.3979,
+          "stock_dividend": 0.0,
+          "fiscal_year": "104",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2016-07-01"
+        },
+        {
+          "ex_date": "2017-06-16",
+          "pay_date": "2017-07-10",
+          "cash_dividend": 0.7939,
+          "stock_dividend": 0.0,
+          "fiscal_year": "105",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2017-06-15"
+        },
+        {
+          "ex_date": "2018-07-05",
+          "pay_date": "2018-07-24",
+          "cash_dividend": 1.1,
           "stock_dividend": 0.0,
           "fiscal_year": "106",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2018-08-06"
+          "last_buy_date": "2018-07-04"
         },
         {
-          "ex_date": "2019-08-07",
-          "pay_date": "2019-09-05",
-          "cash_dividend": 1.6,
+          "ex_date": "2019-07-03",
+          "pay_date": "2019-07-23",
+          "cash_dividend": 2.3,
           "stock_dividend": 0.0,
           "fiscal_year": "107",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2019-08-06"
+          "last_buy_date": "2019-07-02"
         },
         {
-          "ex_date": "2020-07-07",
-          "pay_date": "2020-08-05",
-          "cash_dividend": 2.443816,
+          "ex_date": "2020-07-27",
+          "pay_date": "2020-08-21",
+          "cash_dividend": 1.597195,
           "stock_dividend": 0.0,
           "fiscal_year": "108",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2020-07-06"
+          "last_buy_date": "2020-07-24"
         },
         {
-          "ex_date": "2021-07-16",
-          "pay_date": "2021-08-10",
-          "cash_dividend": 4.994495,
-          "stock_dividend": 0.0,
-          "fiscal_year": "109",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-07-15"
-        },
-        {
-          "ex_date": "2022-06-08",
-          "pay_date": "2022-06-30",
-          "cash_dividend": 7.1333,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-06-07"
-        },
-        {
-          "ex_date": "2023-05-18",
-          "pay_date": "2023-06-14",
-          "cash_dividend": 9.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111後半度",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2023-05-17"
-        },
-        {
-          "ex_date": "2024-05-15",
-          "pay_date": "2024-06-07",
-          "cash_dividend": 5.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112後半度",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-05-14"
-        },
-        {
-          "ex_date": "2025-06-23",
-          "pay_date": "2025-07-15",
-          "cash_dividend": 9.167376,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113後半度",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-06-20"
-        },
-        {
-          "ex_date": "2026-05-27",
-          "pay_date": "2026-06-25",
-          "cash_dividend": 6.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114後半度",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-05-26"
-        }
-      ]
-    },
-    "6690": {
-      "name": "安碁資訊",
-      "events": [
-        {
-          "ex_date": "2019-07-15",
-          "pay_date": "2019-08-19",
-          "cash_dividend": 3.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "107",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2019-07-12"
-        },
-        {
-          "ex_date": "2020-08-20",
-          "pay_date": "2020-09-17",
-          "cash_dividend": 3.0,
-          "stock_dividend": 0.2,
-          "fiscal_year": "108",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2020-08-19"
-        },
-        {
-          "ex_date": "2021-08-19",
-          "pay_date": "2021-09-24",
-          "cash_dividend": 3.3,
-          "stock_dividend": 0.2,
-          "fiscal_year": "109",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-08-18"
-        },
-        {
-          "ex_date": "2022-05-27",
-          "pay_date": "2022-07-01",
-          "cash_dividend": 3.699785,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-05-26"
-        },
-        {
-          "ex_date": "2023-06-01",
-          "pay_date": "2023-07-06",
-          "cash_dividend": 4.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2023-05-31"
-        },
-        {
-          "ex_date": "2024-06-06",
-          "pay_date": "2024-07-10",
-          "cash_dividend": 5.201176,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-06-05"
-        },
-        {
-          "ex_date": "2025-07-03",
-          "pay_date": "2025-07-29",
-          "cash_dividend": 6.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-07-02"
-        },
-        {
-          "ex_date": "2026-06-25",
-          "pay_date": "2026-07-23",
-          "cash_dividend": 9.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-06-24"
-        }
-      ]
-    },
-    "6697": {
-      "name": "東捷資訊",
-      "events": [
-        {
-          "ex_date": "2019-07-10",
-          "pay_date": "2019-07-26",
-          "cash_dividend": 1.6,
-          "stock_dividend": 0.0,
-          "fiscal_year": "107",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2019-07-09"
-        },
-        {
-          "ex_date": "2020-07-09",
-          "pay_date": "2020-08-05",
-          "cash_dividend": 2.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "108",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2020-07-08"
-        },
-        {
-          "ex_date": "2021-08-17",
-          "pay_date": "2021-09-07",
+          "ex_date": "2021-07-20",
+          "pay_date": "2021-08-16",
           "cash_dividend": 2.0,
           "stock_dividend": 0.0,
           "fiscal_year": "109",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2021-08-16"
+          "last_buy_date": "2021-07-19"
         },
         {
           "ex_date": "2022-07-14",
-          "pay_date": "2022-08-08",
-          "cash_dividend": 2.0,
+          "pay_date": "2022-08-12",
+          "cash_dividend": 1.8,
           "stock_dividend": 0.0,
           "fiscal_year": "110",
           "amount_announced": true,
@@ -209799,19 +209611,1519 @@
           "last_buy_date": "2022-07-13"
         },
         {
-          "ex_date": "2023-03-29",
-          "pay_date": "2023-04-25",
-          "cash_dividend": 1.6,
+          "ex_date": "2023-06-27",
+          "pay_date": "2023-07-20",
+          "cash_dividend": 2.692735,
           "stock_dividend": 0.0,
           "fiscal_year": "111",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2023-03-28"
+          "last_buy_date": "2023-06-26"
+        },
+        {
+          "ex_date": "2024-06-27",
+          "pay_date": "2024-07-18",
+          "cash_dividend": 2.4,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-06-26"
+        },
+        {
+          "ex_date": "2025-06-12",
+          "pay_date": "2025-07-10",
+          "cash_dividend": 2.6,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-06-11"
+        },
+        {
+          "ex_date": "2026-06-15",
+          "pay_date": "2026-07-09",
+          "cash_dividend": 3.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-06-12"
+        }
+      ]
+    },
+    "6546": {
+      "name": "正基",
+      "events": [
+        {
+          "ex_date": "2015-08-27",
+          "pay_date": "2015-09-25",
+          "cash_dividend": 0.360043,
+          "stock_dividend": 0.0,
+          "fiscal_year": "103",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2015-08-26"
+        },
+        {
+          "ex_date": "2016-07-26",
+          "pay_date": "2016-08-19",
+          "cash_dividend": 1.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "104",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2016-07-25"
+        },
+        {
+          "ex_date": "2017-07-20",
+          "pay_date": "2017-08-16",
+          "cash_dividend": 1.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "105",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2017-07-19"
+        },
+        {
+          "ex_date": "2021-07-30",
+          "pay_date": "2021-08-25",
+          "cash_dividend": 4.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-07-29"
+        },
+        {
+          "ex_date": "2022-06-27",
+          "pay_date": "2022-07-20",
+          "cash_dividend": 5.456958,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-06-24"
+        },
+        {
+          "ex_date": "2023-06-27",
+          "pay_date": "2023-07-19",
+          "cash_dividend": 6.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-06-26"
+        },
+        {
+          "ex_date": "2024-06-13",
+          "pay_date": "2024-07-05",
+          "cash_dividend": 3.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-06-12"
+        },
+        {
+          "ex_date": "2025-06-25",
+          "pay_date": "2025-07-16",
+          "cash_dividend": 3.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-06-24"
+        },
+        {
+          "ex_date": "2026-07-07",
+          "pay_date": "2026-07-29",
+          "cash_dividend": 2.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-07-06"
+        }
+      ]
+    },
+    "6548": {
+      "name": "長科*",
+      "events": [
+        {
+          "ex_date": "2016-08-18",
+          "pay_date": "2016-09-23",
+          "cash_dividend": 3.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "104",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2016-08-17"
+        },
+        {
+          "ex_date": "2017-07-25",
+          "pay_date": "2017-08-25",
+          "cash_dividend": 1.2,
+          "stock_dividend": 0.0,
+          "fiscal_year": "105",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2017-07-24"
+        },
+        {
+          "ex_date": "2018-06-14",
+          "pay_date": "2018-07-18",
+          "cash_dividend": 11.503172,
+          "stock_dividend": 0.0,
+          "fiscal_year": "106",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2018-06-13"
+        },
+        {
+          "ex_date": "2019-07-16",
+          "pay_date": "2019-08-14",
+          "cash_dividend": 17.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "107",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-07-15"
+        },
+        {
+          "ex_date": "2019-12-12",
+          "pay_date": "2020-01-15",
+          "cash_dividend": 0.34,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108前半度",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-12-11"
+        },
+        {
+          "ex_date": "2020-07-16",
+          "pay_date": "2020-08-12",
+          "cash_dividend": 0.9,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108後半度",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-07-15"
+        },
+        {
+          "ex_date": "2020-12-17",
+          "pay_date": "2021-01-13",
+          "cash_dividend": 0.4,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109前半度",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-12-16"
+        },
+        {
+          "ex_date": "2021-06-15",
+          "pay_date": "2021-07-14",
+          "cash_dividend": 0.92,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109後半度",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-06-14"
+        },
+        {
+          "ex_date": "2021-12-09",
+          "pay_date": "2022-01-12",
+          "cash_dividend": 0.678438,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110前半度",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-12-08"
+        },
+        {
+          "ex_date": "2022-06-17",
+          "pay_date": "2022-07-13",
+          "cash_dividend": 1.72,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110後半度",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-06-16"
+        },
+        {
+          "ex_date": "2022-12-15",
+          "pay_date": "2023-01-11",
+          "cash_dividend": 0.7,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111前半度",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-12-14"
+        },
+        {
+          "ex_date": "2023-06-08",
+          "pay_date": "2023-07-12",
+          "cash_dividend": 0.81,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111後半度",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-06-07"
+        },
+        {
+          "ex_date": "2023-09-21",
+          "pay_date": "2023-10-18",
+          "cash_dividend": 0.397693,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112第1季",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-09-20"
+        },
+        {
+          "ex_date": "2023-12-21",
+          "pay_date": "2024-01-17",
+          "cash_dividend": 0.4,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112第2季",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-12-20"
+        },
+        {
+          "ex_date": "2024-03-14",
+          "pay_date": "2024-04-10",
+          "cash_dividend": 0.4,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112第3季",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-03-13"
+        },
+        {
+          "ex_date": "2024-06-24",
+          "pay_date": "2024-07-17",
+          "cash_dividend": 0.41,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112第4季",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-06-21"
+        },
+        {
+          "ex_date": "2024-09-19",
+          "pay_date": "2024-10-16",
+          "cash_dividend": 0.41,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113第1季",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-09-18"
+        },
+        {
+          "ex_date": "2024-12-19",
+          "pay_date": "2025-01-15",
+          "cash_dividend": 0.41,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113第2季",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-12-18"
+        },
+        {
+          "ex_date": "2025-03-13",
+          "pay_date": "2025-04-16",
+          "cash_dividend": 0.450024,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113第3季",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-03-12"
+        },
+        {
+          "ex_date": "2025-06-19",
+          "pay_date": "2025-07-16",
+          "cash_dividend": 0.458167,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113第4季",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-06-18"
+        },
+        {
+          "ex_date": "2025-12-18",
+          "pay_date": "2026-01-14",
+          "cash_dividend": 0.45,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114第2季",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-12-17"
+        },
+        {
+          "ex_date": "2026-03-20",
+          "pay_date": "2026-04-15",
+          "cash_dividend": 0.450012,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114第3季",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-03-19"
+        },
+        {
+          "ex_date": "2026-06-17",
+          "pay_date": "2026-07-15",
+          "cash_dividend": 0.45,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114第4季",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-06-16"
+        },
+        {
+          "ex_date": "2026-10-15",
+          "pay_date": "2026-11-18",
+          "cash_dividend": 0.451055,
+          "stock_dividend": 0.0,
+          "fiscal_year": "115第1季",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-10-14"
+        }
+      ]
+    },
+    "6556": {
+      "name": "勝品",
+      "events": [
+        {
+          "ex_date": "2016-07-22",
+          "pay_date": "2016-08-16",
+          "cash_dividend": 2.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "104",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2016-07-21"
+        },
+        {
+          "ex_date": "2017-07-19",
+          "pay_date": "2017-08-15",
+          "cash_dividend": 2.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "105",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2017-07-18"
+        },
+        {
+          "ex_date": "2018-07-24",
+          "pay_date": "2018-08-20",
+          "cash_dividend": 2.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "106",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2018-07-23"
+        },
+        {
+          "ex_date": "2019-06-24",
+          "pay_date": "2019-07-19",
+          "cash_dividend": 1.2,
+          "stock_dividend": 0.0,
+          "fiscal_year": "107",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-06-21"
+        },
+        {
+          "ex_date": "2020-07-20",
+          "pay_date": "2020-08-10",
+          "cash_dividend": 1.8,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-07-17"
+        },
+        {
+          "ex_date": "2021-07-26",
+          "pay_date": "2021-08-20",
+          "cash_dividend": 2.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-07-23"
+        },
+        {
+          "ex_date": "2022-07-14",
+          "pay_date": "2022-08-10",
+          "cash_dividend": 3.2,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-07-13"
+        },
+        {
+          "ex_date": "2023-07-13",
+          "pay_date": "2023-08-10",
+          "cash_dividend": 5.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-07-12"
+        },
+        {
+          "ex_date": "2024-07-11",
+          "pay_date": "2024-08-09",
+          "cash_dividend": 3.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-07-10"
+        },
+        {
+          "ex_date": "2025-07-15",
+          "pay_date": "2025-08-11",
+          "cash_dividend": 4.2,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-07-14"
+        },
+        {
+          "ex_date": "2026-07-14",
+          "pay_date": "2026-08-10",
+          "cash_dividend": 3.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-07-13"
+        }
+      ]
+    },
+    "6561": {
+      "name": "是方",
+      "events": [
+        {
+          "ex_date": "2017-07-10",
+          "pay_date": "2017-08-03",
+          "cash_dividend": 4.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "105",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2017-07-07"
+        },
+        {
+          "ex_date": "2018-07-30",
+          "pay_date": "2018-08-17",
+          "cash_dividend": 4.970691,
+          "stock_dividend": 0.0,
+          "fiscal_year": "106",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2018-07-27"
+        },
+        {
+          "ex_date": "2019-06-27",
+          "pay_date": "2019-07-19",
+          "cash_dividend": 7.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "107",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-06-26"
+        },
+        {
+          "ex_date": "2020-07-22",
+          "pay_date": "2020-08-14",
+          "cash_dividend": 8.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-07-21"
+        },
+        {
+          "ex_date": "2021-09-02",
+          "pay_date": "2021-09-17",
+          "cash_dividend": 8.8,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-09-01"
+        },
+        {
+          "ex_date": "2022-06-30",
+          "pay_date": "2022-07-18",
+          "cash_dividend": 9.3,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-06-29"
+        },
+        {
+          "ex_date": "2023-08-17",
+          "pay_date": "2023-09-22",
+          "cash_dividend": 9.0,
+          "stock_dividend": 1.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-08-16"
+        },
+        {
+          "ex_date": "2024-07-01",
+          "pay_date": "2024-07-19",
+          "cash_dividend": 10.6,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-06-28"
+        },
+        {
+          "ex_date": "2025-06-17",
+          "pay_date": "2025-07-10",
+          "cash_dividend": 12.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-06-16"
+        },
+        {
+          "ex_date": "2025-12-31",
+          "pay_date": "2026-01-30",
+          "cash_dividend": 6.6,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114前半度",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-12-30"
+        },
+        {
+          "ex_date": "2026-07-08",
+          "pay_date": "2026-07-30",
+          "cash_dividend": 7.698755,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114後半度",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-07-07"
+        }
+      ]
+    },
+    "6568": {
+      "name": "宏觀",
+      "events": [
+        {
+          "ex_date": "2016-07-15",
+          "pay_date": "2016-08-12",
+          "cash_dividend": 3.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "104",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2016-07-14"
+        },
+        {
+          "ex_date": "2017-07-03",
+          "pay_date": "2017-07-28",
+          "cash_dividend": 5.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "105",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2017-06-30"
+        },
+        {
+          "ex_date": "2018-07-03",
+          "pay_date": "2018-07-27",
+          "cash_dividend": 5.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "106",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2018-07-02"
+        },
+        {
+          "ex_date": "2019-07-01",
+          "pay_date": "2019-07-26",
+          "cash_dividend": 5.904386,
+          "stock_dividend": 0.0,
+          "fiscal_year": "107",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-06-28"
+        },
+        {
+          "ex_date": "2020-07-07",
+          "pay_date": "2020-07-29",
+          "cash_dividend": 5.995702,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-07-06"
+        },
+        {
+          "ex_date": "2021-08-19",
+          "pay_date": "2021-09-23",
+          "cash_dividend": 5.060024,
+          "stock_dividend": 2.02401,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-08-18"
+        },
+        {
+          "ex_date": "2022-07-05",
+          "pay_date": "2022-07-29",
+          "cash_dividend": 5.015354,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-07-04"
+        },
+        {
+          "ex_date": "2023-07-05",
+          "pay_date": "2023-07-31",
+          "cash_dividend": 4.022764,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-07-04"
+        },
+        {
+          "ex_date": "2024-06-18",
+          "pay_date": "2024-07-15",
+          "cash_dividend": 1.817287,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-06-17"
+        },
+        {
+          "ex_date": "2025-05-29",
+          "pay_date": "2025-06-27",
+          "cash_dividend": 2.037314,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-05-28"
+        },
+        {
+          "ex_date": "2026-05-29",
+          "pay_date": "2026-06-29",
+          "cash_dividend": 2.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-05-28"
+        }
+      ]
+    },
+    "6569": {
+      "name": "醫揚",
+      "events": [
+        {
+          "ex_date": "2016-07-27",
+          "pay_date": "2016-09-21",
+          "cash_dividend": 6.0,
+          "stock_dividend": 1.0,
+          "fiscal_year": "104",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2016-07-26"
+        },
+        {
+          "ex_date": "2017-08-07",
+          "pay_date": "2017-09-20",
+          "cash_dividend": 7.0,
+          "stock_dividend": 1.0,
+          "fiscal_year": "105",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2017-08-04"
+        },
+        {
+          "ex_date": "2018-06-28",
+          "pay_date": "2018-07-27",
+          "cash_dividend": 6.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "106",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2018-06-27"
+        },
+        {
+          "ex_date": "2019-06-27",
+          "pay_date": "2019-07-26",
+          "cash_dividend": 6.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "107",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-06-26"
+        },
+        {
+          "ex_date": "2019-08-22",
+          "pay_date": null,
+          "cash_dividend": 0.0,
+          "stock_dividend": 1.0,
+          "fiscal_year": "107",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-08-21"
+        },
+        {
+          "ex_date": "2020-08-05",
+          "pay_date": "2020-09-09",
+          "cash_dividend": 6.0,
+          "stock_dividend": 2.5,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-08-04"
+        },
+        {
+          "ex_date": "2021-08-24",
+          "pay_date": "2021-09-29",
+          "cash_dividend": 5.5,
+          "stock_dividend": 1.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-08-23"
+        },
+        {
+          "ex_date": "2022-06-29",
+          "pay_date": "2022-07-26",
+          "cash_dividend": 4.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-06-28"
+        },
+        {
+          "ex_date": "2023-07-04",
+          "pay_date": "2023-07-31",
+          "cash_dividend": 4.995945,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-07-03"
+        },
+        {
+          "ex_date": "2024-08-01",
+          "pay_date": "2024-09-05",
+          "cash_dividend": 4.99672,
+          "stock_dividend": 1.499016,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-07-31"
+        },
+        {
+          "ex_date": "2025-07-03",
+          "pay_date": "2025-07-31",
+          "cash_dividend": 3.96063,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-07-02"
+        },
+        {
+          "ex_date": "2026-06-30",
+          "pay_date": "2026-08-20",
+          "cash_dividend": 3.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-06-29"
+        }
+      ]
+    },
+    "6570": {
+      "name": "維田",
+      "events": [
+        {
+          "ex_date": "2016-07-08",
+          "pay_date": "2016-08-03",
+          "cash_dividend": 2.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "104",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2016-07-07"
+        },
+        {
+          "ex_date": "2017-07-10",
+          "pay_date": "2017-08-03",
+          "cash_dividend": 1.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "105",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2017-07-07"
+        },
+        {
+          "ex_date": "2018-07-03",
+          "pay_date": "2018-07-27",
+          "cash_dividend": 1.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "106",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2018-07-02"
+        },
+        {
+          "ex_date": "2019-07-01",
+          "pay_date": "2019-07-25",
+          "cash_dividend": 1.8,
+          "stock_dividend": 0.0,
+          "fiscal_year": "107",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-06-28"
+        },
+        {
+          "ex_date": "2020-06-30",
+          "pay_date": "2020-08-04",
+          "cash_dividend": 1.4,
+          "stock_dividend": 1.1,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-06-29"
+        },
+        {
+          "ex_date": "2021-08-05",
+          "pay_date": "2021-08-27",
+          "cash_dividend": 1.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-08-04"
+        },
+        {
+          "ex_date": "2022-06-22",
+          "pay_date": "2022-07-08",
+          "cash_dividend": 3.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-06-21"
+        },
+        {
+          "ex_date": "2023-06-29",
+          "pay_date": "2023-07-27",
+          "cash_dividend": 3.933746,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-06-28"
+        },
+        {
+          "ex_date": "2024-05-29",
+          "pay_date": "2024-06-26",
+          "cash_dividend": 2.6,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-05-28"
+        },
+        {
+          "ex_date": "2025-05-27",
+          "pay_date": "2025-06-26",
+          "cash_dividend": 1.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-05-26"
+        },
+        {
+          "ex_date": "2026-05-28",
+          "pay_date": "2026-06-25",
+          "cash_dividend": 1.1,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-05-27"
+        }
+      ]
+    },
+    "6574": {
+      "name": "霈方",
+      "events": [
+        {
+          "ex_date": "2016-08-09",
+          "pay_date": null,
+          "cash_dividend": 0.0,
+          "stock_dividend": 1.764705,
+          "fiscal_year": "104",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2016-08-08"
+        },
+        {
+          "ex_date": "2017-06-14",
+          "pay_date": "2017-07-06",
+          "cash_dividend": 7.07,
+          "stock_dividend": 0.0,
+          "fiscal_year": "105",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2017-06-13"
+        },
+        {
+          "ex_date": "2018-08-07",
+          "pay_date": "2018-08-31",
+          "cash_dividend": 6.16189,
+          "stock_dividend": 0.0,
+          "fiscal_year": "106",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2018-08-06"
+        },
+        {
+          "ex_date": "2019-08-08",
+          "pay_date": "2019-08-30",
+          "cash_dividend": 4.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "107",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-08-07"
+        },
+        {
+          "ex_date": "2020-07-30",
+          "pay_date": "2020-08-25",
+          "cash_dividend": 1.23,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108第4季",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-07-29"
+        },
+        {
+          "ex_date": "2021-09-29",
+          "pay_date": "2021-10-25",
+          "cash_dividend": 1.38,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109第4季",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-09-28"
+        },
+        {
+          "ex_date": "2022-09-19",
+          "pay_date": "2022-10-18",
+          "cash_dividend": 1.14,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110第4季",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-09-16"
+        },
+        {
+          "ex_date": "2023-08-24",
+          "pay_date": "2023-09-25",
+          "cash_dividend": 3.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111第4季",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-08-23"
+        },
+        {
+          "ex_date": "2024-07-17",
+          "pay_date": "2024-08-15",
+          "cash_dividend": 3.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112第4季",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-07-16"
+        },
+        {
+          "ex_date": "2025-08-13",
+          "pay_date": "2025-09-11",
+          "cash_dividend": 2.2,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113第4季",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-08-12"
+        },
+        {
+          "ex_date": "2026-08-19",
+          "pay_date": "2026-09-17",
+          "cash_dividend": 3.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114第4季",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-08-18"
+        }
+      ]
+    },
+    "6577": {
+      "name": "勁豐",
+      "events": [
+        {
+          "ex_date": "2016-05-25",
+          "pay_date": "2016-06-13",
+          "cash_dividend": 5.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "104",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2016-05-24"
+        },
+        {
+          "ex_date": "2017-07-04",
+          "pay_date": "2017-07-27",
+          "cash_dividend": 4.061981,
+          "stock_dividend": 0.0,
+          "fiscal_year": "105",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2017-07-03"
+        },
+        {
+          "ex_date": "2018-07-03",
+          "pay_date": "2018-07-26",
+          "cash_dividend": 4.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "106",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2018-07-02"
+        },
+        {
+          "ex_date": "2019-07-03",
+          "pay_date": "2019-07-26",
+          "cash_dividend": 4.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "107",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-07-02"
+        },
+        {
+          "ex_date": "2020-06-30",
+          "pay_date": "2020-07-23",
+          "cash_dividend": 5.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-06-29"
+        },
+        {
+          "ex_date": "2021-08-09",
+          "pay_date": "2021-09-03",
+          "cash_dividend": 5.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-08-06"
+        },
+        {
+          "ex_date": "2022-06-30",
+          "pay_date": "2022-07-22",
+          "cash_dividend": 3.85,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-06-29"
+        },
+        {
+          "ex_date": "2023-07-03",
+          "pay_date": "2023-07-25",
+          "cash_dividend": 4.45,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-06-30"
+        },
+        {
+          "ex_date": "2024-08-01",
+          "pay_date": "2024-09-05",
+          "cash_dividend": 1.0,
+          "stock_dividend": 5.7,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-07-31"
+        },
+        {
+          "ex_date": "2025-06-24",
+          "pay_date": "2025-07-24",
+          "cash_dividend": 6.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-06-23"
+        },
+        {
+          "ex_date": "2026-06-17",
+          "pay_date": "2026-07-17",
+          "cash_dividend": 5.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-06-16"
+        }
+      ]
+    },
+    "6578": {
+      "name": "達邦蛋白",
+      "events": [
+        {
+          "ex_date": "2016-08-25",
+          "pay_date": "2016-09-14",
+          "cash_dividend": 1.2,
+          "stock_dividend": 0.5,
+          "fiscal_year": "104",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2016-08-24"
+        },
+        {
+          "ex_date": "2017-08-21",
+          "pay_date": "2017-09-15",
+          "cash_dividend": 0.9,
+          "stock_dividend": 0.5,
+          "fiscal_year": "105",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2017-08-18"
+        },
+        {
+          "ex_date": "2018-07-19",
+          "pay_date": "2018-08-10",
+          "cash_dividend": 0.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "106",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2018-07-18"
+        },
+        {
+          "ex_date": "2019-08-27",
+          "pay_date": "2019-09-20",
+          "cash_dividend": 0.8,
+          "stock_dividend": 0.0,
+          "fiscal_year": "107",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-08-26"
+        },
+        {
+          "ex_date": "2020-07-02",
+          "pay_date": "2020-07-28",
+          "cash_dividend": 0.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-07-01"
+        },
+        {
+          "ex_date": "2021-08-23",
+          "pay_date": "2021-09-30",
+          "cash_dividend": 0.200113,
+          "stock_dividend": 1.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-08-20"
+        },
+        {
+          "ex_date": "2023-07-27",
+          "pay_date": "2023-08-31",
+          "cash_dividend": 0.66505,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-07-26"
+        },
+        {
+          "ex_date": "2024-07-30",
+          "pay_date": "2024-08-30",
+          "cash_dividend": 0.509263,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-07-29"
+        },
+        {
+          "ex_date": "2025-07-08",
+          "pay_date": "2025-07-30",
+          "cash_dividend": 0.4,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-07-07"
+        }
+      ]
+    },
+    "6590": {
+      "name": "普鴻",
+      "events": [
+        {
+          "ex_date": "2017-07-14",
+          "pay_date": "2017-08-21",
+          "cash_dividend": 1.7,
+          "stock_dividend": 0.0,
+          "fiscal_year": "105",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2017-07-13"
+        },
+        {
+          "ex_date": "2018-07-24",
+          "pay_date": "2018-08-28",
+          "cash_dividend": 1.2,
+          "stock_dividend": 0.0,
+          "fiscal_year": "106",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2018-07-23"
+        },
+        {
+          "ex_date": "2019-07-08",
+          "pay_date": "2019-08-01",
+          "cash_dividend": 1.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "107",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-07-05"
+        },
+        {
+          "ex_date": "2020-07-07",
+          "pay_date": "2020-08-06",
+          "cash_dividend": 2.15,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-07-06"
+        },
+        {
+          "ex_date": "2021-03-26",
+          "pay_date": "2021-04-26",
+          "cash_dividend": 3.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-03-25"
+        },
+        {
+          "ex_date": "2022-03-24",
+          "pay_date": "2022-04-22",
+          "cash_dividend": 3.8,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-03-23"
+        },
+        {
+          "ex_date": "2023-03-23",
+          "pay_date": "2023-04-25",
+          "cash_dividend": 3.8,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-03-22"
+        },
+        {
+          "ex_date": "2024-03-21",
+          "pay_date": "2024-04-19",
+          "cash_dividend": 5.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-03-20"
+        },
+        {
+          "ex_date": "2025-03-20",
+          "pay_date": "2025-04-18",
+          "cash_dividend": 2.8,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113後半度",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-03-19"
+        },
+        {
+          "ex_date": "2025-10-14",
+          "pay_date": null,
+          "cash_dividend": 0.0,
+          "stock_dividend": 1.500138,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-10-13"
+        },
+        {
+          "ex_date": "2026-04-01",
+          "pay_date": "2026-04-24",
+          "cash_dividend": 2.8,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114後半度",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-03-31"
+        },
+        {
+          "ex_date": "2026-09-08",
+          "pay_date": null,
+          "cash_dividend": 0.0,
+          "stock_dividend": 1.500361,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-09-07"
+        }
+      ]
+    },
+    "6596": {
+      "name": "寬宏藝術",
+      "events": [
+        {
+          "ex_date": "2017-06-27",
+          "pay_date": "2017-07-24",
+          "cash_dividend": 2.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "105",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2017-06-26"
+        },
+        {
+          "ex_date": "2017-09-04",
+          "pay_date": null,
+          "cash_dividend": 0.0,
+          "stock_dividend": 1.0,
+          "fiscal_year": "105",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2017-09-01"
+        },
+        {
+          "ex_date": "2018-07-05",
+          "pay_date": "2018-07-27",
+          "cash_dividend": 3.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "106",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2018-07-04"
+        },
+        {
+          "ex_date": "2018-09-26",
+          "pay_date": null,
+          "cash_dividend": 0.0,
+          "stock_dividend": 1.0,
+          "fiscal_year": "106",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2018-09-25"
+        },
+        {
+          "ex_date": "2019-06-21",
+          "pay_date": "2019-07-12",
+          "cash_dividend": 1.999,
+          "stock_dividend": 0.0,
+          "fiscal_year": "107",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-06-20"
+        },
+        {
+          "ex_date": "2019-09-30",
+          "pay_date": null,
+          "cash_dividend": 0.0,
+          "stock_dividend": 1.0,
+          "fiscal_year": "107",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2019-09-27"
+        },
+        {
+          "ex_date": "2020-06-12",
+          "pay_date": "2020-07-10",
+          "cash_dividend": 4.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "108",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2020-06-11"
+        },
+        {
+          "ex_date": "2021-06-16",
+          "pay_date": "2021-07-09",
+          "cash_dividend": 4.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "109",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2021-06-15"
+        },
+        {
+          "ex_date": "2023-07-10",
+          "pay_date": "2023-08-03",
+          "cash_dividend": 0.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-07-07"
         },
         {
           "ex_date": "2024-03-28",
           "pay_date": "2024-04-25",
-          "cash_dividend": 2.2,
+          "cash_dividend": 5.3,
           "stock_dividend": 0.0,
           "fiscal_year": "112",
           "amount_announced": true,
@@ -209819,26 +211131,149 @@
           "last_buy_date": "2024-03-27"
         },
         {
-          "ex_date": "2025-03-19",
-          "pay_date": "2025-04-22",
-          "cash_dividend": 2.1,
+          "ex_date": "2025-04-01",
+          "pay_date": "2025-04-30",
+          "cash_dividend": 7.0,
           "stock_dividend": 0.0,
           "fiscal_year": "113",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2025-03-18"
+          "last_buy_date": "2025-03-31"
         },
         {
-          "ex_date": "2026-03-27",
-          "pay_date": "2026-04-27",
-          "cash_dividend": 2.6,
+          "ex_date": "2026-03-26",
+          "pay_date": "2026-04-23",
+          "cash_dividend": 18.7,
           "stock_dividend": 0.0,
           "fiscal_year": "114",
           "amount_announced": true,
           "source": "finmind",
-          "last_buy_date": "2026-03-26"
+          "last_buy_date": "2026-03-25"
         }
       ]
+    },
+    "6597": {
+      "name": "立誠",
+      "events": [
+        {
+          "ex_date": "2022-06-09",
+          "pay_date": "2022-07-12",
+          "cash_dividend": 0.486115,
+          "stock_dividend": 0.0,
+          "fiscal_year": "110",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2022-06-08"
+        },
+        {
+          "ex_date": "2023-06-08",
+          "pay_date": "2023-07-13",
+          "cash_dividend": 0.4,
+          "stock_dividend": 0.0,
+          "fiscal_year": "111",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2023-06-07"
+        },
+        {
+          "ex_date": "2024-06-13",
+          "pay_date": "2024-07-10",
+          "cash_dividend": 1.5,
+          "stock_dividend": 0.0,
+          "fiscal_year": "112",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2024-06-12"
+        },
+        {
+          "ex_date": "2025-06-10",
+          "pay_date": "2025-06-30",
+          "cash_dividend": 2.63052,
+          "stock_dividend": 0.0,
+          "fiscal_year": "113",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2025-06-09"
+        },
+        {
+          "ex_date": "2026-05-20",
+          "pay_date": "2026-06-18",
+          "cash_dividend": 1.0,
+          "stock_dividend": 0.0,
+          "fiscal_year": "114",
+          "amount_announced": true,
+          "source": "finmind",
+          "last_buy_date": "2026-05-19"
+        }
+      ]
+    },
+    "6603": {
+      "name": "富強鑫",
+      "events": []
+    },
+    "6604": {
+      "name": "儒億",
+      "events": []
+    },
+    "6612": {
+      "name": "奈米醫材",
+      "events": []
+    },
+    "6613": {
+      "name": "朋億*",
+      "events": []
+    },
+    "6620": {
+      "name": "漢達",
+      "events": []
+    },
+    "6629": {
+      "name": "泰金-KY",
+      "events": []
+    },
+    "6637": {
+      "name": "醫影",
+      "events": []
+    },
+    "6640": {
+      "name": "均華",
+      "events": []
+    },
+    "6642": {
+      "name": "富致",
+      "events": []
+    },
+    "6649": {
+      "name": "台生材",
+      "events": []
+    },
+    "6651": {
+      "name": "全宇昕",
+      "events": []
+    },
+    "6662": {
+      "name": "樂斯科",
+      "events": []
+    },
+    "6664": {
+      "name": "群翊",
+      "events": []
+    },
+    "6667": {
+      "name": "信紘科",
+      "events": []
+    },
+    "6679": {
+      "name": "鈺太",
+      "events": []
+    },
+    "6690": {
+      "name": "安碁資訊",
+      "events": []
+    },
+    "6697": {
+      "name": "東捷資訊",
+      "events": []
     },
     "6703": {
       "name": "軒郁",
@@ -210307,91 +211742,6 @@
           "amount_announced": true,
           "source": "finmind",
           "last_buy_date": "2026-08-04"
-        }
-      ]
-    },
-    "6727": {
-      "name": "亞泰金屬",
-      "events": [
-        {
-          "ex_date": "2019-07-11",
-          "pay_date": "2019-08-14",
-          "cash_dividend": 2.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "107",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2019-07-10"
-        },
-        {
-          "ex_date": "2020-08-24",
-          "pay_date": "2020-09-16",
-          "cash_dividend": 2.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "108",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2020-08-21"
-        },
-        {
-          "ex_date": "2021-09-27",
-          "pay_date": "2021-10-15",
-          "cash_dividend": 2.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "109",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2021-09-24"
-        },
-        {
-          "ex_date": "2022-07-19",
-          "pay_date": "2022-08-08",
-          "cash_dividend": 3.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "110",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2022-07-18"
-        },
-        {
-          "ex_date": "2023-04-27",
-          "pay_date": "2023-05-31",
-          "cash_dividend": 3.970868,
-          "stock_dividend": 0.0,
-          "fiscal_year": "111",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2023-04-26"
-        },
-        {
-          "ex_date": "2024-07-18",
-          "pay_date": "2024-08-09",
-          "cash_dividend": 2.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "112",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2024-07-17"
-        },
-        {
-          "ex_date": "2025-07-17",
-          "pay_date": "2025-08-08",
-          "cash_dividend": 3.0,
-          "stock_dividend": 0.0,
-          "fiscal_year": "113",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2025-07-16"
-        },
-        {
-          "ex_date": "2026-07-16",
-          "pay_date": "2026-08-07",
-          "cash_dividend": 4.5,
-          "stock_dividend": 0.0,
-          "fiscal_year": "114",
-          "amount_announced": true,
-          "source": "finmind",
-          "last_buy_date": "2026-07-15"
         }
       ]
     },

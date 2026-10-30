@@ -1,5 +1,4 @@
-{"symbol":"6958A","name":"日盛台駿甲特","market":"TWSE","updated":"2026-10-30","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-07-02",18.1,-0.15,21000.0,null,null,null,null,null,null,0.29,18.2,18.1,18.2,18.104761904761904],
+{"symbol":"6958A","name":"日盛台駿甲特","market":"TWSE","updated":"2026-10-31","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-07-03",null,null,null,null,null,null,null,null,null,0.29,null,null,null,null],
 ["2026-07-06",18.2,0.0,6191.0,null,null,null,null,null,null,0.29,18.45,18.2,18.2,18.247294459699564],
 ["2026-07-07",18.35,0.15,5193.0,-2000.0,0.0,0.0,-2000.0,null,null,0.29,18.5,18.35,18.5,18.442711342191412],
@@ -78,5 +77,6 @@
 ["2026-10-22",21.1,0.0,4000.0,null,null,null,null,null,null,0.27,21.1,21.1,21.1,21.1],
 ["2026-10-27",20.9,-0.2,4000.0,-1000.0,0.0,0.0,-1000.0,null,null,0.27,21.0,20.9,21.0,20.925],
 ["2026-10-28",20.9,0.0,2000.0,null,null,null,null,null,null,0.27,20.9,20.9,20.9,20.9],
-["2026-10-29",20.8,-0.1,6000.0,1000.0,0.0,0.0,1000.0,null,null,0.27,20.9,20.8,20.9,20.85]
+["2026-10-29",20.8,-0.1,6000.0,1000.0,0.0,0.0,1000.0,null,null,0.27,20.9,20.8,20.9,20.85],
+["2026-10-30",20.5,-0.3,15000.0,null,null,null,null,null,null,0.27,20.7,20.5,20.7,20.583333333333332]
 ]}

@@ -1,6 +1,6 @@
 {
  "tradeDate": "2026-11-05",
- "generatedAt": "2026-11-05T15:35:09+08:00",
+ "generatedAt": "2026-11-05T21:05:06+08:00",
  "isLatestTradingDayToday": true,
  "taiex": {
   "close": {
@@ -32,21 +32,21 @@
    "asOf": "2026-11-05"
   },
   "tradeValue": {
-   "value": 975389949511,
+   "value": 987098883153,
    "scale": 0,
    "status": "ok",
    "source": "FinMind",
    "asOf": "2026-11-05"
   },
   "tradeVolume": {
-   "value": 14894682133,
+   "value": 14971065133,
    "scale": 0,
    "status": "ok",
    "source": "FinMind",
    "asOf": "2026-11-05"
   },
   "transaction": {
-   "value": 6951867,
+   "value": 6951911,
    "scale": 0,
    "status": "ok",
    "source": "FinMind",
@@ -132,7 +132,7 @@
     "asOf": "2026-11-05"
    },
    "tradeValue": {
-    "value": 93738912785,
+    "value": 101826543759,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
@@ -853,14 +853,14 @@
   "dealerHedging": {
    "label": "自營商(避險)",
    "buy": {
-    "value": 59931900906,
+    "value": 59933323745,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
     "asOf": "2026-11-05"
    },
    "sell": {
-    "value": 99543325642,
+    "value": 99544748481,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
@@ -877,21 +877,21 @@
   "investmentTrust": {
    "label": "投信",
    "buy": {
-    "value": 33446963237,
+    "value": 34710691117,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
     "asOf": "2026-11-05"
    },
    "sell": {
-    "value": 10915371399,
+    "value": 12116239976,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
     "asOf": "2026-11-05"
    },
    "net": {
-    "value": 22531591838,
+    "value": 22594451141,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
@@ -901,14 +901,14 @@
   "foreign": {
    "label": "外資及陸資(不含外資自營商)",
    "buy": {
-    "value": 343311711857,
+    "value": 354351443656,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
     "asOf": "2026-11-05"
    },
    "sell": {
-    "value": 445772333695,
+    "value": 456812065494,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
@@ -949,21 +949,21 @@
   "total": {
    "label": "合計",
    "buy": {
-    "value": 446551529650,
+    "value": 458856412168,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
     "asOf": "2026-11-05"
    },
    "sell": {
-    "value": 570008055308,
+    "value": 582250078523,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",
     "asOf": "2026-11-05"
    },
    "net": {
-    "value": -123456525658,
+    "value": -123393666355,
     "scale": 0,
     "status": "ok",
     "source": "FinMind",

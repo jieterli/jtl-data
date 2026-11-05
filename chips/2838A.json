@@ -1,5 +1,4 @@
-{"symbol":"2838A","name":"聯邦銀甲特","market":"TWSE","updated":"2026-11-05","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-07-08",52.2,-0.1,95402.0,-1000.0,0.0,0.0,-1000.0,null,null,0.11,52.2,52.0,52.2,52.06815370746944],
+{"symbol":"2838A","name":"聯邦銀甲特","market":"TWSE","updated":"2026-11-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-07-09",52.1,-0.1,47696.0,null,null,null,null,null,null,0.11,52.2,52.1,52.1,52.11961170748071],
 ["2026-07-13",52.2,0.1,86756.0,null,null,null,null,null,null,0.11,52.2,52.0,52.1,52.07397759232791],
 ["2026-07-14",52.2,0.0,72000.0,null,null,null,null,null,null,0.11,52.2,52.0,52.1,52.05555555555556],
@@ -78,5 +77,6 @@
 ["2026-10-30",52.0,0.0,25006.0,null,null,null,null,null,null,0.21,52.0,51.8,52.0,51.87203071262897],
 ["2026-11-02",52.0,0.0,53923.0,null,null,null,null,null,null,0.21,52.0,51.8,52.0,51.86048624891048],
 ["2026-11-03",51.9,-0.1,143644.0,null,null,null,null,null,null,0.21,52.4,51.8,52.0,52.12308206399153],
-["2026-11-04",51.9,0.0,65200.0,null,null,null,null,null,null,0.21,52.0,51.8,51.9,51.8920245398773]
+["2026-11-04",51.9,0.0,65200.0,null,null,null,null,null,null,0.21,52.0,51.8,51.9,51.8920245398773],
+["2026-11-05",51.9,0.0,81002.0,null,null,null,null,null,null,0.21,51.9,51.8,51.9,51.89259524456186]
 ]}

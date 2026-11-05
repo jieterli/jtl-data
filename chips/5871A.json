@@ -1,5 +1,4 @@
-{"symbol":"5871A","name":"中租-KY甲特","market":"TWSE","updated":"2026-11-05","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-07-08",102.5,0.0,9137.0,null,null,null,null,null,null,1.19,102.5,102.0,102.5,102.44390937944621],
+{"symbol":"5871A","name":"中租-KY甲特","market":"TWSE","updated":"2026-11-06","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-07-09",102.5,0.0,12410.0,null,null,null,null,null,null,1.19,102.5,102.0,102.5,102.4597099113618],
 ["2026-07-13",102.0,-0.5,60935.0,null,null,null,null,null,null,1.19,102.5,102.0,102.0,102.02714367768934],
 ["2026-07-14",102.0,0.0,42371.0,null,null,null,null,null,null,1.19,102.5,102.0,102.5,102.04838214816738],
@@ -78,5 +77,6 @@
 ["2026-10-30",99.8,-0.1,165530.0,null,null,null,null,null,null,1.19,99.9,99.7,99.8,99.80796230290582],
 ["2026-11-02",99.8,0.0,62104.0,null,null,null,null,null,null,1.19,99.8,99.7,99.8,99.73558868993946],
 ["2026-11-03",99.6,-0.2,39267.0,null,null,null,null,null,null,1.19,99.8,99.6,99.8,99.69063080958566],
-["2026-11-04",99.5,-0.1,109101.0,null,null,null,null,null,null,1.19,99.6,99.4,99.6,99.54947250712642]
+["2026-11-04",99.5,-0.1,109101.0,null,null,null,null,null,null,1.19,99.6,99.4,99.6,99.54947250712642],
+["2026-11-05",99.4,-0.1,77829.0,null,null,null,null,null,null,1.19,99.5,99.3,99.5,99.41368898482571]
 ]}

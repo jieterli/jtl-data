@@ -1,6 +1,6 @@
 {
  "tradeDate": "2026-11-06",
- "generatedAt": "2026-11-06T15:35:08+08:00",
+ "generatedAt": "2026-11-06T17:05:06+08:00",
  "isLatestTradingDayToday": true,
  "taiex": {
   "close": {
@@ -829,145 +829,145 @@
   "dealerSelf": {
    "label": "自營商(自行買賣)",
    "buy": {
-    "value": null,
+    "value": 15674867651,
     "scale": 0,
-    "status": "pending",
+    "status": "ok",
     "source": "FinMind",
-    "asOf": null
+    "asOf": "2026-11-06"
    },
    "sell": {
-    "value": null,
+    "value": 19984171909,
     "scale": 0,
-    "status": "pending",
+    "status": "ok",
     "source": "FinMind",
-    "asOf": null
+    "asOf": "2026-11-06"
    },
    "net": {
-    "value": null,
+    "value": -4309304258,
     "scale": 0,
-    "status": "pending",
+    "status": "ok",
     "source": "FinMind",
-    "asOf": null
+    "asOf": "2026-11-06"
    }
   },
   "dealerHedging": {
    "label": "自營商(避險)",
    "buy": {
-    "value": null,
+    "value": 79407150459,
     "scale": 0,
-    "status": "pending",
+    "status": "ok",
     "source": "FinMind",
-    "asOf": null
+    "asOf": "2026-11-06"
    },
    "sell": {
-    "value": null,
+    "value": 124574050631,
     "scale": 0,
-    "status": "pending",
+    "status": "ok",
     "source": "FinMind",
-    "asOf": null
+    "asOf": "2026-11-06"
    },
    "net": {
-    "value": null,
+    "value": -45166900172,
     "scale": 0,
-    "status": "pending",
+    "status": "ok",
     "source": "FinMind",
-    "asOf": null
+    "asOf": "2026-11-06"
    }
   },
   "investmentTrust": {
    "label": "投信",
    "buy": {
-    "value": null,
+    "value": 32198383263,
     "scale": 0,
-    "status": "pending",
+    "status": "ok",
     "source": "FinMind",
-    "asOf": null
+    "asOf": "2026-11-06"
    },
    "sell": {
-    "value": null,
+    "value": 5540787981,
     "scale": 0,
-    "status": "pending",
+    "status": "ok",
     "source": "FinMind",
-    "asOf": null
+    "asOf": "2026-11-06"
    },
    "net": {
-    "value": null,
+    "value": 26657595282,
     "scale": 0,
-    "status": "pending",
+    "status": "ok",
     "source": "FinMind",
-    "asOf": null
+    "asOf": "2026-11-06"
    }
   },
   "foreign": {
    "label": "外資及陸資(不含外資自營商)",
    "buy": {
-    "value": null,
+    "value": 476528791410,
     "scale": 0,
-    "status": "pending",
+    "status": "ok",
     "source": "FinMind",
-    "asOf": null
+    "asOf": "2026-11-06"
    },
    "sell": {
-    "value": null,
+    "value": 567717040669,
     "scale": 0,
-    "status": "pending",
+    "status": "ok",
     "source": "FinMind",
-    "asOf": null
+    "asOf": "2026-11-06"
    },
    "net": {
-    "value": null,
+    "value": -91188249259,
     "scale": 0,
-    "status": "pending",
+    "status": "ok",
     "source": "FinMind",
-    "asOf": null
+    "asOf": "2026-11-06"
    }
   },
   "foreignDealer": {
    "label": "外資自營商",
    "buy": {
-    "value": null,
+    "value": 0,
     "scale": 0,
-    "status": "pending",
+    "status": "ok",
     "source": "FinMind",
-    "asOf": null
+    "asOf": "2026-11-06"
    },
    "sell": {
-    "value": null,
+    "value": 0,
     "scale": 0,
-    "status": "pending",
+    "status": "ok",
     "source": "FinMind",
-    "asOf": null
+    "asOf": "2026-11-06"
    },
    "net": {
-    "value": null,
+    "value": 0,
     "scale": 0,
-    "status": "pending",
+    "status": "ok",
     "source": "FinMind",
-    "asOf": null
+    "asOf": "2026-11-06"
    }
   },
   "total": {
    "label": "合計",
    "buy": {
-    "value": null,
+    "value": 603809192783,
     "scale": 0,
-    "status": "pending",
+    "status": "ok",
     "source": "FinMind",
-    "asOf": null
+    "asOf": "2026-11-06"
    },
    "sell": {
-    "value": null,
+    "value": 717816051190,
     "scale": 0,
-    "status": "pending",
+    "status": "ok",
     "source": "FinMind",
-    "asOf": null
+    "asOf": "2026-11-06"
    },
    "net": {
-    "value": null,
+    "value": -114006858407,
     "scale": 0,
-    "status": "pending",
+    "status": "ok",
     "source": "FinMind",
-    "asOf": null
+    "asOf": "2026-11-06"
    }
   }
  },

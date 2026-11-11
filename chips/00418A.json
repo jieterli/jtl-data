@@ -1,3 +1,4 @@
-{"symbol":"00418A","name":null,"market":"TWSE","updated":"2026-11-11","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-11-10",null,null,null,null,null,null,null,0.0,0.0,0.0,null,null,null,null]
+{"symbol":"00418A","name":"主動復華台灣新星","market":"TWSE","updated":"2026-11-12","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-11-10",null,null,null,null,null,null,null,0.0,0.0,0.0,null,null,null,null],
+["2026-11-11",10.41,0.43,261079383.0,-8058000.0,0.0,187261715.0,179203715.0,4416.0,0.0,0.89,10.41,9.99,10.03,10.109901470082761]
 ]}

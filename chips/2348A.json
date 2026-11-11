@@ -1,5 +1,4 @@
-{"symbol":"2348A","name":"海悅甲特","market":"TWSE","updated":"2026-11-11","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-07-15",37.7,0.0,2481.0,null,null,null,null,null,null,0.42,37.7,37.7,37.7,37.69528415961306],
+{"symbol":"2348A","name":"海悅甲特","market":"TWSE","updated":"2026-11-12","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-07-16",37.7,0.0,4099.0,null,null,null,null,null,null,0.42,37.75,37.7,37.7,37.719443766772386],
 ["2026-07-17",37.7,0.0,1612.0,null,null,null,null,null,null,0.42,37.7,37.7,37.7,37.71029776674938],
 ["2026-07-20",37.95,0.25,11000.0,null,null,null,null,null,null,0.42,37.95,37.8,37.8,37.81363636363636],
@@ -78,5 +77,6 @@
 ["2026-11-05",37.0,-0.3,2000.0,null,null,null,null,null,null,0.45,37.0,36.85,36.85,36.925],
 ["2026-11-06",36.8,-0.2,41000.0,-11000.0,0.0,0.0,-11000.0,null,null,0.41,36.95,36.5,36.8,36.7890243902439],
 ["2026-11-09",37.0,0.2,15000.0,1000.0,0.0,0.0,1000.0,null,null,0.42,37.0,36.8,36.8,36.85333333333333],
-["2026-11-10",36.95,-0.05,11007.0,null,null,null,null,null,null,0.42,36.95,36.8,36.8,36.827110020895795]
+["2026-11-10",36.95,-0.05,11007.0,null,null,null,null,null,null,0.42,36.95,36.8,36.8,36.827110020895795],
+["2026-11-11",37.05,0.1,10000.0,null,null,null,null,null,null,0.42,37.05,36.9,36.9,36.955]
 ]}

@@ -1,5 +1,4 @@
-{"symbol":"2897B","name":"王道銀乙特","market":"TWSE","updated":"2026-11-13","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-07-17",11.9,-0.05,122270.0,null,null,null,null,null,null,0.03,11.95,11.9,11.9,11.938349554265152],
+{"symbol":"2897B","name":"王道銀乙特","market":"TWSE","updated":"2026-11-14","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-07-20",11.95,0.05,123802.0,null,null,null,null,null,null,0.03,11.95,11.95,11.95,11.949976575499589],
 ["2026-07-21",11.95,0.0,29120.0,null,null,null,null,null,null,0.03,11.95,11.9,11.9,11.929395604395605],
 ["2026-07-22",11.95,0.0,126218.0,null,null,null,null,null,null,0.03,12.0,11.95,12.0,11.955877925493986],
@@ -78,5 +77,6 @@
 ["2026-11-09",11.7,0.0,26060.0,null,null,null,null,null,null,0.03,11.7,11.7,11.7,11.7],
 ["2026-11-10",11.7,0.0,5009.0,null,null,null,null,null,null,0.03,11.8,11.7,11.8,11.730285486124975],
 ["2026-11-11",11.75,0.05,4066.0,null,null,null,null,null,null,0.03,11.75,11.7,11.7,11.723561239547466],
-["2026-11-12",11.7,-0.05,7117.0,null,null,null,null,null,null,0.03,11.75,11.7,11.75,11.728818322326823]
+["2026-11-12",11.7,-0.05,7117.0,null,null,null,null,null,null,0.03,11.75,11.7,11.75,11.728818322326823],
+["2026-11-13",null,null,null,null,null,null,null,null,null,0.03,null,null,null,null]
 ]}

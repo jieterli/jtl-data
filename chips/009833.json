@@ -1,3 +1,4 @@
-{"symbol":"009833","name":null,"market":"TWSE","updated":"2026-11-19","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-11-18",null,null,null,null,null,null,null,0.0,0.0,0.0,null,null,null,null]
+{"symbol":"009833","name":"野村韓國科技30","market":"TWSE","updated":"2026-11-20","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
+["2026-11-18",null,null,null,null,null,null,null,0.0,0.0,0.0,null,null,null,null],
+["2026-11-19",10.09,-0.06,17825363.0,0,0.0,1888135.0,1888135.0,67.0,0.0,0.0,10.18,9.92,10.08,10.075406262413843]
 ]}

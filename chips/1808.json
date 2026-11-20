@@ -1,5 +1,4 @@
-{"symbol":"1808","name":"潤隆","market":"TWSE","updated":"2026-11-20","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-07-24",32.25,0.2,1080513.0,199210.0,0.0,-14000.0,185210.0,5724.0,0.0,4.54,32.3,31.9,32.05,32.12362646261544],
+{"symbol":"1808","name":"潤隆","market":"TWSE","updated":"2026-11-21","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-07-27",32.15,-0.1,553717.0,102413.0,0.0,6000.0,108413.0,5732.0,0.0,4.54,32.45,31.9,32.45,32.0921535730346],
 ["2026-07-28",31.6,-0.55,687849.0,107043.0,0.0,-16000.0,91043.0,5738.0,0.0,4.56,32.15,31.45,32.15,31.60386800009886],
 ["2026-07-29",31.4,-0.2,1375945.0,475519.0,0.0,-32000.0,443519.0,5700.0,0.0,4.61,31.8,30.7,31.8,31.214619770412334],
@@ -78,5 +77,6 @@
 ["2026-11-16",null,null,null,null,null,null,null,3837.0,0.0,5.82,null,null,null,null],
 ["2026-11-17",null,null,null,null,null,null,null,3837.0,0.0,5.82,null,null,null,null],
 ["2026-11-18",null,null,null,null,null,null,null,3836.0,0.0,5.82,null,null,null,null],
-["2026-11-19",null,null,null,null,null,null,null,3828.0,0.0,5.82,null,null,null,null]
+["2026-11-19",null,null,null,null,null,null,null,3828.0,0.0,5.82,null,null,null,null],
+["2026-11-20",null,null,null,null,null,null,null,3828.0,0.0,5.82,null,null,null,null]
 ]}

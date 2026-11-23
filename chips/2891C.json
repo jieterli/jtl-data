@@ -1,5 +1,4 @@
-{"symbol":"2891C","name":"中信金丙特","market":"TWSE","updated":"2026-11-21","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-07-27",62.0,0.0,1122.0,null,null,null,null,null,null,0.01,62.0,62.0,62.0,61.959001782531196],
+{"symbol":"2891C","name":"中信金丙特","market":"TWSE","updated":"2026-11-24","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-07-28",null,null,null,null,null,null,null,null,null,0.01,null,null,null,null],
 ["2026-07-29",61.8,0.0,15332.0,0,0.0,8000.0,8000.0,null,null,0.01,61.8,61.2,61.2,61.53254630837464],
 ["2026-07-30",61.9,0.1,2348.0,0,0.0,2000.0,2000.0,null,null,0.01,61.9,61.7,61.7,61.75553662691652],
@@ -78,5 +77,6 @@
 ["2026-11-17",null,null,null,null,null,null,null,null,null,0.0,null,null,null,null],
 ["2026-11-18",60.5,0.0,24500.0,0,0.0,-17000.0,-17000.0,null,null,0.0,60.5,60.3,60.3,60.31836734693878],
 ["2026-11-19",60.5,0.0,2832.0,0,0.0,2000.0,2000.0,null,null,0.0,60.5,60.5,60.5,60.35310734463277],
-["2026-11-20",60.1,-0.4,7000.0,0,0.0,0.0,0.0,null,null,0.0,60.4,60.1,60.1,60.2]
+["2026-11-20",60.1,-0.4,7000.0,0,0.0,0.0,0.0,null,null,0.0,60.4,60.1,60.1,60.2],
+["2026-11-23",60.4,0.3,1094.0,0,0.0,1000.0,1000.0,null,null,0.0,60.4,60.4,60.4,60.343692870201096]
 ]}

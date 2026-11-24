@@ -1,5 +1,4 @@
-{"symbol":"6592A","name":"和潤企業甲特","market":"TWSE","updated":"2026-11-24","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-07-28",95.6,0.1,5051.0,null,null,null,null,null,null,0.05,95.7,95.6,95.7,95.71569986141358],
+{"symbol":"6592A","name":"和潤企業甲特","market":"TWSE","updated":"2026-11-25","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-07-29",95.6,0.0,6342.0,null,null,null,null,null,null,0.05,95.7,95.6,95.7,95.63670766319773],
 ["2026-07-30",95.2,-0.4,4708.0,null,null,null,null,null,null,0.05,95.2,95.2,95.2,95.16992353440952],
 ["2026-07-31",95.2,0.0,4003.0,null,null,null,null,null,null,0.05,95.2,95.2,95.2,95.19985011241569],
@@ -78,5 +77,6 @@
 ["2026-11-18",96.8,0.1,2000.0,null,null,null,null,null,null,0.05,96.8,96.6,96.6,96.7],
 ["2026-11-19",96.6,-0.2,1136.0,null,null,null,null,null,null,0.05,96.6,96.6,96.6,96.53697183098592],
 ["2026-11-20",96.0,-0.6,7508.0,null,null,null,null,null,null,0.05,96.0,96.0,96.0,95.97242940863079],
-["2026-11-23",95.9,-0.1,12598.0,null,null,null,null,null,null,0.05,96.0,95.9,96.0,95.90776313700587]
+["2026-11-23",95.9,-0.1,12598.0,null,null,null,null,null,null,0.05,96.0,95.9,96.0,95.90776313700587],
+["2026-11-24",96.8,0.9,1000.0,null,null,null,null,null,null,0.05,96.8,96.8,96.8,96.8]
 ]}

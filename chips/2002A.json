@@ -1,5 +1,4 @@
-{"symbol":"2002A","name":"中鋼特","market":"TWSE","updated":"2026-11-25","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
-["2026-07-29",37.3,-0.2,50293.0,null,null,null,null,null,null,0.18,37.5,37.25,37.5,37.33453959795598],
+{"symbol":"2002A","name":"中鋼特","market":"TWSE","updated":"2026-11-26","fields":["date","close","change","volume","foreign_net","trust_net","dealer_net","total_net","margin_bal","short_bal","foreign_pct","high","low","open","avg"],"days":[
 ["2026-07-30",37.3,0.0,7407.0,null,null,null,null,null,null,0.18,37.3,37.25,37.25,37.27136492507088],
 ["2026-07-31",37.3,0.0,24009.0,null,null,null,null,null,null,0.18,37.4,37.3,37.35,37.322629014119705],
 ["2026-08-03",37.3,0.0,25725.0,null,null,null,null,null,null,0.18,37.5,37.25,37.3,37.284353741496595],
@@ -78,5 +77,6 @@
 ["2026-11-19",36.9,0.0,29506.0,null,null,null,null,null,null,0.19,37.15,36.9,37.05,36.993323391852506],
 ["2026-11-20",36.8,-0.1,58547.0,null,null,null,null,null,null,0.19,36.8,36.6,36.8,36.63670213674484],
 ["2026-11-23",36.7,-0.1,25259.0,-3000.0,0.0,0.0,-3000.0,null,null,0.18,37.0,36.65,36.8,36.822320756957915],
-["2026-11-24",36.8,0.1,4480.0,null,null,null,null,null,null,0.18,36.8,36.75,36.75,36.76651785714286]
+["2026-11-24",36.8,0.1,4480.0,null,null,null,null,null,null,0.18,36.8,36.75,36.75,36.76651785714286],
+["2026-11-25",36.7,-0.1,32249.0,-1000.0,0.0,0.0,-1000.0,null,null,0.18,37.0,36.65,36.8,36.81537412012776]
 ]}
